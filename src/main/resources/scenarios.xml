@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios frameworkVersion="1.0.0"
+           xmlns="http://www.xoev.de/de/validator/framework/1/scenarios"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.xoev.de/de/validator/framework/1/scenarios
+           https://github.com/itplr-kosit/validator/raw/v1.3.1/src/main/model/xsd/scenarios.xsd">
+    <name>KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren</name>
+    <author>BITMARCK Service GmbH</author>
+    <date>2020-09-15</date>
+    <description>
+        <p>TODO</p>
+    </description>
+
+    <scenario>
+        <name>DiGA Freischaltcode (DFC0)</name>
+        <description>
+            <p>TODO</p>
+        </description>
+        <namespace prefix="dfc0">http://www.gkv-datenaustausch.de/XML-Schema/EDFC0_Pruefung/1.0</namespace>
+        <match>/dfc0:Pruefung_Freischaltcode</match>
+        <validateWithXmlSchema>
+            <resource>
+                <name>XML-Schema für das Einlösen von Freischaltcodes</name>
+                <location>xml-schema/dfc0/EDFC0-Pruefung_1.0.0.xsd</location>
+            </resource>
+        </validateWithXmlSchema>
+        <validateWithSchematron>
+            <resource>
+                <name>Schematron-Regeln für das Einlösen von Freischaltcodes</name>
+                <location>schematron/dfc0.xsl</location>
+            </resource>
+        </validateWithSchematron>
+        <createReport>
+            <resource>
+                <name>Report für das Einlösen von Freischaltcodes</name>
+                <location>report/default.xsl</location>
+            </resource>
+        </createReport>
+    </scenario>
+
+    <scenario>
+        <name>DiGA-Rechnung (DRE0) basierend auf UN/CEFACT CII 100.D16B</name>
+        <description>
+            <p>TODO</p>
+        </description>
+        <namespace prefix="rsm">urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100</namespace>
+        <namespace prefix="ram">urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100</namespace>
+        <match>
+            /rsm:CrossIndustryInvoice[starts-with(rsm:ExchangedDocumentContext/ram:GuidelineSpecifiedDocumentContextParameter/ram:ID,
+            'urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2')]
+        </match>
+        <validateWithXmlSchema>
+            <resource>
+                <name>XML-Schema-Dummy für das Abrechnen von Freischaltcodes (basierend auf CII)</name>
+                <location>xml-schema/dre0/dummy-cii.xsd</location>
+            </resource>
+        </validateWithXmlSchema>
+        <validateWithSchematron>
+            <resource>
+                <name>Schematron-Regeln für das Abrechnen von Freischaltcodes</name>
+                <location>schematron/dre0.xsl</location>
+            </resource>
+        </validateWithSchematron>
+        <createReport>
+            <resource>
+                <name>Report für das Abrechnen von Freischaltcodes</name>
+                <location>report/dre0.xsl</location>
+            </resource>
+        </createReport>
+    </scenario>
+
+    <noScenarioReport>
+        <resource>
+            <name>Standard-Report</name>
+            <location>report/default.xsl</location>
+        </resource>
+    </noScenarioReport>
+</scenarios>

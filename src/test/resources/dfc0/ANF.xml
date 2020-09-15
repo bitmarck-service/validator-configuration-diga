@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Pruefung_Freischaltcode version="001.000.000" gueltigab="2020-07-01" verfahrenskennung="TDFC0" nachrichtentyp="ANF"
+                         absender="123456789" empfaenger="987654321"
+                         xmlns="http://www.gkv-datenaustausch.de/XML-Schema/EDFC0_Pruefung/1.0">
+    <Anfrage>
+        <IK_DiGA_Hersteller>123456789</IK_DiGA_Hersteller>
+        <IK_Krankenkasse>987654321</IK_Krankenkasse>
+        <DiGANr>tinnitus-rex</DiGANr>
+        <Freischaltcode>ABCDEFGHIJKLMNOP</Freischaltcode>
+    </Anfrage>
+</Pruefung_Freischaltcode>

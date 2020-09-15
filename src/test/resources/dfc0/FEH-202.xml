@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Pruefung_Freischaltcode version="001.000.000" gueltigab="2020-07-01" verfahrenskennung="TDFC0" nachrichtentyp="FEH"
+                         absender="987654321" empfaenger="123456789"
+                         xmlns="http://www.gkv-datenaustausch.de/XML-Schema/EDFC0_Pruefung/1.0">
+    <Fehlerinformation>
+        <Fehlernummer>202</Fehlernummer>
+        <Fehlertext>Speicherfehler</Fehlertext>
+    </Fehlerinformation>
+</Pruefung_Freischaltcode>

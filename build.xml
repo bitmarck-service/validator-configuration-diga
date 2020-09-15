@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="build">
+
+    <description>Builds the KOSIT Validator configuration for DiGA invoices.</description>
+
+    <!-- TODO: Download Saxon-HE JAR: -->
+    <property name="saxon.jar" value="lib/Saxon-HE-10.2.jar"/>
+    <property name="schematron.skeleton.url"
+              value="https://raw.githubusercontent.com/Schematron/schematron/master/trunk/schematron/code"/>
+
+    <macrodef name="schematron-compile">
+        <attribute name="infile"/>
+        <attribute name="insuffix" default="sch"/>
+        <attribute name="outfile"/>
+        <attribute name="workdir" default="build"/>
+        <attribute name="schematronbinding" default="xslt2"/>
+        <sequential>
+            <local name="infile.basename"/>
+            <basename file="@{infile}" property="infile.basename" suffix="@{insuffix}"/>
+            <mkdir dir="@{workdir}"/>
+            <!-- Download schematron skeletons: -->
+            <parallel threadcount="3">
+                <get dest="@{workdir}"
+                     httpusecaches="true"
+                     skipexisting="true"
+                     src="${schematron.skeleton.url}/iso_abstract_expand.xsl"
+                     usetimestamp="true"/>
+                <get dest="@{workdir}"
+                     httpusecaches="true"
+                     skipexisting="true"
+                     src="${schematron.skeleton.url}/iso_dsdl_include.xsl"
+                     usetimestamp="true"/>
+                <get dest="@{workdir}"
+                     httpusecaches="true"
+                     skipexisting="true"
+                     src="${schematron.skeleton.url}/iso_schematron_skeleton_for_saxon.xsl"
+                     usetimestamp="true"/>
+                <get dest="@{workdir}"
+                     httpusecaches="true"
+                     skipexisting="true"
+                     src="${schematron.skeleton.url}/iso_svrl_for_@{schematronbinding}.xsl"
+                     usetimestamp="true"/>
+            </parallel>
+            <!-- Expand inclusions: -->
+            <xslt classpath="${saxon.jar}"
+                  in="@{infile}"
+                  out="@{workdir}/${infile.basename}-expanded.sch"
+                  style="@{workdir}/iso_dsdl_include.xsl"/>
+            <!-- Expand abstract patterns: -->
+            <xslt classpath="${saxon.jar}"
+                  in="@{workdir}/${infile.basename}-expanded.sch"
+                  out="@{workdir}/${infile.basename}-unabstract.sch"
+                  style="@{workdir}/iso_abstract_expand.xsl"/>
+            <!-- Generate SVRL reporter: -->
+            <xslt classpath="${saxon.jar}"
+                  in="@{workdir}/${infile.basename}-unabstract.sch"
+                  out="@{outfile}"
+                  style="@{workdir}/iso_svrl_for_@{schematronbinding}.xsl">
+                <param name="generate-fired-rule" expression="false"/>
+                <param name="full-path-notation" expression="3"/>
+            </xslt>
+        </sequential>
+    </macrodef>
+
+    <target name="build">
+        <copy todir="build/config">
+            <fileset dir="src/main/resources"/>
+            <file file="LICENSE"/>
+        </copy>
+        <schematron-compile infile="src/main/schematron/dfc0.sch"
+                            outfile="build/config/schematron/dfc0.xsl"/>
+        <schematron-compile infile="src/main/schematron/dre0.sch"
+                            outfile="build/config/schematron/dre0.xsl"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+</project>

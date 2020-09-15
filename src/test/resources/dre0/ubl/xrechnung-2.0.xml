@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ubl:Invoice xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+             xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+             xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2
+             http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.0
+    </cbc:CustomizationID>
+    <cbc:ID>TEST_BMS_XRECHNUNG_1.2.0_UBL_FEHLERFREI_01</cbc:ID>
+    <cbc:IssueDate>2020-01-03+01:00</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+    <cbc:BuyerReference>Leitweg-ID</cbc:BuyerReference>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <!-- IK des DiGA-Herstellers als "Seller Identifier" (BT-29), kodiert als URI mit Schema "ik" [BR-CO-26]: -->
+                <cbc:ID>ik:987654321</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PostalAddress>
+                <cbc:StreetName>Musterstraße 1</cbc:StreetName>
+                <cbc:CityName>Berlin</cbc:CityName>
+                <cbc:PostalZone>01234</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>DE 123 456 789</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Rechnungssteller</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Max Mustermann</cbc:Name>
+                <cbc:Telephone>+49 000 001 0001</cbc:Telephone>
+                <cbc:ElectronicMail>max.mustermann@rechnungssteller.de</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <!-- IK der Krankenkasse als "Buyer Identifier" (BT-46), kodiert als URI mit Schema "ik": -->
+                <cbc:ID>ik:123456789</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PostalAddress>
+                <cbc:StreetName>Musterstraße 2</cbc:StreetName>
+                <cbc:CityName>Berlin</cbc:CityName>
+                <cbc:PostalZone>01234</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Rechnungsempfänger</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:PaymentMeans>
+        <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+        <cac:PayeeFinancialAccount>
+            <cbc:ID>DE87123456781234567890</cbc:ID>
+        </cac:PayeeFinancialAccount>
+    </cac:PaymentMeans>
+    <cac:PaymentTerms>
+        <cbc:Note>Zahlbar innerhalb 30 Tagen netto nach Rechnungsdatum.</cbc:Note>
+    </cac:PaymentTerms>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="EUR">19.00</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="EUR">100.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="EUR">19.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>19</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">100.00</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">119.00</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">119.00</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>TEST_POSITION_01</cbc:ID>
+        <!-- Verordnungsdauer, Variante 1: -->
+        <cbc:InvoicedQuantity unitCode="DAY">50</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
+        <cac:OrderLineReference>
+            <!-- Freischaltcode, Variante 1: -->
+            <!-- Freischaltcode als "Invoice line object identifier" (BT-128): -->
+            <!-- Achtung: Dies ist semantisch falsch:
+                 Gemäß XRechnung-Standard soll sich dieses Informationselement auf eine Position in einer Bestellung
+                 beziehen.
+                 In diesem Fall entspricht die Verordnung zwar quasi einer Bestellung, aber der Freischaltcode kommt
+                 darin gar nicht vor.
+                 Außerdem ist das Informationselement "LineID" dafür vorgesehen, eine Position (Line) in der Bestellung
+                 zu referenzieren, und nichts anderes.
+                 Die "LineID" ist allerdings das einzige zulässige Element hier laut KOSIT-Validierung mit den
+                 Szenariokonfigurationen für XRechnung 1.2.2 und 2.0.0.
+                 -->
+            <cbc:LineID>ABCDEFGHIJKLMNOP</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <!-- DiGA-Name als "Item description" (BT-154): -->
+            <cbc:Description>Tinnitus Rex</cbc:Description>
+            <!-- DiGA-Nummer als "Item name" (BT-153) [BR-25]: -->
+            <cbc:Name>tinnitus-rex</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>19</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+            <!-- Verordnungsdauer, Variante 2: -->
+            <cac:AdditionalItemProperty>
+                <!-- Einheit der Verordnungsdauer als "Item attribute name" (BT-160) [BR-54]: -->
+                <cbc:Name>Verordnungsdauer in Tagen</cbc:Name>
+                <!-- Wert der Verordnungsdauer als "Item attribute value" (BT-161) [BR-54]: -->
+                <cbc:Value>50</cbc:Value>
+            </cac:AdditionalItemProperty>
+            <!-- Freischaltcode, Variante 2: -->
+            <cac:AdditionalItemProperty>
+                <!-- Name als "Item attribute name" (BT-160) [BR-54]: -->
+                <cbc:Name>Freischaltcode</cbc:Name>
+                <!-- Wert als "Item attribute value" (BT-161) [BR-54]: -->
+                <cbc:Value>ABCDEFGHIJKLMNOP</cbc:Value>
+            </cac:AdditionalItemProperty>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">2.00</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</ubl:Invoice>
