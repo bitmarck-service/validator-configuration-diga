@@ -1,1 +1,1 @@
-# Validator Configuration for DiGA Invoices
+# KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren
