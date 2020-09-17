@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+   - Copyright © 2020 BITMARCK Service GmbH
+   -
+   - Licensed under the Apache License, Version 2.0 (the "License");
+   - you may not use this file except in compliance with the License.
+   - You may obtain a copy of the License at
+   -
+   -     http://www.apache.org/licenses/LICENSE-2.0
+   -
+   - Unless required by applicable law or agreed to in writing, software
+   - distributed under the License is distributed on an "AS IS" BASIS,
+   - WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   - See the License for the specific language governing permissions and
+   - limitations under the License.
+   -->
 <project default="build">
 
     <description>Builds the KOSIT Validator configuration for DiGA invoices.</description>
@@ -18,7 +33,6 @@
             <local name="infile.basename"/>
             <basename file="@{infile}" property="infile.basename" suffix="@{insuffix}"/>
             <mkdir dir="@{workdir}"/>
-            <!-- Download schematron skeletons: -->
             <parallel threadcount="3">
                 <get dest="@{workdir}"
                      httpusecaches="true"
@@ -41,17 +55,14 @@
                      src="${schematron.skeleton.url}/iso_svrl_for_@{schematronbinding}.xsl"
                      usetimestamp="true"/>
             </parallel>
-            <!-- Expand inclusions: -->
             <xslt classpath="${saxon.jar}"
                   in="@{infile}"
                   out="@{workdir}/${infile.basename}-expanded.sch"
                   style="@{workdir}/iso_dsdl_include.xsl"/>
-            <!-- Expand abstract patterns: -->
             <xslt classpath="${saxon.jar}"
                   in="@{workdir}/${infile.basename}-expanded.sch"
                   out="@{workdir}/${infile.basename}-unabstract.sch"
                   style="@{workdir}/iso_abstract_expand.xsl"/>
-            <!-- Generate SVRL reporter: -->
             <xslt classpath="${saxon.jar}"
                   in="@{workdir}/${infile.basename}-unabstract.sch"
                   out="@{outfile}"
