@@ -31,7 +31,7 @@
             <assert id="DRE0-2" test="ram:BuyerAssignedID[@schemeID='Freischaltcode']">
                 Eine DiGA-Position muss einen Freischaltcode enthalten.
             </assert>
-            <assert id="DRE0-3" test="ram:SellerAssignedID[@schemeID='DiGANr']">
+            <assert id="DRE0-3" test="ram:GlobalID[@schemeID='DiGANr']">
                 Eine DiGA-Position muss eine DiGA-Nummer enthalten.
             </assert>
             <assert id="DRE0-4" test="string-length(normalize-space(ram:Name)) > 0">

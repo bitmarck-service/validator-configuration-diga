@@ -42,8 +42,8 @@
             </ram:AssociatedDocumentLineDocument>
             <ram:SpecifiedTradeProduct>
                 <!-- DiGA-Nummer: -->
-<!--                <ram:SellerAssignedID schemeID="DiGANr">tinnitus-rex</ram:SellerAssignedID>-->
-                <ram:SellerAssignedID>tinnitus-rex</ram:SellerAssignedID>
+<!--                <ram:GlobalID schemeID="DiGANr">tinnitus-rex</ram:GlobalID>-->
+                <ram:GlobalID>tinnitus-rex</ram:GlobalID>
                 <!-- Freischaltcode: -->
 <!--                <ram:BuyerAssignedID schemeID="Freischaltcode">ABCDEFGHIJKLMNOP</ram:BuyerAssignedID>-->
                 <!-- DiGA-Name: -->
