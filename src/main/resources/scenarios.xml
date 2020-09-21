@@ -88,6 +88,33 @@
         <acceptMatch>/rep:report/rep:assessment[1]/rep:accept[1]</acceptMatch>
     </scenario>
 
+    <scenario>
+        <name>Prüfbericht für DiGA-Rechnung (DRE0-Antwort)</name>
+        <description>
+            <p>TODO</p>
+        </description>
+        <namespace prefix="rep">http://www.xoev.de/de/validator/varl/1</namespace>
+        <match>/rep:report[@varlVersion="1.0.0"]</match>
+        <validateWithXmlSchema>
+            <resource>
+                <name>XML-Schema für die Prüfberichte für DiGA-Rechnungen, also deren Antwort.</name>
+                <location>xml-schema/report/report.xsd</location>
+            </resource>
+        </validateWithXmlSchema>
+        <validateWithSchematron>
+            <resource>
+                <name>Schematron-Regeln für die Prüfberichte für DiGA-Rechnungen.</name>
+                <location>schematron/report.xsl</location>
+            </resource>
+        </validateWithSchematron>
+        <createReport>
+            <resource>
+                <name>Standard-Report</name>
+                <location>report/default.xsl</location>
+            </resource>
+        </createReport>
+    </scenario>
+
     <noScenarioReport>
         <resource>
             <name>Standard-Report</name>
