@@ -24,31 +24,31 @@
     <pattern>
         <rule context="rsm:SupplyChainTradeTransaction">
             <assert id="DRE0-1" test="count(ram:IncludedSupplyChainTradeLineItem) = 1">
-                Eine DiGA-Rechnung muss genau eine Position enthalten.
+                Eine DiGA-Rechnung muß genau eine Position enthalten.
             </assert>
         </rule>
         <rule context="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct">
             <assert id="DRE0-2" test="ram:BuyerAssignedID[@schemeID='Freischaltcode']">
-                Eine DiGA-Position muss einen Freischaltcode enthalten.
+                Eine DiGA-Position muß einen Freischaltcode enthalten.
             </assert>
             <assert id="DRE0-3" test="ram:GlobalID[@schemeID='DiGANr']">
-                Eine DiGA-Position muss eine DiGA-Nummer enthalten.
+                Eine DiGA-Position muß eine DiGA-Nummer enthalten.
             </assert>
             <assert id="DRE0-4" test="string-length(normalize-space(ram:Name)) > 0">
-                Eine DiGA-Position muss einen DiGA-Namen enthalten.
+                Eine DiGA-Position muß einen DiGA-Namen enthalten.
             </assert>
         </rule>
         <rule context="ram:SpecifiedLineTradeDelivery">
             <assert id="DRE0-5" test="ram:BilledQuantity[@unitCode='DAY']">
-                Die Verordnungsdauer muss in Tagen angegeben werden.
+                Die Verordnungsdauer muß in Tagen angegeben werden.
             </assert>
         </rule>
         <rule context="ram:ApplicableHeaderTradeAgreement">
             <assert id="DRE0-6" test="ram:SellerTradeParty/ram:ID[@schemeID='IK']">
-                Eine DiGA-Rechnung muss das Institutionskennzeichen eines DiGA-Herstellers enthalten.
+                Eine DiGA-Rechnung muß das Institutionskennzeichen eines DiGA-Herstellers enthalten.
             </assert>
             <assert id="DRE0-7" test="ram:BuyerTradeParty/ram:ID[@schemeID='IK']">
-                Eine DiGA-Rechnung muss das Institutionskennzeichen einer Krankenkasse enthalten.
+                Eine DiGA-Rechnung muß das Institutionskennzeichen einer Krankenkasse enthalten.
             </assert>
         </rule>
     </pattern>
