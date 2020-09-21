@@ -24,16 +24,26 @@
               value="https://raw.githubusercontent.com/Schematron/schematron/master/trunk/schematron/code"/>
 
     <macrodef name="schematron-compile">
+        <attribute name="deleteonexit" default="true"/>
         <attribute name="infile"/>
-        <attribute name="insuffix" default="sch"/>
         <attribute name="outfile"/>
-        <attribute name="workdir" default="build"/>
         <attribute name="schematronbinding" default="xslt2"/>
+        <attribute name="workdir" default="build"/>
         <sequential>
-            <local name="infile.basename"/>
-            <basename file="@{infile}" property="infile.basename" suffix="@{insuffix}"/>
+            <local name="infile-included"/>
+            <local name="infile-expanded"/>
             <mkdir dir="@{workdir}"/>
             <parallel threadcount="3">
+                <tempfile deleteonexit="@{deleteonexit}"
+                          destdir="@{workdir}"
+                          prefix="included"
+                          property="infile-included"
+                          suffix=".sch"/>
+                <tempfile deleteonexit="@{deleteonexit}"
+                          destdir="@{workdir}"
+                          prefix="expanded"
+                          property="infile-expanded"
+                          suffix=".sch"/>
                 <get dest="@{workdir}"
                      httpusecaches="true"
                      skipexisting="true"
@@ -57,14 +67,14 @@
             </parallel>
             <xslt classpath="${saxon.jar}"
                   in="@{infile}"
-                  out="@{workdir}/${infile.basename}-expanded.sch"
+                  out="${infile-included}"
                   style="@{workdir}/iso_dsdl_include.xsl"/>
             <xslt classpath="${saxon.jar}"
-                  in="@{workdir}/${infile.basename}-expanded.sch"
-                  out="@{workdir}/${infile.basename}-unabstract.sch"
+                  in="${infile-included}"
+                  out="${infile-expanded}"
                   style="@{workdir}/iso_abstract_expand.xsl"/>
             <xslt classpath="${saxon.jar}"
-                  in="@{workdir}/${infile.basename}-unabstract.sch"
+                  in="${infile-expanded}"
                   out="@{outfile}"
                   style="@{workdir}/iso_svrl_for_@{schematronbinding}.xsl">
                 <param name="generate-fired-rule" expression="false"/>
