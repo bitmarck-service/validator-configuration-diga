@@ -42,7 +42,7 @@
             </ram:AssociatedDocumentLineDocument>
             <ram:SpecifiedTradeProduct>
                 <!-- DiGA-Nummer: -->
-                <ram:GlobalID schemeID="DiGANr">tinnitus-rex</ram:GlobalID>
+                <ram:GlobalID schemeID="DiGANr">12345678</ram:GlobalID>
                 <!-- Freischaltcode: -->
                 <ram:BuyerAssignedID schemeID="Freischaltcode">ABCDEFGHIJKLMNOP</ram:BuyerAssignedID>
                 <!-- DiGA-Name: -->

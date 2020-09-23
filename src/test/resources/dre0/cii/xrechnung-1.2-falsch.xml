@@ -98,7 +98,7 @@
             <ram:BuyerTradeParty>
                 <ram:ID>TEST_RECHNUNGSEMPFÄNGER</ram:ID>
                 <!-- IK der Krankenkasse als "Buyer Identifier" (BT-46): -->
-<!--                <ram:ID schemeID="IK">123456789</ram:ID>-->
+                <ram:ID schemeID="IK">1234567890</ram:ID>
                 <ram:Name>Rechnungsempfänger</ram:Name>
                 <ram:PostalTradeAddress>
                     <ram:PostcodeCode>01234</ram:PostcodeCode>

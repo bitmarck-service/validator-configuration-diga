@@ -28,11 +28,11 @@
             </assert>
         </rule>
         <rule context="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct">
-            <assert id="DRE0-2" test="ram:BuyerAssignedID[@schemeID='Freischaltcode']">
-                Eine DiGA-Position muß einen Freischaltcode enthalten.
+            <assert id="DRE0-2" test="string-length(normalize-space(ram:BuyerAssignedID[@schemeID='Freischaltcode'])) = 16">
+                Eine DiGA-Position muß einen Freischaltcode mit exakt 16 Stellen enthalten.
             </assert>
-            <assert id="DRE0-3" test="ram:GlobalID[@schemeID='DiGANr']">
-                Eine DiGA-Position muß eine DiGA-Nummer enthalten.
+            <assert id="DRE0-3" test="string-length(normalize-space(ram:GlobalID[@schemeID='DiGANr'])) = 8">
+                Eine DiGA-Position muß eine DiGA-Nummer mit exakt acht Stellen enthalten.
             </assert>
             <assert id="DRE0-4" test="string-length(normalize-space(ram:Name)) > 0">
                 Eine DiGA-Position muß einen DiGA-Namen enthalten.
@@ -44,11 +44,11 @@
             </assert>
         </rule>
         <rule context="ram:ApplicableHeaderTradeAgreement">
-            <assert id="DRE0-6" test="ram:SellerTradeParty/ram:ID[@schemeID='IK']">
-                Eine DiGA-Rechnung muß das Institutionskennzeichen eines DiGA-Herstellers enthalten.
+            <assert id="DRE0-6" test="string-length(normalize-space(ram:SellerTradeParty/ram:ID[@schemeID='IK'])) = 9">
+                Eine DiGA-Rechnung muß das Institutionskennzeichen eines DiGA-Herstellers mit exakt neun Stellen enthalten.
             </assert>
-            <assert id="DRE0-7" test="ram:BuyerTradeParty/ram:ID[@schemeID='IK']">
-                Eine DiGA-Rechnung muß das Institutionskennzeichen einer Krankenkasse enthalten.
+            <assert id="DRE0-7" test="string-length(normalize-space(ram:BuyerTradeParty/ram:ID[@schemeID='IK'])) = 9">
+                Eine DiGA-Rechnung muß das Institutionskennzeichen einer Krankenkasse mit exakt neun Stellen enthalten.
             </assert>
         </rule>
     </pattern>
