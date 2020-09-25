@@ -29,7 +29,26 @@
             <Gruppe>Gehör</Gruppe>
         </Gruppen>
         <AnwendungsTage>7</AnwendungsTage>
-        <Packungspreis>1.23</Packungspreis>
+        <Packungspreis>1.16</Packungspreis>
+        <GültigAb>2020-10-01</GültigAb>
+        <GültigBis>2020-12-31</GültigBis>
+    </Diga>
+    <Diga>
+        <Pzn>12345678</Pzn>
+        <VeId>12345001</VeId>
+        <Name>Tinnitus-Rex</Name>
+        <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
+        <Hersteller>
+            <Ik>987654321</Ik>
+            <Name>Beispiel AG</Name>
+        </Hersteller>
+        <Gruppen>
+            <Gruppe>Tinnitus</Gruppe>
+            <Gruppe>Gehör</Gruppe>
+        </Gruppen>
+        <AnwendungsTage>7</AnwendungsTage>
+        <Packungspreis>1.19</Packungspreis>
+        <GültigAb>2021-01-01</GültigAb>
     </Diga>
     <Diga>
         <Pzn>12345679</Pzn>

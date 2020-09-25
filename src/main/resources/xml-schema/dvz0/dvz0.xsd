@@ -105,6 +105,28 @@
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
+                            <xs:element name="GültigAb" minOccurs="0" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Schränkt die Gültigkeit des gesamten Datensatzes auf den Zeitraum ein, der an
+                                        diesem Datum beginnt.
+
+                                        ACHTUNG: Es darf keine zwei Datensätze mit derselben PZN oder derselben
+                                        DiGA-VE-ID und überlappenden Zeitintervallen geben!
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="GültigBis" minOccurs="0" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Schränkt die Gültigkeit des gesamten Datensatzes auf den Zeitraum ein, der an
+                                        diesem Datum endet.
+
+                                        ACHTUNG: Es darf keine zwei Datensätze mit derselben PZN oder derselben
+                                        DiGA-VE-ID und überlappenden Zeitintervallen geben!
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
