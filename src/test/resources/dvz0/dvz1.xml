@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright © 2020 BITMARCK Service GmbH
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<DigaVerzeichnis xmlns="http://xml.bitmarck.de/service/dvz">
+    <Diga>
+        <VeId>12345678</VeId>
+        <Name>Tinnitus-Rex</Name>
+        <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
+        <Hersteller>
+            <Ik>987654321</Ik>
+            <Name>Beispiel AG</Name>
+        </Hersteller>
+        <Schlüsselwörter>
+            <Schlüsselwort>Tinnitus</Schlüsselwort>
+            <Schlüsselwort>Gehör</Schlüsselwort>
+        </Schlüsselwörter>
+        <AnwendungsTage>7</AnwendungsTage>
+        <Packungspreis>14</Packungspreis>
+    </Diga>
+    <Diga>
+        <VeId>12345679</VeId>
+        <Name>Hans Hinterwand</Name>
+        <Beschreibung>Beugt gegen Herzinfarkte vor</Beschreibung>
+        <Hersteller>
+            <Ik>987654322</Ik>
+            <Name>Dummy GmbH</Name>
+        </Hersteller>
+        <Schlüsselwörter>
+            <Schlüsselwort>Coronare Herzerkrankungen</Schlüsselwort>
+            <Schlüsselwort>Herz</Schlüsselwort>
+        </Schlüsselwörter>
+        <AnwendungsTage>14</AnwendungsTage>
+        <Packungspreis>28</Packungspreis>
+    </Diga>
+    <Diga>
+        <VeId>12345680</VeId>
+        <Name>SARS-CoV-2 Prophylaxe</Name>
+        <Beschreibung>Vermeiden Sie eine Coronainfektion!</Beschreibung>
+        <Hersteller>
+            <Ik>987654323</Ik>
+            <Name>Muster und Co.</Name>
+        </Hersteller>
+        <Schlüsselwörter>
+            <Schlüsselwort>SARS-CoV-2</Schlüsselwort>
+            <Schlüsselwort>COVID-19</Schlüsselwort>
+            <Schlüsselwort>Corona</Schlüsselwort>
+        </Schlüsselwörter>
+        <AnwendungsTage>21</AnwendungsTage>
+        <Packungspreis>42</Packungspreis>
+    </Diga>
+</DigaVerzeichnis>

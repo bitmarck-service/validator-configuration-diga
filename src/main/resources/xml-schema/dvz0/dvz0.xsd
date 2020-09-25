@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright © 2020 BITMARCK Service GmbH
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://xml.bitmarck.de/service/dvz" elementFormDefault="qualified" xml:lang="de">
+    <xs:element name="DigaVerzeichnis">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Diga" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="VeId"/>
+                            <xs:element name="Name"/>
+                            <xs:element name="Beschreibung" minOccurs="0"/>
+                            <xs:element name="Hersteller">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Ik"/>
+                                        <xs:element name="Name"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Schlüsselwörter" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Schlüsselwort" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="AnwendungsTage"/>
+                            <xs:element name="Packungspreis">
+                                <xs:annotation>
+                                    <xs:documentation>Brutto-Preis in Euro (€).</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
