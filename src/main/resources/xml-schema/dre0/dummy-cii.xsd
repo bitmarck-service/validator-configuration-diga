@@ -15,7 +15,6 @@
    - limitations under the License.
    -->
 <xs:schema targetNamespace="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xml:lang="en">
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="CrossIndustryInvoice"/>
 </xs:schema>
