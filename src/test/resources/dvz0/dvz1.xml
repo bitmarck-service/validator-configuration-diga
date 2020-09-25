@@ -16,7 +16,8 @@
   -->
 <DigaVerzeichnis xmlns="http://xml.bitmarck.de/service/dvz">
     <Diga>
-        <VeId>12345678</VeId>
+        <Pzn>12345678</Pzn>
+        <VeId>12345001</VeId>
         <Name>Tinnitus-Rex</Name>
         <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
         <Hersteller>
@@ -31,7 +32,8 @@
         <Packungspreis>14</Packungspreis>
     </Diga>
     <Diga>
-        <VeId>12345679</VeId>
+        <Pzn>12345679</Pzn>
+        <VeId>12346001</VeId>
         <Name>Hans Hinterwand</Name>
         <Beschreibung>Beugt gegen Herzinfarkte vor</Beschreibung>
         <Hersteller>
@@ -46,7 +48,8 @@
         <Packungspreis>28</Packungspreis>
     </Diga>
     <Diga>
-        <VeId>12345680</VeId>
+        <Pzn>12345680</Pzn>
+        <VeId>12347001</VeId>
         <Name>SARS-CoV-2 Prophylaxe</Name>
         <Beschreibung>Vermeiden Sie eine Coronainfektion!</Beschreibung>
         <Hersteller>
