@@ -14,7 +14,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<DigaVerzeichnis xmlns="http://xml.bitmarck.de/service/dvz">
+<DigaVerzeichnis version="0.0.1" xmlns="http://xml.bitmarck.de/service/dvz">
     <Diga>
         <Pzn>12345678</Pzn>
         <VeId>12345001</VeId>
@@ -24,12 +24,12 @@
             <Ik>987654321</Ik>
             <Name>Beispiel AG</Name>
         </Hersteller>
-        <Schlüsselwörter>
-            <Schlüsselwort>Tinnitus</Schlüsselwort>
-            <Schlüsselwort>Gehör</Schlüsselwort>
-        </Schlüsselwörter>
+        <Gruppen>
+            <Gruppe>Tinnitus</Gruppe>
+            <Gruppe>Gehör</Gruppe>
+        </Gruppen>
         <AnwendungsTage>7</AnwendungsTage>
-        <Packungspreis>14.00</Packungspreis>
+        <Packungspreis>1.23</Packungspreis>
     </Diga>
     <Diga>
         <Pzn>12345679</Pzn>
@@ -40,12 +40,12 @@
             <Ik>987654322</Ik>
             <Name>Dummy GmbH</Name>
         </Hersteller>
-        <Schlüsselwörter>
-            <Schlüsselwort>Coronare Herzerkrankungen</Schlüsselwort>
-            <Schlüsselwort>Herz</Schlüsselwort>
-        </Schlüsselwörter>
+        <Gruppen>
+            <Gruppe>Coronare Herzerkrankungen</Gruppe>
+            <Gruppe>Herz</Gruppe>
+        </Gruppen>
         <AnwendungsTage>14</AnwendungsTage>
-        <Packungspreis>28.00</Packungspreis>
+        <Packungspreis>12.34</Packungspreis>
     </Diga>
     <Diga>
         <Pzn>12345680</Pzn>
@@ -56,12 +56,12 @@
             <Ik>987654323</Ik>
             <Name>Muster und Co.</Name>
         </Hersteller>
-        <Schlüsselwörter>
-            <Schlüsselwort>SARS-CoV-2</Schlüsselwort>
-            <Schlüsselwort>COVID-19</Schlüsselwort>
-            <Schlüsselwort>Corona</Schlüsselwort>
-        </Schlüsselwörter>
+        <Gruppen>
+            <Gruppe>SARS-CoV-2</Gruppe>
+            <Gruppe>COVID-19</Gruppe>
+            <Gruppe>Corona</Gruppe>
+        </Gruppen>
         <AnwendungsTage>21</AnwendungsTage>
-        <Packungspreis>42.00</Packungspreis>
+        <Packungspreis>123.45</Packungspreis>
     </Diga>
 </DigaVerzeichnis>

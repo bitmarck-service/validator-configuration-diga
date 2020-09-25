@@ -14,45 +14,102 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://xml.bitmarck.de/service/dvz" elementFormDefault="qualified" xml:lang="de">
+<xs:schema
+        elementFormDefault="qualified"
+        targetNamespace="http://xml.bitmarck.de/service/dvz"
+        version="1.1.0"
+        xml:lang="de"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="DigaVerzeichnis">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="Diga" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="Pzn"/>
-                            <xs:element name="VeId"/>
-                            <xs:element name="Name"/>
-                            <xs:element name="Beschreibung" minOccurs="0"/>
+                            <xs:element name="Pzn">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Die achtstellige Pharmazentralnummer mit Prüfziffer.
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:positiveInteger">
+                                        <xs:pattern value="\d{8}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="VeId">
+                                <xs:annotation>
+                                    <xs:documentation>Die achtstelligen DiGA-VE-ID.</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:positiveInteger">
+                                        <xs:pattern value="\d{8}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Name" type="xs:token"/>
+                            <xs:element name="Beschreibung" minOccurs="0" type="xs:token">
+                                <xs:annotation>
+                                    <xs:documentation>Beschreibung/Zweckbestimmung/Indikation.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
                             <xs:element name="Hersteller">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Ik"/>
-                                        <xs:element name="Name"/>
+                                        <xs:element name="Ik">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Das neunstellige Institutionskennzeichen mit Prüfziffer.
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:positiveInteger">
+                                                    <xs:pattern value="\d{9}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="Name" type="xs:token"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="Schlüsselwörter" minOccurs="0">
+                            <xs:element name="Gruppen">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Eine möglicherweise leere Liste von Schlagwörtern/Schlüsselwörtern/Suchbegriffen/Tags/Labels.
+                                    </xs:documentation>
+                                </xs:annotation>
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Schlüsselwort" maxOccurs="unbounded"/>
+                                        <xs:element name="Gruppe" minOccurs="0" maxOccurs="unbounded" type="xs:token"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="AnwendungsTage"/>
+                            <xs:element name="AnwendungsTage" minOccurs="0" type="xs:positiveInteger">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Optionale Angabe einer Anwendungsdauer in Form einer positiven Anzahl von Tagen.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
                             <xs:element name="Packungspreis">
                                 <xs:annotation>
-                                    <xs:documentation>Brutto-Preis zum Regelsteuersatz in Euro (€).</xs:documentation>
+                                    <xs:documentation>
+                                        Brutto-Preis zum Regelsteuersatz in Euro (€) mit maximal zwei signifikanten
+                                        Nachkommastellen.
+                                    </xs:documentation>
                                 </xs:annotation>
                                 <xs:simpleType>
-                                    <xs:restriction base="xs:decimal"/>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:fractionDigits value="2"/>
+                                    </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
+            <xs:attribute name="version" fixed="0.0.1" use="required"/>
         </xs:complexType>
     </xs:element>
 </xs:schema>
