@@ -29,7 +29,7 @@
             <Schlüsselwort>Gehör</Schlüsselwort>
         </Schlüsselwörter>
         <AnwendungsTage>7</AnwendungsTage>
-        <Packungspreis>14</Packungspreis>
+        <Packungspreis>14.00</Packungspreis>
     </Diga>
     <Diga>
         <Pzn>12345679</Pzn>
@@ -45,7 +45,7 @@
             <Schlüsselwort>Herz</Schlüsselwort>
         </Schlüsselwörter>
         <AnwendungsTage>14</AnwendungsTage>
-        <Packungspreis>28</Packungspreis>
+        <Packungspreis>28.00</Packungspreis>
     </Diga>
     <Diga>
         <Pzn>12345680</Pzn>
@@ -62,6 +62,6 @@
             <Schlüsselwort>Corona</Schlüsselwort>
         </Schlüsselwörter>
         <AnwendungsTage>21</AnwendungsTage>
-        <Packungspreis>42</Packungspreis>
+        <Packungspreis>42.00</Packungspreis>
     </Diga>
 </DigaVerzeichnis>

@@ -43,8 +43,11 @@
                             <xs:element name="AnwendungsTage"/>
                             <xs:element name="Packungspreis">
                                 <xs:annotation>
-                                    <xs:documentation>Brutto-Preis in Euro (€).</xs:documentation>
+                                    <xs:documentation>Brutto-Preis zum Regelsteuersatz in Euro (€).</xs:documentation>
                                 </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal"/>
+                                </xs:simpleType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
