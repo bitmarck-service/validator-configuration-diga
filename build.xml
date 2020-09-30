@@ -92,6 +92,8 @@
                             outfile="build/config/schematron/dfc0.xsl"/>
         <schematron-compile infile="src/main/schematron/dre0.sch"
                             outfile="build/config/schematron/dre0.xsl"/>
+        <schematron-compile infile="src/main/schematron/dvz0.sch"
+                            outfile="build/config/schematron/dvz0.xsl"/>
         <schematron-compile infile="src/main/schematron/report.sch"
                             outfile="build/config/schematron/report.xsl"/>
     </target>

@@ -60,9 +60,9 @@
         <description>
             <p>TODO</p>
         </description>
+        <namespace prefix="ram">urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100</namespace>
         <namespace prefix="rep">http://www.xoev.de/de/validator/varl/1</namespace>
         <namespace prefix="rsm">urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100</namespace>
-        <namespace prefix="ram">urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100</namespace>
         <match>
             /rsm:CrossIndustryInvoice[starts-with(rsm:ExchangedDocumentContext/ram:GuidelineSpecifiedDocumentContextParameter/ram:ID,
             'urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2')]
@@ -113,6 +113,35 @@
                 <location>report/default.xsl</location>
             </resource>
         </createReport>
+    </scenario>
+
+    <scenario>
+        <name>DiGA-Verzeichnis (DVZ0)</name>
+        <description>
+            <p>TODO</p>
+        </description>
+        <namespace prefix="dvz0">http://xml.bitmarck.de/service/dvz0</namespace>
+        <namespace prefix="rep">http://www.xoev.de/de/validator/varl/1</namespace>
+        <match>/dvz0:DigaVerzeichnis</match>
+        <validateWithXmlSchema>
+            <resource>
+                <name>XML-Schema für die Stammdaten aus dem DiGA-Verzeichnis.</name>
+                <location>xml-schema/dvz0/dvz0.xsd</location>
+            </resource>
+        </validateWithXmlSchema>
+        <validateWithSchematron>
+            <resource>
+                <name>Schematron-Regeln für die Stammdaten aus dem DiGA-Verzeichnis.</name>
+                <location>schematron/dvz0.xsl</location>
+            </resource>
+        </validateWithSchematron>
+        <createReport>
+            <resource>
+                <name>Standard-Report</name>
+                <location>report/default.xsl</location>
+            </resource>
+        </createReport>
+        <acceptMatch>/rep:report/rep:assessment[1]/rep:accept[1]</acceptMatch>
     </scenario>
 
     <noScenarioReport>
