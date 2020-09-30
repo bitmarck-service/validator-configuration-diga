@@ -17,7 +17,7 @@
 <DigaVerzeichnis version="0.0.1" xmlns="http://xml.bitmarck.de/service/dvz0">
     <Diga>
         <Pzn>12345678</Pzn>
-        <VeId>12345001</VeId>
+        <DigaVeId>12345001</DigaVeId>
         <Name>Tinnitus-Rex</Name>
         <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
         <Hersteller>
@@ -35,7 +35,7 @@
     </Diga>
     <Diga>
         <Pzn>12345678</Pzn>
-        <VeId>12345001</VeId>
+        <DigaVeId>12345001</DigaVeId>
         <Name>Tinnitus-Rex</Name>
         <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
         <Hersteller>
@@ -52,7 +52,7 @@
     </Diga>
     <Diga>
         <Pzn>12345679</Pzn>
-        <VeId>12346001</VeId>
+        <DigaVeId>12346001</DigaVeId>
         <Name>Hans Hinterwand</Name>
         <Beschreibung>Beugt gegen Herzinfarkte vor</Beschreibung>
         <Hersteller>
@@ -68,7 +68,7 @@
     </Diga>
     <Diga>
         <Pzn>12345680</Pzn>
-        <VeId>12347001</VeId>
+        <DigaVeId>12347001</DigaVeId>
         <Name>SARS-CoV-2 Prophylaxe</Name>
         <Beschreibung>Vermeiden Sie eine Coronainfektion!</Beschreibung>
         <Hersteller>
