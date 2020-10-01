@@ -21,15 +21,25 @@
         xml:lang="de"
         xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="DigaVerzeichnis">
+        <xs:annotation>
+            <xs:documentation>
+                Die Stammdaten aus dem DiGA-Verzeichnis.
+            </xs:documentation>
+        </xs:annotation>
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="Diga" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Ein Datensatz für eine DiGA.
+                        </xs:documentation>
+                    </xs:annotation>
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="Pzn">
                                 <xs:annotation>
                                     <xs:documentation>
-                                        Die achtstellige Pharmazentralnummer mit Prüfziffer.
+                                        Die achtstellige Pharmazentralnummer inklusive Prüfziffer.
                                     </xs:documentation>
                                 </xs:annotation>
                                 <xs:simpleType>
@@ -48,11 +58,24 @@
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
-                            <xs:element name="Name" type="xs:token"/>
-                            <xs:element name="Beschreibung" minOccurs="0" type="xs:token">
+                            <xs:element name="Name">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:minLength value="1"/>
+                                        <xs:maxLength value="255"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Beschreibung" minOccurs="0">
                                 <xs:annotation>
                                     <xs:documentation>Beschreibung/Zweckbestimmung/Indikation.</xs:documentation>
                                 </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:minLength value="1"/>
+                                        <xs:maxLength value="255"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
                             </xs:element>
                             <xs:element name="Hersteller">
                                 <xs:complexType>
@@ -73,7 +96,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="Gruppen">
+                            <xs:element name="Gruppen" minOccurs="0">
                                 <xs:annotation>
                                     <xs:documentation>
                                         Eine möglicherweise leere Liste von Schlagwörtern/Schlüsselwörtern/Suchbegriffen/Tags/Labels.
@@ -81,7 +104,14 @@
                                 </xs:annotation>
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Gruppe" minOccurs="0" maxOccurs="unbounded" type="xs:token"/>
+                                        <xs:element name="Gruppe" minOccurs="1" maxOccurs="unbounded">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:token">
+                                                    <xs:minLength value="1"/>
+                                                    <xs:maxLength value="255"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
