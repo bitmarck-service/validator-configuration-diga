@@ -50,11 +50,11 @@
                             </xs:element>
                             <xs:element name="DigaVeId">
                                 <xs:annotation>
-                                    <xs:documentation>Die achtstellige DiGA-VE-ID.</xs:documentation>
+                                    <xs:documentation>Die vier bis achtstellige DiGA-VE-ID.</xs:documentation>
                                 </xs:annotation>
                                 <xs:simpleType>
                                     <xs:restriction base="xs:positiveInteger">
-                                        <xs:pattern value="\d{8}"/>
+                                        <xs:pattern value="\d{4,8}"/>
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
@@ -73,7 +73,6 @@
                                 <xs:simpleType>
                                     <xs:restriction base="xs:token">
                                         <xs:minLength value="1"/>
-                                        <xs:maxLength value="255"/>
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
