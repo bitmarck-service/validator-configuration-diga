@@ -41,8 +41,8 @@
                 <ram:LineID>TEST_POSITION_01</ram:LineID>
             </ram:AssociatedDocumentLineDocument>
             <ram:SpecifiedTradeProduct>
-                <!-- DiGA-Nummer: -->
-                <ram:GlobalID schemeID="DiGANr">tinnitus-rex</ram:GlobalID>
+                <!-- DiGA-VE-ID: -->
+                <ram:GlobalID schemeID="DiGAVEID">tinnitus-rex</ram:GlobalID>
                 <!-- Freischaltcode: -->
 <!--                <ram:BuyerAssignedID schemeID="Freischaltcode">ABCDEFGHIJKLMNOP</ram:BuyerAssignedID>-->
                 <!-- DiGA-Name: -->

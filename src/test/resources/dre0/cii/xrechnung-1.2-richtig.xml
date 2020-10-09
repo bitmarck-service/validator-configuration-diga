@@ -41,8 +41,8 @@
                 <ram:LineID>TEST_POSITION_01</ram:LineID>
             </ram:AssociatedDocumentLineDocument>
             <ram:SpecifiedTradeProduct>
-                <!-- DiGA-Nummer: -->
-                <ram:GlobalID schemeID="DiGANr">12345678</ram:GlobalID>
+                <!-- DiGA-VE-ID: -->
+                <ram:GlobalID schemeID="DiGAVEID">12345678</ram:GlobalID>
                 <!-- Freischaltcode: -->
                 <ram:BuyerAssignedID schemeID="Freischaltcode">ABCDEFGHIJKLMNOP</ram:BuyerAssignedID>
                 <!-- DiGA-Name: -->
@@ -55,8 +55,8 @@
                 </ram:NetPriceProductTradePrice>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
-                <!-- Verordnungsdauer: -->
-                <ram:BilledQuantity unitCode="DAY">50</ram:BilledQuantity>
+                <!-- Eine Packungseinheit: -->
+                <ram:BilledQuantity unitCode="C62">1</ram:BilledQuantity>
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>

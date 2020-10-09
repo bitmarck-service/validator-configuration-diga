@@ -28,19 +28,22 @@
             </assert>
         </rule>
         <rule context="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct">
-            <assert id="DRE0-2" test="string-length(normalize-space(ram:BuyerAssignedID[@schemeID='Freischaltcode'])) = 16">
+            <assert id="DRE0-2" test="matches(normalize-space(ram:BuyerAssignedID[@schemeID='Freischaltcode']), '[A-Z2-7]{16}')">
                 Eine DiGA-Position muß einen Freischaltcode mit exakt 16 Stellen enthalten.
             </assert>
-            <assert id="DRE0-3" test="string-length(normalize-space(ram:GlobalID[@schemeID='DiGANr'])) = 8">
-                Eine DiGA-Position muß eine DiGA-Nummer mit exakt acht Stellen enthalten.
+            <assert id="DRE0-3" test="matches(normalize-space(ram:GlobalID[@schemeID='DiGAVEID']), '\d{8}')">
+                Eine DiGA-Position muß eine DiGA-VE-ID mit exakt acht Stellen enthalten.
             </assert>
             <assert id="DRE0-4" test="string-length(normalize-space(ram:Name)) > 0">
                 Eine DiGA-Position muß einen DiGA-Namen enthalten.
             </assert>
         </rule>
         <rule context="ram:SpecifiedLineTradeDelivery">
-            <assert id="DRE0-5" test="ram:BilledQuantity[@unitCode='DAY']">
-                Die Verordnungsdauer muß in Tagen angegeben werden.
+            <assert id="DRE0-5" test="ram:BilledQuantity[@unitCode='C62']">
+                Die Abrechnungseinheit muß 'C62' (one unit) sein.
+            </assert>
+            <assert id="DRE0-5" test="ram:BilledQuantity = 1">
+                Die Abrechnungsmenge muß eins sein.
             </assert>
         </rule>
         <rule context="ram:ApplicableHeaderTradeAgreement">
