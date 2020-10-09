@@ -93,8 +93,8 @@
         <namespace prefix="rep">http://www.xoev.de/de/validator/varl/1</namespace>
         <namespace prefix="rsm">urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100</namespace>
         <match>
-            /rsm:CrossIndustryInvoice[starts-with(rsm:ExchangedDocumentContext/ram:GuidelineSpecifiedDocumentContextParameter/ram:ID,
-            'urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2')]
+            /rsm:CrossIndustryInvoice[starts-with(normalize-space(rsm:ExchangedDocumentContext/ram:GuidelineSpecifiedDocumentContextParameter/ram:ID),
+            'urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_')]
         </match>
         <validateWithXmlSchema>
             <resource>
