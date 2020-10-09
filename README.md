@@ -10,14 +10,12 @@
 
 ### TODO:
 
-+ Validierung von DiGA-Verzeichnisdaten (DiGA-Nummer, -Name, -Packungsgröße, -Preis, -USt-Satz usw.)
 + Dokumentation mit Beispielen.
-+ Automation der Testbeispiele für XRechnung 1.2.
-+ Testbeispiele für XRechnung 2.0.
++ Automation der Testbeispiele für XRechnung 1.2 und 2.0
 
 ## Anforderungen
 
-+ Java 1.8 oder später. 
-+ [KOSIT-Validator](https://github.com/itplr-kosit/validator) in der aktuellen Fassung.
-+ [KOSIT-Validator-Konfiguration für XRechnung](https://github.com/itplr-kosit/validator-configuration-xrechnung)
-  in der Version 1.2.
++ Java Runtime Environment, Version 1.8 oder später. 
++ [KOSIT-Validator](https://github.com/itplr-kosit/validator), Version 1.4.0 oder später.
++ [KOSIT-Validator-Konfiguration für XRechnung](https://github.com/itplr-kosit/validator-configuration-xrechnung),
+  Version 1.2 oder 2.0.
