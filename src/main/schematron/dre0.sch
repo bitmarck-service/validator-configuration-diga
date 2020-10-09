@@ -31,23 +31,19 @@
             <assert id="DRE0-2" test="count(ram:IncludedSupplyChainTradeLineItem) = 1">
                 Eine DiGA-Rechnung muß genau eine Position enthalten.
             </assert>
-        </rule>
-        <rule context="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct">
-            <assert id="DRE0-3" test="matches(normalize-space(ram:BuyerAssignedID[@schemeID='Freischaltcode']), '[A-Z2-7]{16}')">
+            <assert id="DRE0-3" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:BuyerAssignedID[@schemeID='Freischaltcode']), '[A-Z2-7]{16}')">
                 Eine DiGA-Position muß einen Freischaltcode mit exakt 16 Stellen enthalten.
             </assert>
-            <assert id="DRE0-4" test="matches(normalize-space(ram:GlobalID[@schemeID='DiGAVEID']), '\d{8}')">
+            <assert id="DRE0-4" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:GlobalID[@schemeID='DiGAVEID']), '\d{8}')">
                 Eine DiGA-Position muß eine DiGA-VE-ID mit exakt acht Stellen enthalten.
             </assert>
-            <assert id="DRE0-5" test="string-length(normalize-space(ram:Name)) > 0">
+            <assert id="DRE0-5" test="string-length(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:Name)) > 0">
                 Eine DiGA-Position muß einen DiGA-Namen enthalten.
             </assert>
-        </rule>
-        <rule context="ram:SpecifiedLineTradeDelivery">
-            <assert id="DRE0-6" test="ram:BilledQuantity/@unitCode = 'C62'">
+            <assert id="DRE0-6" test="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeDelivery/ram:BilledQuantity/@unitCode = 'C62'">
                 Die Abrechnungseinheit muß 'C62' (one) sein.
             </assert>
-            <assert id="DRE0-7" test="ram:BilledQuantity = 1">
+            <assert id="DRE0-7" test="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeDelivery/ram:BilledQuantity = 1">
                 Die Abrechnungsmenge muß eins sein.
             </assert>
         </rule>
@@ -57,6 +53,17 @@
             </assert>
             <assert id="DRE0-9" test="string-length(normalize-space(ram:BuyerTradeParty/ram:ID[@schemeID='IK'])) = 9">
                 Eine DiGA-Rechnung muß das Institutionskennzeichen einer Krankenkasse mit exakt neun Stellen enthalten.
+            </assert>
+        </rule>
+        <rule context="ram:ApplicableHeaderTradeSettlement">
+            <assert id="DRE0-10" test="not(ram:TaxCurrencyCode) or normalize-space(ram:TaxCurrencyCode) = 'EUR'">
+                Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro angeben.
+            </assert>
+            <assert id="DRE0-11" test="normalize-space(ram:InvoiceCurrencyCode) = 'EUR'">
+                Eine DiGA-Rechnung muß den Rechnungsbetrag in Euro angeben.
+            </assert>
+            <assert id="DRE0-12" test="ram:SpecifiedTradeSettlementHeaderMonetarySummation/ram:TaxTotalAmount[@currencyID='EUR']">
+                Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro angeben.
             </assert>
         </rule>
     </pattern>
