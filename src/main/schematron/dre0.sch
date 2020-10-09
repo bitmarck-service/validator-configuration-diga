@@ -44,7 +44,7 @@
             </assert>
         </rule>
         <rule context="ram:SpecifiedLineTradeDelivery">
-            <assert id="DRE0-6" test="ram:BilledQuantity[@unitCode='C62']">
+            <assert id="DRE0-6" test="ram:BilledQuantity/@unitCode = 'C62'">
                 Die Abrechnungseinheit muß 'C62' (one) sein.
             </assert>
             <assert id="DRE0-7" test="ram:BilledQuantity = 1">
