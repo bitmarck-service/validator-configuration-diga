@@ -4,16 +4,16 @@
 
 ## Leistungsmerkmale
 
-+ Validierung von Anfragen, Erfolgs- und Fehlermeldungen für das Einlösen von Freischaltcodes
-  gemäß Verfahrenskennzeichen EDFC0 und TDFC0.
-+ Validierung von DiGA-Rechnungen und deren Prüfberichte auf Basis von EN16931 CIUS XRechnung 1.2 (UN/CEFACT CII
-  100.D16B)
-  gemäß Verfahrenskennzeichen EDRE0 und TDRE0.
++ Validierung von Anfragen und Antworten für das Einlösen von Freischaltcodes gemäß Verfahrenskennzeichen EDFC0 und
+  TDFC0.
++ Validierung von Anfragen und Antworten für das Einreichen von DiGA-Rechnungen auf Basis von EN16931 CIUS XRechnung 1.2
+  (UN/CEFACT CII 100.D16B) gemäß Verfahrenskennzeichen EDRE0 und TDRE0.
++ Validierung von Stammdaten zu DiGAs und DiGA-Herstellern gemäß Verfahrenskennzeichen EDVZ0. 
 
 ### TODO:
 
 + Dokumentation mit Beispielen.
-+ Automation der Testbeispiele für XRechnung 1.2 und 2.0
++ Automatische Tests. 
 
 ## Anforderungen
 
