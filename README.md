@@ -1,3 +1,5 @@
+![Java CI](https://github.com/bitmarck-service/validator-configuration-diga/workflows/Java%20CI/badge.svg)
+
 # KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren
 
 ## Leistungsmerkmale
