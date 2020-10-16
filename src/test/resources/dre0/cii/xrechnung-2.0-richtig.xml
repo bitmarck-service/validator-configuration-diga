@@ -32,7 +32,7 @@
             <udt:DateTimeString format="102">20200103</udt:DateTimeString>
         </ram:IssueDateTime>
         <ram:IncludedNote>
-            <ram:Content>Eine Testrechnung für das Projekt eRechnung.</ram:Content>
+            <ram:Content>Eine Testrechnung für das Projekt DiGA-Rechnung.</ram:Content>
         </ram:IncludedNote>
     </rsm:ExchangedDocument>
     <rsm:SupplyChainTradeTransaction>
@@ -48,6 +48,12 @@
                 <!-- DiGA-Name: -->
                 <ram:Name>Tinnitus Rex</ram:Name>
                 <ram:Description>Ein Artikel für Testrechnungen.</ram:Description>
+                <!-- Tag der Leistungserbringung -->
+                <ram:IndividualTradeProductInstance>
+                    <ram:SellByDateTime>
+                        <udt:DateTimeString format="102">20200102</udt:DateTimeString>
+                    </ram:SellByDateTime>
+                </ram:IndividualTradeProductInstance>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
                 <ram:NetPriceProductTradePrice>
@@ -57,6 +63,14 @@
             <ram:SpecifiedLineTradeDelivery>
                 <!-- Eine Packungseinheit: -->
                 <ram:BilledQuantity unitCode="C62">1</ram:BilledQuantity>
+                <!-- Tag der Leistungserbringung -->
+<!--
+                <ram:ActualReceiptSupplyChainEvent>
+                    <ram:OccurrenceDateTime>
+                        <udt:DateTimeString format="102">20200102</udt:DateTimeString>
+                    </ram:OccurrenceDateTime>
+                </ram:ActualReceiptSupplyChainEvent>
+-->
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>

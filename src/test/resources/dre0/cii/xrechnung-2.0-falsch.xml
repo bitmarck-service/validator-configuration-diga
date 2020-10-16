@@ -32,7 +32,7 @@
             <udt:DateTimeString format="102">20200103</udt:DateTimeString>
         </ram:IssueDateTime>
         <ram:IncludedNote>
-            <ram:Content>Eine Testrechnung für das Projekt eRechnung.</ram:Content>
+            <ram:Content>Eine Testrechnung für das Projekt DiGA-Rechnung.</ram:Content>
         </ram:IncludedNote>
     </rsm:ExchangedDocument>
     <rsm:SupplyChainTradeTransaction>
