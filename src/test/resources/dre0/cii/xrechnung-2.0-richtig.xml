@@ -63,14 +63,6 @@
             <ram:SpecifiedLineTradeDelivery>
                 <!-- Eine Packungseinheit: -->
                 <ram:BilledQuantity unitCode="C62">1</ram:BilledQuantity>
-                <!-- Tag der Leistungserbringung -->
-<!--
-                <ram:ActualReceiptSupplyChainEvent>
-                    <ram:OccurrenceDateTime>
-                        <udt:DateTimeString format="102">20200102</udt:DateTimeString>
-                    </ram:OccurrenceDateTime>
-                </ram:ActualReceiptSupplyChainEvent>
--->
             </ram:SpecifiedLineTradeDelivery>
             <ram:SpecifiedLineTradeSettlement>
                 <ram:ApplicableTradeTax>
@@ -122,7 +114,16 @@
                 </ram:PostalTradeAddress>
             </ram:BuyerTradeParty>
         </ram:ApplicableHeaderTradeAgreement>
-        <ram:ApplicableHeaderTradeDelivery/>
+        <ram:ApplicableHeaderTradeDelivery>
+<!--
+            <ram:ActualDeliverySupplyChainEvent>
+                <ram:OccurrenceDateTime>
+                    &lt;!&ndash; Tag der Leistungserbringung &ndash;&gt;
+                    <udt:DateTimeString format="102">20200102</udt:DateTimeString>
+                </ram:OccurrenceDateTime>
+            </ram:ActualDeliverySupplyChainEvent>
+-->
+        </ram:ApplicableHeaderTradeDelivery>
         <ram:ApplicableHeaderTradeSettlement>
 <!--            <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>-->
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>

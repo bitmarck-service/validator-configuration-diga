@@ -48,6 +48,14 @@
                 <!-- DiGA-Name: -->
                 <ram:Name>Tinnitus Rex</ram:Name>
                 <ram:Description>Ein Artikel für Testrechnungen.</ram:Description>
+<!--
+                <ram:IndividualTradeProductInstance>
+                    <ram:SellByDateTime>
+                        &lt;!&ndash; Tag der Leistungserbringung &ndash;&gt;
+                        <udt:DateTimeString format="102">20200102</udt:DateTimeString>
+                    </ram:SellByDateTime>
+                </ram:IndividualTradeProductInstance>
+-->
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
                 <ram:NetPriceProductTradePrice>
@@ -108,7 +116,14 @@
                 </ram:PostalTradeAddress>
             </ram:BuyerTradeParty>
         </ram:ApplicableHeaderTradeAgreement>
-        <ram:ApplicableHeaderTradeDelivery/>
+        <ram:ApplicableHeaderTradeDelivery>
+            <ram:ActualDeliverySupplyChainEvent>
+                <ram:OccurrenceDateTime>
+                    <!-- Tag der Leistungserbringung -->
+                    <udt:DateTimeString format="102">20200102</udt:DateTimeString>
+                </ram:OccurrenceDateTime>
+            </ram:ActualDeliverySupplyChainEvent>
+        </ram:ApplicableHeaderTradeDelivery>
         <ram:ApplicableHeaderTradeSettlement>
             <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
