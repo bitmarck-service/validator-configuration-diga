@@ -23,49 +23,55 @@
     <ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
     <pattern>
         <rule context="rsm:ExchangedDocument">
-            <assert id="DRE0-1" test="normalize-space(ram:TypeCode) = '380'">
+            <assert id="DRE0-ED-1" test="normalize-space(ram:ID) != ''">
+                Eine DiGA-Rechnung muß eine Rechnungsnummer angeben.
+            </assert>
+            <assert id="DRE0-ED-2" test="normalize-space(ram:TypeCode) = '380'">
                 Eine DiGA-Rechnung muß vom Typ 380 (Commercial Invoice) sein.
+            </assert>
+            <assert id="DRE0-ED-3" test="matches(normalize-space(ram:IssueDateTime/udt:DateTimeString[@format = '102']), '\d{8}')">
+                Eine DiGA-Rechnung muß ein Rechnungsdatum im Format '102' (JJJJMMTT) angeben.
             </assert>
         </rule>
         <rule context="rsm:SupplyChainTradeTransaction">
-            <assert id="DRE0-2" test="count(ram:IncludedSupplyChainTradeLineItem) = 1">
+            <assert id="DRE0-SCTT-1" test="count(ram:IncludedSupplyChainTradeLineItem) = 1">
                 Eine DiGA-Rechnung muß genau eine Position enthalten.
             </assert>
-            <assert id="DRE0-3" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:BuyerAssignedID[@schemeID = 'Freischaltcode']), '[A-Z2-7]{16}')">
-                Eine DiGA-Position muß einen Freischaltcode mit exakt 16 Stellen enthalten.
-            </assert>
-            <assert id="DRE0-4" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:GlobalID[@schemeID = 'DiGAVEID']), '\d{8}')">
+            <assert id="DRE0-SCTT-2" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:GlobalID[@schemeID = 'DiGAVEID']), '\d{8}')">
                 Eine DiGA-Position muß eine DiGA-VE-ID mit exakt acht Stellen enthalten.
             </assert>
-            <assert id="DRE0-5" test="string-length(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:Name)) > 0">
+            <assert id="DRE0-SCTT-3" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:BuyerAssignedID[@schemeID = 'Freischaltcode']), '[A-Z2-7]{16}')">
+                Eine DiGA-Position muß einen Freischaltcode mit exakt 16 Stellen enthalten.
+            </assert>
+            <assert id="DRE0-SCTT-4" test="normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:Name) != ''">
                 Eine DiGA-Position muß einen DiGA-Namen enthalten.
             </assert>
-            <assert id="DRE0-6" test="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeDelivery/ram:BilledQuantity/@unitCode = 'C62'">
+            <assert id="DRE0-SCTT-5" test="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeDelivery/ram:BilledQuantity/@unitCode = 'C62'">
                 Die Abrechnungseinheit muß 'C62' (one) sein.
             </assert>
-            <assert id="DRE0-7" test="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeDelivery/ram:BilledQuantity = 1">
+            <assert id="DRE0-SCTT-6" test="normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeDelivery/ram:BilledQuantity) = '1'">
                 Die Abrechnungsmenge muß eins sein.
             </assert>
-            <assert id="DRE0-8" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102']), '\d{8}') or matches(normalize-space(ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102']), '\d{8}')">
-                Eine DiGA-Rechnung muß den Tag der Leistungserbringung bzw. das Lieferdatum im Format 102 (JJJJMMTT) angeben.
+            <assert id="DRE0-SCTT-7" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102']), '\d{8}') or matches(normalize-space(ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102']), '\d{8}')">
+                Eine DiGA-Rechnung muß den Tag der Leistungserbringung bzw. das Lieferdatum im Format '102' (JJJJMMTT) angeben.
             </assert>
         </rule>
         <rule context="ram:ApplicableHeaderTradeAgreement">
-            <assert id="DRE0-9" test="string-length(normalize-space(ram:SellerTradeParty/ram:ID[@schemeID = 'IK'])) = 9">
+            <assert id="DRE0-AHTA-1" test="matches(normalize-space(ram:SellerTradeParty/ram:ID[@schemeID = 'IK']), '\d{9}')">
                 Eine DiGA-Rechnung muß das Institutionskennzeichen eines DiGA-Herstellers mit exakt neun Stellen enthalten.
             </assert>
-            <assert id="DRE0-10" test="string-length(normalize-space(ram:BuyerTradeParty/ram:ID[@schemeID = 'IK'])) = 9">
+            <assert id="DRE0-AHTA-2" test="matches(normalize-space(ram:BuyerTradeParty/ram:ID[@schemeID = 'IK']), '\d{9}')">
                 Eine DiGA-Rechnung muß das Institutionskennzeichen einer Krankenkasse mit exakt neun Stellen enthalten.
             </assert>
         </rule>
         <rule context="ram:ApplicableHeaderTradeSettlement">
-            <assert id="DRE0-11" test="not(ram:TaxCurrencyCode) or normalize-space(ram:TaxCurrencyCode) = 'EUR'">
+            <assert id="DRE0-AHTS-1" test="not(ram:TaxCurrencyCode) or normalize-space(ram:TaxCurrencyCode) = 'EUR'">
                 Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro angeben.
             </assert>
-            <assert id="DRE0-12" test="normalize-space(ram:InvoiceCurrencyCode) = 'EUR'">
+            <assert id="DRE0-AHTS-2" test="normalize-space(ram:InvoiceCurrencyCode) = 'EUR'">
                 Eine DiGA-Rechnung muß den Rechnungsbetrag in Euro angeben.
             </assert>
-            <assert id="DRE0-13" test="ram:SpecifiedTradeSettlementHeaderMonetarySummation/ram:TaxTotalAmount[@currencyID = 'EUR']">
+            <assert id="DRE0-AHTS-3" test="normalize-space(ram:SpecifiedTradeSettlementHeaderMonetarySummation/ram:TaxTotalAmount[@currencyID = 'EUR']) != ''">
                 Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro angeben.
             </assert>
         </rule>

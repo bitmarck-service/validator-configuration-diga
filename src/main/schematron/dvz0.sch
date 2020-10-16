@@ -18,7 +18,7 @@
     <ns prefix="dvz0" uri="http://xml.bitmarck.de/service/dvz0"/>
     <pattern>
         <rule context="/dvz0:DigaVerzeichnis">
-            <assert id="DVZ0-1" test="count(dvz0:Diga) > 0">
+            <assert id="DVZ0-DV-1" test="count(dvz0:Diga) > 0">
                 Ein DiGA-Verzeichnis muss mindestens einen Datensatz enthalten (redundant).
             </assert>
         </rule>
