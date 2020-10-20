@@ -18,13 +18,16 @@
 ## Anforderungen
 
 + Java Runtime Environment, Version 1.8 oder später. 
-+ [Apache Ant](https://ant.apache.org), Version 1.10.9 oder später.
++ Optional: [Apache Ant](https://ant.apache.org), Version 1.10.9 oder später.
 
 ## Bauen der Konfiguration
 
     $ ant
 
 Das Ergebnis befindet sich in `build/config`.
+Fertige Konfigurationen können von der GitHub action
+[XSLT CI](https://github.com/bitmarck-service/validator-configuration-diga/actions?query=workflow%3A%22XSLT+CI%22)
+bezogen werden.
 
 ## Beispiele
 
