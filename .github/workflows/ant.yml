@@ -22,3 +22,7 @@ jobs:
         java-version: 1.8
     - name: Build with Ant
       run: ant -noinput
+    - uses: actions/upload-artifact@v2
+      with:
+        name: validator-configuration-diga
+        path: build/config
