@@ -24,13 +24,13 @@
     <pattern>
         <rule context="rsm:ExchangedDocument">
             <assert id="DRE0-ED-1" test="normalize-space(ram:ID) != ''">
-                Eine DiGA-Rechnung muß eine Rechnungsnummer angeben.
+                Eine DiGA-Rechnung muß eine Rechnungsnummer enthalten.
             </assert>
             <assert id="DRE0-ED-2" test="normalize-space(ram:TypeCode) = '380'">
                 Eine DiGA-Rechnung muß vom Typ 380 (Commercial Invoice) sein.
             </assert>
             <assert id="DRE0-ED-3" test="matches(normalize-space(ram:IssueDateTime/udt:DateTimeString[@format = '102']), '\d{8}')">
-                Eine DiGA-Rechnung muß ein Rechnungsdatum im Format '102' (JJJJMMTT) angeben.
+                Eine DiGA-Rechnung muß ein Rechnungsdatum im Format '102' (JJJJMMTT) enthalten.
             </assert>
         </rule>
         <rule context="rsm:SupplyChainTradeTransaction">
@@ -47,7 +47,7 @@
                 Eine DiGA-Position muß einen DiGA-Namen enthalten.
             </assert>
             <assert id="DRE0-SCTT-5" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102']), '\d{8}') or matches(normalize-space(ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102']), '\d{8}')">
-                Eine DiGA-Rechnung muß den Tag der Leistungserbringung bzw. das Lieferdatum im Format "102" (JJJJMMTT) angeben.
+                Eine DiGA-Rechnung muß den Tag der Leistungserbringung bzw. das Lieferdatum im Format "102" (JJJJMMTT) enthalten.
             </assert>
             <assert id="DRE0-SCTT-6" test="not(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102'] and ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102']) or normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102']) = normalize-space(ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102'])">
                 Wenn der Tag der Leistungserbringung bzw. das Lieferdatum an verschiedenen Stellen angegeben ist, dann müssen diese Angaben übereinstimmen.
@@ -72,13 +72,13 @@
         </rule>
         <rule context="ram:ApplicableHeaderTradeSettlement">
             <assert id="DRE0-AHTS-1" test="not(ram:TaxCurrencyCode) or normalize-space(ram:TaxCurrencyCode) = 'EUR'">
-                Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro (EUR) angeben.
+                Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro (EUR) enthalten.
             </assert>
             <assert id="DRE0-AHTS-2" test="normalize-space(ram:InvoiceCurrencyCode) = 'EUR'">
-                Eine DiGA-Rechnung muß den Rechnungsbetrag in Euro (EUR) angeben.
+                Eine DiGA-Rechnung muß den Rechnungsbetrag in Euro (EUR) enthalten.
             </assert>
             <assert id="DRE0-AHTS-3" test="normalize-space(ram:SpecifiedTradeSettlementHeaderMonetarySummation/ram:TaxTotalAmount[@currencyID = 'EUR']) != ''">
-                Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro (EUR) angeben.
+                Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro (EUR) enthalten.
             </assert>
         </rule>
     </pattern>
