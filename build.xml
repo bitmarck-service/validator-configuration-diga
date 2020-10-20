@@ -18,65 +18,33 @@
 
     <description>Builds the KOSIT Validator configuration for DiGA invoices.</description>
 
-    <!-- TODO: Download Saxon-HE JAR: -->
-    <property name="saxon.jar" value="lib/Saxon-HE-10.2.jar"/>
-    <property name="schematron.skeleton.url"
-              value="https://raw.githubusercontent.com/Schematron/schematron/master/trunk/schematron/code"/>
+    <property name="build.dir" value="build"/>
+    <property name="config.dir" value="${build.dir}/config"/>
+    <property name="deleteonexit" value="true"/>
+    <property name="lib.dir" value="lib"/>
+    <property name="saxon.jar" value="${lib.dir}/Saxon-HE-10.2.jar"/>
+    <property name="schematron.dir" value="${lib.dir}/schematron"/>
+    <property name="xrechnung.download.url"
+              value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
 
     <macrodef name="schematron-compile">
-        <attribute name="deleteonexit" default="true"/>
         <attribute name="infile"/>
         <attribute name="outfile"/>
-        <attribute name="schematronbinding" default="xslt2"/>
-        <attribute name="workdir" default="build"/>
         <sequential>
             <local name="infile-included"/>
             <local name="infile-expanded"/>
-            <mkdir dir="@{workdir}"/>
-            <parallel threadcount="3">
-                <tempfile deleteonexit="@{deleteonexit}"
-                          destdir="@{workdir}"
-                          prefix="included"
-                          property="infile-included"
-                          suffix=".sch"/>
-                <tempfile deleteonexit="@{deleteonexit}"
-                          destdir="@{workdir}"
-                          prefix="expanded"
-                          property="infile-expanded"
-                          suffix=".sch"/>
-                <get dest="@{workdir}"
-                     httpusecaches="true"
-                     skipexisting="true"
-                     src="${schematron.skeleton.url}/iso_abstract_expand.xsl"
-                     usetimestamp="true"/>
-                <get dest="@{workdir}"
-                     httpusecaches="true"
-                     skipexisting="true"
-                     src="${schematron.skeleton.url}/iso_dsdl_include.xsl"
-                     usetimestamp="true"/>
-                <get dest="@{workdir}"
-                     httpusecaches="true"
-                     skipexisting="true"
-                     src="${schematron.skeleton.url}/iso_schematron_skeleton_for_saxon.xsl"
-                     usetimestamp="true"/>
-                <get dest="@{workdir}"
-                     httpusecaches="true"
-                     skipexisting="true"
-                     src="${schematron.skeleton.url}/iso_svrl_for_@{schematronbinding}.xsl"
-                     usetimestamp="true"/>
+            <parallel>
+                <tempfile deleteonexit="${deleteonexit}" destdir="${build.dir}" prefix="included"
+                          property="infile-included" suffix=".sch"/>
+                <tempfile deleteonexit="${deleteonexit}" destdir="${build.dir}" prefix="expanded"
+                          property="infile-expanded" suffix=".sch"/>
             </parallel>
-            <xslt classpath="${saxon.jar}"
-                  in="@{infile}"
-                  out="${infile-included}"
-                  style="@{workdir}/iso_dsdl_include.xsl"/>
-            <xslt classpath="${saxon.jar}"
-                  in="${infile-included}"
-                  out="${infile-expanded}"
-                  style="@{workdir}/iso_abstract_expand.xsl"/>
-            <xslt classpath="${saxon.jar}"
-                  in="${infile-expanded}"
-                  out="@{outfile}"
-                  style="@{workdir}/iso_svrl_for_@{schematronbinding}.xsl">
+            <xslt classpath="${saxon.jar}" in="@{infile}" out="${infile-included}"
+                  style="${schematron.dir}/iso_dsdl_include.xsl"/>
+            <xslt classpath="${saxon.jar}" in="${infile-included}" out="${infile-expanded}"
+                  style="${schematron.dir}/iso_abstract_expand.xsl"/>
+            <xslt classpath="${saxon.jar}" in="${infile-expanded}" out="@{outfile}"
+                  style="${schematron.dir}/iso_svrl_for_xslt2.xsl">
                 <param name="generate-fired-rule" expression="false"/>
                 <param name="full-path-notation" expression="3"/>
             </xslt>
@@ -84,21 +52,64 @@
     </macrodef>
 
     <target name="build">
-        <copy todir="build/config">
+        <parallel>
+            <mkdir dir="${build.dir}"/>
+            <mkdir dir="${lib.dir}"/>
+        </parallel>
+        <parallel threadcount="3">
+            <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
+                 src="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.2/Saxon-HE-10.2.jar"/>
+            <sequential>
+                <!-- TODO: Use https://github.com/schxslt/schxslt -->
+                <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
+                     src="https://github.com/Schematron/schematron/releases/download/2020-10-01/iso-schematron-xslt2.zip"/>
+                <unzip dest="${schematron.dir}" overwrite="false" src="${lib.dir}/iso-schematron-xslt2.zip">
+                    <patternset>
+                        <include name="iso_abstract_expand.xsl"/>
+                        <include name="iso_dsdl_include.xsl"/>
+                        <include name="iso_schematron_skeleton_for_saxon.xsl"/>
+                        <include name="iso_svrl_for_xslt2.xsl"/>
+                    </patternset>
+                </unzip>
+            </sequential>
+            <sequential>
+                <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
+                     src="${xrechnung.download.url}/release-2019-12-30/validator-configuration-xrechnung_1.2.2_2019-12-30.zip"/>
+                <unzip dest="${lib.dir}/xrechnung_1.2.0" overwrite="false"
+                       src="${lib.dir}/validator-configuration-xrechnung_1.2.2_2019-12-30.zip">
+                    <patternset>
+                        <include name="resources/"/>
+                        <include name="scenarios.xml"/>
+                    </patternset>
+                </unzip>
+            </sequential>
+            <sequential>
+                <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
+                     src="${xrechnung.download.url}/release-2020-07-31/validator-configuration-xrechnung_2.0.0_2020-07-31.zip"/>
+                <unzip dest="${lib.dir}/xrechnung_2.0.0" overwrite="false"
+                       src="${lib.dir}/validator-configuration-xrechnung_2.0.0_2020-07-31.zip">
+                    <patternset>
+                        <include name="resources/"/>
+                        <include name="scenarios.xml"/>
+                    </patternset>
+                </unzip>
+            </sequential>
+        </parallel>
+        <copy todir="${config.dir}">
             <fileset dir="src/main/resources"/>
             <file file="LICENSE"/>
         </copy>
-        <schematron-compile infile="src/main/schematron/dfc0.sch"
-                            outfile="build/config/schematron/dfc0.xsl"/>
-        <schematron-compile infile="src/main/schematron/dre0.sch"
-                            outfile="build/config/schematron/dre0.xsl"/>
-        <schematron-compile infile="src/main/schematron/dvz0.sch"
-                            outfile="build/config/schematron/dvz0.xsl"/>
-        <schematron-compile infile="src/main/schematron/report.sch"
-                            outfile="build/config/schematron/report.xsl"/>
+        <schematron-compile infile="src/main/schematron/dfc0.sch" outfile="${config.dir}/schematron/dfc0.xsl"/>
+        <schematron-compile infile="src/main/schematron/dre0.sch" outfile="${config.dir}/schematron/dre0.xsl"/>
+        <schematron-compile infile="src/main/schematron/dvz0.sch" outfile="${config.dir}/schematron/dvz0.xsl"/>
+        <schematron-compile infile="src/main/schematron/report.sch" outfile="${config.dir}/schematron/report.xsl"/>
     </target>
 
     <target name="clean">
-        <delete dir="build"/>
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="real-clean" depends="clean">
+        <delete dir="${lib.dir}"/>
     </target>
 </project>
