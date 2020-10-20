@@ -29,7 +29,7 @@ Zum Bauen des aktuellen Commits:
 
     $ ant
 
-Das Ergebnis befindet sich in `build/config`.
+Das Ergebnis befindet sich dann in `build/config`.
 
 ## Beispiele
 
