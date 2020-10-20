@@ -16,13 +16,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up JDK 1.8
-      uses: actions/setup-java@v1
+    - uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build with Ant
-      run: ant -noinput
+    - run: ant -noinput
     - uses: actions/upload-artifact@v2
       with:
-        name: validator-configuration-diga
-        path: build/config
+        name: Package
+        path: build/config/
