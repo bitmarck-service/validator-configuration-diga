@@ -22,5 +22,5 @@ jobs:
     - run: ant -noinput
     - uses: actions/upload-artifact@v2
       with:
-        name: validator-config-diga
+        name: validator-config-diga.zip
         path: build/config
