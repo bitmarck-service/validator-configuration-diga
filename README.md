@@ -25,7 +25,7 @@
 Fertige Konfigurationen können von der GitHub action
 [XSLT CI](https://github.com/bitmarck-service/validator-configuration-diga/actions?query=workflow%3A%22XSLT+CI%22)
 bezogen werden.
-Zum Bauen des aktuellen Commits:
+Zum Selber-Bauen des aktuellen Commits:
 
     $ ant
 
