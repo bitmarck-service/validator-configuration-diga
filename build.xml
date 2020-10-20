@@ -20,62 +20,42 @@
 
     <property name="build.dir" value="build"/>
     <property name="config.dir" value="${build.dir}/config"/>
-    <property name="deleteonexit" value="true"/>
     <property name="lib.dir" value="lib"/>
-    <property name="saxon.jar" value="${lib.dir}/Saxon-HE-10.2.jar"/>
-    <property name="schematron.dir" value="${lib.dir}/schematron"/>
     <property name="xrechnung.download.url"
               value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
-
-    <macrodef name="schematron-compile">
-        <attribute name="infile"/>
-        <attribute name="outfile"/>
-        <sequential>
-            <local name="infile-included"/>
-            <local name="infile-expanded"/>
-            <parallel>
-                <tempfile deleteonexit="${deleteonexit}" destdir="${build.dir}" prefix="included"
-                          property="infile-included" suffix=".sch"/>
-                <tempfile deleteonexit="${deleteonexit}" destdir="${build.dir}" prefix="expanded"
-                          property="infile-expanded" suffix=".sch"/>
-            </parallel>
-            <xslt classpath="${saxon.jar}" in="@{infile}" out="${infile-included}"
-                  style="${schematron.dir}/iso_dsdl_include.xsl"/>
-            <xslt classpath="${saxon.jar}" in="${infile-included}" out="${infile-expanded}"
-                  style="${schematron.dir}/iso_abstract_expand.xsl"/>
-            <xslt classpath="${saxon.jar}" in="${infile-expanded}" out="@{outfile}"
-                  style="${schematron.dir}/iso_svrl_for_xslt2.xsl">
-                <param name="generate-fired-rule" expression="false"/>
-                <param name="full-path-notation" expression="3"/>
-            </xslt>
-        </sequential>
-    </macrodef>
 
     <target name="build">
         <parallel>
             <mkdir dir="${build.dir}"/>
+            <mkdir dir="${config.dir}"/>
             <mkdir dir="${lib.dir}"/>
         </parallel>
         <parallel threadcount="3">
             <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
                  src="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.2/Saxon-HE-10.2.jar"/>
             <sequential>
-                <!-- TODO: Use https://github.com/schxslt/schxslt -->
                 <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
-                     src="https://github.com/Schematron/schematron/releases/download/2020-10-01/iso-schematron-xslt2.zip"/>
-                <unzip dest="${schematron.dir}" overwrite="false" src="${lib.dir}/iso-schematron-xslt2.zip">
+                     src="https://github.com/schxslt/schxslt/releases/download/v1.5.2/schxslt-1.5.2-xslt-only.zip"/>
+                <unzip dest="${lib.dir}/schxslt" overwrite="false" src="${lib.dir}/schxslt-1.5.2-xslt-only.zip">
+                    <cutdirsmapper dirs="1"/>
                     <patternset>
-                        <include name="iso_abstract_expand.xsl"/>
-                        <include name="iso_dsdl_include.xsl"/>
-                        <include name="iso_schematron_skeleton_for_saxon.xsl"/>
-                        <include name="iso_svrl_for_xslt2.xsl"/>
+                        <exclude name="*/1.0/"/>
+                    </patternset>
+                </unzip>
+            </sequential>
+            <sequential>
+                <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
+                     src="https://github.com/itplr-kosit/validator/releases/download/v1.4.0/validationtool-1.4.0.zip"/>
+                <unzip dest="${lib.dir}" overwrite="false" src="${lib.dir}/validationtool-1.4.0.zip">
+                    <patternset>
+                        <include name="*-standalone.jar"/>
                     </patternset>
                 </unzip>
             </sequential>
             <sequential>
                 <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
                      src="${xrechnung.download.url}/release-2019-12-30/validator-configuration-xrechnung_1.2.2_2019-12-30.zip"/>
-                <unzip dest="${lib.dir}/xrechnung_1.2.0" overwrite="false"
+                <unzip dest="${lib.dir}/xrechnung_1.2.2" overwrite="false"
                        src="${lib.dir}/validator-configuration-xrechnung_1.2.2_2019-12-30.zip">
                     <patternset>
                         <include name="resources/"/>
@@ -95,21 +75,22 @@
                 </unzip>
             </sequential>
         </parallel>
-        <copy todir="${config.dir}">
-            <fileset dir="src/main/resources"/>
-            <file file="LICENSE"/>
-        </copy>
-        <schematron-compile infile="src/main/schematron/dfc0.sch" outfile="${config.dir}/schematron/dfc0.xsl"/>
-        <schematron-compile infile="src/main/schematron/dre0.sch" outfile="${config.dir}/schematron/dre0.xsl"/>
-        <schematron-compile infile="src/main/schematron/dvz0.sch" outfile="${config.dir}/schematron/dvz0.xsl"/>
-        <schematron-compile infile="src/main/schematron/report.sch" outfile="${config.dir}/schematron/report.xsl"/>
+        <parallel>
+            <copy todir="${config.dir}">
+                <fileset dir="src/main/resources"/>
+                <file file="LICENSE"/>
+            </copy>
+            <xslt basedir="src/main/schematron" classpath="${lib.dir}/Saxon-HE-10.2.jar"
+                  destdir="${config.dir}/schematron" extension=".xsl"
+                  style="${lib.dir}/schxslt/2.0/pipeline-for-svrl.xsl"/>
+        </parallel>
     </target>
 
     <target name="clean">
         <delete dir="${build.dir}"/>
     </target>
 
-    <target name="real-clean" depends="clean">
+    <target name="dist-clean" depends="clean">
         <delete dir="${lib.dir}"/>
     </target>
 </project>
