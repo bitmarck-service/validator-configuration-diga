@@ -79,6 +79,7 @@
             <copy todir="${config.dir}">
                 <fileset dir="src/main/resources"/>
                 <file file="LICENSE"/>
+                <file file="README.md"/>
             </copy>
             <xslt basedir="src/main/schematron" classpath="${lib.dir}/Saxon-HE-10.2.jar"
                   destdir="${config.dir}/schematron" extension=".xsl"
