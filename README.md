@@ -36,7 +36,7 @@ Das Ergebnis befindet sich dann in `build/config`.
 Die folgenden Beispiele gehen von einer selbstgebauten Konfiguration aus (siehe oben).
 Falls sie eine fertige Konfiguration heruntergeladen haben, müssen sie selbst die externen Abhängigkeiten bereitstellen
 und alle Pfadangaben entsprechend ändern.
-  
+
 ### Anfragen zum Einlösen des Freischaltcodes
 
 ```bash
