@@ -15,7 +15,7 @@ jobs:
       - run: ant -noinput
       - uses: actions/upload-artifact@v2
         with:
-          name: config.zip
+          name: config # don't add .zip extension!
           path: build/config.zip
 name: XSLT CI
 on:
