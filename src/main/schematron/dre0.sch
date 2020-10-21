@@ -52,9 +52,9 @@
         </rule>
         <rule context="ram:ApplicableHeaderTradeAgreement">
             <assert id="DRE0-AHTA-1" test="matches(normalize-space(ram:SellerTradeParty/ram:ID[@schemeID = 'IK']), '\d{9}')"
-            >Eine DiGA-Rechnung muß das Institutionskennzeichen eines DiGA-Herstellers mit exakt neun Stellen enthalten.</assert>
+            >Eine DiGA-Rechnung muß das Institutionskennzeichen (IK) eines DiGA-Herstellers mit exakt neun Stellen enthalten.</assert>
             <assert id="DRE0-AHTA-2" test="matches(normalize-space(ram:BuyerTradeParty/ram:ID[@schemeID = 'IK']), '\d{9}')"
-            >Eine DiGA-Rechnung muß das Institutionskennzeichen einer Krankenkasse mit exakt neun Stellen enthalten.</assert>
+            >Eine DiGA-Rechnung muß das Institutionskennzeichen (IK) einer Krankenkasse mit exakt neun Stellen enthalten.</assert>
         </rule>
         <rule context="ram:ApplicableHeaderTradeSettlement">
             <assert id="DRE0-AHTS-1" test="not(ram:TaxCurrencyCode) or normalize-space(ram:TaxCurrencyCode) = 'EUR'"
