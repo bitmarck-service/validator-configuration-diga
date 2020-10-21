@@ -85,6 +85,9 @@
                   destdir="${config.dir}/schematron" extension=".xsl"
                   style="${lib.dir}/schxslt/2.0/pipeline-for-svrl.xsl"/>
         </parallel>
+        <zip destfile="${config.dir}.zip" encoding="US-ASCII" filesonly="true">
+            <zipfileset dir="${config.dir}" prefix="config"/>
+        </zip>
     </target>
 
     <target name="clean">
