@@ -12,7 +12,6 @@
 
 ### TODO:
 
-+ Dokumentation mit Beispielen.
 + Automatische Tests. 
 
 ## Anforderungen
@@ -20,12 +19,13 @@
 + Java Runtime Environment, Version 1.8 oder später. 
 + Optional: [Apache Ant](https://ant.apache.org), Version 1.10.9 oder später.
 
-## Optional: Bauen der Konfiguration
+## Empfohlen: Bauen der Konfiguration
 
 Fertige Konfigurationen können von der GitHub action
 [XSLT CI](https://github.com/bitmarck-service/validator-configuration-diga/actions?query=workflow%3A%22XSLT+CI%22)
 bezogen werden.
-Zum Selber-Bauen des aktuellen Commits:
+Zum Selber-Bauen des aktuellen Commits benötigen sie Apache Ant.
+Die Konfiguration können sie mit dem folgenden Befehl bauen:
 
     $ ant
 
@@ -33,8 +33,9 @@ Das Ergebnis befindet sich dann in `build/config`.
 
 ## Beispiele
 
-Die folgenden Beispiele gehen von einer selbstgebauten Konfiguration aus.
-Falls sie eine fertige Konfiguration heruntergeladen haben, müssen sie die Pfadangaben entsprechend ändern.
+Die folgenden Beispiele gehen von einer selbstgebauten Konfiguration aus (siehe oben).
+Falls sie eine fertige Konfiguration heruntergeladen haben, müssen sie selbst die externen Abhängigkeiten bereitstellen
+und alle Pfadangaben entsprechend ändern.
   
 ### Anfragen zum Einlösen des Freischaltcodes
 
