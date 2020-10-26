@@ -27,35 +27,6 @@
     </description>
 
     <scenario>
-        <name>DiGA Freischaltcode (DFC0), Version 1.0.0</name>
-        <description>
-            <p>TODO</p>
-        </description>
-        <namespace prefix="dfc0">http://www.gkv-datenaustausch.de/XML-Schema/EDFC0_Pruefung/1.0</namespace>
-        <namespace prefix="rep">http://www.xoev.de/de/validator/varl/1</namespace>
-        <match>/dfc0:Pruefung_Freischaltcode[@version="001.000.000"]</match>
-        <validateWithXmlSchema>
-            <resource>
-                <name>XML-Schema für das Einlösen von Freischaltcodes</name>
-                <location>xml-schema/dfc0/EDFC0-Pruefung_1.0.0.xsd</location>
-            </resource>
-        </validateWithXmlSchema>
-        <validateWithSchematron>
-            <resource>
-                <name>Schematron-Regeln für das Einlösen von Freischaltcodes</name>
-                <location>schematron/dfc0.xsl</location>
-            </resource>
-        </validateWithSchematron>
-        <createReport>
-            <resource>
-                <name>Report für das Einlösen von Freischaltcodes</name>
-                <location>report/default.xsl</location>
-            </resource>
-        </createReport>
-        <acceptMatch>/rep:report/rep:assessment[1]/rep:accept[1]</acceptMatch>
-    </scenario>
-
-    <scenario>
         <name>DiGA Freischaltcode (DFC0), Version 2.0.0</name>
         <description>
             <p>TODO</p>

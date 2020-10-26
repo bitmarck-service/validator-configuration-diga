@@ -40,102 +40,84 @@ und alle Pfadangaben entsprechend ändern.
 ### Anfragen zum Einlösen des Freischaltcodes
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dfc0/ANF-*.xml
+$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dfc0/ANF.xml
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
 Loaded "KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
-  * DiGA Freischaltcode (DFC0), Version 1.0.0
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
   * DiGA-Verzeichnis (DVZ0)
 
-Processing of 2 objects started
-Processing of 2 objects completed in 166ms
+Processing of 1 objects started
+Processing of 1 objects completed in 146ms
 Results:
 ----------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/ANF-1.0.0.xml           |       |          |          |                    |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/ANF-2.0.0.xml           |       |          |          |                    |
+|ration-diga/src/test/resources/dfc0/ANF.xml                 |       |          |          |                    |
 ----------------------------------------------------------------------------------------------------------------
-Acceptable:  2  Rejected:  0
+Acceptable:  1  Rejected:  0
 
 
 ##############################
 #   Validation succesful!    #
 ##############################
-$ open build/test/ANF-2.0.0-report.html 
+$ open build/test/ANF-report.html
 ```
 
 Der `open`-Befehl dient zur Anzeige des detaillierten HTML-Prüfberichts.
-In diesem Beispiel werden beide Anfragen akzeptiert.
+In diesem Beispiel wird das XML-Dokument akzeptiert.
 
 ### Antworten zum Einlösen des Freischaltcodes
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dfc0/{ANT,FEH}-*.xml
+$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dfc0/{ANT,FEH}*.xml
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
 Loaded "KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
-  * DiGA Freischaltcode (DFC0), Version 1.0.0
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
   * DiGA-Verzeichnis (DVZ0)
 
-Processing of 14 objects started
-Processing of 14 objects completed in 290ms
+Processing of 7 objects started
+Processing of 7 objects completed in 229ms
 Results:
 ----------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/ANT-1.0.0.xml           |       |          |          |                    |
+|ration-diga/src/test/resources/dfc0/ANT.xml                 |       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/ANT-2.0.0.xml           |       |          |          |                    |
+|ration-diga/src/test/resources/dfc0/FEH-100.xml             |       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-1.0.0-100.xml       |       |          |          |                    |
+|ration-diga/src/test/resources/dfc0/FEH-101.xml             |       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-1.0.0-101.xml       |       |          |          |                    |
+|ration-diga/src/test/resources/dfc0/FEH-102.xml             |       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-1.0.0-102.xml       |       |          |          |                    |
+|ration-diga/src/test/resources/dfc0/FEH-200.xml             |       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-1.0.0-200.xml       |       |          |          |                    |
+|ration-diga/src/test/resources/dfc0/FEH-201.xml             |       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-1.0.0-201.xml       |       |          |          |                    |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-1.0.0-202.xml       |       |          |          |                    |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-2.0.0-100.xml       |       |          |          |                    |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-2.0.0-101.xml       |       |          |          |                    |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-2.0.0-102.xml       |       |          |          |                    |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-2.0.0-200.xml       |       |          |          |                    |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-2.0.0-201.xml       |       |          |          |                    |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dfc0/FEH-2.0.0-202.xml       |       |          |          |                    |
+|ration-diga/src/test/resources/dfc0/FEH-202.xml             |       |          |          |                    |
 ----------------------------------------------------------------------------------------------------------------
-Acceptable:  14  Rejected:  0
+Acceptable:  7  Rejected:  0
 
 
 ##############################
 #   Validation succesful!    #
 ##############################
-$ open build/test/ANT-2.0.0-report.html 
+$ open build/test/ANT-report.html 
 ```
 
 Der `open`-Befehl dient wiederum zur Anzeige des detaillierten HTML-Prüfberichts.
-Auch in diesem Beispiel werden alle Antworten akzeptiert - inklusive der Fehlerinformationen.
+Auch in diesem Beispiel werden alle XML-Dokumente akzeptiert, inklusive der Antwort und der Fehlerinformationen.
 
 ### Einreichen von DiGA-Rechnungen auf Basis von XRechnung 1.2
 
