@@ -26,7 +26,7 @@
         </ram:GuidelineSpecifiedDocumentContextParameter>
     </rsm:ExchangedDocumentContext>
     <rsm:ExchangedDocument>
-        <ram:ID>TEST_BMS_XRECHNUNG_1.2.0_CII_FEHLERFREI_01</ram:ID>
+        <ram:ID>2021-1</ram:ID>
         <ram:TypeCode>380</ram:TypeCode>
         <ram:IssueDateTime>
             <udt:DateTimeString format="102">20200103</udt:DateTimeString>
