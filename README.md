@@ -260,15 +260,15 @@ The following scenarios are available:
 Processing of 2 objects started
 Processing of 2 objects completed in 276ms
 Results:
---------------------------------------------------------------------------------------------------------------------------------------------------------
-|filename                                                    |Schema |Schematron|Acceptance|Error/Description                                           |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                                                            |
-|ration-diga/src/test/resources/dre0/cii/xrechnung-2.0-falsch|       |          |          |                                                            |
-|.xml                                                        |       |          |          |                                                            |
-|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    N     |ACCEPTABLE|[CII-SR-087] - IndividualTradeProductInstance should not be |
-|ration-diga/src/test/resources/dre0/cii/xrechnung-2.0-richti|       |          |          |present                                                     |
-|g.xml                                                       |       |          |          |                                                            |
---------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+|filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
+|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
+|ration-diga/src/test/resources/dre0/cii/xrechnung-2.0-falsch|       |          |          |                    |
+|.xml                                                        |       |          |          |                    |
+|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
+|ration-diga/src/test/resources/dre0/cii/xrechnung-2.0-richti|       |          |          |                    |
+|g.xml                                                       |       |          |          |                    |
+----------------------------------------------------------------------------------------------------------------
 Acceptable:  2  Rejected:  0
 
 

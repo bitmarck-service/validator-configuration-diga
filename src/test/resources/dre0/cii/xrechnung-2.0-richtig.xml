@@ -26,7 +26,7 @@
         </ram:GuidelineSpecifiedDocumentContextParameter>
     </rsm:ExchangedDocumentContext>
     <rsm:ExchangedDocument>
-        <ram:ID>TEST_BMS_XRECHNUNG_1.2.0_CII_FEHLERFREI_01</ram:ID>
+        <ram:ID>2021-1</ram:ID>
         <ram:TypeCode>380</ram:TypeCode>
         <ram:IssueDateTime>
             <udt:DateTimeString format="102">20200103</udt:DateTimeString>
@@ -48,12 +48,14 @@
                 <!-- DiGA-Name: -->
                 <ram:Name>Tinnitus Rex</ram:Name>
                 <ram:Description>Ein Artikel für Testrechnungen.</ram:Description>
+<!--
                 <ram:IndividualTradeProductInstance>
                     <ram:SellByDateTime>
-                        <!-- Tag der Leistungserbringung -->
+                        &lt;!&ndash; Tag der Leistungserbringung &ndash;&gt;
                         <udt:DateTimeString format="102">20200102</udt:DateTimeString>
                     </ram:SellByDateTime>
                 </ram:IndividualTradeProductInstance>
+-->
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
                 <ram:NetPriceProductTradePrice>
@@ -115,14 +117,12 @@
             </ram:BuyerTradeParty>
         </ram:ApplicableHeaderTradeAgreement>
         <ram:ApplicableHeaderTradeDelivery>
-<!--
             <ram:ActualDeliverySupplyChainEvent>
                 <ram:OccurrenceDateTime>
-                    &lt;!&ndash; Tag der Leistungserbringung &ndash;&gt;
+                    <!-- Tag der Leistungserbringung -->
                     <udt:DateTimeString format="102">20200102</udt:DateTimeString>
                 </ram:OccurrenceDateTime>
             </ram:ActualDeliverySupplyChainEvent>
--->
         </ram:ApplicableHeaderTradeDelivery>
         <ram:ApplicableHeaderTradeSettlement>
 <!--            <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>-->
