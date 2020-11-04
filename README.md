@@ -12,7 +12,7 @@
 
 ### TODO:
 
-+ Automatische Tests. 
++ Automatische Tests
 
 ## Anforderungen
 
@@ -24,8 +24,8 @@
 Fertige Konfigurationen können von der GitHub action
 [XSLT CI](https://github.com/bitmarck-service/validator-configuration-diga/actions?query=workflow%3A%22XSLT+CI%22)
 bezogen werden.
-Zum Selber-Bauen des aktuellen Commits benötigen sie Apache Ant.
-Die Konfiguration können sie mit dem folgenden Befehl bauen:
+Zum Selber-Bauen des aktuellen Commits benötigen Sie Apache Ant.
+Die Konfiguration können Sie mit dem folgenden Befehl bauen:
 
     $ ant
 
@@ -34,7 +34,7 @@ Das Ergebnis befindet sich dann in `build/config`.
 ## Beispiele
 
 Die folgenden Beispiele gehen von einer selbstgebauten Konfiguration aus (siehe oben).
-Falls sie eine fertige Konfiguration heruntergeladen haben, müssen sie selbst die externen Abhängigkeiten bereitstellen
+Falls Sie eine fertige Konfiguration heruntergeladen haben, müssen Sie selbst die externen Abhängigkeiten bereitstellen
 und alle Pfadangaben entsprechend ändern.
 
 ### Anfragen zum Einlösen des Freischaltcodes
