@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://www.gkv-datenaustausch.de/XML-Schema/EDRE0_MVZ/3.0.0"
+           xmlns:bas="http://www.gkv-datenaustausch.de/XMLSchema/EDFC0-basis/2.0.0"
+           xmlns:GI4X-basis="GI4X:/xml-schema/GI4X-basis/2.0"
+           targetNamespace="http://www.gkv-datenaustausch.de/XML-Schema/EDRE0_MVZ/3.0.0"
+           elementFormDefault="qualified"
+           version="3.0.0">
+    <xs:import namespace="http://www.gkv-datenaustausch.de/XMLSchema/EDFC0-basis/2.0.0"
+               schemaLocation="EDFC0-basis_2.0.0.xsd"/>
+    <xs:import namespace="GI4X:/xml-schema/GI4X-basis/2.0" schemaLocation="GI4X-basis-2.0.0.xsd"/>
+    <xs:element name="Kostentraeger_Mappingverzeichnis">
+        <xs:annotation>
+            <xs:documentation>Kostenträger Mappingverzeichnis gemaess DiGA RiLi nach §302 SGB V, TA Anlage 1
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element name="Krankenkasseninformation">
+                    <xs:annotation>
+                        <xs:documentation>Mapping des zweistelligen Codes im Freischaltcode zu den Informationen der
+                            Krankenkasse zum Endpunkt, Abrechnungsart und Kontaktdaten, etc
+                        </xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Kostentraegerkuerzel" type="bas:Base32_2_Stp">
+                                <xs:annotation>
+                                    <xs:documentation>2-stelliges Kürzel der Krankenkasse gemäß DiGA RiLi, TA Anlage 1 -
+                                        "Schlüssel
+                                        Kostentraegerkuerzel
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="IK_Krankenkasse" type="GI4X-basis:IK_Stp">
+                                <xs:annotation>
+                                    <xs:documentation>Rechnungsempfaenger gemäß UStG</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Name_Krankenkasse" type="bas:Name_Stp">
+                                <xs:annotation>
+                                    <xs:documentation>Name der Krankenkasse</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="IK_Kommunikationsstelle" type="GI4X-basis:IK_Stp">
+                                <xs:annotation>
+                                    <xs:documentation>(Technische) Abrechnungsstelle die im Auftrag für den
+                                        Rechnungsempfänger tätig
+                                        ist
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Name_Kommunikationsstelle" type="bas:Name_Stp" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Name der Kommunikationsstelle</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Endpunkt_Kommunikationsstelle" type="bas:Endpunkt_KS_Stp">
+                                <xs:annotation>
+                                    <xs:documentation>Endpunkt der Kommunikationsstelle</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Versandart" type="bas:Numerische_Werteliste_1stellig_Stp">
+                                <xs:annotation>
+                                    <xs:documentation>Für eine Übergangszeit soll es auch ermöglicht werden, dass
+                                        Abrechnungen
+                                        alternativ postalisch oder E-Mail basiert zu versenden sind. Für die Abrechnung
+                                        gilt die in der
+                                        Versandart hinterlegte Option. Für den Freischaltcode ist immer die
+                                        elektronische Schnittstelle
+                                        zu verwenden. Mittelfristig wird die Abrechnung vollständig auf die
+                                        elektronische Schnittstelle
+                                        umgestellt.
+                                        1 = elektronisch via Schnittstelle (siehe Zeile 10-12)
+                                        2 = elektronisch via eMail
+                                        3 = postalisch
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="EMail_Krankenkasse" type="bas:EmailAdresse_Stp" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>EMail Adresse des Kostenträgers zum Versand der Rechnung. Dieses
+                                        Feld MUSS belegt
+                                        werden, wenn Versandart= 2 (bedingtes Mussfeld)
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Postalische_Zusaetze" type="bas:Postalische_Zusaetze_Stp" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Postalische Zusätze bzw. nähere Empfängerbezeichnungen (Abteilung,
+                                        etc.) des
+                                        Kostenträgers bei postalischem Versand
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Strasse_Postfach" type="bas:Strasse_Stp" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Strasse resp Postfach des Kostenträgers bei postalischem Versand.
+                                        Dieses Feld MUSS
+                                        belegt werden, wenn Versandart= 3 (bedingtes Mussfeld)
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Hausnummer_Postfachnummer" type="GI4X-basis:Hausnummer_Stp" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Haus- resp Postfachnummer des Kostenträgers bei postalischem
+                                        Versand. Dieses Feld
+                                        MUSS belegt werden, wenn Versandart= 3 (bedingtes Mussfeld)
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="PLZ" type="GI4X-basis:Postleitzahl_DE_Stp" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>PLZ des Kostenträgers bei postalischem Versand. Dieses Feld MUSS
+                                        belegt werden,
+                                        wenn Versandart= 3 (bedingtes Mussfeld)
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Ort" type="bas:Ort_Stp" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Ort des Kostenträgers bei postalischem Versand. Dieses Feld MUSS
+                                        belegt werden,
+                                        wenn Versandart= 3 (bedingtes Mussfeld)
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Kontaktdaten_Technisch_Telefon" type="bas:Rufnummer_Stp">
+                                <xs:annotation>
+                                    <xs:documentation>Telefon des technischen/betrieblichen Kontakts</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Kontaktdaten_Technisch_EMail" type="bas:EmailAdresse_Stp">
+                                <xs:annotation>
+                                    <xs:documentation>EMail des technischen/betrieblichen Kontakts</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Nummer" type="xs:ID" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="version" type="bas:Version_Stp" fixed="002.000.000">
+                <xs:annotation>
+                    <xs:documentation>Gibt die Version an</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="gueltigab" type="GI4X-basis:Datum_Stp" fixed="2020-07-01">
+                <xs:annotation>
+                    <xs:documentation>Gibt das Datum an, ab wann die Version gültig ist</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
