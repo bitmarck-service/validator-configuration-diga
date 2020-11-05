@@ -1,6 +1,9 @@
 [![XSLT CI](https://github.com/bitmarck-service/validator-configuration-diga/workflows/XSLT%20CI/badge.svg)](https://github.com/bitmarck-service/validator-configuration-diga/actions?query=workflow%3A%22XSLT+CI%22)
 
-# KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren
+# DiGA-Konfiguration für den KoSIT Validator
+
+Dieses Repository beinhaltet eine Konfiguration für den [KoSIT Validator](https://github.com/itplr-kosit/validator), die
+für die Validierung aller Nachrichten geeignet ist die im Rahmen des DiGA-Fachverfahren ausgetauscht werden.
 
 ## Leistungsmerkmale
 
@@ -12,7 +15,7 @@
 
 ### TODO:
 
-+ Automatische Tests. 
++ Automatische Tests
 
 ## Anforderungen
 
@@ -24,8 +27,8 @@
 Fertige Konfigurationen können von der GitHub action
 [XSLT CI](https://github.com/bitmarck-service/validator-configuration-diga/actions?query=workflow%3A%22XSLT+CI%22)
 bezogen werden.
-Zum Selber-Bauen des aktuellen Commits benötigen sie Apache Ant.
-Die Konfiguration können sie mit dem folgenden Befehl bauen:
+Zum Selber-Bauen des aktuellen Commits benötigen Sie Apache Ant.
+Die Konfiguration können Sie mit dem folgenden Befehl bauen:
 
     $ ant
 
@@ -34,7 +37,7 @@ Das Ergebnis befindet sich dann in `build/config`.
 ## Beispiele
 
 Die folgenden Beispiele gehen von einer selbstgebauten Konfiguration aus (siehe oben).
-Falls sie eine fertige Konfiguration heruntergeladen haben, müssen sie selbst die externen Abhängigkeiten bereitstellen
+Falls Sie eine fertige Konfiguration heruntergeladen haben, müssen Sie selbst die externen Abhängigkeiten bereitstellen
 und alle Pfadangaben entsprechend ändern.
 
 ### Anfragen zum Einlösen des Freischaltcodes
@@ -44,7 +47,7 @@ $ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
-Loaded "KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren" by BITMARCK Service GmbH from 2020-09-15 
+Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
@@ -79,7 +82,7 @@ $ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
-Loaded "KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren" by BITMARCK Service GmbH from 2020-09-15 
+Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
@@ -167,7 +170,7 @@ $ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
-Loaded "KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren" by BITMARCK Service GmbH from 2020-09-15 
+Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 1.0.0
@@ -209,7 +212,7 @@ $ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
-Loaded "KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren" by BITMARCK Service GmbH from 2020-09-15 
+Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 1.0.0
@@ -289,7 +292,7 @@ $ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
-Loaded "KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren" by BITMARCK Service GmbH from 2020-09-15 
+Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 1.0.0
@@ -331,7 +334,7 @@ $ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
-Loaded "KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren" by BITMARCK Service GmbH from 2020-09-15 
+Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 1.0.0
@@ -367,7 +370,7 @@ $ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
-Loaded "KOSIT-Validator-Konfiguration für das DiGA-Fachverfahren" by BITMARCK Service GmbH from 2020-09-15 
+Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 1.0.0
