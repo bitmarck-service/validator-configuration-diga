@@ -1,12 +1,14 @@
-<xsl:stylesheet xmlns:bas="http://www.gkv-datenaustausch.de/XMLSchema/EDFC0-basis/1.0"
+<xsl:stylesheet exclude-result-prefixes="bas mvz"
+                xmlns:bas="http://www.gkv-datenaustausch.de/XMLSchema/EDFC0-basis/1.0"
                 xmlns:mvz="http://www.gkv-datenaustausch.de/XML-Schema/EDRE0_MVZ/1.0"
                 xmlns="https://xml.diga-ready.de/xsd/kvz0/v1"
-                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="2.0">
+    <xsl:strip-space elements="*"/>
+    <xsl:output indent="yes"/>
     <xsl:template match="mvz:Kostentraeger_Mappingverzeichnis">
-        <Krankenkasseninformationen>
-            <xsl:apply-templates select="@* | node()"/>
+        <Krankenkasseninformationen version="1.0.0" gueltigab="2020-11-11">
+            <xsl:apply-templates select="node()"/>
         </Krankenkasseninformationen>
     </xsl:template>
     <xsl:template match="bas:Kostentraegerkuerzel">
@@ -40,13 +42,6 @@
             <xsl:apply-templates select="@* | node()"/>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="@gueltigab">
-        <xsl:attribute name="{local-name()}">2020-11-11</xsl:attribute>
-    </xsl:template>
-    <xsl:template match="@version">
-        <xsl:attribute name="{local-name()}">1.0.0</xsl:attribute>
-    </xsl:template>
-    <xsl:template match="@xsi:schemaLocation"/>
     <xsl:template match="@*">
         <xsl:attribute name="{local-name()}">
             <xsl:value-of select="."/>

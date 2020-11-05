@@ -1,1295 +1,1193 @@
-<?xml version="1.0" encoding="UTF-8"?><Krankenkasseninformationen xmlns="https://xml.diga-ready.de/xsd/kvz0/v1" xmlns:bas="http://www.gkv-datenaustausch.de/XMLSchema/EDFC0-basis/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvz="http://www.gkv-datenaustausch.de/XML-Schema/EDRE0_MVZ/1.0" version="1.0.0" gueltigab="2020-11-11">
-		<Krankenkasseninformation Nummer="ID1">
-				<Krankenkassenkuerzel>CH</Krankenkassenkuerzel>
-				<IK_Krankenkasse>109034270</IK_Krankenkasse>
-				<Name_Krankenkasse>BMW BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID2">
-				<Krankenkassenkuerzel>DH</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108433248</IK_Krankenkasse>
-				<Name_Krankenkasse>Siemens-Betriebskrankenkasse (SBK)</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID3">
-				<Krankenkassenkuerzel>A4</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104125509</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK EUREGIO</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID4">
-				<Krankenkassenkuerzel>C4</Krankenkassenkuerzel>
-				<IK_Krankenkasse>109905003</IK_Krankenkasse>
-				<Name_Krankenkasse>KNAPPSCHAFT</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>109905003</IK_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.apimisc.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Postalische_Zusaetze>KNAPPSCHAFT</Postalische_Zusaetze>
-				<Strasse_Postfach>Hollestr.</Strasse_Postfach>
-				<Hausnummer_Postfachnummer>7b-c</Hausnummer_Postfachnummer>
-				<PLZ>45127</PLZ>
-				<Ort>Essen</Ort>
-				<Kontaktdaten_Technisch_Telefon>023430411120</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>kooperation@kbs.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID5">
-				<Krankenkassenkuerzel>CD</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108036577</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Würth</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID6">
-				<Krankenkassenkuerzel>AV</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103501080</IK_Krankenkasse>
-				<Name_Krankenkasse>BIG direkt gesund</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID7">
-				<Krankenkassenkuerzel>B2</Krankenkassenkuerzel>
-				<IK_Krankenkasse>109132678</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK STADT AUGSBURG</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID8">
-				<Krankenkassenkuerzel>BN</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103725364</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Miele</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID9">
-				<Krankenkassenkuerzel>CC</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105734543</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Wirtschaft &amp; Finanzen</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID10">
-				<Krankenkassenkuerzel>BS</Krankenkassenkuerzel>
-				<IK_Krankenkasse>106431652</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Pfalz</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID11">
-				<Krankenkassenkuerzel>C2</Krankenkassenkuerzel>
-				<IK_Krankenkasse>109303301</IK_Krankenkasse>
-				<Name_Krankenkasse>IKK Südwest</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID12">
-				<Krankenkassenkuerzel>AT</Krankenkassenkuerzel>
-				<IK_Krankenkasse>101520078</IK_Krankenkasse>
-				<Name_Krankenkasse>Betriebskrankenkasse Mobil Oil</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>661430046</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>Mobil ISC GmbH</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.apimisc.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>2</Versandart>
-				<EMail_Krankenkasse>diga@davaso.de</EMail_Krankenkasse>
-				<Kontaktdaten_Technisch_Telefon>0341 25920-0</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>da302@davaso.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID13">
-				<Krankenkassenkuerzel>DK</Krankenkassenkuerzel>
-				<IK_Krankenkasse>109908701</IK_Krankenkasse>
-				<Name_Krankenkasse>Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID14">
-				<Krankenkassenkuerzel>C7</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105230076</IK_Krankenkasse>
-				<Name_Krankenkasse>Merck BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID15">
-				<Krankenkassenkuerzel>DD</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105823040</IK_Krankenkasse>
-				<Name_Krankenkasse>R+V Betriebskrankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK </Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID16">
-				<Krankenkassenkuerzel>CY</Krankenkassenkuerzel>
-				<IK_Krankenkasse>101202961</IK_Krankenkasse>
-				<Name_Krankenkasse>IKK gesund plus</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID17">
-				<Krankenkassenkuerzel>BT</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108591499</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK ProVita</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>080024862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID18">
-				<Krankenkassenkuerzel>AZ</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104626903</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK BPW Bergische Achsen KG</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID19">
-				<Krankenkassenkuerzel>CE</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107829563</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK ZF &amp; Partner</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID20">
-				<Krankenkassenkuerzel>DP</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107836243</IK_Krankenkasse>
-				<Name_Krankenkasse>Wieland BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID21">
-				<Krankenkassenkuerzel>CN</Krankenkassenkuerzel>
-				<IK_Krankenkasse>106329225</IK_Krankenkasse>
-				<Name_Krankenkasse>Debeka BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID22">
-				<Krankenkassenkuerzel>BG</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103725547</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Herford Minden Ravensberg</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID23">
-				<Krankenkassenkuerzel>B6</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107832012</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Verbund­Plus</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID24">
-				<Krankenkassenkuerzel>BM</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103726081</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Melitta Plus</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID25">
-				<Krankenkassenkuerzel>CL</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108030775</IK_Krankenkasse>
-				<Name_Krankenkasse>Daimler Betriebskrankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID26">
-				<Krankenkassenkuerzel>DG</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103525567</IK_Krankenkasse>
-				<Name_Krankenkasse>SIEMAG BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID27">
-				<Krankenkassenkuerzel>B5</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103526615</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK VDN</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID28">
-				<Krankenkassenkuerzel>CO</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104926702</IK_Krankenkasse>
-				<Name_Krankenkasse>DIE BERGISCHE KRANKENKASSE</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID29">
-				<Krankenkassenkuerzel>DL</Krankenkassenkuerzel>
-				<IK_Krankenkasse>106936311</IK_Krankenkasse>
-				<Name_Krankenkasse>Südzucker BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID30">
-				<Krankenkassenkuerzel>AY</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105530444</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK B. Braun Aesculap</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID31">
-				<Krankenkassenkuerzel>DF</Krankenkassenkuerzel>
-				<IK_Krankenkasse>101320032</IK_Krankenkasse>
-				<Name_Krankenkasse>SECUR­VITA BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID32">
-				<Krankenkassenkuerzel>DO</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104526376</IK_Krankenkasse>
-				<Name_Krankenkasse>VIACTIV Krankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>661430046</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>Mobil ISC GmbH</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.apimisc.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>2</Versandart>
-				<EMail_Krankenkasse>diga@davaso.de</EMail_Krankenkasse>
-				<Kontaktdaten_Technisch_Telefon>0341 25920-0</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>da302@davaso.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID33">
-				<Krankenkassenkuerzel>AU</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105723301</IK_Krankenkasse>
-				<Name_Krankenkasse>Betriebskrankenkasse Pricewaterhouse­Coopers</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>Diga-Bitmarck</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID34">
-				<Krankenkassenkuerzel>CP</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107536262</IK_Krankenkasse>
-				<Name_Krankenkasse>Die Schwenninger Betriebskrankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID35">
-				<Krankenkassenkuerzel>DR</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108036441</IK_Krankenkasse>
-				<Name_Krankenkasse>WMF Betriebskrankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID36">
-				<Krankenkassenkuerzel>BA</Krankenkassenkuerzel>
-				<IK_Krankenkasse>109033393</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Faber-Castell &amp; Partner</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>080024862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID37">
-				<Krankenkassenkuerzel>DB</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104491707</IK_Krankenkasse>
-				<Name_Krankenkasse>Novitas BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID38">
-				<Krankenkassenkuerzel>AO</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108534160</IK_Krankenkasse>
-				<Name_Krankenkasse>Audi BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID39">
-				<Krankenkassenkuerzel>A7</Krankenkassenkuerzel>
-				<IK_Krankenkasse>102122557</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK exklusiv</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de </Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>080024862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID40">
-				<Krankenkassenkuerzel>CG</Krankenkassenkuerzel>
-				<IK_Krankenkasse>102122660</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK24</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK </Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID41">
-				<Krankenkassenkuerzel>BR</Krankenkassenkuerzel>
-				<IK_Krankenkasse>106431572</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK PFAFF</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID42">
-				<Krankenkassenkuerzel>DA</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108035612</IK_Krankenkasse>
-				<Name_Krankenkasse>mhplus Betriebskrankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID43">
-				<Krankenkassenkuerzel>BP</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107835333</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK MTU</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID44">
-				<Krankenkassenkuerzel>DC</Krankenkassenkuerzel>
-				<IK_Krankenkasse>106492393</IK_Krankenkasse>
-				<Name_Krankenkasse>pronova BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>Bitmarck Service GmbH, Essen</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID45">
-				<Krankenkassenkuerzel>CS</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105732324</IK_Krankenkasse>
-				<Name_Krankenkasse>Ernst &amp; Young BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>Bitmarck</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID46">
-				<Krankenkassenkuerzel>CM</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105830016</IK_Krankenkasse>
-				<Name_Krankenkasse>DAK-Gesundheit</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID47">
-				<Krankenkassenkuerzel>CK</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103523440</IK_Krankenkasse>
-				<Name_Krankenkasse>Continentale Betriebskrankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK </Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID48">
-				<Krankenkassenkuerzel>BV</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107532042</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Rieker.RICOSTA.Weisser</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>080024862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID49">
-				<Krankenkassenkuerzel>AA</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104127692</IK_Krankenkasse>
-				<Name_Krankenkasse>actimonda BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID50">
-				<Krankenkassenkuerzel>C5</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108833674</IK_Krankenkasse>
-				<Name_Krankenkasse>Koenig &amp; Bauer BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID51">
-				<Krankenkassenkuerzel>CV</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103170002</IK_Krankenkasse>
-				<Name_Krankenkasse>hkk</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID52">
-				<Krankenkassenkuerzel>C3</Krankenkassenkuerzel>
-				<IK_Krankenkasse>102171012</IK_Krankenkasse>
-				<Name_Krankenkasse>Kaufmännische Krankenkasse - KKH</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>107436557</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>KKH </Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>https://diga.kkh.de/diga/</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Postalische_Zusaetze>KKH – Kaufmännische Krankenkasse c/o Abrechnungszentrum Emmendingen</Postalische_Zusaetze>
-				<Strasse_Postfach>An der B 3 Haus</Strasse_Postfach>
-				<Hausnummer_Postfachnummer>Nr. 6</Hausnummer_Postfachnummer>
-				<PLZ>79312</PLZ>
-				<Ort>Emmendingen</Ort>
-				<Kontaktdaten_Technisch_Telefon>0511 2802 4444</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>diga-technik@kkh.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID53">
-				<Krankenkassenkuerzel>A6</Krankenkassenkuerzel>
-				<IK_Krankenkasse>102429648</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK EWE</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID54">
-				<Krankenkassenkuerzel>CZ</Krankenkassenkuerzel>
-				<IK_Krankenkasse>101300129</IK_Krankenkasse>
-				<Name_Krankenkasse>IKK Nord</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-Bitmarck</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID55">
-				<Krankenkassenkuerzel>AN</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103121013</IK_Krankenkasse>
-				<Name_Krankenkasse>atlas BKK ahlmann</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-Bitmarck</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID56">
-				<Krankenkassenkuerzel>BL</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108036145</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK MAHLE</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID57">
-				<Krankenkassenkuerzel>C6</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108934142</IK_Krankenkasse>
-				<Name_Krankenkasse>Krones BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID58">
-				<Krankenkassenkuerzel>CU</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103724238</IK_Krankenkasse>
-				<Name_Krankenkasse>Heimat Krankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID59">
-				<Krankenkassenkuerzel>BD</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103724272</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK GILDEMEISTER SEIDENSTICKER</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID60">
-				<Krankenkassenkuerzel>BX</Krankenkassenkuerzel>
-				<IK_Krankenkasse>101922757</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Salz­gitter</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Strasse_Postfach>Thiestr. </Strasse_Postfach>
-				<Hausnummer_Postfachnummer>15</Hausnummer_Postfachnummer>
-				<PLZ>38226</PLZ>
-				<Ort>Salzgitter</Ort>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID61">
-				<Krankenkassenkuerzel>BU</Krankenkassenkuerzel>
-				<IK_Krankenkasse>101931440</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Public</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Strasse_Postfach>Thiestr.</Strasse_Postfach>
-				<Hausnummer_Postfachnummer>15</Hausnummer_Postfachnummer>
-				<PLZ>38226</PLZ>
-				<Ort>Salzgitter</Ort>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID62">
-				<Krankenkassenkuerzel>DN</Krankenkassenkuerzel>
-				<IK_Krankenkasse>102137985</IK_Krankenkasse>
-				<Name_Krankenkasse>TUI BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Strasse_Postfach>Thiestr.</Strasse_Postfach>
-				<Hausnummer_Postfachnummer>15</Hausnummer_Postfachnummer>
-				<PLZ>38226</PLZ>
-				<Ort>Salzgitter</Ort>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID63">
-				<Krankenkassenkuerzel>DI</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108833505</IK_Krankenkasse>
-				<Name_Krankenkasse>SKD BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID64">
-				<Krankenkassenkuerzel>BC</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107036370</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Freudenberg</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID65">
-				<Krankenkassenkuerzel>AX</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108833355</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Akzo Nobel Bayern</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-26862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID66">
-				<Krankenkassenkuerzel>CB</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105530126</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Werra-Meissner</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID67">
-				<Krankenkassenkuerzel>AR</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104940005</IK_Krankenkasse>
-				<Name_Krankenkasse>BARMER</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>104940005</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>GKV Informatik</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>2</Versandart>
-				<EMail_Krankenkasse>arzstuttgart-arzneimittel@barmer.de</EMail_Krankenkasse>
-				<Kontaktdaten_Technisch_Telefon>0800333004995195</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>thomas.silbernagel@barmer.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID68">
-				<Krankenkassenkuerzel>AP</Krankenkassenkuerzel>
-				<IK_Krankenkasse>109938503</IK_Krankenkasse>
-				<Name_Krankenkasse>BAHN-BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID69">
-				<Krankenkassenkuerzel>B7</Krankenkassenkuerzel>
-				<IK_Krankenkasse>109723913</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Verkehrsbau Union (BKK VBU)</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID70">
-				<Krankenkassenkuerzel>CX</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107202793</IK_Krankenkasse>
-				<Name_Krankenkasse>IKK classic</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID71">
-				<Krankenkassenkuerzel>CT</Krankenkassenkuerzel>
-				<IK_Krankenkasse>101570104</IK_Krankenkasse>
-				<Name_Krankenkasse>Hanseatische Krankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>661430035</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>2</Versandart>
-				<EMail_Krankenkasse>diga@davaso.de</EMail_Krankenkasse>
-				<Kontaktdaten_Technisch_Telefon>0341 25920-0</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>da302@davaso.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID72">
-				<Krankenkassenkuerzel>AS</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103725342</IK_Krankenkasse>
-				<Name_Krankenkasse>Bertelsmann BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID73">
-				<Krankenkassenkuerzel>AK</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104212505</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK Rheinland/?Hamburg - Die Gesundheitskasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>104212505</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Strasse_Postfach>Mündelheimer Weg </Strasse_Postfach>
-				<Hausnummer_Postfachnummer>39</Hausnummer_Postfachnummer>
-				<PLZ>40472</PLZ>
-				<Ort>Düsseldorf </Ort>
-				<Kontaktdaten_Technisch_Telefon>+49 202 6958-1887</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>anna.hartwig@gkvi.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID74">
-				<Krankenkassenkuerzel>BB</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103121137</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK firmus</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID75">
-				<Krankenkassenkuerzel>BK</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105830517</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Linde</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID76">
-				<Krankenkassenkuerzel>A3</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103724294</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Diakonie</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID77">
-				<Krankenkassenkuerzel>BH</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105530331</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Herkules</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID78">
-				<Krankenkassenkuerzel>DE</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105330168</IK_Krankenkasse>
-				<Name_Krankenkasse>Salus BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID79">
-				<Krankenkassenkuerzel>CW</Krankenkassenkuerzel>
-				<IK_Krankenkasse>100602360</IK_Krankenkasse>
-				<Name_Krankenkasse>IKK Brandenburg und Berlin</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID80">
-				<Krankenkassenkuerzel>B4</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108632900</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Textilgruppe Hof</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID81">
-				<Krankenkassenkuerzel>AH</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103411401</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK Nord­West - Die Gesundheitskasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>103411401</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Postalische_Zusaetze>AOK NordWest</Postalische_Zusaetze>
-				<Strasse_Postfach>Kopenhagener Str. </Strasse_Postfach>
-				<Hausnummer_Postfachnummer>1</Hausnummer_Postfachnummer>
-				<PLZ>44269</PLZ>
-				<Ort>Dortmund</Ort>
-				<Kontaktdaten_Technisch_Telefon>0800 2655-500316</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>evelyn.herden@nw.aok.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID82">
-				<Krankenkassenkuerzel>DM</Krankenkassenkuerzel>
-				<IK_Krankenkasse>101575519</IK_Krankenkasse>
-				<Name_Krankenkasse>Techniker Krankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>101576714</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>TK-Schnittstelle DiGA</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>https://diga-api.tk.de//diga/api/public/rest/diga</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Postalische_Zusaetze>Techniker Krankenkasse ARZ</Postalische_Zusaetze>
-				<Strasse_Postfach>Ruhrorter Str. </Strasse_Postfach>
-				<Hausnummer_Postfachnummer>187</Hausnummer_Postfachnummer>
-				<PLZ>47119</PLZ>
-				<Ort>Duisburg</Ort>
-				<Kontaktdaten_Technisch_Telefon>040/4606621092</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>abrechnung@tk.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID83">
-				<Krankenkassenkuerzel>CR</Krankenkassenkuerzel>
-				<IK_Krankenkasse>102129930</IK_Krankenkasse>
-				<Name_Krankenkasse>energie-Betriebskrankenkasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID84">
-				<Krankenkassenkuerzel>BW</Krankenkassenkuerzel>
-				<IK_Krankenkasse>102131240</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK RWE</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID85">
-				<Krankenkassenkuerzel>CI</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108036123</IK_Krankenkasse>
-				<Name_Krankenkasse>Bosch BKK</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK </Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID86">
-				<Krankenkassenkuerzel>BZ</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107531187</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Schwarzwald-Baar-Heuberg</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID87">
-				<Krankenkassenkuerzel>B3</Krankenkassenkuerzel>
-				<IK_Krankenkasse>102031410</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Technoform</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID88">
-				<Krankenkassenkuerzel>BF</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107835071</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Groz-Beckert</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID89">
-				<Krankenkassenkuerzel>CF</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103724249</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK_Dürkopp Adler</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID90">
-				<Krankenkassenkuerzel>AL</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107310373</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK Rheinland-Pfalz/?Saarland-Die Gesundheitskasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>107310373</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800 256 33 44</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID91">
-				<Krankenkassenkuerzel>AI</Krankenkassenkuerzel>
-				<IK_Krankenkasse>107299005</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>107299005</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>kubus IT GbR</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>kubus-it.da-api.aok.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Postalische_Zusaetze>Bereich Kostenmanagement Heilmittel</Postalische_Zusaetze>
-				<Strasse_Postfach>Stollberger Str.</Strasse_Postfach>
-				<Hausnummer_Postfachnummer>73</Hausnummer_Postfachnummer>
-				<PLZ>09119</PLZ>
-				<Ort>Chemnitz</Ort>
-				<Kontaktdaten_Technisch_Telefon>0800 2653662</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>KUB-M-BIT-EPS-OCS-Leitstand@kubus-it.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID92">
-				<Krankenkassenkuerzel>BE</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104424830</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK GRILLO-WERKE AG</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID93">
-				<Krankenkassenkuerzel>AE</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108310400</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK Bayern - Die Gesundheitskasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>108310400</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>KubusIT</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>kubus-it.da-api.aok.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Postalische_Zusaetze>AOK Bayern</Postalische_Zusaetze>
-				<Strasse_Postfach>Wackersdorfer Str. </Strasse_Postfach>
-				<Hausnummer_Postfachnummer>36a</Hausnummer_Postfachnummer>
-				<PLZ>92421</PLZ>
-				<Ort>Schwandorf</Ort>
-				<Kontaktdaten_Technisch_Telefon>08002653662</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>KUB-M-BIT-EPS-OCS-Leitstand@kubus-it.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID94">
-				<Krankenkassenkuerzel>A2</Krankenkassenkuerzel>
-				<IK_Krankenkasse>104224634</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Deutsche Bank AG</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID95">
-				<Krankenkassenkuerzel>AD</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108018007</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK Baden-Württemberg</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>108018007</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Strasse_Postfach>Postfach</Strasse_Postfach>
-				<Hausnummer_Postfachnummer>102954</Hausnummer_Postfachnummer>
-				<PLZ>70025</PLZ>
-				<Ort>Stuttgart</Ort>
-				<Kontaktdaten_Technisch_Telefon>0800256334</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID96">
-				<Krankenkassenkuerzel>CA</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108031424</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Voralb HELLER*INDEX*LEUZE</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID97">
-				<Krankenkassenkuerzel>AC</Krankenkassenkuerzel>
-				<IK_Krankenkasse>105313145</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK - Die Gesundheitskasse in Hessen</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>105313145</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Postalische_Zusaetze>AOK - Die Gesundheitskasse in Hessen</Postalische_Zusaetze>
-				<Strasse_Postfach>Fallbearbeitung APM</Strasse_Postfach>
-				<Hausnummer_Postfachnummer>Carina Kestner</Hausnummer_Postfachnummer>
-				<PLZ>35387</PLZ>
-				<Ort>Gießen</Ort>
-				<Kontaktdaten_Technisch_Telefon>08002563344</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID98">
-				<Krankenkassenkuerzel>BY</Krankenkassenkuerzel>
-				<IK_Krankenkasse>108035576</IK_Krankenkasse>
-				<Name_Krankenkasse>BKK Scheufelen</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID99">
-				<Krankenkassenkuerzel>AG</Krankenkassenkuerzel>
-				<IK_Krankenkasse>109519005</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK Nordost - Die Gesundheitskasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>109519005</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>1</Versandart>
-				<Kontaktdaten_Technisch_Telefon>0800 265080 22555</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>Nico.Goeldner@nordost.aok.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID100">
-				<Krankenkassenkuerzel>AB</Krankenkassenkuerzel>
-				<IK_Krankenkasse>102114819</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK - Die Gesundheitskasse für Niedersachsen</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>102114819</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Postalische_Zusaetze>AOK- Die Gesundheitskasse für Niedersachsen GB Abrechnung &amp; operative Umsetzung</Postalische_Zusaetze>
-				<Strasse_Postfach>Hans-Böckler-Allee </Strasse_Postfach>
-				<Hausnummer_Postfachnummer>13</Hausnummer_Postfachnummer>
-				<PLZ>30173</PLZ>
-				<Ort>Hannover</Ort>
-				<Kontaktdaten_Technisch_Telefon>0511 67557 17236</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>ARGE-Firewalladmins@nds.aok.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID101">
-				<Krankenkassenkuerzel>AF</Krankenkassenkuerzel>
-				<IK_Krankenkasse>103119199</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK Bremen / Bremerhaven</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>103119199</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>3</Versandart>
-				<Postalische_Zusaetze>AOK Bremen/Bremerhaven</Postalische_Zusaetze>
-				<Strasse_Postfach>Bgm.-Smidt-Str. </Strasse_Postfach>
-				<Hausnummer_Postfachnummer>95</Hausnummer_Postfachnummer>
-				<PLZ>28195</PLZ>
-				<Ort>Bremen</Ort>
-				<Kontaktdaten_Technisch_Telefon>0511 67557 17236</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>ARGE-Firewalladmins@nds.aok.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
-		<Krankenkasseninformation Nummer="ID102">
-				<Krankenkassenkuerzel>AM</Krankenkassenkuerzel>
-				<IK_Krankenkasse>101097008</IK_Krankenkasse>
-				<Name_Krankenkasse>AOK Sachsen-Anhalt - Die Gesundheitskasse</Name_Krankenkasse>
-				
-				<IK_Kommunikationsstelle>101097008</IK_Kommunikationsstelle>
-				<Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</Name_Kommunikationsstelle>
-				<Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</Endpunkt_Kommunikationsstelle>
-				<Versandart>2</Versandart>
-				<EMail_Krankenkasse>digitale-gesundheitsanwendungen@san.aok.de</EMail_Krankenkasse>
-				<Kontaktdaten_Technisch_Telefon>0511 67557 17236</Kontaktdaten_Technisch_Telefon>
-				<Kontaktdaten_Technisch_EMail>ARGE-Firewalladmins@nds.aok.de</Kontaktdaten_Technisch_EMail>
-		</Krankenkasseninformation>
+<?xml version="1.0" encoding="UTF-8"?><Krankenkasseninformationen xmlns="https://xml.diga-ready.de/xsd/kvz0/v1" version="1.0.0" gueltigab="2020-11-11">
+    <Krankenkasseninformation Nummer="ID1">
+        <Krankenkassenkuerzel>CH</Krankenkassenkuerzel>
+        <IK_Krankenkasse>109034270</IK_Krankenkasse>
+        <Name_Krankenkasse>BMW BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID2">
+        <Krankenkassenkuerzel>DH</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108433248</IK_Krankenkasse>
+        <Name_Krankenkasse>Siemens-Betriebskrankenkasse (SBK)</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID3">
+        <Krankenkassenkuerzel>A4</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104125509</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK EUREGIO</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID4">
+        <Krankenkassenkuerzel>C4</Krankenkassenkuerzel>
+        <IK_Krankenkasse>109905003</IK_Krankenkasse>
+        <Name_Krankenkasse>KNAPPSCHAFT</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>109905003</IK_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.apimisc.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>KNAPPSCHAFT</Postalische_Zusaetze>
+        <Strasse_Postfach>Hollestr.</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>7b-c</Hausnummer_Postfachnummer>
+        <PLZ>45127</PLZ>
+        <Ort>Essen</Ort>
+        <Kontaktdaten_Technisch_Telefon>023430411120</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>kooperation@kbs.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID5">
+        <Krankenkassenkuerzel>CD</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108036577</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Würth</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID6">
+        <Krankenkassenkuerzel>AV</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103501080</IK_Krankenkasse>
+        <Name_Krankenkasse>BIG direkt gesund</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID7">
+        <Krankenkassenkuerzel>B2</Krankenkassenkuerzel>
+        <IK_Krankenkasse>109132678</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK STADT AUGSBURG</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID8">
+        <Krankenkassenkuerzel>BN</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103725364</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Miele</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID9">
+        <Krankenkassenkuerzel>CC</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105734543</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Wirtschaft &amp; Finanzen</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID10">
+        <Krankenkassenkuerzel>BS</Krankenkassenkuerzel>
+        <IK_Krankenkasse>106431652</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Pfalz</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID11">
+        <Krankenkassenkuerzel>C2</Krankenkassenkuerzel>
+        <IK_Krankenkasse>109303301</IK_Krankenkasse>
+        <Name_Krankenkasse>IKK Südwest</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID12">
+        <Krankenkassenkuerzel>AT</Krankenkassenkuerzel>
+        <IK_Krankenkasse>101520078</IK_Krankenkasse>
+        <Name_Krankenkasse>Betriebskrankenkasse Mobil Oil</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>661430046</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>Mobil ISC GmbH</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.apimisc.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>2</Versandart>
+        <EMail_Krankenkasse>diga@davaso.de</EMail_Krankenkasse>
+        <Kontaktdaten_Technisch_Telefon>0341 25920-0</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>da302@davaso.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID13">
+        <Krankenkassenkuerzel>DK</Krankenkassenkuerzel>
+        <IK_Krankenkasse>109908701</IK_Krankenkasse>
+        <Name_Krankenkasse>Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID14">
+        <Krankenkassenkuerzel>C7</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105230076</IK_Krankenkasse>
+        <Name_Krankenkasse>Merck BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID15">
+        <Krankenkassenkuerzel>DD</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105823040</IK_Krankenkasse>
+        <Name_Krankenkasse>R+V Betriebskrankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK </Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID16">
+        <Krankenkassenkuerzel>CY</Krankenkassenkuerzel>
+        <IK_Krankenkasse>101202961</IK_Krankenkasse>
+        <Name_Krankenkasse>IKK gesund plus</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID17">
+        <Krankenkassenkuerzel>BT</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108591499</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK ProVita</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>080024862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID18">
+        <Krankenkassenkuerzel>AZ</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104626903</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK BPW Bergische Achsen KG</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID19">
+        <Krankenkassenkuerzel>CE</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107829563</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK ZF &amp; Partner</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID20">
+        <Krankenkassenkuerzel>DP</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107836243</IK_Krankenkasse>
+        <Name_Krankenkasse>Wieland BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID21">
+        <Krankenkassenkuerzel>CN</Krankenkassenkuerzel>
+        <IK_Krankenkasse>106329225</IK_Krankenkasse>
+        <Name_Krankenkasse>Debeka BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID22">
+        <Krankenkassenkuerzel>BG</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103725547</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Herford Minden Ravensberg</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID23">
+        <Krankenkassenkuerzel>B6</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107832012</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Verbund­Plus</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID24">
+        <Krankenkassenkuerzel>BM</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103726081</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Melitta Plus</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID25">
+        <Krankenkassenkuerzel>CL</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108030775</IK_Krankenkasse>
+        <Name_Krankenkasse>Daimler Betriebskrankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID26">
+        <Krankenkassenkuerzel>DG</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103525567</IK_Krankenkasse>
+        <Name_Krankenkasse>SIEMAG BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID27">
+        <Krankenkassenkuerzel>B5</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103526615</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK VDN</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID28">
+        <Krankenkassenkuerzel>CO</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104926702</IK_Krankenkasse>
+        <Name_Krankenkasse>DIE BERGISCHE KRANKENKASSE</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID29">
+        <Krankenkassenkuerzel>DL</Krankenkassenkuerzel>
+        <IK_Krankenkasse>106936311</IK_Krankenkasse>
+        <Name_Krankenkasse>Südzucker BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID30">
+        <Krankenkassenkuerzel>AY</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105530444</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK B. Braun Aesculap</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID31">
+        <Krankenkassenkuerzel>DF</Krankenkassenkuerzel>
+        <IK_Krankenkasse>101320032</IK_Krankenkasse>
+        <Name_Krankenkasse>SECUR­VITA BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID32">
+        <Krankenkassenkuerzel>DO</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104526376</IK_Krankenkasse>
+        <Name_Krankenkasse>VIACTIV Krankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>661430046</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>Mobil ISC GmbH</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.apimisc.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>2</Versandart>
+        <EMail_Krankenkasse>diga@davaso.de</EMail_Krankenkasse>
+        <Kontaktdaten_Technisch_Telefon>0341 25920-0</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>da302@davaso.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID33">
+        <Krankenkassenkuerzel>AU</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105723301</IK_Krankenkasse>
+        <Name_Krankenkasse>Betriebskrankenkasse Pricewaterhouse­Coopers</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>Diga-Bitmarck</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID34">
+        <Krankenkassenkuerzel>CP</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107536262</IK_Krankenkasse>
+        <Name_Krankenkasse>Die Schwenninger Betriebskrankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID35">
+        <Krankenkassenkuerzel>DR</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108036441</IK_Krankenkasse>
+        <Name_Krankenkasse>WMF Betriebskrankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID36">
+        <Krankenkassenkuerzel>BA</Krankenkassenkuerzel>
+        <IK_Krankenkasse>109033393</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Faber-Castell &amp; Partner</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>080024862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID37">
+        <Krankenkassenkuerzel>DB</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104491707</IK_Krankenkasse>
+        <Name_Krankenkasse>Novitas BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID38">
+        <Krankenkassenkuerzel>AO</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108534160</IK_Krankenkasse>
+        <Name_Krankenkasse>Audi BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID39">
+        <Krankenkassenkuerzel>A7</Krankenkassenkuerzel>
+        <IK_Krankenkasse>102122557</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK exklusiv</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de </Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>080024862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID40">
+        <Krankenkassenkuerzel>CG</Krankenkassenkuerzel>
+        <IK_Krankenkasse>102122660</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK24</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK </Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID41">
+        <Krankenkassenkuerzel>BR</Krankenkassenkuerzel>
+        <IK_Krankenkasse>106431572</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK PFAFF</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID42">
+        <Krankenkassenkuerzel>DA</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108035612</IK_Krankenkasse>
+        <Name_Krankenkasse>mhplus Betriebskrankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID43">
+        <Krankenkassenkuerzel>BP</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107835333</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK MTU</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID44">
+        <Krankenkassenkuerzel>DC</Krankenkassenkuerzel>
+        <IK_Krankenkasse>106492393</IK_Krankenkasse>
+        <Name_Krankenkasse>pronova BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>Bitmarck Service GmbH, Essen</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID45">
+        <Krankenkassenkuerzel>CS</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105732324</IK_Krankenkasse>
+        <Name_Krankenkasse>Ernst &amp; Young BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>Bitmarck</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID46">
+        <Krankenkassenkuerzel>CM</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105830016</IK_Krankenkasse>
+        <Name_Krankenkasse>DAK-Gesundheit</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID47">
+        <Krankenkassenkuerzel>CK</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103523440</IK_Krankenkasse>
+        <Name_Krankenkasse>Continentale Betriebskrankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK </Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID48">
+        <Krankenkassenkuerzel>BV</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107532042</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Rieker.RICOSTA.Weisser</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>080024862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID49">
+        <Krankenkassenkuerzel>AA</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104127692</IK_Krankenkasse>
+        <Name_Krankenkasse>actimonda BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID50">
+        <Krankenkassenkuerzel>C5</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108833674</IK_Krankenkasse>
+        <Name_Krankenkasse>Koenig &amp; Bauer BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID51">
+        <Krankenkassenkuerzel>CV</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103170002</IK_Krankenkasse>
+        <Name_Krankenkasse>hkk</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID52">
+        <Krankenkassenkuerzel>C3</Krankenkassenkuerzel>
+        <IK_Krankenkasse>102171012</IK_Krankenkasse>
+        <Name_Krankenkasse>Kaufmännische Krankenkasse - KKH</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>107436557</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>KKH </Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>https://diga.kkh.de/diga/</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>KKH – Kaufmännische Krankenkasse c/o Abrechnungszentrum Emmendingen</Postalische_Zusaetze>
+        <Strasse_Postfach>An der B 3 Haus</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>Nr. 6</Hausnummer_Postfachnummer>
+        <PLZ>79312</PLZ>
+        <Ort>Emmendingen</Ort>
+        <Kontaktdaten_Technisch_Telefon>0511 2802 4444</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>diga-technik@kkh.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID53">
+        <Krankenkassenkuerzel>A6</Krankenkassenkuerzel>
+        <IK_Krankenkasse>102429648</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK EWE</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID54">
+        <Krankenkassenkuerzel>CZ</Krankenkassenkuerzel>
+        <IK_Krankenkasse>101300129</IK_Krankenkasse>
+        <Name_Krankenkasse>IKK Nord</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-Bitmarck</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID55">
+        <Krankenkassenkuerzel>AN</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103121013</IK_Krankenkasse>
+        <Name_Krankenkasse>atlas BKK ahlmann</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-Bitmarck</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID56">
+        <Krankenkassenkuerzel>BL</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108036145</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK MAHLE</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID57">
+        <Krankenkassenkuerzel>C6</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108934142</IK_Krankenkasse>
+        <Name_Krankenkasse>Krones BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID58">
+        <Krankenkassenkuerzel>CU</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103724238</IK_Krankenkasse>
+        <Name_Krankenkasse>Heimat Krankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID59">
+        <Krankenkassenkuerzel>BD</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103724272</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK GILDEMEISTER SEIDENSTICKER</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID60">
+        <Krankenkassenkuerzel>BX</Krankenkassenkuerzel>
+        <IK_Krankenkasse>101922757</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Salz­gitter</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Strasse_Postfach>Thiestr. </Strasse_Postfach>
+        <Hausnummer_Postfachnummer>15</Hausnummer_Postfachnummer>
+        <PLZ>38226</PLZ>
+        <Ort>Salzgitter</Ort>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID61">
+        <Krankenkassenkuerzel>BU</Krankenkassenkuerzel>
+        <IK_Krankenkasse>101931440</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Public</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Strasse_Postfach>Thiestr.</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>15</Hausnummer_Postfachnummer>
+        <PLZ>38226</PLZ>
+        <Ort>Salzgitter</Ort>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID62">
+        <Krankenkassenkuerzel>DN</Krankenkassenkuerzel>
+        <IK_Krankenkasse>102137985</IK_Krankenkasse>
+        <Name_Krankenkasse>TUI BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Strasse_Postfach>Thiestr.</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>15</Hausnummer_Postfachnummer>
+        <PLZ>38226</PLZ>
+        <Ort>Salzgitter</Ort>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID63">
+        <Krankenkassenkuerzel>DI</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108833505</IK_Krankenkasse>
+        <Name_Krankenkasse>SKD BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID64">
+        <Krankenkassenkuerzel>BC</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107036370</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Freudenberg</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID65">
+        <Krankenkassenkuerzel>AX</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108833355</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Akzo Nobel Bayern</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-26862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID66">
+        <Krankenkassenkuerzel>CB</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105530126</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Werra-Meissner</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID67">
+        <Krankenkassenkuerzel>AR</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104940005</IK_Krankenkasse>
+        <Name_Krankenkasse>BARMER</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>104940005</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>GKV Informatik</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>2</Versandart>
+        <EMail_Krankenkasse>arzstuttgart-arzneimittel@barmer.de</EMail_Krankenkasse>
+        <Kontaktdaten_Technisch_Telefon>0800333004995195</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>thomas.silbernagel@barmer.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID68">
+        <Krankenkassenkuerzel>AP</Krankenkassenkuerzel>
+        <IK_Krankenkasse>109938503</IK_Krankenkasse>
+        <Name_Krankenkasse>BAHN-BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID69">
+        <Krankenkassenkuerzel>B7</Krankenkassenkuerzel>
+        <IK_Krankenkasse>109723913</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Verkehrsbau Union (BKK VBU)</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID70">
+        <Krankenkassenkuerzel>CX</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107202793</IK_Krankenkasse>
+        <Name_Krankenkasse>IKK classic</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID71">
+        <Krankenkassenkuerzel>CT</Krankenkassenkuerzel>
+        <IK_Krankenkasse>101570104</IK_Krankenkasse>
+        <Name_Krankenkasse>Hanseatische Krankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>661430035</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>2</Versandart>
+        <EMail_Krankenkasse>diga@davaso.de</EMail_Krankenkasse>
+        <Kontaktdaten_Technisch_Telefon>0341 25920-0</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>da302@davaso.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID72">
+        <Krankenkassenkuerzel>AS</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103725342</IK_Krankenkasse>
+        <Name_Krankenkasse>Bertelsmann BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID73">
+        <Krankenkassenkuerzel>AK</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104212505</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK Rheinland/?Hamburg - Die Gesundheitskasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>104212505</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Strasse_Postfach>Mündelheimer Weg </Strasse_Postfach>
+        <Hausnummer_Postfachnummer>39</Hausnummer_Postfachnummer>
+        <PLZ>40472</PLZ>
+        <Ort>Düsseldorf </Ort>
+        <Kontaktdaten_Technisch_Telefon>+49 202 6958-1887</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>anna.hartwig@gkvi.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID74">
+        <Krankenkassenkuerzel>BB</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103121137</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK firmus</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID75">
+        <Krankenkassenkuerzel>BK</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105830517</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Linde</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID76">
+        <Krankenkassenkuerzel>A3</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103724294</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Diakonie</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID77">
+        <Krankenkassenkuerzel>BH</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105530331</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Herkules</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID78">
+        <Krankenkassenkuerzel>DE</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105330168</IK_Krankenkasse>
+        <Name_Krankenkasse>Salus BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID79">
+        <Krankenkassenkuerzel>CW</Krankenkassenkuerzel>
+        <IK_Krankenkasse>100602360</IK_Krankenkasse>
+        <Name_Krankenkasse>IKK Brandenburg und Berlin</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID80">
+        <Krankenkassenkuerzel>B4</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108632900</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Textilgruppe Hof</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID81">
+        <Krankenkassenkuerzel>AH</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103411401</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK Nord­West - Die Gesundheitskasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>103411401</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>AOK NordWest</Postalische_Zusaetze>
+        <Strasse_Postfach>Kopenhagener Str. </Strasse_Postfach>
+        <Hausnummer_Postfachnummer>1</Hausnummer_Postfachnummer>
+        <PLZ>44269</PLZ>
+        <Ort>Dortmund</Ort>
+        <Kontaktdaten_Technisch_Telefon>0800 2655-500316</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>evelyn.herden@nw.aok.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID82">
+        <Krankenkassenkuerzel>DM</Krankenkassenkuerzel>
+        <IK_Krankenkasse>101575519</IK_Krankenkasse>
+        <Name_Krankenkasse>Techniker Krankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>101576714</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>TK-Schnittstelle DiGA</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>https://diga-api.tk.de//diga/api/public/rest/diga</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>Techniker Krankenkasse ARZ</Postalische_Zusaetze>
+        <Strasse_Postfach>Ruhrorter Str. </Strasse_Postfach>
+        <Hausnummer_Postfachnummer>187</Hausnummer_Postfachnummer>
+        <PLZ>47119</PLZ>
+        <Ort>Duisburg</Ort>
+        <Kontaktdaten_Technisch_Telefon>040/4606621092</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>abrechnung@tk.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID83">
+        <Krankenkassenkuerzel>CR</Krankenkassenkuerzel>
+        <IK_Krankenkasse>102129930</IK_Krankenkasse>
+        <Name_Krankenkasse>energie-Betriebskrankenkasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID84">
+        <Krankenkassenkuerzel>BW</Krankenkassenkuerzel>
+        <IK_Krankenkasse>102131240</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK RWE</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID85">
+        <Krankenkassenkuerzel>CI</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108036123</IK_Krankenkasse>
+        <Name_Krankenkasse>Bosch BKK</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK </Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID86">
+        <Krankenkassenkuerzel>BZ</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107531187</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Schwarzwald-Baar-Heuberg</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID87">
+        <Krankenkassenkuerzel>B3</Krankenkassenkuerzel>
+        <IK_Krankenkasse>102031410</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Technoform</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID88">
+        <Krankenkassenkuerzel>BF</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107835071</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Groz-Beckert</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID89">
+        <Krankenkassenkuerzel>CF</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103724249</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK_Dürkopp Adler</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID90">
+        <Krankenkassenkuerzel>AL</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107310373</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK Rheinland-Pfalz/?Saarland-Die Gesundheitskasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>107310373</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800 256 33 44</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID91">
+        <Krankenkassenkuerzel>AI</Krankenkassenkuerzel>
+        <IK_Krankenkasse>107299005</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>107299005</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>kubus IT GbR</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>kubus-it.da-api.aok.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>Bereich Kostenmanagement Heilmittel</Postalische_Zusaetze>
+        <Strasse_Postfach>Stollberger Str.</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>73</Hausnummer_Postfachnummer>
+        <PLZ>09119</PLZ>
+        <Ort>Chemnitz</Ort>
+        <Kontaktdaten_Technisch_Telefon>0800 2653662</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>KUB-M-BIT-EPS-OCS-Leitstand@kubus-it.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID92">
+        <Krankenkassenkuerzel>BE</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104424830</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK GRILLO-WERKE AG</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID93">
+        <Krankenkassenkuerzel>AE</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108310400</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK Bayern - Die Gesundheitskasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>108310400</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>KubusIT</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>kubus-it.da-api.aok.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>AOK Bayern</Postalische_Zusaetze>
+        <Strasse_Postfach>Wackersdorfer Str. </Strasse_Postfach>
+        <Hausnummer_Postfachnummer>36a</Hausnummer_Postfachnummer>
+        <PLZ>92421</PLZ>
+        <Ort>Schwandorf</Ort>
+        <Kontaktdaten_Technisch_Telefon>08002653662</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>KUB-M-BIT-EPS-OCS-Leitstand@kubus-it.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID94">
+        <Krankenkassenkuerzel>A2</Krankenkassenkuerzel>
+        <IK_Krankenkasse>104224634</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Deutsche Bank AG</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID95">
+        <Krankenkassenkuerzel>AD</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108018007</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK Baden-Württemberg</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>108018007</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Strasse_Postfach>Postfach</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>102954</Hausnummer_Postfachnummer>
+        <PLZ>70025</PLZ>
+        <Ort>Stuttgart</Ort>
+        <Kontaktdaten_Technisch_Telefon>0800256334</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID96">
+        <Krankenkassenkuerzel>CA</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108031424</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Voralb HELLER*INDEX*LEUZE</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID97">
+        <Krankenkassenkuerzel>AC</Krankenkassenkuerzel>
+        <IK_Krankenkasse>105313145</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK - Die Gesundheitskasse in Hessen</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>105313145</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>AOK - Die Gesundheitskasse in Hessen</Postalische_Zusaetze>
+        <Strasse_Postfach>Fallbearbeitung APM</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>Carina Kestner</Hausnummer_Postfachnummer>
+        <PLZ>35387</PLZ>
+        <Ort>Gießen</Ort>
+        <Kontaktdaten_Technisch_Telefon>08002563344</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID98">
+        <Krankenkassenkuerzel>BY</Krankenkassenkuerzel>
+        <IK_Krankenkasse>108035576</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Scheufelen</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID99">
+        <Krankenkassenkuerzel>AG</Krankenkassenkuerzel>
+        <IK_Krankenkasse>109519005</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK Nordost - Die Gesundheitskasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>109519005</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800 265080 22555</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>Nico.Goeldner@nordost.aok.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID100">
+        <Krankenkassenkuerzel>AB</Krankenkassenkuerzel>
+        <IK_Krankenkasse>102114819</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK - Die Gesundheitskasse für Niedersachsen</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>102114819</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>AOK- Die Gesundheitskasse für Niedersachsen GB Abrechnung &amp; operative Umsetzung</Postalische_Zusaetze>
+        <Strasse_Postfach>Hans-Böckler-Allee </Strasse_Postfach>
+        <Hausnummer_Postfachnummer>13</Hausnummer_Postfachnummer>
+        <PLZ>30173</PLZ>
+        <Ort>Hannover</Ort>
+        <Kontaktdaten_Technisch_Telefon>0511 67557 17236</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>ARGE-Firewalladmins@nds.aok.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID101">
+        <Krankenkassenkuerzel>AF</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103119199</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK Bremen / Bremerhaven</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>103119199</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>AOK Bremen/Bremerhaven</Postalische_Zusaetze>
+        <Strasse_Postfach>Bgm.-Smidt-Str. </Strasse_Postfach>
+        <Hausnummer_Postfachnummer>95</Hausnummer_Postfachnummer>
+        <PLZ>28195</PLZ>
+        <Ort>Bremen</Ort>
+        <Kontaktdaten_Technisch_Telefon>0511 67557 17236</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>ARGE-Firewalladmins@nds.aok.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID102">
+        <Krankenkassenkuerzel>AM</Krankenkassenkuerzel>
+        <IK_Krankenkasse>101097008</IK_Krankenkasse>
+        <Name_Krankenkasse>AOK Sachsen-Anhalt - Die Gesundheitskasse</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>101097008</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>2</Versandart>
+        <EMail_Krankenkasse>digitale-gesundheitsanwendungen@san.aok.de</EMail_Krankenkasse>
+        <Kontaktdaten_Technisch_Telefon>0511 67557 17236</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>ARGE-Firewalladmins@nds.aok.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
 </Krankenkasseninformationen>
