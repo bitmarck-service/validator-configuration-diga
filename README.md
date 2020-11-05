@@ -397,3 +397,39 @@ $ open build/test/diga-verzeichnis-report.html
 ```
 
 Auch in diesem Beispiel dient der `open`-Befehl zur Anzeige des detaillierten HTML-Prüfberichts.
+
+### Stammdaten aus dem Krankenkassenverzeichnis
+
+```bash
+$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/kvz0/krankenkassenverzeichnis.xml 
+KoSIT Validator version 1.4.0
+Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
+Using repository  null
+Loaded "DiGA-Konfiguration f?r den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
+
+The following scenarios are available:
+  * DiGA Freischaltcode (DFC0), Version 2.0.0
+  * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
+  * Pr?fbericht f?r DiGA-Rechnung (DRE0-Antwort)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
+  * Krankenkasssenverzeichnis, Version 1.0.0 (KVZ0)
+
+Processing of 1 objects started
+Processing of 1 objects completed in 296ms
+Results:
+----------------------------------------------------------------------------------------------------------------
+|filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
+|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
+|ration-diga/src/test/resources/kvz0/krankenkassenverzeichnis|       |          |          |                    |
+|.xml                                                        |       |          |          |                    |
+----------------------------------------------------------------------------------------------------------------
+Acceptable:  1  Rejected:  0
+
+
+##############################
+#   Validation succesful!    #
+##############################
+$ open build/test/krankenkassenverzeichnis-report.html 
+```
+
+Auch in diesem Beispiel dient der `open`-Befehl zur Anzeige des detaillierten HTML-Prüfberichts.

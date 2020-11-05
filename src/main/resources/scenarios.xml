@@ -147,7 +147,7 @@
     </scenario>
 
     <scenario>
-        <name>Krankenkasssenverzeichnis (KVZ0)</name>
+        <name>Krankenkasssenverzeichnis, Version 1.0.0 (KVZ0)</name>
         <description>
             <p>TODO</p>
         </description>
