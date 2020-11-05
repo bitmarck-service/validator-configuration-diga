@@ -68,9 +68,9 @@
                                     <xs:documentation>Name der Kommunikationsstelle.</xs:documentation>
                                 </xs:annotation>
                             </xs:element>
-                            <xs:element name="Endpunkt_Kommunikationsstelle" type="Endpunkt_URL">
+                            <xs:element name="Endpunkt_Kommunikationsstelle" type="Endpunkt_FQDN">
                                 <xs:annotation>
-                                    <xs:documentation>URL des Enndpunkts der Kommunikationsstelle.</xs:documentation>
+                                    <xs:documentation>FQDN des Endpunkts der Kommunikationsstelle.</xs:documentation>
                                 </xs:annotation>
                             </xs:element>
                             <xs:element name="Versandart" type="Numerische_Werteliste_1">
@@ -193,10 +193,11 @@
             <xs:pattern value="[A-Z2-7]{2}"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="Endpunkt_URL">
+    <xs:simpleType name="Endpunkt_FQDN">
         <xs:annotation>
             <xs:documentation>
-                URL der Kommunikationsstelle des Kostentraegers gemäß DiGA RiLi, TA Anlage 1.
+                Fully Qualified Domain Name (FQDN) der Kommunikationsstelle des Kostentraegers gemäß DiGA RiLi, TA
+                Anlage 1.
                 Auf die Angabe eines Patterns wird hier aus Komplexitätsgründen verzichtet.
             </xs:documentation>
         </xs:annotation>
