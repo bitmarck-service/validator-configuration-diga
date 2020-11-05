@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 <xs:schema elementFormDefault="qualified"
-           targetNamespace="https://xml.bitmarck.de/xsd/dvz0/v1"
+           targetNamespace="https://xml.diga-ready.de/xsd/dvz0/v1"
            version="1.0.0"
            xml:lang="de"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">

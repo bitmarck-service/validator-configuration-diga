@@ -122,7 +122,7 @@
         <description>
             <p>TODO</p>
         </description>
-        <namespace prefix="dvz0">http://xml.bitmarck.de/service/dvz0</namespace>
+        <namespace prefix="dvz0">https://xml.diga-ready.de/xsd/dvz0/v1</namespace>
         <namespace prefix="rep">http://www.xoev.de/de/validator/varl/1</namespace>
         <match>/dvz0:DigaVerzeichnis</match>
         <validateWithXmlSchema>

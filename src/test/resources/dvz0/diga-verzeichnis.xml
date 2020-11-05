@@ -14,7 +14,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<DigaVerzeichnis version="1.0.0" xmlns="http://xml.bitmarck.de/service/dvz0">
+<DigaVerzeichnis version="1.0.0" xmlns="https://xml.diga-ready.de/xsd/dvz0/v1">
     <Diga>
         <Pzn>12345678</Pzn>
         <DigaVeId>12345001</DigaVeId>

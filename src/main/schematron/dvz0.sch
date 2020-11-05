@@ -15,7 +15,7 @@
    - limitations under the License.
    -->
 <schema queryBinding="xslt2" xmlns="http://purl.oclc.org/dsdl/schematron">
-    <ns prefix="dvz0" uri="http://xml.bitmarck.de/service/dvz0"/>
+    <ns prefix="dvz0" uri="https://xml.diga-ready.de/xsd/dvz0/v1"/>
     <pattern>
         <rule context="/dvz0:DigaVerzeichnis">
             <assert id="DVZ0-DV-1" test="count(dvz0:Diga) > 0"
