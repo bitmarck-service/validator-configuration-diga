@@ -18,6 +18,7 @@
            targetNamespace="https://xml.diga-ready.de/xsd/kvz0/v1"
            version="1.0.0"
            xml:lang="de"
+           xmlns="https://xml.diga-ready.de/xsd/kvz0/v1"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="Krankenkasseninformationen">
         <xs:annotation>
@@ -67,9 +68,9 @@
                                     <xs:documentation>Name der Kommunikationsstelle.</xs:documentation>
                                 </xs:annotation>
                             </xs:element>
-                            <xs:element name="Endpunkt_Kommunikationsstelle" type="Basis_URL">
+                            <xs:element name="Endpunkt_Kommunikationsstelle" type="Endpunkt_URL">
                                 <xs:annotation>
-                                    <xs:documentation>Basis-URL der Kommunikationsstelle.</xs:documentation>
+                                    <xs:documentation>URL des Enndpunkts der Kommunikationsstelle.</xs:documentation>
                                 </xs:annotation>
                             </xs:element>
                             <xs:element name="Versandart" type="Numerische_Werteliste_1">
@@ -155,7 +156,7 @@
                     <xs:documentation>Gibt die Version an.</xs:documentation>
                 </xs:annotation>
             </xs:attribute>
-            <xs:attribute name="gueltigab" fixed="2020-07-01">
+            <xs:attribute name="gueltigab" fixed="2020-11-11">
                 <xs:annotation>
                     <xs:documentation>Gibt das Datum an, ab wann die Version gültig ist.</xs:documentation>
                 </xs:annotation>
@@ -170,10 +171,10 @@
             <xs:pattern value="[A-Z2-7]{2}"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="Basis_URL">
+    <xs:simpleType name="Endpunkt_URL">
         <xs:annotation>
             <xs:documentation>
-                Basis-URL der Kommunikationsstelle des Kostentraegers gemäß DiGA RiLi, TA Anlage 1.
+                URL der Kommunikationsstelle des Kostentraegers gemäß DiGA RiLi, TA Anlage 1.
                 Auf die Angabe eines Patterns wird hier aus Komplexitätsgründen verzichtet.
             </xs:documentation>
         </xs:annotation>
