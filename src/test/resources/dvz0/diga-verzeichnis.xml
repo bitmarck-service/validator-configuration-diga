@@ -17,6 +17,7 @@
 <DigaVerzeichnis version="1.0.0" xmlns="https://xml.diga-ready.de/xsd/dvz0/v1">
     <Diga>
         <Pzn>12345678</Pzn>
+        <DigaId>12345</DigaId>
         <DigaVeId>12345001</DigaVeId>
         <Name>Tinnitus-Rex</Name>
         <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
@@ -24,10 +25,13 @@
             <Ik>987654321</Ik>
             <Name>Beispiel AG</Name>
         </Hersteller>
-        <Gruppen>
-            <Gruppe>Tinnitus</Gruppe>
-            <Gruppe>Gehör</Gruppe>
-        </Gruppen>
+        <Indikationen>
+            <Indikation>X01: Tinnitus</Indikation>
+            <Indikation>X02: Gehör</Indikation>
+        </Indikationen>
+        <Kontraindikationen>
+            <Indikation>E66: Adipositas</Indikation>
+        </Kontraindikationen>
         <AnwendungsTage>7</AnwendungsTage>
         <Packungspreis>1.16</Packungspreis>
         <GültigAb>2020-10-01</GültigAb>
@@ -35,6 +39,7 @@
     </Diga>
     <Diga>
         <Pzn>12345678</Pzn>
+        <DigaId>12345</DigaId>
         <DigaVeId>12345001</DigaVeId>
         <Name>Tinnitus-Rex</Name>
         <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
@@ -42,16 +47,20 @@
             <Ik>987654321</Ik>
             <Name>Beispiel AG</Name>
         </Hersteller>
-        <Gruppen>
-            <Gruppe>Tinnitus</Gruppe>
-            <Gruppe>Gehör</Gruppe>
-        </Gruppen>
+        <Indikationen>
+            <Indikation>X01: Tinnitus</Indikation>
+            <Indikation>X02: Gehör</Indikation>
+        </Indikationen>
+        <Kontraindikationen>
+            <Indikation>E66: Adipositas</Indikation>
+        </Kontraindikationen>
         <AnwendungsTage>7</AnwendungsTage>
         <Packungspreis>1.19</Packungspreis>
         <GültigAb>2021-01-01</GültigAb>
     </Diga>
     <Diga>
         <Pzn>12345679</Pzn>
+        <DigaId>12346</DigaId>
         <DigaVeId>12346001</DigaVeId>
         <Name>Hans Hinterwand</Name>
         <Beschreibung>Beugt gegen Herzinfarkte vor</Beschreibung>
@@ -59,15 +68,16 @@
             <Ik>987654322</Ik>
             <Name>Dummy GmbH</Name>
         </Hersteller>
-        <Gruppen>
-            <Gruppe>Coronare Herzerkrankungen</Gruppe>
-            <Gruppe>Herz</Gruppe>
-        </Gruppen>
+        <Indikationen>
+            <Indikation>X03: Coronare Herzerkrankungen</Indikation>
+            <Indikation>X04: Herz</Indikation>
+        </Indikationen>
         <AnwendungsTage>14</AnwendungsTage>
         <Packungspreis>12.34</Packungspreis>
     </Diga>
     <Diga>
         <Pzn>12345680</Pzn>
+        <DigaId>12347</DigaId>
         <DigaVeId>12347001</DigaVeId>
         <Name>SARS-CoV-2 Prophylaxe</Name>
         <Beschreibung>Vermeiden Sie eine Coronainfektion!</Beschreibung>
@@ -75,11 +85,11 @@
             <Ik>987654323</Ik>
             <Name>Muster und Co.</Name>
         </Hersteller>
-        <Gruppen>
-            <Gruppe>SARS-CoV-2</Gruppe>
-            <Gruppe>COVID-19</Gruppe>
-            <Gruppe>Corona</Gruppe>
-        </Gruppen>
+        <Indikationen>
+            <Indikation>X05: SARS-CoV-2</Indikation>
+            <Indikation>X06: COVID-19</Indikation>
+            <Indikation>X07: Corona</Indikation>
+        </Indikationen>
         <AnwendungsTage>21</AnwendungsTage>
         <Packungspreis>123.45</Packungspreis>
     </Diga>

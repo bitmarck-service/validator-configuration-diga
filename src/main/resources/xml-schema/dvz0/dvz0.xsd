@@ -18,6 +18,7 @@
            targetNamespace="https://xml.diga-ready.de/xsd/dvz0/v1"
            version="1.0.0"
            xml:lang="de"
+           xmlns="https://xml.diga-ready.de/xsd/dvz0/v1"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="DigaVerzeichnis">
         <xs:annotation>
@@ -47,13 +48,23 @@
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
-                            <xs:element name="DigaVeId">
+                            <xs:element name="DigaId">
                                 <xs:annotation>
-                                    <xs:documentation>Die vier bis achtstellige DiGA-VE-ID.</xs:documentation>
+                                    <xs:documentation>Die fünfstellige DiGA-ID.</xs:documentation>
                                 </xs:annotation>
                                 <xs:simpleType>
                                     <xs:restriction base="xs:positiveInteger">
-                                        <xs:pattern value="\d{4,8}"/>
+                                        <xs:pattern value="\d{5}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="DigaVeId">
+                                <xs:annotation>
+                                    <xs:documentation>Die achtstellige DiGA-VE-ID.</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:positiveInteger">
+                                        <xs:pattern value="\d{8}"/>
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
@@ -94,25 +105,19 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="Gruppen" minOccurs="0">
+                            <xs:element name="Indikationen" type="Indikation">
                                 <xs:annotation>
                                     <xs:documentation>
-                                        Eine möglicherweise leere Liste von
-                                        Schlagwörtern/Schlüsselwörtern/Suchbegriffen/Tags/Labels.
+                                        Eine nicht-leere Liste von Indikationen.
                                     </xs:documentation>
                                 </xs:annotation>
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="Gruppe" maxOccurs="unbounded">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:token">
-                                                    <xs:minLength value="1"/>
-                                                    <xs:maxLength value="255"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                    </xs:sequence>
-                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Kontraindikationen" type="Indikation" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Eine optionale, aber nicht-leere Liste von Kontraindikationen.
+                                    </xs:documentation>
+                                </xs:annotation>
                             </xs:element>
                             <xs:element name="AnwendungsTage" minOccurs="0" type="xs:positiveInteger">
                                 <xs:annotation>
@@ -163,4 +168,16 @@
             <xs:attribute name="version" fixed="1.0.0" use="required"/>
         </xs:complexType>
     </xs:element>
+    <xs:complexType name="Indikation">
+        <xs:sequence>
+            <xs:element name="Indikation" maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:minLength value="1"/>
+                        <xs:pattern value="[^:]+:.*"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
 </xs:schema>
