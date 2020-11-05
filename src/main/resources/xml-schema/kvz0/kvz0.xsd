@@ -173,12 +173,12 @@
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
-            <xs:attribute name="version" fixed="1.0.0">
+            <xs:attribute name="version" fixed="1.0.0" use="required">
                 <xs:annotation>
                     <xs:documentation>Gibt die Version an.</xs:documentation>
                 </xs:annotation>
             </xs:attribute>
-            <xs:attribute name="gueltigab" fixed="2020-11-11">
+            <xs:attribute name="gueltigab" fixed="2020-11-11" use="required">
                 <xs:annotation>
                     <xs:documentation>Gibt das Datum an, ab wann die Version gültig ist.</xs:documentation>
                 </xs:annotation>
