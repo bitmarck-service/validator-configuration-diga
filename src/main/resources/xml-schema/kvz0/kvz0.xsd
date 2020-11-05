@@ -146,6 +146,28 @@
                                     <xs:documentation>Email des technischen/betrieblichen Kontakts.</xs:documentation>
                                 </xs:annotation>
                             </xs:element>
+                            <xs:element name="GueltigAb" minOccurs="0" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Schränkt die Gültigkeit des gesamten Datensatzes auf den Zeitraum ein, der an
+                                        diesem Datum beginnt.
+
+                                        ACHTUNG: Es darf keine zwei Datensätze mit demselben IK und überlappenden
+                                        Zeitintervallen geben!
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="GueltigBis" minOccurs="0" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Schränkt die Gültigkeit des gesamten Datensatzes auf den Zeitraum ein, der an
+                                        diesem Datum endet.
+
+                                        ACHTUNG: Es darf keine zwei Datensätze mit demselben IK und überlappenden
+                                        Zeitintervallen geben!
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
                         </xs:sequence>
                         <xs:attribute name="Nummer" type="xs:ID" use="required"/>
                     </xs:complexType>
