@@ -127,7 +127,7 @@ Auch in diesem Beispiel werden alle XML-Dokumente akzeptiert, inklusive der Antw
 #### Schritt 1 - Validierung gegen XRechnung 1.2
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s lib/xrechnung_1.2.2/scenarios.xml -o build/test src/test/resources/dre0/cii/xrechnung-1.2-*.xml
+$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s lib/xrechnung_1.2.2/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-1.2-*.xml
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/lib/xrechnung_1.2.2/scenarios.xml
 Using repository  null
@@ -144,10 +144,10 @@ Results:
 ----------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dre0/cii/xrechnung-1.2-falsch|       |          |          |                    |
+|ration-diga/src/test/resources/dre0/xrechnung-1.2-falsch    |       |          |          |                    |
 |.xml                                                        |       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dre0/cii/xrechnung-1.2-richti|       |          |          |                    |
+|ration-diga/src/test/resources/dre0/xrechnung-1.2-richti    |       |          |          |                    |
 |g.xml                                                       |       |          |          |                    |
 ----------------------------------------------------------------------------------------------------------------
 Acceptable:  2  Rejected:  0
@@ -166,7 +166,7 @@ In diesem Beispiel werden beide Dokumente akzeptiert - es handelt sich zunächst
 #### Schritt 2 - Validierung gegen DiGA-Rechnung
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dre0/cii/xrechnung-1.2-*.xml
+$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-1.2-*.xml
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
@@ -185,10 +185,10 @@ Results:
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description                                           |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    N     |  REJECT  |Eine DiGA-Position muß eine DiGA-VE-ID mit exakt acht Stelle|
-|ration-diga/src/test/resources/dre0/cii/xrechnung-1.2-falsch|       |          |          |n enthalten.;Eine DiGA-Position muß einen Freischaltcode mit|
+|ration-diga/src/test/resources/dre0/xrechnung-1.2-falsch    |       |          |          |n enthalten.;Eine DiGA-Position muß einen Freischaltcode mit|
 |.xml                                                        |       |          |          | exakt 16 Stellen enthalten.;Eine DiGA-Rechnung muß den T...|
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                                                            |
-|ration-diga/src/test/resources/dre0/cii/xrechnung-1.2-richti|       |          |          |                                                            |
+|ration-diga/src/test/resources/dre0/xrechnung-1.2-richti    |       |          |          |                                                            |
 |g.xml                                                       |       |          |          |                                                            |
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Acceptable:  1  Rejected:  1
@@ -246,7 +246,7 @@ XML-Prüfbericht.
 #### Schritt 1 - Validierung gegen XRechnung 2.0
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s lib/xrechnung_2.0.0/scenarios.xml -o build/test src/test/resources/dre0/cii/xrechnung-2.0-*.xml
+$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s lib/xrechnung_2.0.0/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-2.0-*.xml
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/lib/xrechnung_2.0.0/scenarios.xml
 Using repository  null
@@ -266,10 +266,10 @@ Results:
 ----------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dre0/cii/xrechnung-2.0-falsch|       |          |          |                    |
+|ration-diga/src/test/resources/dre0/xrechnung-2.0-falsch    |       |          |          |                    |
 |.xml                                                        |       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dre0/cii/xrechnung-2.0-richti|       |          |          |                    |
+|ration-diga/src/test/resources/dre0/xrechnung-2.0-richti    |       |          |          |                    |
 |g.xml                                                       |       |          |          |                    |
 ----------------------------------------------------------------------------------------------------------------
 Acceptable:  2  Rejected:  0
@@ -288,7 +288,7 @@ Version 2.0.
 #### Schritt 2 - Validierung gegen DiGA-Rechnung
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dre0/cii/xrechnung-2.0-*.xml
+$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-2.0-*.xml
 KoSIT Validator version 1.4.0
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
@@ -307,10 +307,10 @@ Results:
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description                                           |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    N     |  REJECT  |Eine DiGA-Position muß eine DiGA-VE-ID mit exakt acht Stelle|
-|ration-diga/src/test/resources/dre0/cii/xrechnung-2.0-falsch|       |          |          |n enthalten.;Eine DiGA-Position muß einen Freischaltcode mit|
+|ration-diga/src/test/resources/dre0/xrechnung-2.0-falsch    |       |          |          |n enthalten.;Eine DiGA-Position muß einen Freischaltcode mit|
 |.xml                                                        |       |          |          | exakt 16 Stellen enthalten.;Eine DiGA-Rechnung muß den T...|
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                                                            |
-|ration-diga/src/test/resources/dre0/cii/xrechnung-2.0-richti|       |          |          |                                                            |
+|ration-diga/src/test/resources/dre0/xrechnung-2.0-richti    |       |          |          |                                                            |
 |g.xml                                                       |       |          |          |                                                            |
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Acceptable:  1  Rejected:  1
