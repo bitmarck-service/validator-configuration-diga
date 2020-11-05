@@ -19,7 +19,7 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.xoev.de/de/validator/framework/1/scenarios
            https://github.com/itplr-kosit/validator/raw/v1.3.1/src/main/model/xsd/scenarios.xsd">
-    <name>DiGA-Konfiguration für den KoSIT Validator.</name>
+    <name>DiGA-Konfiguration für den KoSIT Validator</name>
     <author>BITMARCK Service GmbH</author>
     <date>2020-09-15</date>
     <description>
