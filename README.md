@@ -1,6 +1,6 @@
 [![XSLT CI](https://github.com/bitmarck-service/validator-configuration-diga/workflows/XSLT%20CI/badge.svg)](https://github.com/bitmarck-service/validator-configuration-diga/actions?query=workflow%3A%22XSLT+CI%22)
 
-# DiGA-Konfiguration für den KoSIT-Validator
+# DiGA-Konfiguration für den KoSIT Validator
 
 Dieses Repository beinhaltet eine Konfiguration für den [KoSIT Validator](https://github.com/itplr-kosit/validator), die
 für die Validierung aller Nachrichten geeignet ist die im Rahmen des DiGA-Fachverfahren ausgetauscht werden.
