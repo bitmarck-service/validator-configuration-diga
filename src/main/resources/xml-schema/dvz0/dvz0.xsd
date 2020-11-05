@@ -14,12 +14,11 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<xs:schema
-        elementFormDefault="qualified"
-        targetNamespace="http://xml.bitmarck.de/service/dvz0"
-        version="1.0.0"
-        xml:lang="de"
-        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema elementFormDefault="qualified"
+           targetNamespace="https://xml.bitmarck.de/xsd/dvz0/v1"
+           version="1.0.0"
+           xml:lang="de"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="DigaVerzeichnis">
         <xs:annotation>
             <xs:documentation>
@@ -98,12 +97,13 @@
                             <xs:element name="Gruppen" minOccurs="0">
                                 <xs:annotation>
                                     <xs:documentation>
-                                        Eine möglicherweise leere Liste von Schlagwörtern/Schlüsselwörtern/Suchbegriffen/Tags/Labels.
+                                        Eine möglicherweise leere Liste von
+                                        Schlagwörtern/Schlüsselwörtern/Suchbegriffen/Tags/Labels.
                                     </xs:documentation>
                                 </xs:annotation>
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Gruppe" minOccurs="1" maxOccurs="unbounded">
+                                        <xs:element name="Gruppe" maxOccurs="unbounded">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:token">
                                                     <xs:minLength value="1"/>
