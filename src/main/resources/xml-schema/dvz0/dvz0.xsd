@@ -105,14 +105,14 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="Indikationen" type="Indikation">
+                            <xs:element name="Indikationen" type="Indikationen">
                                 <xs:annotation>
                                     <xs:documentation>
                                         Eine nicht-leere Liste von Indikationen.
                                     </xs:documentation>
                                 </xs:annotation>
                             </xs:element>
-                            <xs:element name="Kontraindikationen" type="Indikation" minOccurs="0">
+                            <xs:element name="Kontraindikationen" type="Indikationen" minOccurs="0">
                                 <xs:annotation>
                                     <xs:documentation>
                                         Eine optionale, aber nicht-leere Liste von Kontraindikationen.
@@ -240,7 +240,7 @@
             <xs:attribute name="version" fixed="1.0.0" use="required"/>
         </xs:complexType>
     </xs:element>
-    <xs:complexType name="Indikation">
+    <xs:complexType name="Indikationen">
         <xs:sequence>
             <xs:element name="Indikation" maxOccurs="unbounded">
                 <xs:simpleType>
