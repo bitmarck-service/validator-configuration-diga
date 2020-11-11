@@ -32,6 +32,8 @@
         <Kontraindikationen>
             <Indikation>E66: Adipositas</Indikation>
         </Kontraindikationen>
+        <!-- Optional, maximal zweistellig: -->
+        <GruppenNummer>XY</GruppenNummer>
         <Homepage>https://tinnitus-rex.de</Homepage>
         <Details>https://diga.bfarm.de/de/verzeichnis/12345</Details>
         <Plattformen>
@@ -48,8 +50,9 @@
         <AlterBis>65</AlterBis>
         <AnwendungsTage>7</AnwendungsTage>
         <Packungspreis>1.16</Packungspreis>
+        <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
         <GültigAb>2020-10-01</GültigAb>
-        <GültigBis>2020-12-31</GültigBis>
+        <GültigBis>2021-12-31</GültigBis>
     </Diga>
     <Diga>
         <Pzn>12345678</Pzn>
@@ -84,6 +87,8 @@
         <AlterBis>65</AlterBis>
         <AnwendungsTage>7</AnwendungsTage>
         <Packungspreis>1.19</Packungspreis>
+        <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
+        <Zulassungsende>2021-09-30</Zulassungsende>
         <GültigAb>2021-01-01</GültigAb>
     </Diga>
     <Diga>
@@ -109,6 +114,8 @@
         </Plattformen>
         <AnwendungsTage>14</AnwendungsTage>
         <Packungspreis>12.34</Packungspreis>
+        <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
+        <GültigAb>2020-10-01</GültigAb>
     </Diga>
     <Diga>
         <Pzn>12345680</Pzn>
@@ -128,11 +135,13 @@
         <Details>https://diga.bfarm.de/de/verzeichnis/12346</Details>
         <Plattformen>
             <Plattform>
-                <Name>Google Play Store</Name>
-                <Link>https://play.google.com/store/apps/details?id=de.muster-und-co.sars-cov-2-prophylaxe</Link>
+                <Name>Web App</Name>
+                <Link>https://no-covid-thanks.com</Link>
             </Plattform>
         </Plattformen>
         <AnwendungsTage>21</AnwendungsTage>
         <Packungspreis>123.45</Packungspreis>
+        <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
+        <GültigAb>2020-10-01</GültigAb>
     </Diga>
 </DigaVerzeichnis>
