@@ -203,11 +203,10 @@
                                     </xs:documentation>
                                 </xs:annotation>
                             </xs:element>
-                            <xs:element name="AnwendungsTage" type="xs:nonNegativeInteger">
+                            <xs:element name="AnwendungsTage" minOccurs="0" type="xs:positiveInteger">
                                 <xs:annotation>
                                     <xs:documentation>
-                                        Angabe einer Anwendungsdauer in Form einer positiven Anzahl von Tagen.
-                                        Bei Hardware für die Erstausstattung ist hier '0' einzutragen.
+                                        Optionale Angabe einer Anwendungsdauer in Form einer positiven Anzahl von Tagen.
                                     </xs:documentation>
                                 </xs:annotation>
                             </xs:element>
