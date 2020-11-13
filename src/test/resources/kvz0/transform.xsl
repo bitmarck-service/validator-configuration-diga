@@ -4,8 +4,8 @@
                 xmlns="https://xml.diga-ready.de/xsd/kvz0/v1"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="2.0">
-    <xsl:strip-space elements="*"/>
     <xsl:output indent="yes"/>
+    <xsl:strip-space elements="*"/>
     <xsl:template match="mvz:Kostentraeger_Mappingverzeichnis">
         <Krankenkasseninformationen version="1.0.0" gueltigab="2020-11-11">
             <xsl:apply-templates select="node()"/>
