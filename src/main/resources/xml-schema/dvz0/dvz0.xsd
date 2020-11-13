@@ -189,6 +189,24 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
+                            <xs:element name="Geschlechter" minOccurs="0" default="M W D">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Eine Liste von Geschlechtskennzeichen ('M', 'W' oder 'D'), getrennt durch Leerzeichen.
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:list>
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:NMTOKEN">
+                                                <xs:enumeration value="M"/>
+                                                <xs:enumeration value="W"/>
+                                                <xs:enumeration value="D"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:list>
+                                </xs:simpleType>
+                            </xs:element>
                             <xs:element name="AlterAb" type="xs:nonNegativeInteger" minOccurs="0">
                                 <xs:annotation>
                                     <xs:documentation>
