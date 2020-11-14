@@ -16,8 +16,19 @@
   -->
 <DigaVerzeichnis version="1.0.0" xmlns="http://xml.bitmarck.de/service/dvz0">
     <Diga>
-        <Pzn>12345678</Pzn>
-        <DigaVeId>12345001</DigaVeId>
+        <DigaId>12345</DigaId>
+        <DigaVe>
+          <DigaVeId>12345001</DigaVeId>
+          <Pzn>12345678</Pzn>
+          <AnwendungsTage>7</AnwendungsTage>
+          <Packungspreis>1.16</Packungspreis>
+        </DigaVe>
+        <DigaVe>
+          <DigaVeId>12345002</DigaVeId>
+          <Pzn>22345678</Pzn>
+          <AnwendungsTage>30</AnwendungsTage>
+          <Packungspreis>20.93</Packungspreis>
+        </DigaVe>      
         <Name>Tinnitus-Rex</Name>
         <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
         <Hersteller>
@@ -28,14 +39,17 @@
             <Gruppe>Tinnitus</Gruppe>
             <Gruppe>Gehör</Gruppe>
         </Gruppen>
-        <AnwendungsTage>7</AnwendungsTage>
-        <Packungspreis>1.16</Packungspreis>
         <GültigAb>2020-10-01</GültigAb>
         <GültigBis>2020-12-31</GültigBis>
     </Diga>
     <Diga>
-        <Pzn>12345678</Pzn>
-        <DigaVeId>12345001</DigaVeId>
+        <DigaId>12345</DigaId>
+        <DigaVe>
+          <DigaVeId>12345001</DigaVeId>
+          <Pzn>12345678</Pzn>
+          <AnwendungsTage>7</AnwendungsTage>
+          <Packungspreis>1.19</Packungspreis>
+        </DigaVe>
         <Name>Tinnitus-Rex</Name>
         <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
         <Hersteller>
@@ -46,13 +60,16 @@
             <Gruppe>Tinnitus</Gruppe>
             <Gruppe>Gehör</Gruppe>
         </Gruppen>
-        <AnwendungsTage>7</AnwendungsTage>
-        <Packungspreis>1.19</Packungspreis>
         <GültigAb>2021-01-01</GültigAb>
     </Diga>
     <Diga>
-        <Pzn>12345679</Pzn>
-        <DigaVeId>12346001</DigaVeId>
+		    <DigaId>12346</DigaId>
+        <DigaVe>
+          <DigaVeId>12346001</DigaVeId>
+		      <Pzn>12345679</Pzn>
+          <AnwendungsTage>14</AnwendungsTage>
+          <Packungspreis>12.34</Packungspreis>
+        </DigaVe>
         <Name>Hans Hinterwand</Name>
         <Beschreibung>Beugt gegen Herzinfarkte vor</Beschreibung>
         <Hersteller>
@@ -63,12 +80,15 @@
             <Gruppe>Coronare Herzerkrankungen</Gruppe>
             <Gruppe>Herz</Gruppe>
         </Gruppen>
-        <AnwendungsTage>14</AnwendungsTage>
-        <Packungspreis>12.34</Packungspreis>
     </Diga>
     <Diga>
-        <Pzn>12345680</Pzn>
-        <DigaVeId>12347001</DigaVeId>
+	    	<DigaId>12347001</DigaId>
+        <DigaVe>
+          <DigaVeId>12347001</DigaVeId>
+		      <Pzn>12345680</Pzn>
+          <AnwendungsTage>21</AnwendungsTage>
+          <Packungspreis>123.45</Packungspreis>
+        </DigaVe>
         <Name>SARS-CoV-2 Prophylaxe</Name>
         <Beschreibung>Vermeiden Sie eine Coronainfektion!</Beschreibung>
         <Hersteller>
@@ -80,7 +100,5 @@
             <Gruppe>COVID-19</Gruppe>
             <Gruppe>Corona</Gruppe>
         </Gruppen>
-        <AnwendungsTage>21</AnwendungsTage>
-        <Packungspreis>123.45</Packungspreis>
     </Diga>
 </DigaVerzeichnis>
