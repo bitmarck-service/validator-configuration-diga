@@ -83,8 +83,6 @@
                 <ram:ID>TEST_RECHNUNGSSTELLER</ram:ID>
                 <!-- IK des DiGA-Herstellers als "Seller Identifier" (BT-29) [BR-CO-26]: -->
                 <ram:ID schemeID="IK">987654321</ram:ID>
-                <!-- IK eines abweichenden Zahlungsempfängers als "Payee Identifier" (BT-60): -->
-                <ram:ID schemeID="IK_Zahlungsempfänger">987654322</ram:ID>
                 <ram:Name>Rechnungssteller</ram:Name>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Max Mustermann</ram:PersonName>
