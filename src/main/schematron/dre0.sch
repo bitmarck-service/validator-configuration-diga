@@ -69,15 +69,15 @@
             >Das Institutionskennzeichen (IK) eines abweichenden Zahlungsempfängers muss vom IK des DiGA-Herstellers verschieden sein.</assert>
         </rule>
         <rule context="ram:SpecifiedTradeSettlementPaymentMeans">
-            <assert id="DRE0-AHTS-4" test="count(ram:ApplicableTradeSettlementFinancialCard) = 0"
+            <assert id="DRE0-AHTS-4" test="not(ram:ApplicableTradeSettlementFinancialCard)"
             >Eine DiGA-Rechnung darf keine Informationen zur Kartenzahlung enthalten.</assert>
-            <assert id="DRE0-AHTS-5" test="count(ram:PayerPartyDebtorFinancialAccount) = 0"
+            <assert id="DRE0-AHTS-5" test="not(ram:PayerPartyDebtorFinancialAccount)"
             >Eine DiGA-Rechnung darf keine Informationen zum Konto des Debitors enthalten.</assert>
-            <assert id="DRE0-AHTS-6" test="count(ram:PayeePartyCreditorFinancialAccount) = 0"
+            <assert id="DRE0-AHTS-6" test="not(ram:PayeePartyCreditorFinancialAccount)"
             >Eine DiGA-Rechnung darf keine Informationen zum Konto des Kreditors enthalten.</assert>
-            <assert id="DRE0-AHTS-7" test="count(ram:PayerSpecifiedDebtorFinancialInstitution) = 0"
+            <assert id="DRE0-AHTS-7" test="not(ram:PayerSpecifiedDebtorFinancialInstitution)"
             >Eine DiGA-Rechnung darf keine Informationen zur Bank des Debitors enthalten.</assert>
-            <assert id="DRE0-AHTS-8" test="count(ram:PayeeSpecifiedCreditorFinancialInstitution) = 0"
+            <assert id="DRE0-AHTS-8" test="not(ram:PayeeSpecifiedCreditorFinancialInstitution)"
             >Eine DiGA-Rechnung darf keine Informationen zur Bank des Kreditors enthalten.</assert>
         </rule>
     </pattern>
