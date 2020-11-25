@@ -54,6 +54,12 @@
             <assert id="DRE0-AHTA-2" test="matches(normalize-space(ram:BuyerTradeParty/ram:ID[@schemeID = 'IK']), '^\d{9}$')"
             >Eine DiGA-Rechnung muß das Institutionskennzeichen (IK) einer Krankenkasse mit exakt neun Ziffern enthalten.</assert>
         </rule>
+        <rule context="ram:ApplicableHeaderTradeAgreement/ram:SellerTradeParty/ram:ID[@schemeID = 'IK_Zahlungsempfänger']">
+            <assert id="DRE0-AHTA-3" test="matches(normalize-space(.), '^\d{9}$')"
+            >Das Institutionskennzeichen (IK) eines abweichenden Zahlungsempfängers muss exakt neun Ziffern haben.</assert>
+            <assert id="DRE0-AHTA-4" test="normalize-space(.) != normalize-space(../ram:ID[@schemeID = 'IK'])"
+            >Das Institutionskennzeichen (IK) eines abweichenden Zahlungsempfängers muss vom IK des DiGA-Herstellers verschieden sein.</assert>
+        </rule>
         <rule context="ram:ApplicableHeaderTradeSettlement">
             <assert id="DRE0-AHTS-1" test="not(ram:TaxCurrencyCode) or normalize-space(ram:TaxCurrencyCode) = 'EUR'"
             >Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro (EUR) enthalten.</assert>
@@ -61,6 +67,10 @@
             >Eine DiGA-Rechnung muß den Rechnungsbetrag in Euro (EUR) enthalten.</assert>
             <assert id="DRE0-AHTS-3" test="normalize-space(ram:SpecifiedTradeSettlementHeaderMonetarySummation/ram:TaxTotalAmount[@currencyID = 'EUR']) != ''"
             >Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro (EUR) enthalten.</assert>
+            <assert id="DRE0-AHTS-4" test="count(ram:SpecifiedTradeSettlementPaymentMeans/ram:PayeePartyCreditorFinancialAccount/ram:IBANID) = 1"
+            >Eine DiGA-Rechnung muß genau eine IBAN enthalten.</assert>
+            <assert id="DRE0-AHTS-5" test="count(ram:SpecifiedTradeSettlementPaymentMeans/ram:PayeeSpecifiedCreditorFinancialInstitution/ram:BICID) = 1"
+            >Eine DiGA-Rechnung muß genau eine BICID enthalten.</assert>
         </rule>
     </pattern>
 </schema>
