@@ -126,7 +126,7 @@
         </ram:ApplicableHeaderTradeDelivery>
         <ram:ApplicableHeaderTradeSettlement>
             <!-- IK des Zahlungsempfängers als "Payee Identifier" (BT-60): -->
-            <ram:CreditorReferenceID schemeID="IK">987654321</ram:CreditorReferenceID>
+            <ram:CreditorReferenceID schemeID="IK">987654322</ram:CreditorReferenceID>
             <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
             <ram:SpecifiedTradeSettlementPaymentMeans>
