@@ -21,6 +21,9 @@
     <property name="build.dir" value="build"/>
     <property name="config.dir" value="${build.dir}/config"/>
     <property name="lib.dir" value="lib"/>
+    <property name="saxon.version" value="10.3"/>
+    <property name="schxslt.version" value="1.5.2"/>
+    <property name="validationtool.version" value="1.4.0"/>
     <property name="xrechnung.download.url"
               value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
 
@@ -32,11 +35,11 @@
         </parallel>
         <parallel threadcount="3">
             <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
-                 src="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.2/Saxon-HE-10.2.jar"/>
+                 src="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/${saxon.version}/Saxon-HE-${saxon.version}.jar"/>
             <sequential>
                 <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
-                     src="https://github.com/schxslt/schxslt/releases/download/v1.5.2/schxslt-1.5.2-xslt-only.zip"/>
-                <unzip dest="${lib.dir}/schxslt" overwrite="false" src="${lib.dir}/schxslt-1.5.2-xslt-only.zip">
+                     src="https://github.com/schxslt/schxslt/releases/download/v${schxslt.version}/schxslt-${schxslt.version}-xslt-only.zip"/>
+                <unzip dest="${lib.dir}/schxslt" overwrite="false" src="${lib.dir}/schxslt-${schxslt.version}-xslt-only.zip">
                     <cutdirsmapper dirs="1"/>
                     <patternset>
                         <exclude name="*/1.0/"/>
@@ -45,8 +48,8 @@
             </sequential>
             <sequential>
                 <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
-                     src="https://github.com/itplr-kosit/validator/releases/download/v1.4.0/validationtool-1.4.0.zip"/>
-                <unzip dest="${lib.dir}" overwrite="false" src="${lib.dir}/validationtool-1.4.0.zip">
+                     src="https://github.com/itplr-kosit/validator/releases/download/v${validationtool.version}/validationtool-${validationtool.version}.zip"/>
+                <unzip dest="${lib.dir}" overwrite="false" src="${lib.dir}/validationtool-${validationtool.version}.zip">
                     <patternset>
                         <include name="*-standalone.jar"/>
                     </patternset>
@@ -81,7 +84,7 @@
                 <file file="LICENSE"/>
                 <file file="README.md"/>
             </copy>
-            <xslt basedir="src/main/schematron" classpath="${lib.dir}/Saxon-HE-10.2.jar"
+            <xslt basedir="src/main/schematron" classpath="${lib.dir}/Saxon-HE-${saxon.version}.jar"
                   destdir="${config.dir}/schematron" extension=".xsl"
                   style="${lib.dir}/schxslt/2.0/pipeline-for-svrl.xsl"/>
         </parallel>
