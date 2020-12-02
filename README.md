@@ -53,7 +53,7 @@ The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
-  * DiGA-Verzeichnis (DVZ0)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
 
 Processing of 1 objects started
 Processing of 1 objects completed in 146ms
@@ -88,7 +88,7 @@ The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
-  * DiGA-Verzeichnis (DVZ0)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
 
 Processing of 7 objects started
 Processing of 7 objects completed in 229ms
@@ -177,7 +177,7 @@ The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
-  * DiGA-Verzeichnis (DVZ0)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
 
 Processing of 2 objects started
 Processing of 2 objects completed in 220ms
@@ -219,7 +219,7 @@ The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
-  * DiGA-Verzeichnis (DVZ0)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
 
 Processing of 1 objects started
 Processing of 1 objects completed in 250ms
@@ -299,7 +299,7 @@ The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
-  * DiGA-Verzeichnis (DVZ0)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
 
 Processing of 2 objects started
 Processing of 2 objects completed in 216ms
@@ -341,7 +341,7 @@ The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
-  * DiGA-Verzeichnis (DVZ0)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
 
 Processing of 1 objects started
 Processing of 1 objects completed in 257ms
@@ -377,7 +377,7 @@ The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
-  * DiGA-Verzeichnis (DVZ0)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
 
 Processing of 1 objects started
 Processing of 1 objects completed in 164ms

@@ -55,12 +55,26 @@
             >Eine DiGA-Rechnung muß das Institutionskennzeichen (IK) einer Krankenkasse mit exakt neun Ziffern enthalten.</assert>
         </rule>
         <rule context="ram:ApplicableHeaderTradeSettlement">
+            <assert id="DRE0-AHTS-4" test="matches(normalize-space(ram:CreditorReferenceID[@schemeID = 'IK']), '^\d{9}$')"
+            >Eine DiGA-Rechnung muß das Institutionskennzeichen (IK) des Zahlungsempfängers mit exakt neun Ziffern enthalten.</assert>
             <assert id="DRE0-AHTS-1" test="not(ram:TaxCurrencyCode) or normalize-space(ram:TaxCurrencyCode) = 'EUR'"
             >Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro (EUR) enthalten.</assert>
             <assert id="DRE0-AHTS-2" test="normalize-space(ram:InvoiceCurrencyCode) = 'EUR'"
             >Eine DiGA-Rechnung muß den Rechnungsbetrag in Euro (EUR) enthalten.</assert>
             <assert id="DRE0-AHTS-3" test="normalize-space(ram:SpecifiedTradeSettlementHeaderMonetarySummation/ram:TaxTotalAmount[@currencyID = 'EUR']) != ''"
             >Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro (EUR) enthalten.</assert>
+        </rule>
+        <rule context="ram:SpecifiedTradeSettlementPaymentMeans">
+            <assert id="DRE0-AHTS-4" test="not(ram:ApplicableTradeSettlementFinancialCard)"
+            >Eine DiGA-Rechnung darf keine Informationen zur Kartenzahlung enthalten.</assert>
+            <assert id="DRE0-AHTS-5" test="not(ram:PayerPartyDebtorFinancialAccount)"
+            >Eine DiGA-Rechnung darf keine Informationen zum Konto des Debitors enthalten.</assert>
+            <assert id="DRE0-AHTS-6" test="not(ram:PayeePartyCreditorFinancialAccount)"
+            >Eine DiGA-Rechnung darf keine Informationen zum Konto des Kreditors enthalten.</assert>
+            <assert id="DRE0-AHTS-7" test="not(ram:PayerSpecifiedDebtorFinancialInstitution)"
+            >Eine DiGA-Rechnung darf keine Informationen zur Bank des Debitors enthalten.</assert>
+            <assert id="DRE0-AHTS-8" test="not(ram:PayeeSpecifiedCreditorFinancialInstitution)"
+            >Eine DiGA-Rechnung darf keine Informationen zur Bank des Kreditors enthalten.</assert>
         </rule>
     </pattern>
 </schema>

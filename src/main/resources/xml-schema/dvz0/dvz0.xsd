@@ -14,12 +14,12 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<xs:schema
-        elementFormDefault="qualified"
-        targetNamespace="http://xml.bitmarck.de/service/dvz0"
-        version="1.0.0"
-        xml:lang="de"
-        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema elementFormDefault="qualified"
+           targetNamespace="https://xml.diga-ready.de/xsd/dvz0/v1"
+           version="1.0.0"
+           xml:lang="de"
+           xmlns="https://xml.diga-ready.de/xsd/dvz0/v1"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="DigaVerzeichnis">
         <xs:annotation>
             <xs:documentation>
@@ -48,13 +48,23 @@
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
-                            <xs:element name="DigaVeId">
+                            <xs:element name="DigaId">
                                 <xs:annotation>
-                                    <xs:documentation>Die vier bis achtstellige DiGA-VE-ID.</xs:documentation>
+                                    <xs:documentation>Die fünfstellige DiGA-ID.</xs:documentation>
                                 </xs:annotation>
                                 <xs:simpleType>
                                     <xs:restriction base="xs:positiveInteger">
-                                        <xs:pattern value="\d{4,8}"/>
+                                        <xs:pattern value="\d{5}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="DigaVeId">
+                                <xs:annotation>
+                                    <xs:documentation>Die achtstellige DiGA-VE-ID.</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:positiveInteger">
+                                        <xs:pattern value="\d{8}"/>
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
@@ -95,24 +105,121 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="Gruppen" minOccurs="0">
+                            <xs:element name="Indikationen" type="Indikationen">
                                 <xs:annotation>
                                     <xs:documentation>
-                                        Eine möglicherweise leere Liste von Schlagwörtern/Schlüsselwörtern/Suchbegriffen/Tags/Labels.
+                                        Eine nicht-leere Liste von Indikationen.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Kontraindikationen" type="Indikationen" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Eine optionale, aber nicht-leere Liste von Kontraindikationen.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="GruppenNummer" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Die optionale GruppenNummer der DiGA.
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:pattern value="\c{1,2}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Homepage" type="URL" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Der URL zur Homepage für die DiGA.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Details" type="URL">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Der URL zur Seite des Bundesinstituts für Arzneimittel und Medizinprodukte für
+                                        die DiGA.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Plattformen">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Eine nicht-leere Liste von Plattformen für die DiGA.
                                     </xs:documentation>
                                 </xs:annotation>
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Gruppe" minOccurs="1" maxOccurs="unbounded">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:token">
-                                                    <xs:minLength value="1"/>
-                                                    <xs:maxLength value="255"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
+                                        <xs:element name="Plattform" maxOccurs="unbounded">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Eine Plattform für die DiGA.
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Name">
+                                                        <xs:annotation>
+                                                            <xs:documentation>
+                                                                Der Name der Plattform.
+                                                            </xs:documentation>
+                                                        </xs:annotation>
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:minLength value="1"/>
+                                                                <xs:maxLength value="255"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="Link" type="URL">
+                                                        <xs:annotation>
+                                                            <xs:documentation>
+                                                                Der URL zur Landing-Page für den Download der DiGA oder
+                                                                sogar zum direkten Download der DiGA.
+                                                            </xs:documentation>
+                                                        </xs:annotation>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Geschlechter" minOccurs="0" default="M W D">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Eine Liste von Geschlechtskennzeichen ('M', 'W' oder 'D'), getrennt durch Leerzeichen.
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:list>
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:NMTOKEN">
+                                                <xs:enumeration value="M"/>
+                                                <xs:enumeration value="W"/>
+                                                <xs:enumeration value="D"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:list>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="AlterAb" type="xs:nonNegativeInteger" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Das Mindestalter für die Verwendung der DiGA.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="AlterBis" type="xs:positiveInteger" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Das Höchstalter für die Verwendung der DiGA.
+                                    </xs:documentation>
+                                </xs:annotation>
                             </xs:element>
                             <xs:element name="AnwendungsTage" minOccurs="0" type="xs:positiveInteger">
                                 <xs:annotation>
@@ -134,7 +241,21 @@
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
-                            <xs:element name="GültigAb" minOccurs="0" type="xs:date">
+                            <xs:element name="Zulassungsbeginn" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Das Datum, an dem die Zulassung der DiGA beginnt.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Zulassungsende" minOccurs="0" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Das Datum, an dem die Zulassung der DiGA endet.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="GültigAb" type="xs:date">
                                 <xs:annotation>
                                     <xs:documentation>
                                         Schränkt die Gültigkeit des gesamten Datensatzes auf den Zeitraum ein, der an
@@ -163,4 +284,21 @@
             <xs:attribute name="version" fixed="1.0.0" use="required"/>
         </xs:complexType>
     </xs:element>
+    <xs:complexType name="Indikationen">
+        <xs:sequence>
+            <xs:element name="Indikation" maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="[^:]+:.*"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="URL">
+        <xs:restriction base="xs:token">
+            <!-- See: https://tools.ietf.org/html/rfc3986#appendix-B -->
+            <xs:pattern value="(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
