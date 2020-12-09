@@ -26,7 +26,7 @@
         </ram:GuidelineSpecifiedDocumentContextParameter>
     </rsm:ExchangedDocumentContext>
     <rsm:ExchangedDocument>
-        <ram:ID>2021-1</ram:ID>
+        <ram:ID>2020-1</ram:ID>
         <ram:TypeCode>380</ram:TypeCode>
         <ram:IssueDateTime>
             <udt:DateTimeString format="102">20200103</udt:DateTimeString>
@@ -44,7 +44,9 @@
                 <!-- DiGA-VE-ID: -->
                 <ram:GlobalID schemeID="DiGAVEID">tinnitus-rex</ram:GlobalID>
                 <!-- Freischaltcode: -->
-<!--                <ram:BuyerAssignedID schemeID="Freischaltcode">ABCDEFGHIJKLMNOP</ram:BuyerAssignedID>-->
+<!--
+                <ram:BuyerAssignedID schemeID="Freischaltcode">ABCDEFGHIJKLMNOP</ram:BuyerAssignedID>
+-->
                 <!-- DiGA-Name: -->
                 <ram:Name>Tinnitus Rex</ram:Name>
                 <ram:Description>Ein Artikel für Testrechnungen.</ram:Description>
@@ -74,7 +76,9 @@
             <ram:SellerTradeParty>
                 <ram:ID>TEST_RECHNUNGSSTELLER</ram:ID>
                 <!-- IK des DiGA-Herstellers als "Seller Identifier" (BT-29) [BR-CO-26]: -->
-<!--                <ram:ID schemeID="IK">987654321</ram:ID>-->
+<!--
+                <ram:ID schemeID="IK">987654321</ram:ID>
+-->
                 <ram:Name>Rechnungssteller</ram:Name>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Max Mustermann</ram:PersonName>
@@ -110,7 +114,9 @@
         </ram:ApplicableHeaderTradeAgreement>
         <ram:ApplicableHeaderTradeDelivery/>
         <ram:ApplicableHeaderTradeSettlement>
-<!--            <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>-->
+<!--
+            <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
+-->
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
             <ram:SpecifiedTradeSettlementPaymentMeans>
                 <ram:TypeCode>30</ram:TypeCode>
