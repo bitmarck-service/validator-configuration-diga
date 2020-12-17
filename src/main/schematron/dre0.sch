@@ -64,6 +64,12 @@
             <assert id="DRE0-AHTS-3" test="normalize-space(ram:SpecifiedTradeSettlementHeaderMonetarySummation/ram:TaxTotalAmount[@currencyID = 'EUR']) != ''"
             >Eine DiGA-Rechnung muß den Mehrwertsteuerbetrag in Euro (EUR) enthalten.</assert>
         </rule>
+        <rule context="ram:SpecifiedTradePaymentTerms">
+            <assert id="DRE0-STPT-1" test="count(ram:Description) = 1 and normalize-space(ram:Description) = ''"
+            >In einer DiGA-Rechnung muss die Beschreibung der Zahlungsbedingungen leer sein.</assert>
+            <assert id="DRE0-STPT-2" test="not(ram:DueDateDateTime)"
+            >Eine DiGA-Rechnung darf kein Fälligkeitsdatum enthalten.</assert>
+        </rule>
         <rule context="ram:SpecifiedTradeSettlementPaymentMeans">
             <assert id="DRE0-AHTS-4" test="not(ram:ApplicableTradeSettlementFinancialCard)"
             >Eine DiGA-Rechnung darf keine Informationen zur Kartenzahlung enthalten.</assert>
