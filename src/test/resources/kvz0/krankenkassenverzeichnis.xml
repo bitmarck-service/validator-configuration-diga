@@ -129,13 +129,16 @@
         <Krankenkassenkuerzel>AT</Krankenkassenkuerzel>
         <IK_Krankenkasse>101520078</IK_Krankenkasse>
         <Name_Krankenkasse>Betriebskrankenkasse Mobil Oil</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>661430046</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>101520078</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>Mobil ISC GmbH</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.apimisc.de</Endpunkt_Kommunikationsstelle>
-        <Versandart>2</Versandart>
-        <EMail_Krankenkasse>diga@davaso.de</EMail_Krankenkasse>
-        <Kontaktdaten_Technisch_Telefon>0341 25920-0</Kontaktdaten_Technisch_Telefon>
-        <Kontaktdaten_Technisch_EMail>da302@davaso.de</Kontaktdaten_Technisch_EMail>
+        <Versandart>3</Versandart>
+        <Strasse_Postfach>Hühnerposten</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>2</Hausnummer_Postfachnummer>
+        <PLZ>20097</PLZ>
+        <Ort>Hamburg</Ort>
+        <Kontaktdaten_Technisch_Telefon>040 3002-60123</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>Ronja.Annabring@bkk-mobil-oil.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID13">
         <Krankenkassenkuerzel>DK</Krankenkassenkuerzel>
@@ -189,7 +192,7 @@
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
         <Versandart>1</Versandart>
-        <Kontaktdaten_Technisch_Telefon>080024862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID18">
@@ -240,7 +243,7 @@
         <Krankenkassenkuerzel>BG</Krankenkassenkuerzel>
         <IK_Krankenkasse>103725547</IK_Krankenkasse>
         <Name_Krankenkasse>BKK Herford Minden Ravensberg</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
         <Versandart>1</Versandart>
@@ -250,7 +253,7 @@
     <Krankenkasseninformation Nummer="ID23">
         <Krankenkassenkuerzel>B6</Krankenkassenkuerzel>
         <IK_Krankenkasse>107832012</IK_Krankenkasse>
-        <Name_Krankenkasse>BKK Verbund­Plus</Name_Krankenkasse>
+        <Name_Krankenkasse>BKK VerbundPlus</Name_Krankenkasse>
         <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
@@ -338,7 +341,7 @@
     <Krankenkasseninformation Nummer="ID31">
         <Krankenkassenkuerzel>DF</Krankenkassenkuerzel>
         <IK_Krankenkasse>101320032</IK_Krankenkasse>
-        <Name_Krankenkasse>SECUR­VITA BKK</Name_Krankenkasse>
+        <Name_Krankenkasse>SECURVITA BKK</Name_Krankenkasse>
         <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
@@ -350,18 +353,22 @@
         <Krankenkassenkuerzel>DO</Krankenkassenkuerzel>
         <IK_Krankenkasse>104526376</IK_Krankenkasse>
         <Name_Krankenkasse>VIACTIV Krankenkasse</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>661430046</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>104526376</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>Mobil ISC GmbH</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.apimisc.de</Endpunkt_Kommunikationsstelle>
-        <Versandart>2</Versandart>
-        <EMail_Krankenkasse>diga@davaso.de</EMail_Krankenkasse>
-        <Kontaktdaten_Technisch_Telefon>0341 25920-0</Kontaktdaten_Technisch_Telefon>
-        <Kontaktdaten_Technisch_EMail>da302@davaso.de</Kontaktdaten_Technisch_EMail>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>VIACTIV Krankenkasse</Postalische_Zusaetze>
+        <Strasse_Postfach>Zentraler</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>Posteingang</Hausnummer_Postfachnummer>
+        <PLZ>45064</PLZ>
+        <Ort>Essen</Ort>
+        <Kontaktdaten_Technisch_Telefon>0451 87187309</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>benjamin.pfeiffer@viactiv.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID33">
         <Krankenkassenkuerzel>AU</Krankenkassenkuerzel>
         <IK_Krankenkasse>105723301</IK_Krankenkasse>
-        <Name_Krankenkasse>Betriebskrankenkasse Pricewaterhouse­Coopers</Name_Krankenkasse>
+        <Name_Krankenkasse>Betriebskrankenkasse PricewaterhouseCoopers</Name_Krankenkasse>
         <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>Diga-Bitmarck</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
@@ -406,7 +413,7 @@
         <Krankenkassenkuerzel>DB</Krankenkassenkuerzel>
         <IK_Krankenkasse>104491707</IK_Krankenkasse>
         <Name_Krankenkasse>Novitas BKK</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
         <Versandart>1</Versandart>
@@ -438,7 +445,7 @@
     <Krankenkasseninformation Nummer="ID40">
         <Krankenkassenkuerzel>CG</Krankenkassenkuerzel>
         <IK_Krankenkasse>102122660</IK_Krankenkasse>
-        <Name_Krankenkasse>BKK24</Name_Krankenkasse>
+        <Name_Krankenkasse>BKK_DürkoppAdler</Name_Krankenkasse>
         <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
@@ -483,7 +490,7 @@
         <Krankenkassenkuerzel>DC</Krankenkassenkuerzel>
         <IK_Krankenkasse>106492393</IK_Krankenkasse>
         <Name_Krankenkasse>pronova BKK</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>Bitmarck Service GmbH, Essen</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
         <Versandart>1</Versandart>
@@ -571,9 +578,9 @@
         <Krankenkassenkuerzel>C3</Krankenkassenkuerzel>
         <IK_Krankenkasse>102171012</IK_Krankenkasse>
         <Name_Krankenkasse>Kaufmännische Krankenkasse - KKH</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>107436557</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>102171012</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>KKH</Name_Kommunikationsstelle>
-        <Endpunkt_Kommunikationsstelle>https://diga.kkh.de/diga/</Endpunkt_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.kkh.de</Endpunkt_Kommunikationsstelle>
         <Versandart>3</Versandart>
         <Postalische_Zusaetze>KKH – Kaufmännische Krankenkasse c/o Abrechnungszentrum Emmendingen</Postalische_Zusaetze>
         <Strasse_Postfach>An der B 3 Haus</Strasse_Postfach>
@@ -663,7 +670,7 @@
     <Krankenkasseninformation Nummer="ID60">
         <Krankenkassenkuerzel>BX</Krankenkassenkuerzel>
         <IK_Krankenkasse>101922757</IK_Krankenkasse>
-        <Name_Krankenkasse>BKK Salz­gitter</Name_Krankenkasse>
+        <Name_Krankenkasse>BKK Salzgitter</Name_Krankenkasse>
         <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
@@ -798,19 +805,23 @@
         <Krankenkassenkuerzel>CT</Krankenkassenkuerzel>
         <IK_Krankenkasse>101570104</IK_Krankenkasse>
         <Name_Krankenkasse>Hanseatische Krankenkasse</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>661430035</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>101570104</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
-        <Versandart>2</Versandart>
-        <EMail_Krankenkasse>diga@davaso.de</EMail_Krankenkasse>
-        <Kontaktdaten_Technisch_Telefon>0341 25920-0</Kontaktdaten_Technisch_Telefon>
-        <Kontaktdaten_Technisch_EMail>da302@davaso.de</Kontaktdaten_Technisch_EMail>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>Hanseatisch Krankenkasse</Postalische_Zusaetze>
+        <Strasse_Postfach>Wandsbeker Zollstr.</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>86-90</Hausnummer_Postfachnummer>
+        <PLZ>22041</PLZ>
+        <Ort>Hamburg</Ort>
+        <Kontaktdaten_Technisch_Telefon>040 65696-2518</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>ute.zornig@hek.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID72">
         <Krankenkassenkuerzel>AS</Krankenkassenkuerzel>
         <IK_Krankenkasse>103725342</IK_Krankenkasse>
         <Name_Krankenkasse>Bertelsmann BKK</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>104593993</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
         <Versandart>1</Versandart>
@@ -820,7 +831,7 @@
     <Krankenkasseninformation Nummer="ID73">
         <Krankenkassenkuerzel>AK</Krankenkassenkuerzel>
         <IK_Krankenkasse>104212505</IK_Krankenkasse>
-        <Name_Krankenkasse>AOK Rheinland/?Hamburg - Die Gesundheitskasse</Name_Krankenkasse>
+        <Name_Krankenkasse>AOK Rheinland/Hamburg - Die Gesundheitskasse</Name_Krankenkasse>
         <IK_Kommunikationsstelle>104212505</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
@@ -912,7 +923,7 @@
     <Krankenkasseninformation Nummer="ID81">
         <Krankenkassenkuerzel>AH</Krankenkassenkuerzel>
         <IK_Krankenkasse>103411401</IK_Krankenkasse>
-        <Name_Krankenkasse>AOK Nord­West - Die Gesundheitskasse</Name_Krankenkasse>
+        <Name_Krankenkasse>AOK NordWest - Die Gesundheitskasse</Name_Krankenkasse>
         <IK_Kommunikationsstelle>103411401</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
@@ -929,9 +940,9 @@
         <Krankenkassenkuerzel>DM</Krankenkassenkuerzel>
         <IK_Krankenkasse>101575519</IK_Krankenkasse>
         <Name_Krankenkasse>Techniker Krankenkasse</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>101576714</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>101575519</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>TK-Schnittstelle DiGA</Name_Kommunikationsstelle>
-        <Endpunkt_Kommunikationsstelle>https://diga-api.tk.de//diga/api/public/rest/diga</Endpunkt_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga-api.tk.de/diga/api/public/rest</Endpunkt_Kommunikationsstelle>
         <Versandart>3</Versandart>
         <Postalische_Zusaetze>Techniker Krankenkasse ARZ</Postalische_Zusaetze>
         <Strasse_Postfach>Ruhrorter Str.</Strasse_Postfach>
@@ -1010,7 +1021,7 @@
     <Krankenkasseninformation Nummer="ID89">
         <Krankenkassenkuerzel>CF</Krankenkassenkuerzel>
         <IK_Krankenkasse>103724249</IK_Krankenkasse>
-        <Name_Krankenkasse>BKK_Dürkopp Adler</Name_Krankenkasse>
+        <Name_Krankenkasse>BKK24</Name_Krankenkasse>
         <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
@@ -1021,11 +1032,16 @@
     <Krankenkasseninformation Nummer="ID90">
         <Krankenkassenkuerzel>AL</Krankenkassenkuerzel>
         <IK_Krankenkasse>107310373</IK_Krankenkasse>
-        <Name_Krankenkasse>AOK Rheinland-Pfalz/?Saarland-Die Gesundheitskasse</Name_Krankenkasse>
+        <Name_Krankenkasse>AOK Rheinland-Pfalz/Saarland-Die Gesundheitskasse</Name_Krankenkasse>
         <IK_Kommunikationsstelle>107310373</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</Endpunkt_Kommunikationsstelle>
-        <Versandart>1</Versandart>
+        <Versandart>3</Versandart>
+        <Postalische_Zusaetze>AOK Rheinland-Pfalz/Saarland Hilfsmittelabrechnung</Postalische_Zusaetze>
+        <Strasse_Postfach>Goethestraße</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>24</Hausnummer_Postfachnummer>
+        <PLZ>67547</PLZ>
+        <Ort>Worms</Ort>
         <Kontaktdaten_Technisch_Telefon>0800 256 33 44</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
@@ -1113,7 +1129,7 @@
         <Krankenkassenkuerzel>AC</Krankenkassenkuerzel>
         <IK_Krankenkasse>105313145</IK_Krankenkasse>
         <Name_Krankenkasse>AOK - Die Gesundheitskasse in Hessen</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>105313145</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>105810615</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</Endpunkt_Kommunikationsstelle>
         <Versandart>3</Versandart>
@@ -1143,20 +1159,20 @@
         <IK_Kommunikationsstelle>109519005</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
-        <Versandart>1</Versandart>
+        <Versandart>2</Versandart>
+        <EMail_Krankenkasse>DiGA_Rechnung@nordost.aok.de</EMail_Krankenkasse>
         <Kontaktdaten_Technisch_Telefon>0800 265080 22555</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>Nico.Goeldner@nordost.aok.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID100">
         <Krankenkassenkuerzel>AB</Krankenkassenkuerzel>
-        <IK_Krankenkasse>102114819</IK_Krankenkasse>
+        <IK_Krankenkasse>102110939</IK_Krankenkasse>
         <Name_Krankenkasse>AOK - Die Gesundheitskasse für Niedersachsen</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>102114819</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>102110939</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</Endpunkt_Kommunikationsstelle>
         <Versandart>3</Versandart>
-        <Postalische_Zusaetze>AOK- Die Gesundheitskasse für Niedersachsen GB Abrechnung &amp; operative Umsetzung
-        </Postalische_Zusaetze>
+        <Postalische_Zusaetze>AOK- Die Gesundheitskasse für Niedersachsen GB Abrechnung &amp; operative Umsetzung</Postalische_Zusaetze>
         <Strasse_Postfach>Hans-Böckler-Allee</Strasse_Postfach>
         <Hausnummer_Postfachnummer>13</Hausnummer_Postfachnummer>
         <PLZ>30173</PLZ>
@@ -1191,5 +1207,16 @@
         <EMail_Krankenkasse>digitale-gesundheitsanwendungen@san.aok.de</EMail_Krankenkasse>
         <Kontaktdaten_Technisch_Telefon>0511 67557 17236</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>ARGE-Firewalladmins@nds.aok.de</Kontaktdaten_Technisch_EMail>
+    </Krankenkasseninformation>
+    <Krankenkasseninformation Nummer="ID103">
+        <Krankenkassenkuerzel>AW</Krankenkassenkuerzel>
+        <IK_Krankenkasse>103525909</IK_Krankenkasse>
+        <Name_Krankenkasse>BKK Achenbach Buschhütten</Name_Krankenkasse>
+        <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
+        <Name_Kommunikationsstelle>DIGA-Bitmarck</Name_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck.de</Endpunkt_Kommunikationsstelle>
+        <Versandart>1</Versandart>
+        <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
 </Krankenkasseninformationen>
