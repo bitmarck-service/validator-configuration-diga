@@ -243,8 +243,8 @@ XML-Prüfbericht.
 #### Schritt 1 - Validierung gegen XRechnung 2.0
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s lib/xrechnung_2.0.0/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-2.0-*.xml
-KoSIT Validator version 1.4.0
+$ java -jar lib/validationtool-1.4.1-standalone.jar -h -s lib/xrechnung_2.0.0/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-2.0-*.xml
+KoSIT Validator version 1.4.1
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/lib/xrechnung_2.0.0/scenarios.xml
 Using repository  null
 Loaded "Validator Configuration XRechnung 2.0.0" by Coordination Office for IT Standards (KoSIT) from 2020-08-06 
@@ -258,16 +258,15 @@ The following scenarios are available:
   * EN16931 (CII)
 
 Processing of 2 objects started
-Processing of 2 objects completed in 276ms
+Processing of 2 objects completed in 231ms
 Results:
 ----------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dre0/xrechnung-2.0-falsch    |       |          |          |                    |
-|.xml                                                        |       |          |          |                    |
+|ration-diga/src/test/resources/dre0/xrechnung-2.0-falsch.xml|       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dre0/xrechnung-2.0-richti    |       |          |          |                    |
-|g.xml                                                       |       |          |          |                    |
+|ration-diga/src/test/resources/dre0/xrechnung-2.0-richtig.xm|       |          |          |                    |
+|l                                                           |       |          |          |                    |
 ----------------------------------------------------------------------------------------------------------------
 Acceptable:  2  Rejected:  0
 
