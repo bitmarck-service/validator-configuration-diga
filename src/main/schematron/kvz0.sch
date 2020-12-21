@@ -21,5 +21,11 @@
             <assert id="KVZ0-K-1" test="count(kvz0:Krankenkasseninformation) > 0"
             >Ein Krankenkassenverzeichnis muss mindestens einen Datensatz enthalten (redundant).</assert>
         </rule>
+<!--
+        <rule context="kvz0:Krankenkasseninformation">
+            <assert id="KVZ0-K-2" test="matches(normalize-space(kvz0:Endpunkt_Kommunikationsstelle), '^[a-z][a-z0-9-]*(\.[a-z][a-z0-9-]*)*$')"
+            >Der Endpunkt der Kommunikationsstelle muss ein FQDN sein.</assert>
+        </rule>
+-->
     </pattern>
 </schema>
