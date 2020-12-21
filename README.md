@@ -43,8 +43,8 @@ und alle Pfadangaben entsprechend ändern.
 ### Anfragen zum Einlösen des Freischaltcodes
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dfc0/ANF.xml
-KoSIT Validator version 1.4.0
+$ java -jar lib/validationtool-1.4.1-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dfc0/ANF.xml 
+KoSIT Validator version 1.4.1
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
 Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
@@ -56,7 +56,7 @@ The following scenarios are available:
   * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
 
 Processing of 1 objects started
-Processing of 1 objects completed in 146ms
+Processing of 1 objects completed in 136ms
 Results:
 ----------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
@@ -78,8 +78,8 @@ In diesem Beispiel wird das XML-Dokument akzeptiert.
 ### Antworten zum Einlösen des Freischaltcodes
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dfc0/{ANT,FEH}*.xml
-KoSIT Validator version 1.4.0
+$ java -jar lib/validationtool-1.4.1-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dfc0/{ANT,FEH}*.xml 
+KoSIT Validator version 1.4.1
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
 Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
@@ -127,8 +127,8 @@ Auch in diesem Beispiel werden alle XML-Dokumente akzeptiert, inklusive der Antw
 #### Schritt 1 - Validierung gegen XRechnung 1.2
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s lib/xrechnung_1.2.2/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-1.2-*.xml
-KoSIT Validator version 1.4.0
+$ java -jar lib/validationtool-1.4.1-standalone.jar -h -s lib/xrechnung_1.2.2/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-1.2-*.xml
+KoSIT Validator version 1.4.1
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/lib/xrechnung_1.2.2/scenarios.xml
 Using repository  null
 Loaded "Prüftool-Konfiguration XRechnung 1.2.2" by KoSIT from 2019-12-30 
@@ -144,11 +144,10 @@ Results:
 ----------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dre0/xrechnung-1.2-falsch    |       |          |          |                    |
-|.xml                                                        |       |          |          |                    |
+|ration-diga/src/test/resources/dre0/xrechnung-1.2-falsch.xml|       |          |          |                    |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
-|ration-diga/src/test/resources/dre0/xrechnung-1.2-richti    |       |          |          |                    |
-|g.xml                                                       |       |          |          |                    |
+|ration-diga/src/test/resources/dre0/xrechnung-1.2-richtig.xm|       |          |          |                    |
+|l                                                           |       |          |          |                    |
 ----------------------------------------------------------------------------------------------------------------
 Acceptable:  2  Rejected:  0
 
@@ -166,14 +165,13 @@ In diesem Beispiel werden beide Dokumente akzeptiert - es handelt sich zunächst
 #### Schritt 2 - Validierung gegen DiGA-Rechnung
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-1.2-*.xml
-KoSIT Validator version 1.4.0
+$ java -jar lib/validationtool-1.4.1-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-1.2-*.xml
+KoSIT Validator version 1.4.1
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
 Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
-  * DiGA Freischaltcode (DFC0), Version 1.0.0
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
@@ -185,11 +183,11 @@ Results:
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description                                           |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    N     |  REJECT  |Eine DiGA-Position muß eine DiGA-VE-ID mit exakt acht Stelle|
-|ration-diga/src/test/resources/dre0/xrechnung-1.2-falsch    |       |          |          |n enthalten.;Eine DiGA-Position muß einen Freischaltcode mit|
-|.xml                                                        |       |          |          | exakt 16 Stellen enthalten.;Eine DiGA-Rechnung muß den T...|
+|ration-diga/src/test/resources/dre0/xrechnung-1.2-falsch.xml|       |          |          |n enthalten.;Eine DiGA-Position muß einen Freischaltcode mit|
+|                                                            |       |          |          | exakt 16 Stellen enthalten.;Eine DiGA-Rechnung muß den T...|
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                                                            |
-|ration-diga/src/test/resources/dre0/xrechnung-1.2-richti    |       |          |          |                                                            |
-|g.xml                                                       |       |          |          |                                                            |
+|ration-diga/src/test/resources/dre0/xrechnung-1.2-richtig.xm|       |          |          |                                                            |
+|l                                                           |       |          |          |                                                            |
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Acceptable:  1  Rejected:  1
 
@@ -208,14 +206,13 @@ Der `open`-Befehl dient zur Anzeige des detaillierten HTML-Prüfberichts für da
 Auch der im vorigen Schritt erzeugte Prüfbericht lässt sich wiederum validieren:
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test build/test/xrechnung-1.2-falsch-report.xml 
-KoSIT Validator version 1.4.0
+$ java -jar lib/validationtool-1.4.1-standalone.jar -h -s build/config/scenarios.xml -o build/test build/test/xrechnung-1.2-falsch-report.xml 
+KoSIT Validator version 1.4.1
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
 Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
-  * DiGA Freischaltcode (DFC0), Version 1.0.0
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
@@ -288,14 +285,13 @@ Version 2.0.
 #### Schritt 2 - Validierung gegen DiGA-Rechnung
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-2.0-*.xml
-KoSIT Validator version 1.4.0
+$ java -jar lib/validationtool-1.4.1-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-2.0-*.xml
+KoSIT Validator version 1.4.1
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
 Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
-  * DiGA Freischaltcode (DFC0), Version 1.0.0
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
@@ -307,11 +303,11 @@ Results:
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description                                           |
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    N     |  REJECT  |Eine DiGA-Position muß eine DiGA-VE-ID mit exakt acht Stelle|
-|ration-diga/src/test/resources/dre0/xrechnung-2.0-falsch    |       |          |          |n enthalten.;Eine DiGA-Position muß einen Freischaltcode mit|
-|.xml                                                        |       |          |          | exakt 16 Stellen enthalten.;Eine DiGA-Rechnung muß den T...|
+|ration-diga/src/test/resources/dre0/xrechnung-2.0-falsch.xml|       |          |          |n enthalten.;Eine DiGA-Position muß einen Freischaltcode mit|
+|                                                            |       |          |          | exakt 16 Stellen enthalten.;Eine DiGA-Rechnung muß den T...|
 |/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                                                            |
-|ration-diga/src/test/resources/dre0/xrechnung-2.0-richti    |       |          |          |                                                            |
-|g.xml                                                       |       |          |          |                                                            |
+|ration-diga/src/test/resources/dre0/xrechnung-2.0-richtig.xm|       |          |          |                                                            |
+|l                                                           |       |          |          |                                                            |
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Acceptable:  1  Rejected:  1
 
@@ -330,14 +326,13 @@ Der `open`-Befehl dient zur Anzeige des detaillierten HTML-Prüfberichts für da
 Auch der im vorigen Schritt erzeugte Prüfbericht lässt sich wiederum validieren:
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test build/test/xrechnung-2.0-falsch-report.xml
-KoSIT Validator version 1.4.0
+$ java -jar lib/validationtool-1.4.1-standalone.jar -h -s build/config/scenarios.xml -o build/test build/test/xrechnung-2.0-falsch-report.xml 
+KoSIT Validator version 1.4.1
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
 Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
-  * DiGA Freischaltcode (DFC0), Version 1.0.0
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
@@ -366,21 +361,20 @@ XML-Prüfbericht.
 ### Stammdaten aus dem DiGA-Verzeichnis
 
 ```bash
-$ java -jar lib/validationtool-1.4.0-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dvz0/diga-verzeichnis.xml 
-KoSIT Validator version 1.4.0
+$ java -jar lib/validationtool-1.4.1-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dvz0/diga-verzeichnis.xml 
+KoSIT Validator version 1.4.1
 Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
 Using repository  null
 Loaded "DiGA-Konfiguration für den KoSIT Validator" by BITMARCK Service GmbH from 2020-09-15 
 
 The following scenarios are available:
-  * DiGA Freischaltcode (DFC0), Version 1.0.0
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
   * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
 
 Processing of 1 objects started
-Processing of 1 objects completed in 164ms
+Processing of 1 objects completed in 135ms
 Results:
 ----------------------------------------------------------------------------------------------------------------
 |filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
