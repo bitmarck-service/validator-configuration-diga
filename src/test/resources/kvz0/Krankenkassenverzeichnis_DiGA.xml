@@ -488,7 +488,7 @@
     <n1:Krankenkasseninformation Nummer="ID40">
         <bas:Kostentraegerkuerzel>CG</bas:Kostentraegerkuerzel>
         <bas:Kostentraegerkennung>102122660</bas:Kostentraegerkennung>
-        <bas:Name_des_Kostentraegers>BKK_DürkoppAdler</bas:Name_des_Kostentraegers>
+        <bas:Name_des_Kostentraegers>BKK24</bas:Name_des_Kostentraegers>
         <bas:IK_des_Rechnungsempfaengers>102122660</bas:IK_des_Rechnungsempfaengers>
         <bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
         <bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
@@ -638,11 +638,11 @@
         <bas:Name_Kommunikationsstelle>KKH</bas:Name_Kommunikationsstelle>
         <bas:Endpunkt_Kommunikationsstelle>diga.kkh.de</bas:Endpunkt_Kommunikationsstelle>
         <bas:Versandart>3</bas:Versandart>
-        <bas:Postalische_Zusaetze>KKH – Kaufmännische Krankenkasse c/o Abrechnungszentrum Emmendingen</bas:Postalische_Zusaetze>
-        <bas:Strasse_Postfach>An der B 3 Haus</bas:Strasse_Postfach>
-        <bas:Hausnummer_Postfachnummer>Nr. 6</bas:Hausnummer_Postfachnummer>
-        <bas:PLZ>79312</bas:PLZ>
-        <bas:Ort>Emmendingen</bas:Ort>
+        <bas:Postalische_Zusaetze>KKH – Kaufmännische Krankenkasse</bas:Postalische_Zusaetze>
+        <bas:Strasse_Postfach>Karl-Wiechert-Allee</bas:Strasse_Postfach>
+        <bas:Hausnummer_Postfachnummer>61</bas:Hausnummer_Postfachnummer>
+        <bas:PLZ>30625</bas:PLZ>
+        <bas:Ort>Hannover</bas:Ort>
         <bas:Kontaktdaten_Technisch_Telefon>0511 2802 4444</bas:Kontaktdaten_Technisch_Telefon>
         <bas:Kontaktdaten_Technisch_EMail>diga-technik@kkh.de</bas:Kontaktdaten_Technisch_EMail>
     </n1:Krankenkasseninformation>
@@ -909,7 +909,7 @@
         <bas:Kostentraegerkennung>104212505</bas:Kostentraegerkennung>
         <bas:Name_des_Kostentraegers>AOK Rheinland/Hamburg - Die Gesundheitskasse</bas:Name_des_Kostentraegers>
         <bas:IK_des_Rechnungsempfaengers>104212505</bas:IK_des_Rechnungsempfaengers>
-        <bas:IK_Abrechnungsstelle>104212505</bas:IK_Abrechnungsstelle>
+        <bas:IK_Abrechnungsstelle>104212516</bas:IK_Abrechnungsstelle>
         <bas:Name_Kommunikationsstelle>gkv informatik</bas:Name_Kommunikationsstelle>
         <bas:Endpunkt_Kommunikationsstelle>da-api.gkvi.de</bas:Endpunkt_Kommunikationsstelle>
         <bas:Versandart>3</bas:Versandart>
@@ -917,7 +917,7 @@
         <bas:Hausnummer_Postfachnummer>39</bas:Hausnummer_Postfachnummer>
         <bas:PLZ>40472</bas:PLZ>
         <bas:Ort>Düsseldorf</bas:Ort>
-        <bas:Kontaktdaten_Technisch_Telefon>+49 202 6958-1887</bas:Kontaktdaten_Technisch_Telefon>
+        <bas:Kontaktdaten_Technisch_Telefon>0202 6958-1887</bas:Kontaktdaten_Technisch_Telefon>
         <bas:Kontaktdaten_Technisch_EMail>anna.hartwig@gkvi.de</bas:Kontaktdaten_Technisch_EMail>
     </n1:Krankenkasseninformation>
     <n1:Krankenkasseninformation Nummer="ID74">
@@ -1113,7 +1113,7 @@
     <n1:Krankenkasseninformation Nummer="ID89">
         <bas:Kostentraegerkuerzel>CF</bas:Kostentraegerkuerzel>
         <bas:Kostentraegerkennung>103724249</bas:Kostentraegerkennung>
-        <bas:Name_des_Kostentraegers>BKK24</bas:Name_des_Kostentraegers>
+        <bas:Name_des_Kostentraegers>BKK_DürkoppAdler</bas:Name_des_Kostentraegers>
         <bas:IK_des_Rechnungsempfaengers>103724249</bas:IK_des_Rechnungsempfaengers>
         <bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
         <bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
@@ -1136,13 +1136,14 @@
         <bas:Hausnummer_Postfachnummer>24</bas:Hausnummer_Postfachnummer>
         <bas:PLZ>67547</bas:PLZ>
         <bas:Ort>Worms</bas:Ort>
-        <bas:Kontaktdaten_Technisch_Telefon>0800 256 33 44</bas:Kontaktdaten_Technisch_Telefon>
+        <bas:Kontaktdaten_Technisch_Telefon>0800 265 33 44</bas:Kontaktdaten_Technisch_Telefon>
         <bas:Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</bas:Kontaktdaten_Technisch_EMail>
     </n1:Krankenkasseninformation>
     <n1:Krankenkasseninformation Nummer="ID91">
         <bas:Kostentraegerkuerzel>AI</bas:Kostentraegerkuerzel>
         <bas:Kostentraegerkennung>107299005</bas:Kostentraegerkennung>
-        <bas:Name_des_Kostentraegers>AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen</bas:Name_des_Kostentraegers>
+        <bas:Name_des_Kostentraegers>AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen
+        </bas:Name_des_Kostentraegers>
         <bas:IK_des_Rechnungsempfaengers>107299005</bas:IK_des_Rechnungsempfaengers>
         <bas:IK_Abrechnungsstelle>107299005</bas:IK_Abrechnungsstelle>
         <bas:Name_Kommunikationsstelle>kubus IT GbR</bas:Name_Kommunikationsstelle>
@@ -1210,7 +1211,7 @@
         <bas:Hausnummer_Postfachnummer>102954</bas:Hausnummer_Postfachnummer>
         <bas:PLZ>70025</bas:PLZ>
         <bas:Ort>Stuttgart</bas:Ort>
-        <bas:Kontaktdaten_Technisch_Telefon>0800256334</bas:Kontaktdaten_Technisch_Telefon>
+        <bas:Kontaktdaten_Technisch_Telefon>08002653344</bas:Kontaktdaten_Technisch_Telefon>
         <bas:Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</bas:Kontaktdaten_Technisch_EMail>
     </n1:Krankenkasseninformation>
     <n1:Krankenkasseninformation Nummer="ID96">
@@ -1239,7 +1240,7 @@
         <bas:Hausnummer_Postfachnummer>Carina Kestner</bas:Hausnummer_Postfachnummer>
         <bas:PLZ>35387</bas:PLZ>
         <bas:Ort>Gießen</bas:Ort>
-        <bas:Kontaktdaten_Technisch_Telefon>08002563344</bas:Kontaktdaten_Technisch_Telefon>
+        <bas:Kontaktdaten_Technisch_Telefon>08002653344</bas:Kontaktdaten_Technisch_Telefon>
         <bas:Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</bas:Kontaktdaten_Technisch_EMail>
     </n1:Krankenkasseninformation>
     <n1:Krankenkasseninformation Nummer="ID98">
@@ -1269,9 +1270,9 @@
     </n1:Krankenkasseninformation>
     <n1:Krankenkasseninformation Nummer="ID100">
         <bas:Kostentraegerkuerzel>AB</bas:Kostentraegerkuerzel>
-        <bas:Kostentraegerkennung>102110939</bas:Kostentraegerkennung>
+        <bas:Kostentraegerkennung>102114819</bas:Kostentraegerkennung>
         <bas:Name_des_Kostentraegers>AOK - Die Gesundheitskasse für Niedersachsen</bas:Name_des_Kostentraegers>
-        <bas:IK_des_Rechnungsempfaengers>102110939</bas:IK_des_Rechnungsempfaengers>
+        <bas:IK_des_Rechnungsempfaengers>102114819</bas:IK_des_Rechnungsempfaengers>
         <bas:IK_Abrechnungsstelle>102110939</bas:IK_Abrechnungsstelle>
         <bas:Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</bas:Name_Kommunikationsstelle>
         <bas:Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</bas:Endpunkt_Kommunikationsstelle>
@@ -1321,7 +1322,7 @@
         <bas:IK_des_Rechnungsempfaengers>103525909</bas:IK_des_Rechnungsempfaengers>
         <bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
         <bas:Name_Kommunikationsstelle>DIGA-Bitmarck</bas:Name_Kommunikationsstelle>
-        <bas:Endpunkt_Kommunikationsstelle>diga.bitmarck.de</bas:Endpunkt_Kommunikationsstelle>
+        <bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
         <bas:Versandart>1</bas:Versandart>
         <bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
         <bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>

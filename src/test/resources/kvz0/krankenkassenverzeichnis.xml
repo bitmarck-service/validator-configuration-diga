@@ -445,7 +445,7 @@
     <Krankenkasseninformation Nummer="ID40">
         <Krankenkassenkuerzel>CG</Krankenkassenkuerzel>
         <IK_Krankenkasse>102122660</IK_Krankenkasse>
-        <Name_Krankenkasse>BKK_DürkoppAdler</Name_Krankenkasse>
+        <Name_Krankenkasse>BKK24</Name_Krankenkasse>
         <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
@@ -582,11 +582,11 @@
         <Name_Kommunikationsstelle>KKH</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.kkh.de</Endpunkt_Kommunikationsstelle>
         <Versandart>3</Versandart>
-        <Postalische_Zusaetze>KKH – Kaufmännische Krankenkasse c/o Abrechnungszentrum Emmendingen</Postalische_Zusaetze>
-        <Strasse_Postfach>An der B 3 Haus</Strasse_Postfach>
-        <Hausnummer_Postfachnummer>Nr. 6</Hausnummer_Postfachnummer>
-        <PLZ>79312</PLZ>
-        <Ort>Emmendingen</Ort>
+        <Postalische_Zusaetze>KKH – Kaufmännische Krankenkasse</Postalische_Zusaetze>
+        <Strasse_Postfach>Karl-Wiechert-Allee</Strasse_Postfach>
+        <Hausnummer_Postfachnummer>61</Hausnummer_Postfachnummer>
+        <PLZ>30625</PLZ>
+        <Ort>Hannover</Ort>
         <Kontaktdaten_Technisch_Telefon>0511 2802 4444</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>diga-technik@kkh.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
@@ -832,7 +832,7 @@
         <Krankenkassenkuerzel>AK</Krankenkassenkuerzel>
         <IK_Krankenkasse>104212505</IK_Krankenkasse>
         <Name_Krankenkasse>AOK Rheinland/Hamburg - Die Gesundheitskasse</Name_Krankenkasse>
-        <IK_Kommunikationsstelle>104212505</IK_Kommunikationsstelle>
+        <IK_Kommunikationsstelle>104212516</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>gkv informatik</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>da-api.gkvi.de</Endpunkt_Kommunikationsstelle>
         <Versandart>3</Versandart>
@@ -840,7 +840,7 @@
         <Hausnummer_Postfachnummer>39</Hausnummer_Postfachnummer>
         <PLZ>40472</PLZ>
         <Ort>Düsseldorf</Ort>
-        <Kontaktdaten_Technisch_Telefon>+49 202 6958-1887</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_Telefon>0202 6958-1887</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>anna.hartwig@gkvi.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID74">
@@ -1021,7 +1021,7 @@
     <Krankenkasseninformation Nummer="ID89">
         <Krankenkassenkuerzel>CF</Krankenkassenkuerzel>
         <IK_Krankenkasse>103724249</IK_Krankenkasse>
-        <Name_Krankenkasse>BKK24</Name_Krankenkasse>
+        <Name_Krankenkasse>BKK_DürkoppAdler</Name_Krankenkasse>
         <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-BITMARCK</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
@@ -1042,13 +1042,14 @@
         <Hausnummer_Postfachnummer>24</Hausnummer_Postfachnummer>
         <PLZ>67547</PLZ>
         <Ort>Worms</Ort>
-        <Kontaktdaten_Technisch_Telefon>0800 256 33 44</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_Telefon>0800 265 33 44</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID91">
         <Krankenkassenkuerzel>AI</Krankenkassenkuerzel>
         <IK_Krankenkasse>107299005</IK_Krankenkasse>
-        <Name_Krankenkasse>AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen</Name_Krankenkasse>
+        <Name_Krankenkasse>AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen
+        </Name_Krankenkasse>
         <IK_Kommunikationsstelle>107299005</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>kubus IT GbR</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>kubus-it.da-api.aok.de</Endpunkt_Kommunikationsstelle>
@@ -1111,7 +1112,7 @@
         <Hausnummer_Postfachnummer>102954</Hausnummer_Postfachnummer>
         <PLZ>70025</PLZ>
         <Ort>Stuttgart</Ort>
-        <Kontaktdaten_Technisch_Telefon>0800256334</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_Telefon>08002653344</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID96">
@@ -1138,7 +1139,7 @@
         <Hausnummer_Postfachnummer>Carina Kestner</Hausnummer_Postfachnummer>
         <PLZ>35387</PLZ>
         <Ort>Gießen</Ort>
-        <Kontaktdaten_Technisch_Telefon>08002563344</Kontaktdaten_Technisch_Telefon>
+        <Kontaktdaten_Technisch_Telefon>08002653344</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</Kontaktdaten_Technisch_EMail>
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID98">
@@ -1166,13 +1167,14 @@
     </Krankenkasseninformation>
     <Krankenkasseninformation Nummer="ID100">
         <Krankenkassenkuerzel>AB</Krankenkassenkuerzel>
-        <IK_Krankenkasse>102110939</IK_Krankenkasse>
+        <IK_Krankenkasse>102114819</IK_Krankenkasse>
         <Name_Krankenkasse>AOK - Die Gesundheitskasse für Niedersachsen</Name_Krankenkasse>
         <IK_Kommunikationsstelle>102110939</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</Name_Kommunikationsstelle>
         <Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</Endpunkt_Kommunikationsstelle>
         <Versandart>3</Versandart>
-        <Postalische_Zusaetze>AOK- Die Gesundheitskasse für Niedersachsen GB Abrechnung &amp; operative Umsetzung</Postalische_Zusaetze>
+        <Postalische_Zusaetze>AOK- Die Gesundheitskasse für Niedersachsen GB Abrechnung &amp; operative Umsetzung
+        </Postalische_Zusaetze>
         <Strasse_Postfach>Hans-Böckler-Allee</Strasse_Postfach>
         <Hausnummer_Postfachnummer>13</Hausnummer_Postfachnummer>
         <PLZ>30173</PLZ>
@@ -1214,7 +1216,7 @@
         <Name_Krankenkasse>BKK Achenbach Buschhütten</Name_Krankenkasse>
         <IK_Kommunikationsstelle>660500345</IK_Kommunikationsstelle>
         <Name_Kommunikationsstelle>DIGA-Bitmarck</Name_Kommunikationsstelle>
-        <Endpunkt_Kommunikationsstelle>diga.bitmarck.de</Endpunkt_Kommunikationsstelle>
+        <Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</Endpunkt_Kommunikationsstelle>
         <Versandart>1</Versandart>
         <Kontaktdaten_Technisch_Telefon>0800-24862725</Kontaktdaten_Technisch_Telefon>
         <Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</Kontaktdaten_Technisch_EMail>
