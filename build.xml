@@ -68,9 +68,9 @@
             </sequential>
             <sequential>
                 <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
-                     src="${xrechnung.download.url}/release-2020-07-31/validator-configuration-xrechnung_2.0.0_2020-07-31.zip"/>
-                <unzip dest="${lib.dir}/xrechnung_2.0.0" overwrite="false"
-                       src="${lib.dir}/validator-configuration-xrechnung_2.0.0_2020-07-31.zip">
+                     src="${xrechnung.download.url}/release-2020-12-31/validator-configuration-xrechnung_2.0.1_2020-12-31.zip"/>
+                <unzip dest="${lib.dir}/xrechnung_2.0.1" overwrite="false"
+                       src="${lib.dir}/validator-configuration-xrechnung_2.0.1_2020-12-31.zip">
                     <patternset>
                         <include name="resources/"/>
                         <include name="scenarios.xml"/>
