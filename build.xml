@@ -23,7 +23,7 @@
     <property name="lib.dir" value="lib"/>
     <property name="saxon.version" value="10.3"/>
     <property name="schxslt.version" value="1.5.2"/>
-    <property name="validationtool.version" value="1.4.0"/>
+    <property name="validationtool.version" value="1.4.1"/>
     <property name="xrechnung.download.url"
               value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
 
