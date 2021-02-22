@@ -112,6 +112,7 @@
             </Plattform>
         </Plattformen>
         <Geschlechter>M D</Geschlechter>
+        <AlterAb>18</AlterAb>
         <AnwendungsTage>14</AnwendungsTage>
         <Packungspreis>12.34</Packungspreis>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
