@@ -1,13 +1,13 @@
 {
   "DigaVerzeichnis": [
     {
-      "Pzn": 1.2345678E7,
-      "DigaId": 12345,
-      "DigaVeId": 1.2345001E7,
+      "Pzn": "12345678",
+      "DigaId": "12345",
+      "DigaVeId": "12345001",
       "Name": "Tinnitus-Rex",
       "Beschreibung": "Hilft gegen Tinnitus",
       "Hersteller": {
-        "Ik": 9.87654321E8,
+        "Ik": "987654321",
         "Name": "Beispiel AG"
       },
       "Indikationen": [
@@ -39,13 +39,13 @@
       "GültigBis": "2021-12-31"
     },
     {
-      "Pzn": 1.2345678E7,
-      "DigaId": 12345,
-      "DigaVeId": 1.2345001E7,
+      "Pzn": "12345678",
+      "DigaId": "12345",
+      "DigaVeId": "12345001",
       "Name": "Tinnitus-Rex",
       "Beschreibung": "Hilft gegen Tinnitus",
       "Hersteller": {
-        "Ik": 9.87654321E8,
+        "Ik": "987654321",
         "Name": "Beispiel AG"
       },
       "Indikationen": [
@@ -76,13 +76,13 @@
       "GültigAb": "2021-01-01"
     },
     {
-      "Pzn": 1.2345679E7,
-      "DigaId": 12346,
-      "DigaVeId": 1.2346001E7,
+      "Pzn": "12345679",
+      "DigaId": "12346",
+      "DigaVeId": "12346001",
       "Name": "Hans Hinterwand",
       "Beschreibung": "Beugt gegen Herzinfarkte vor",
       "Hersteller": {
-        "Ik": 9.87654322E8,
+        "Ik": "987654322",
         "Name": "Dummy GmbH"
       },
       "Indikationen": [
@@ -104,13 +104,13 @@
       "GültigAb": "2020-10-01"
     },
     {
-      "Pzn": 1.234568E7,
-      "DigaId": 12347,
-      "DigaVeId": 1.2347001E7,
+      "Pzn": "12345680",
+      "DigaId": "12347",
+      "DigaVeId": "12347001",
       "Name": "SARS-CoV-2 Prophylaxe",
       "Beschreibung": "Vermeiden Sie eine Coronainfektion!",
       "Hersteller": {
-        "Ik": 9.87654323E8,
+        "Ik": "987654323",
         "Name": "Muster und Co."
       },
       "Indikationen": [

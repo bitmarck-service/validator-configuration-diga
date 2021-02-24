@@ -34,8 +34,7 @@
             <xsl:value-of select="."/>
         </string>
     </xsl:template>
-    <xsl:template
-            match="dvz:Pzn | dvz:DigaId | dvz:DigaVeId | dvz:Ik | dvz:AlterAb | dvz:AlterBis | dvz:AnwendungsTage">
+    <xsl:template match="dvz:AlterAb | dvz:AlterBis | dvz:AnwendungsTage">
         <number key="{name()}">
             <xsl:value-of select="."/>
         </number>
