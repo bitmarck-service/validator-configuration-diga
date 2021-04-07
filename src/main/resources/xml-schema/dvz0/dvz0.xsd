@@ -44,6 +44,12 @@
                                 </xs:annotation>
                                 <xs:simpleType>
                                     <xs:restriction base="xs:positiveInteger">
+                                        <xs:annotation>
+                                            <xs:appinfo>
+                                                Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                            </xs:appinfo>
+                                        </xs:annotation>
                                         <xs:pattern value="\d{8}"/>
                                     </xs:restriction>
                                 </xs:simpleType>
@@ -54,6 +60,12 @@
                                 </xs:annotation>
                                 <xs:simpleType>
                                     <xs:restriction base="xs:positiveInteger">
+                                        <xs:annotation>
+                                            <xs:appinfo>
+                                                Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                            </xs:appinfo>
+                                        </xs:annotation>
                                         <xs:pattern value="\d{5}"/>
                                     </xs:restriction>
                                 </xs:simpleType>
@@ -64,6 +76,12 @@
                                 </xs:annotation>
                                 <xs:simpleType>
                                     <xs:restriction base="xs:positiveInteger">
+                                        <xs:annotation>
+                                            <xs:appinfo>
+                                                Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                            </xs:appinfo>
+                                        </xs:annotation>
                                         <xs:pattern value="\d{8}"/>
                                     </xs:restriction>
                                 </xs:simpleType>
@@ -97,6 +115,12 @@
                                             </xs:annotation>
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:positiveInteger">
+                                                    <xs:annotation>
+                                                        <xs:appinfo>
+                                                            Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                            Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                                        </xs:appinfo>
+                                                    </xs:annotation>
                                                     <xs:pattern value="\d{9}"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
@@ -127,7 +151,13 @@
                                 </xs:annotation>
                                 <xs:simpleType>
                                     <xs:restriction base="xs:token">
-                                        <xs:pattern value="\c{1,2}:.*"/>
+                                        <xs:annotation>
+                                            <xs:appinfo>
+                                                Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                            </xs:appinfo>
+                                        </xs:annotation>
+                                        <xs:pattern value="\i\c?:.*"/>
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
@@ -297,6 +327,12 @@
             <xs:element name="Indikation" maxOccurs="unbounded">
                 <xs:simpleType>
                     <xs:restriction base="xs:token">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                            </xs:appinfo>
+                        </xs:annotation>
                         <xs:pattern value="[^:]{1,7}:.*"/>
                     </xs:restriction>
                 </xs:simpleType>
@@ -305,7 +341,13 @@
     </xs:complexType>
     <xs:simpleType name="URL">
         <xs:restriction base="xs:token">
-            <!-- See: https://tools.ietf.org/html/rfc3986#appendix-B -->
+            <xs:annotation>
+                <xs:appinfo>
+                    Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
+                    Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                    Zum regulären Ausdruck für URLS siehe https://tools.ietf.org/html/rfc3986#appendix-B .
+                </xs:appinfo>
+            </xs:annotation>
             <xs:pattern value="(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?"/>
         </xs:restriction>
     </xs:simpleType>
