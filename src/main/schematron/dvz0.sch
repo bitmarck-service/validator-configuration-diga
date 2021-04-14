@@ -29,5 +29,9 @@
             <assert id="DVZ0-DV-3-1" test="normalize-space(.) != ''"
             >Eine Liste von Geschlechtern darf nicht leer sein.</assert>
         </rule>
+        <rule context="/dvz0:DigaVerzeichnis/dvz0:Diga/dvz0:MaxAnwendungstage">
+            <assert id="DVZ0-DV-4-1" test=". mod ../dvz0:Anwendungstage = 0"
+            >Die maximale kontinuierliche Anwendungsdauer muss ein ganzzahliges Vielfaches der Anwendungsdauer sein.</assert>
+        </rule>
     </pattern>
 </schema>

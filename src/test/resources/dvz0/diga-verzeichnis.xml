@@ -14,7 +14,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<DigaVerzeichnis version="1.0.0" xmlns="https://xml.diga-ready.de/xsd/dvz0/v1">
+<DigaVerzeichnis version="2.0.0" xmlns="https://xml.diga-ready.de/xsd/dvz0/v1">
     <Diga>
         <Pzn>12345678</Pzn>
         <DigaId>12345</DigaId>
@@ -32,7 +32,7 @@
         <Kontraindikationen>
             <Indikation>E66: Adipositas</Indikation>
         </Kontraindikationen>
-        <GruppenNummer>XY</GruppenNummer>
+        <Gruppe>XY: Lorem ipsum dolor sit amet, ...</Gruppe>
         <Homepage>https://tinnitus-rex.de</Homepage>
         <Details>https://diga.bfarm.de/de/verzeichnis/12345</Details>
         <Plattformen>
@@ -47,7 +47,8 @@
         </Plattformen>
         <AlterAb>18</AlterAb>
         <AlterBis>65</AlterBis>
-        <AnwendungsTage>7</AnwendungsTage>
+        <Anwendungstage>7</Anwendungstage>
+        <MaxAnwendungstage>21</MaxAnwendungstage>
         <Packungspreis>1.16</Packungspreis>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
         <GültigAb>2020-10-01</GültigAb>
@@ -84,7 +85,7 @@
         </Plattformen>
         <AlterAb>18</AlterAb>
         <AlterBis>65</AlterBis>
-        <AnwendungsTage>7</AnwendungsTage>
+        <Anwendungstage>7</Anwendungstage>
         <Packungspreis>1.19</Packungspreis>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
         <Zulassungsende>2021-09-30</Zulassungsende>
@@ -113,7 +114,7 @@
         </Plattformen>
         <Geschlechter>M D</Geschlechter>
         <AlterAb>18</AlterAb>
-        <AnwendungsTage>14</AnwendungsTage>
+        <Anwendungstage>14</Anwendungstage>
         <Packungspreis>12.34</Packungspreis>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
         <GültigAb>2020-10-01</GültigAb>
@@ -140,7 +141,7 @@
                 <Link>https://no-covid-thanks.com</Link>
             </Plattform>
         </Plattformen>
-        <AnwendungsTage>21</AnwendungsTage>
+        <Anwendungstage>21</Anwendungstage>
         <Packungspreis>123.45</Packungspreis>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
         <GültigAb>2020-10-01</GültigAb>
