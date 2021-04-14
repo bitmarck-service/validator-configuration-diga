@@ -21,8 +21,8 @@
     <ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
     <pattern>
         <rule context="rsm:ExchangedDocument">
-            <assert id="DRE0-ED-1" test="normalize-space(ram:ID) != ''"
-            >Eine DiGA-Rechnung muss eine Rechnungsnummer enthalten.</assert>
+            <assert id="DRE0-ED-1" test="matches(normalize-space(ram:ID), '^.{0,19}\d$')"
+            >Eine DiGA-Rechnung muss eine Rechnungsnummer mit ein bis 20 Zeichen enthalten, wobei das letzte Zeichen eine Ziffer sein muss.</assert>
             <assert id="DRE0-ED-2" test="normalize-space(ram:TypeCode) = '380'"
             >Eine DiGA-Rechnung muss vom Typ 380 (Commercial Invoice) sein.</assert>
             <assert id="DRE0-ED-3" test="matches(normalize-space(ram:IssueDateTime/udt:DateTimeString[@format = '102']), '^\d{8}$')"
