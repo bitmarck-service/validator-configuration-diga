@@ -31,21 +31,23 @@
         <rule context="rsm:SupplyChainTradeTransaction">
             <assert id="DRE0-SCTT-1" test="count(ram:IncludedSupplyChainTradeLineItem) = 1"
             >Eine DiGA-Rechnung muß genau eine Position enthalten.</assert>
-            <assert id="DRE0-SCTT-2" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:GlobalID[@schemeID = 'DiGAVEID']), '^\d{8}$')"
+        </rule>
+        <rule context="ram:IncludedSupplyChainTradeLineItem">
+            <assert id="DRE0-SCTT-2" test="matches(normalize-space(ram:SpecifiedTradeProduct/ram:GlobalID[@schemeID = 'DiGAVEID']), '^\d{8}$')"
             >Eine DiGA-Position muß eine DiGA-VE-ID mit exakt acht Stellen enthalten.</assert>
-            <assert id="DRE0-SCTT-3" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:BuyerAssignedID[@schemeID = 'Freischaltcode']), '^[A-Z2-7]{16}$')"
+            <assert id="DRE0-SCTT-3" test="matches(normalize-space(ram:SpecifiedTradeProduct/ram:BuyerAssignedID[@schemeID = 'Freischaltcode']), '^[A-Z2-7]{16}$')"
             >Eine DiGA-Position muß einen Freischaltcode mit exakt 16 Stellen enthalten.</assert>
-            <assert id="DRE0-SCTT-4" test="normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:Name) != ''"
+            <assert id="DRE0-SCTT-4" test="normalize-space(ram:SpecifiedTradeProduct/ram:Name) != ''"
             >Eine DiGA-Position muß einen DiGA-Namen enthalten.</assert>
-            <assert id="DRE0-SCTT-5" test="matches(normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102']), '^\d{8}$') or matches(normalize-space(ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102']), '^\d{8}$')"
+            <assert id="DRE0-SCTT-5" test="matches(normalize-space(ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102']), '^\d{8}$') or matches(normalize-space(../ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102']), '^\d{8}$')"
             >Eine DiGA-Rechnung muß den Tag der Leistungserbringung bzw. das Lieferdatum im Format "102" (JJJJMMTT) enthalten.</assert>
-            <assert id="DRE0-SCTT-6" test="not(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102'] and ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102']) or normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102']) = normalize-space(ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102'])"
+            <assert id="DRE0-SCTT-6" test="not(ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102'] and ../ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102']) or normalize-space(ram:SpecifiedTradeProduct/ram:IndividualTradeProductInstance/ram:SellByDateTime/udt:DateTimeString[@format = '102']) = normalize-space(ram:ApplicableHeaderTradeDelivery/ram:ActualDeliverySupplyChainEvent/ram:OccurrenceDateTime/udt:DateTimeString[@format = '102'])"
             >Wenn der Tag der Leistungserbringung bzw. das Lieferdatum an verschiedenen Stellen angegeben ist, dann müssen diese Angaben übereinstimmen.</assert>
-            <assert id="DRE0-SCTT-7" test="xs:decimal(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeAgreement/ram:NetPriceProductTradePrice/ram:ChargeAmount) = xs:decimal(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeSettlement/ram:SpecifiedTradeSettlementLineMonetarySummation/ram:LineTotalAmount)"
+            <assert id="DRE0-SCTT-7" test="xs:decimal(ram:SpecifiedLineTradeAgreement/ram:NetPriceProductTradePrice/ram:ChargeAmount) = xs:decimal(ram:SpecifiedLineTradeSettlement/ram:SpecifiedTradeSettlementLineMonetarySummation/ram:LineTotalAmount)"
             >Der Einzelpreis einer DiGA und der Gesamtpreis der Rechnungsposition müssen gleich sein.</assert>
-            <assert id="DRE0-SCTT-8" test="ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeDelivery/ram:BilledQuantity/@unitCode = 'C62'"
+            <assert id="DRE0-SCTT-8" test="ram:SpecifiedLineTradeDelivery/ram:BilledQuantity/@unitCode = 'C62'"
             >Die Abrechnungseinheit muß "C62" (one) sein.</assert>
-            <assert id="DRE0-SCTT-9" test="normalize-space(ram:IncludedSupplyChainTradeLineItem/ram:SpecifiedLineTradeDelivery/ram:BilledQuantity) = '1'"
+            <assert id="DRE0-SCTT-9" test="normalize-space(ram:SpecifiedLineTradeDelivery/ram:BilledQuantity) = '1'"
             >Die Abrechnungsmenge muß "1" sein.</assert>
         </rule>
         <rule context="ram:ApplicableHeaderTradeAgreement">
