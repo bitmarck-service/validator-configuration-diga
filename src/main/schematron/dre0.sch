@@ -59,6 +59,8 @@
         <rule context="ram:ApplicableHeaderTradeSettlement">
             <assert id="DRE0-AHTS-9" test="matches(normalize-space(ram:CreditorReferenceID[@schemeID = 'IK']), '^\d{9}$')"
             >Eine DiGA-Rechnung muss das Institutionskennzeichen (IK) des Zahlungsempfängers mit exakt neun Ziffern enthalten.</assert>
+            <assert id="DRE0-AHTS-10" test="normalize-space(ram:CreditorReferenceID[@schemeID = 'IK']) != normalize-space(../ram:ApplicableHeaderTradeAgreement/ram:BuyerTradeParty/ram:ID[@schemeID = 'IK'])"
+            >Das Institutionskennzeichen (IK) des Zahlungsempfängers muss sich vom IK der Krankenkasse unterscheiden.</assert>
             <assert id="DRE0-AHTS-1" test="not(ram:TaxCurrencyCode) or normalize-space(ram:TaxCurrencyCode) = 'EUR'"
             >Eine DiGA-Rechnung muss den Mehrwertsteuerbetrag in Euro (EUR) enthalten.</assert>
             <assert id="DRE0-AHTS-2" test="normalize-space(ram:InvoiceCurrencyCode) = 'EUR'"
