@@ -14,45 +14,41 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<DigaVerzeichnis version="2.0.0" xmlns="https://xml.diga-ready.de/xsd/dvz0/v1">
+<DigaVerzeichnis version="2.0.0" xmlns="https://xml.diga-ready.de/xsd/dvz0/v2">
     <Diga>
         <Pzn>12345678</Pzn>
         <DigaId>12345</DigaId>
         <DigaVeId>12345001</DigaVeId>
         <Name>Tinnitus-Rex</Name>
         <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
+        <Homepage>https://tinnitus-rex.de</Homepage>
+        <Details>https://diga.bfarm.de/de/verzeichnis/12345</Details>
+        <Anwendungstage>7</Anwendungstage>
+        <Packungspreis>1.19</Packungspreis>
         <Hersteller>
             <Ik>987654324</Ik>
             <Name>Beispiel AG</Name>
         </Hersteller>
-        <Indikationen>
-            <Indikation>X01: Tinnitus</Indikation>
-            <Indikation>X02: Gehör</Indikation>
-        </Indikationen>
-        <Kontraindikationen>
-            <Indikation>E66: Adipositas</Indikation>
-        </Kontraindikationen>
-        <Gruppe>XY: Lorem ipsum dolor sit amet, ...</Gruppe>
-        <Homepage>https://tinnitus-rex.de</Homepage>
-        <Details>https://diga.bfarm.de/de/verzeichnis/12345</Details>
-        <Plattformen>
-            <Plattform>
-                <Name>Apple App Store</Name>
-                <Link>https://apps.apple.com/de/app/tinnitus-rex-beispiel-ag/id123456789</Link>
-            </Plattform>
-            <Plattform>
-                <Name>Google Play Store</Name>
-                <Link>https://play.google.com/store/apps/details?id=de.beispiel-ag.tinnitus-rex</Link>
-            </Plattform>
-        </Plattformen>
-        <AlterAb>18</AlterAb>
-        <AlterBis>65</AlterBis>
-        <Anwendungstage>7</Anwendungstage>
-        <MaxAnwendungstage>21</MaxAnwendungstage>
-        <Packungspreis>1.16</Packungspreis>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
-        <GültigAb>2020-10-01</GültigAb>
-        <GültigBis>2021-12-31</GültigBis>
+        <Zulassungsende>2021-09-30</Zulassungsende>
+        <Kategorie>01: Beschreibung für Kategorie 01</Kategorie>
+        <Kategorie>AB: Beschreibung für Kategorie AB</Kategorie>
+        <Indikation>X01: Tinnitus</Indikation>
+        <Indikation>X02: Gehör</Indikation>
+        <Kontraindikation>E66: Adipositas</Kontraindikation>
+        <Freigabe>
+            <AlterAb>18</AlterAb>
+            <AlterBis>65</AlterBis>
+        </Freigabe>
+        <Plattform>
+            <Name>Apple App Store</Name>
+            <Link>https://apps.apple.com/de/app/tinnitus-rex-beispiel-ag/id123456789</Link>
+        </Plattform>
+        <Plattform>
+            <Name>Google Play Store</Name>
+            <Link>https://play.google.com/store/apps/details?id=de.beispiel-ag.tinnitus-rex</Link>
+        </Plattform>
+        <GültigAb>2021-01-01</GültigAb>
     </Diga>
     <Diga>
         <Pzn>12345678</Pzn>
@@ -60,35 +56,33 @@
         <DigaVeId>12345001</DigaVeId>
         <Name>Tinnitus-Rex</Name>
         <Beschreibung>Hilft gegen Tinnitus</Beschreibung>
+        <Homepage>https://tinnitus-rex.de</Homepage>
+        <Details>https://diga.bfarm.de/de/verzeichnis/12345</Details>
+        <Anwendungstage>7</Anwendungstage>
+        <Packungspreis>1.19</Packungspreis>
         <Hersteller>
             <Ik>987654324</Ik>
             <Name>Beispiel AG</Name>
         </Hersteller>
-        <Indikationen>
-            <Indikation>X01: Tinnitus</Indikation>
-            <Indikation>X02: Gehör</Indikation>
-        </Indikationen>
-        <Kontraindikationen>
-            <Indikation>E66: Adipositas</Indikation>
-        </Kontraindikationen>
-        <Homepage>https://tinnitus-rex.de</Homepage>
-        <Details>https://diga.bfarm.de/de/verzeichnis/12345</Details>
-        <Plattformen>
-            <Plattform>
-                <Name>Apple App Store</Name>
-                <Link>https://apps.apple.com/de/app/tinnitus-rex-beispiel-ag/id123456789</Link>
-            </Plattform>
-            <Plattform>
-                <Name>Google Play Store</Name>
-                <Link>https://play.google.com/store/apps/details?id=de.beispiel-ag.tinnitus-rex</Link>
-            </Plattform>
-        </Plattformen>
-        <AlterAb>18</AlterAb>
-        <AlterBis>65</AlterBis>
-        <Anwendungstage>7</Anwendungstage>
-        <Packungspreis>1.19</Packungspreis>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
         <Zulassungsende>2021-09-30</Zulassungsende>
+        <Kategorie>01: Beschreibung für Kategorie 01</Kategorie>
+        <Kategorie>AB: Beschreibung für Kategorie AB</Kategorie>
+        <Indikation>X01: Tinnitus</Indikation>
+        <Indikation>X02: Gehör</Indikation>
+        <Kontraindikation>E66: Adipositas</Kontraindikation>
+        <Freigabe>
+            <AlterAb>18</AlterAb>
+            <AlterBis>65</AlterBis>
+        </Freigabe>
+        <Plattform>
+            <Name>Google Play Store</Name>
+            <Link>https://play.google.com/store/apps/details?id=de.beispiel-ag.tinnitus-rex</Link>
+        </Plattform>
+        <Plattform>
+            <Name>Apple App Store</Name>
+            <Link>https://apps.apple.com/de/app/tinnitus-rex-beispiel-ag/id123456789</Link>
+        </Plattform>
         <GültigAb>2021-01-01</GültigAb>
     </Diga>
     <Diga>
@@ -97,26 +91,29 @@
         <DigaVeId>12346001</DigaVeId>
         <Name>Hans Hinterwand</Name>
         <Beschreibung>Beugt gegen Herzinfarkte vor</Beschreibung>
+        <Details>https://diga.bfarm.de/de/verzeichnis/12346</Details>
+        <Anwendungstage>14</Anwendungstage>
+        <Packungspreis>12.34</Packungspreis>
         <Hersteller>
             <Ik>987654335</Ik>
             <Name>Dummy GmbH</Name>
         </Hersteller>
-        <Indikationen>
-            <Indikation>X03: Coronare Herzerkrankungen</Indikation>
-            <Indikation>X04: Herz</Indikation>
-        </Indikationen>
-        <Details>https://diga.bfarm.de/de/verzeichnis/12346</Details>
-        <Plattformen>
-            <Plattform>
-                <Name>Apple App Store</Name>
-                <Link>https://apps.apple.com/de/app/hans-hinterwand-dummy-gmbh/id123456790</Link>
-            </Plattform>
-        </Plattformen>
-        <Geschlechter>M D</Geschlechter>
-        <AlterAb>18</AlterAb>
-        <Anwendungstage>14</Anwendungstage>
-        <Packungspreis>12.34</Packungspreis>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
+        <Kategorie>01: Beschreibung</Kategorie>
+        <Indikation>X03: Coronare Herzerkrankungen</Indikation>
+        <Indikation>X04: Herz</Indikation>
+        <Freigabe>
+            <Geschlecht>M</Geschlecht>
+            <AlterAb>18</AlterAb>
+        </Freigabe>
+        <Freigabe>
+            <Geschlecht>D</Geschlecht>
+            <AlterAb>18</AlterAb>
+        </Freigabe>
+        <Plattform>
+            <Name>Apple App Store</Name>
+            <Link>https://apps.apple.com/de/app/hans-hinterwand-dummy-gmbh/id123456790</Link>
+        </Plattform>
         <GültigAb>2020-10-01</GültigAb>
     </Diga>
     <Diga>
@@ -125,25 +122,22 @@
         <DigaVeId>12347001</DigaVeId>
         <Name>SARS-CoV-2 Prophylaxe</Name>
         <Beschreibung>Vermeiden Sie eine Coronainfektion!</Beschreibung>
+        <Details>https://diga.bfarm.de/de/verzeichnis/12346</Details>
+        <Anwendungstage>21</Anwendungstage>
+        <Packungspreis>123.45</Packungspreis>
         <Hersteller>
             <Ik>987654346</Ik>
             <Name>Muster und Co.</Name>
         </Hersteller>
-        <Indikationen>
-            <Indikation>X05: SARS-CoV-2</Indikation>
-            <Indikation>X06: COVID-19</Indikation>
-            <Indikation>X07: Corona</Indikation>
-        </Indikationen>
-        <Details>https://diga.bfarm.de/de/verzeichnis/12346</Details>
-        <Plattformen>
-            <Plattform>
-                <Name>Web App</Name>
-                <Link>https://no-covid-thanks.com</Link>
-            </Plattform>
-        </Plattformen>
-        <Anwendungstage>21</Anwendungstage>
-        <Packungspreis>123.45</Packungspreis>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
+        <Kategorie>01: Beschreibung</Kategorie>
+        <Indikation>X05: SARS-CoV-2</Indikation>
+        <Indikation>X06: COVID-19</Indikation>
+        <Indikation>X07: Corona</Indikation>
+        <Plattform>
+            <Name>Web App</Name>
+            <Link>https://no-covid-thanks.com</Link>
+        </Plattform>
         <GültigAb>2020-10-01</GültigAb>
     </Diga>
 </DigaVerzeichnis>

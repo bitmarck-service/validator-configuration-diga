@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet exclude-result-prefixes="dvz"
                 version="3.0"
-                xmlns:dvz="https://xml.diga-ready.de/xsd/dvz0/v1"
+                xmlns:dvz="https://xml.diga-ready.de/xsd/dvz0/v2"
                 xmlns="http://www.w3.org/2005/xpath-functions"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="text"/>
