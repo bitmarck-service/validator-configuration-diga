@@ -22,8 +22,8 @@
     <property name="config.dir" value="${build.dir}/config"/>
     <property name="lib.dir" value="lib"/>
     <property name="saxon.version" value="10.5"/>
-    <property name="schxslt.version" value="1.7.1"/>
-    <property name="validationtool.version" value="1.4.1"/>
+    <property name="schxslt.version" value="1.7.2"/>
+    <property name="validator.version" value="1.4.2"/>
     <property name="xrechnung.download.url"
               value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
 
@@ -48,8 +48,8 @@
             </sequential>
             <sequential>
                 <get dest="${lib.dir}" httpusecaches="true" skipexisting="true"
-                     src="https://github.com/itplr-kosit/validator/releases/download/v${validationtool.version}/validationtool-${validationtool.version}.zip"/>
-                <unzip dest="${lib.dir}" overwrite="false" src="${lib.dir}/validationtool-${validationtool.version}.zip">
+                     src="https://github.com/itplr-kosit/validator/releases/download/v${validator.version}/validator-${validator.version}-distribution.zip"/>
+                <unzip dest="${lib.dir}" overwrite="false" src="${lib.dir}/validator-${validator.version}-distribution.zip">
                     <patternset>
                         <include name="*-standalone.jar"/>
                     </patternset>
