@@ -370,7 +370,7 @@ The following scenarios are available:
   * DiGA Freischaltcode (DFC0), Version 2.0.0
   * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung (UN/CEFACT CII 100.D16B)
   * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
-  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
+  * DiGA-Verzeichnis, Version 2.0.0 (DVZ0)
 
 Processing of 1 objects started
 Processing of 1 objects completed in 135ms
