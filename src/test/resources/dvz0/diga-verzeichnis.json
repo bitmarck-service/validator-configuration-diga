@@ -1,116 +1,145 @@
 {
   "DigaVerzeichnis": [
     {
-      "Pzn": "12345678",
+      "Anwendungstage": 7,
+      "Beschreibung": "Hilft gegen Tinnitus",
+      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12345",
       "DigaId": "12345",
       "DigaVeId": "12345001",
-      "Name": "Tinnitus-Rex",
-      "Beschreibung": "Hilft gegen Tinnitus",
+      "Freigaben": [
+        {
+          "AlterAb": 18,
+          "AlterBis": 65
+        }
+      ],
+      "GültigAb": "2021-01-01",
       "Hersteller": {
-        "Ik": "987654321",
+        "Ik": "987654324",
         "Name": "Beispiel AG"
       },
+      "Homepage": "https:\/\/tinnitus-rex.de",
       "Indikationen": [
         "X01: Tinnitus",
         "X02: Gehör"
       ],
+      "Kategorien": [
+        "01: Beschreibung für Kategorie 01",
+        "AB: Beschreibung für Kategorie AB"
+      ],
       "Kontraindikationen": [
         "E66: Adipositas"
       ],
-      "GruppenNummer": "XY",
-      "Homepage": "https:\/\/tinnitus-rex.de",
-      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12345",
-      "Plattformen": [
-        {
-          "Name": "Apple App Store",
-          "Link": "https:\/\/apps.apple.com\/de\/app\/tinnitus-rex-beispiel-ag\/id123456789"
-        },
-        {
-          "Name": "Google Play Store",
-          "Link": "https:\/\/play.google.com\/store\/apps\/details?id=de.beispiel-ag.tinnitus-rex"
-        }
-      ],
-      "AlterAb": 18,
-      "AlterBis": 65,
-      "AnwendungsTage": 7,
-      "Packungspreis": "1.16",
-      "Zulassungsbeginn": "2020-10-01",
-      "GültigAb": "2020-10-01",
-      "GültigBis": "2021-12-31"
-    },
-    {
-      "Pzn": "12345678",
-      "DigaId": "12345",
-      "DigaVeId": "12345001",
       "Name": "Tinnitus-Rex",
-      "Beschreibung": "Hilft gegen Tinnitus",
-      "Hersteller": {
-        "Ik": "987654321",
-        "Name": "Beispiel AG"
-      },
-      "Indikationen": [
-        "X01: Tinnitus",
-        "X02: Gehör"
-      ],
-      "Kontraindikationen": [
-        "E66: Adipositas"
-      ],
-      "Homepage": "https:\/\/tinnitus-rex.de",
-      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12345",
-      "Plattformen": [
-        {
-          "Name": "Apple App Store",
-          "Link": "https:\/\/apps.apple.com\/de\/app\/tinnitus-rex-beispiel-ag\/id123456789"
-        },
-        {
-          "Name": "Google Play Store",
-          "Link": "https:\/\/play.google.com\/store\/apps\/details?id=de.beispiel-ag.tinnitus-rex"
-        }
-      ],
-      "AlterAb": 18,
-      "AlterBis": 65,
-      "AnwendungsTage": 7,
       "Packungspreis": "1.19",
+      "Plattformen": [
+        {
+          "Link": "https:\/\/apps.apple.com\/de\/app\/tinnitus-rex-beispiel-ag\/id123456789",
+          "Name": "Apple App Store"
+        },
+        {
+          "Link": "https:\/\/play.google.com\/store\/apps\/details?id=de.beispiel-ag.tinnitus-rex",
+          "Name": "Google Play Store"
+        }
+      ],
+      "Pzn": "12345678",
       "Zulassungsbeginn": "2020-10-01",
-      "Zulassungsende": "2021-09-30",
-      "GültigAb": "2021-01-01"
+      "Zulassungsende": "2021-09-30"
     },
     {
-      "Pzn": "12345679",
+      "Anwendungstage": 7,
+      "Beschreibung": "Hilft gegen Tinnitus",
+      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12345",
+      "DigaId": "12345",
+      "DigaVeId": "12345001",
+      "Freigaben": [
+        {
+          "AlterAb": 18,
+          "AlterBis": 65
+        }
+      ],
+      "GültigAb": "2021-01-01",
+      "Hersteller": {
+        "Ik": "987654324",
+        "Name": "Beispiel AG"
+      },
+      "Homepage": "https:\/\/tinnitus-rex.de",
+      "Indikationen": [
+        "X01: Tinnitus",
+        "X02: Gehör"
+      ],
+      "Kategorien": [
+        "01: Beschreibung für Kategorie 01",
+        "AB: Beschreibung für Kategorie AB"
+      ],
+      "Kontraindikationen": [
+        "E66: Adipositas"
+      ],
+      "Name": "Tinnitus-Rex",
+      "Packungspreis": "1.19",
+      "Plattformen": [
+        {
+          "Link": "https:\/\/play.google.com\/store\/apps\/details?id=de.beispiel-ag.tinnitus-rex",
+          "Name": "Google Play Store"
+        },
+        {
+          "Link": "https:\/\/apps.apple.com\/de\/app\/tinnitus-rex-beispiel-ag\/id123456789",
+          "Name": "Apple App Store"
+        }
+      ],
+      "Pzn": "12345678",
+      "Zulassungsbeginn": "2020-10-01",
+      "Zulassungsende": "2021-09-30"
+    },
+    {
+      "Anwendungstage": 14,
+      "Beschreibung": "Beugt gegen Herzinfarkte vor",
+      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12346",
       "DigaId": "12346",
       "DigaVeId": "12346001",
-      "Name": "Hans Hinterwand",
-      "Beschreibung": "Beugt gegen Herzinfarkte vor",
+      "Freigaben": [
+        {
+          "AlterAb": 18,
+          "Geschlecht": "M"
+        },
+        {
+          "AlterAb": 18,
+          "Geschlecht": "D"
+        }
+      ],
+      "GültigAb": "2020-10-01",
       "Hersteller": {
-        "Ik": "987654322",
+        "Ik": "987654335",
         "Name": "Dummy GmbH"
       },
       "Indikationen": [
         "X03: Coronare Herzerkrankungen",
         "X04: Herz"
       ],
-      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12346",
+      "Kategorien": [
+        "01: Beschreibung"
+      ],
+      "Kontraindikationen": [],
+      "Name": "Hans Hinterwand",
+      "Packungspreis": "12.34",
       "Plattformen": [
         {
-          "Name": "Apple App Store",
-          "Link": "https:\/\/apps.apple.com\/de\/app\/hans-hinterwand-dummy-gmbh\/id123456790"
+          "Link": "https:\/\/apps.apple.com\/de\/app\/hans-hinterwand-dummy-gmbh\/id123456790",
+          "Name": "Apple App Store"
         }
       ],
-      "Geschlechter": "M D",
-      "AlterAb": 18,
-      "AnwendungsTage": 14,
-      "Packungspreis": "12.34",
-      "Zulassungsbeginn": "2020-10-01",
-      "GültigAb": "2020-10-01"
+      "Pzn": "12345684",
+      "Zulassungsbeginn": "2020-10-01"
     },
     {
-      "Pzn": "12345680",
+      "Anwendungstage": 21,
+      "Beschreibung": "Vermeiden Sie eine Coronainfektion!",
+      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12346",
       "DigaId": "12347",
       "DigaVeId": "12347001",
-      "Name": "SARS-CoV-2 Prophylaxe",
-      "Beschreibung": "Vermeiden Sie eine Coronainfektion!",
+      "Freigaben": [],
+      "GültigAb": "2020-10-01",
       "Hersteller": {
-        "Ik": "987654323",
+        "Ik": "987654346",
         "Name": "Muster und Co."
       },
       "Indikationen": [
@@ -118,17 +147,20 @@
         "X06: COVID-19",
         "X07: Corona"
       ],
-      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12346",
+      "Kategorien": [
+        "01: Beschreibung"
+      ],
+      "Kontraindikationen": [],
+      "Name": "SARS-CoV-2 Prophylaxe",
+      "Packungspreis": "123.45",
       "Plattformen": [
         {
-          "Name": "Web App",
-          "Link": "https:\/\/no-covid-thanks.com"
+          "Link": "https:\/\/no-covid-thanks.com",
+          "Name": "Web App"
         }
       ],
-      "AnwendungsTage": 21,
-      "Packungspreis": "123.45",
-      "Zulassungsbeginn": "2020-10-01",
-      "GültigAb": "2020-10-01"
+      "Pzn": "12345690",
+      "Zulassungsbeginn": "2020-10-01"
     }
   ]
 }
