@@ -23,7 +23,7 @@
     <xs:element name="DigaVerzeichnis">
         <xs:annotation>
             <xs:documentation>
-                Die Stammdaten aus dem DiGA-Verzeichnis.
+                Ein ganz- oder teilweiser Abzug der Stammdaten aus dem DiGA-Verzeichnis.
             </xs:documentation>
         </xs:annotation>
         <xs:complexType>
@@ -31,39 +31,48 @@
                 <xs:element name="Diga" maxOccurs="unbounded">
                     <xs:annotation>
                         <xs:documentation>
-                            Ein Datensatz für eine DiGA.
+                            Ein Datensatz für eine DiGA, genauer für ein DiGA-Modul, identifiziert durch eine PZN
+                            (Pharmazentralnummer).
                         </xs:documentation>
                     </xs:annotation>
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="Pzn">
+                            <xs:element name="Anwendungstage" type="xs:positiveInteger">
                                 <xs:annotation>
                                     <xs:documentation>
-                                        Die achtstellige Pharmazentralnummer inklusive Prüfziffer.
+                                        Die Anwendungsdauer in Form einer positiven Anzahl von Tagen.
                                     </xs:documentation>
                                 </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Beschreibung">
+                                <xs:annotation>
+                                    <xs:documentation>Die Beschreibung.</xs:documentation>
+                                </xs:annotation>
                                 <xs:simpleType>
-                                    <xs:restriction base="xs:positiveInteger">
-                                        <xs:annotation>
-                                            <xs:appinfo>
-                                                Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
-                                                Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
-                                            </xs:appinfo>
-                                        </xs:annotation>
-                                        <xs:pattern value="\d{8}"/>
+                                    <xs:restriction base="xs:token">
+                                        <xs:minLength value="1"/>
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
+                            <xs:element name="Details" type="URL">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Der URL zur Webseite des Bundesinstituts für Arzneimittel und Medizinprodukte.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
                             <xs:element name="DigaId">
                                 <xs:annotation>
-                                    <xs:documentation>Die fünfstellige DiGA-ID.</xs:documentation>
+                                    <xs:documentation>Die (nicht eindeutige) fünfstellige DiGA-ID.</xs:documentation>
                                 </xs:annotation>
                                 <xs:simpleType>
                                     <xs:restriction base="xs:positiveInteger">
                                         <xs:annotation>
                                             <xs:appinfo>
-                                                Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
-                                                Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                                Zur Syntax regulärer Ausdrücke siehe
+                                                https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                Zu den Multi-character escapes siehe
+                                                https://www.w3.org/TR/xmlschema11-2/#cces-mce .
                                             </xs:appinfo>
                                         </xs:annotation>
                                         <xs:pattern value="\d{5}"/>
@@ -72,143 +81,21 @@
                             </xs:element>
                             <xs:element name="DigaVeId">
                                 <xs:annotation>
-                                    <xs:documentation>Die achtstellige DiGA-VE-ID.</xs:documentation>
+                                    <xs:documentation>Die eindeutige, achtstellige DiGA-VE-ID.</xs:documentation>
                                 </xs:annotation>
                                 <xs:simpleType>
                                     <xs:restriction base="xs:positiveInteger">
                                         <xs:annotation>
                                             <xs:appinfo>
-                                                Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
-                                                Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                                Zur Syntax regulärer Ausdrücke siehe
+                                                https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                Zu den Multi-character escapes siehe
+                                                https://www.w3.org/TR/xmlschema11-2/#cces-mce .
                                             </xs:appinfo>
                                         </xs:annotation>
                                         <xs:pattern value="\d{8}"/>
                                     </xs:restriction>
                                 </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="Name">
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:token">
-                                        <xs:minLength value="1"/>
-                                        <xs:maxLength value="255"/>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="Beschreibung" minOccurs="0">
-                                <xs:annotation>
-                                    <xs:documentation>Beschreibung/Zweckbestimmung/Indikation.</xs:documentation>
-                                </xs:annotation>
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:token">
-                                        <xs:minLength value="1"/>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="Homepage" type="URL" minOccurs="0">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Der URL zur Homepage für die DiGA.
-                                    </xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                            <xs:element name="Details" type="URL">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Der URL zur Seite des Bundesinstituts für Arzneimittel und Medizinprodukte für
-                                        die DiGA.
-                                    </xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                            <xs:element name="Anwendungstage" type="xs:positiveInteger">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Angabe einer Anwendungsdauer in Form einer positiven Anzahl von Tagen.
-                                    </xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                            <xs:element name="Packungspreis">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Brutto-Preis zum Regelsteuersatz in Euro (€) mit maximal zwei signifikanten
-                                        Nachkommastellen.
-                                    </xs:documentation>
-                                </xs:annotation>
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:decimal">
-                                        <xs:fractionDigits value="2"/>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="Hersteller">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="Ik">
-                                            <xs:annotation>
-                                                <xs:documentation>
-                                                    Das neunstellige Institutionskennzeichen mit Prüfziffer.
-                                                </xs:documentation>
-                                            </xs:annotation>
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:positiveInteger">
-                                                    <xs:annotation>
-                                                        <xs:appinfo>
-                                                            Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
-                                                            Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
-                                                        </xs:appinfo>
-                                                    </xs:annotation>
-                                                    <xs:pattern value="\d{9}"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element name="Name" type="xs:token"/>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="Zulassungsbeginn" type="xs:date">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Das Datum, an dem die Zulassung der DiGA beginnt.
-                                    </xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                            <xs:element name="Zulassungsende" minOccurs="0" type="xs:date">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Das Datum, an dem die Zulassung der DiGA endet.
-                                    </xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                            <xs:element name="Kategorie" maxOccurs="unbounded">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Eine nicht-leere Liste von Kategorien.
-                                    </xs:documentation>
-                                </xs:annotation>
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:token">
-                                        <xs:annotation>
-                                            <xs:appinfo>
-                                                Zur Syntax regulärer Ausdrücke siehe https://www.w3.org/TR/xmlschema11-2/#regexs .
-                                                Zu den Multi-character escapes siehe https://www.w3.org/TR/xmlschema11-2/#cces-mce .
-                                            </xs:appinfo>
-                                        </xs:annotation>
-                                        <xs:pattern value="\c\c?:.*"/>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="Indikation" type="Indikation" maxOccurs="unbounded">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Eine nicht-leere Liste von Indikationen.
-                                    </xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                            <xs:element name="Kontraindikation" type="Indikation" minOccurs="0" maxOccurs="unbounded">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Eine möglicherweise leere Liste von Kontraindikationen.
-                                    </xs:documentation>
-                                </xs:annotation>
                             </xs:element>
                             <xs:element name="Freigabe" type="Freigabe" minOccurs="0" maxOccurs="unbounded">
                                 <xs:annotation>
@@ -216,38 +103,6 @@
                                         Eine möglicherweise leere Liste von Freigaben.
                                     </xs:documentation>
                                 </xs:annotation>
-                            </xs:element>
-                            <xs:element name="Plattform" maxOccurs="unbounded">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Eine oder mehrere Plattformen für die DiGA.
-                                    </xs:documentation>
-                                </xs:annotation>
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="Name">
-                                            <xs:annotation>
-                                                <xs:documentation>
-                                                    Der Name der Plattform.
-                                                </xs:documentation>
-                                            </xs:annotation>
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                    <xs:minLength value="1"/>
-                                                    <xs:maxLength value="255"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element name="Link" type="URL">
-                                            <xs:annotation>
-                                                <xs:documentation>
-                                                    Der URL zur Landing-Page für den Download der DiGA oder
-                                                    sogar zum direkten Download der DiGA.
-                                                </xs:documentation>
-                                            </xs:annotation>
-                                        </xs:element>
-                                    </xs:sequence>
-                                </xs:complexType>
                             </xs:element>
                             <xs:element name="GültigAb" type="xs:date">
                                 <xs:annotation>
@@ -271,6 +126,160 @@
                                     </xs:documentation>
                                 </xs:annotation>
                             </xs:element>
+                            <xs:element name="Hersteller">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Ik">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Das neunstellige Institutionskennzeichen mit Prüfziffer.
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:positiveInteger">
+                                                    <xs:annotation>
+                                                        <xs:appinfo>
+                                                            Zur Syntax regulärer Ausdrücke siehe
+                                                            https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                            Zu den Multi-character escapes siehe
+                                                            https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                                        </xs:appinfo>
+                                                    </xs:annotation>
+                                                    <xs:pattern value="\d{9}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="Name" type="xs:token"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Homepage" type="URL" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Der optionale URL zur Homepage.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Indikation" type="Indikation" maxOccurs="unbounded">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Eine nicht-leere Liste von Indikationen.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Kategorie" maxOccurs="unbounded">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Eine nicht-leere Liste von Kategorien.
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:annotation>
+                                            <xs:appinfo>
+                                                Zur Syntax regulärer Ausdrücke siehe
+                                                https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                Zu den Multi-character escapes siehe
+                                                https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                            </xs:appinfo>
+                                        </xs:annotation>
+                                        <xs:pattern value="\c\c?:.*"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Kontraindikation" type="Indikation" minOccurs="0" maxOccurs="unbounded">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Eine möglicherweise leere Liste von Kontraindikationen.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Name">
+                                <xs:annotation>
+                                    <xs:documentation>Der Name.</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:token">
+                                        <xs:minLength value="1"/>
+                                        <xs:maxLength value="255"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Packungspreis">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Brutto-Preis zum Regelsteuersatz in Euro (€) mit maximal zwei signifikanten
+                                        Nachkommastellen.
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:fractionDigits value="2"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Plattform" maxOccurs="unbounded">
+                                <xs:annotation>
+                                    <xs:documentation>Eine oder mehrere Plattformen.</xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Link" type="URL">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Der URL zur Landing-Page für den Download der DiGA oder
+                                                    sogar zum direkten Download der DiGA.
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                        <xs:element name="Name">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Der Name der Plattform.
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:minLength value="1"/>
+                                                    <xs:maxLength value="255"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Pzn">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Die eindeutige, achtstellige Pharmazentralnummer inklusive Prüfziffer.
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:positiveInteger">
+                                        <xs:annotation>
+                                            <xs:appinfo>
+                                                Zur Syntax regulärer Ausdrücke siehe
+                                                https://www.w3.org/TR/xmlschema11-2/#regexs .
+                                                Zu den Multi-character escapes siehe
+                                                https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                                            </xs:appinfo>
+                                        </xs:annotation>
+                                        <xs:pattern value="\d{8}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Zulassungsbeginn" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Das Datum, an dem die Zulassung beginnt.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Zulassungsende" minOccurs="0" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Das Datum, an dem die Zulassung endet.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
@@ -288,10 +297,24 @@
             </xs:documentation>
         </xs:annotation>
         <xs:sequence>
+            <xs:element name="AlterAb" type="xs:nonNegativeInteger" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>
+                        Das Mindestalter für die Freigabe.
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="AlterBis" type="xs:positiveInteger" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>
+                        Das Höchstalter für die Freigabe.
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:element>
             <xs:element name="Geschlecht" minOccurs="0">
                 <xs:annotation>
                     <xs:documentation>
-                        Ein Geschlechtskennzeichen ('M', 'W' oder 'D').
+                        Ein Geschlechtskennzeichen ('M', 'W' oder 'D') für die Freigabe.
                     </xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>
@@ -301,20 +324,6 @@
                         <xs:enumeration value="D"/>
                     </xs:restriction>
                 </xs:simpleType>
-            </xs:element>
-            <xs:element name="AlterAb" type="xs:nonNegativeInteger" minOccurs="0">
-                <xs:annotation>
-                    <xs:documentation>
-                        Das Mindestalter für die Verwendung der DiGA.
-                    </xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="AlterBis" type="xs:positiveInteger" minOccurs="0">
-                <xs:annotation>
-                    <xs:documentation>
-                        Das Höchstalter für die Verwendung der DiGA.
-                    </xs:documentation>
-                </xs:annotation>
             </xs:element>
         </xs:sequence>
     </xs:complexType>
