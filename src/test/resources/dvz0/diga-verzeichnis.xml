@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
-  ~ Copyright © 2020 BITMARCK Service GmbH
+  ~ Copyright © 2020 - 2021 BITMARCK Service GmbH
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -25,7 +25,8 @@
             <AlterAb>18</AlterAb>
             <AlterBis>65</AlterBis>
         </Freigabe>
-        <GültigAb>2021-01-01</GültigAb>
+        <GültigAb>2020-10-01</GültigAb>
+        <GültigBis>2020-12-31</GültigBis>
         <Hersteller>
             <Ik>987654324</Ik>
             <Name>Beispiel AG</Name>
@@ -36,8 +37,8 @@
         <Kategorie>01: Beschreibung für Kategorie 01</Kategorie>
         <Kategorie>AB: Beschreibung für Kategorie AB</Kategorie>
         <Kontraindikation>E66: Adipositas</Kontraindikation>
-        <Name>Tinnitus-Rex</Name>
-        <Packungspreis>1.19</Packungspreis>
+        <Name>Tinnitus Rex</Name>
+        <Packungspreis>1.16</Packungspreis>
         <Plattform>
             <Link>https://apps.apple.com/de/app/tinnitus-rex-beispiel-ag/id123456789</Link>
             <Name>Apple App Store</Name>
@@ -71,15 +72,15 @@
         <Kategorie>01: Beschreibung für Kategorie 01</Kategorie>
         <Kategorie>AB: Beschreibung für Kategorie AB</Kategorie>
         <Kontraindikation>E66: Adipositas</Kontraindikation>
-        <Name>Tinnitus-Rex</Name>
+        <Name>Tinnitus Rex</Name>
         <Packungspreis>1.19</Packungspreis>
-        <Plattform>
-            <Link>https://play.google.com/store/apps/details?id=de.beispiel-ag.tinnitus-rex</Link>
-            <Name>Google Play Store</Name>
-        </Plattform>
         <Plattform>
             <Link>https://apps.apple.com/de/app/tinnitus-rex-beispiel-ag/id123456789</Link>
             <Name>Apple App Store</Name>
+        </Plattform>
+        <Plattform>
+            <Link>https://play.google.com/store/apps/details?id=de.beispiel-ag.tinnitus-rex</Link>
+            <Name>Google Play Store</Name>
         </Plattform>
         <Pzn>12345678</Pzn>
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
@@ -106,7 +107,7 @@
         </Hersteller>
         <Indikation>X03: Coronare Herzerkrankungen</Indikation>
         <Indikation>X04: Herz</Indikation>
-        <Kategorie>01: Beschreibung</Kategorie>
+        <Kategorie>01: Beschreibung für Kategorie 01</Kategorie>
         <Name>Hans Hinterwand</Name>
         <Packungspreis>12.34</Packungspreis>
         <Plattform>
@@ -130,7 +131,7 @@
         <Indikation>X05: SARS-CoV-2</Indikation>
         <Indikation>X06: COVID-19</Indikation>
         <Indikation>X07: Corona</Indikation>
-        <Kategorie>01: Beschreibung</Kategorie>
+        <Kategorie>01: Beschreibung für Kategorie 01</Kategorie>
         <Name>SARS-CoV-2 Prophylaxe</Name>
         <Packungspreis>123.45</Packungspreis>
         <Plattform>
@@ -141,4 +142,3 @@
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
     </Diga>
 </DigaVerzeichnis>
-
