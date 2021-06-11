@@ -81,6 +81,7 @@
       </Plattform>
       <Pzn>17148043</Pzn>
       <Zulassungsbeginn>2020-12-03</Zulassungsbeginn>
+      <Zulassungsende>2021-12-02</Zulassungsende>
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
@@ -162,6 +163,7 @@
       </Plattform>
       <Pzn>17148066</Pzn>
       <Zulassungsbeginn>2020-12-03</Zulassungsbeginn>
+      <Zulassungsende>2021-12-02</Zulassungsende>
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
@@ -243,6 +245,7 @@
       </Plattform>
       <Pzn>17148072</Pzn>
       <Zulassungsbeginn>2020-12-03</Zulassungsbeginn>
+      <Zulassungsende>2021-12-02</Zulassungsende>
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
@@ -349,6 +352,7 @@ elevida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die W
       </Plattform>
       <Pzn>17169789</Pzn>
       <Zulassungsbeginn>2020-12-16</Zulassungsbeginn>
+      <Zulassungsende>2021-12-15</Zulassungsende>
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
@@ -400,6 +404,7 @@ Die Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird d
       </Plattform>
       <Pzn>17186606</Pzn>
       <Zulassungsbeginn>2020-12-29</Zulassungsbeginn>
+      <Zulassungsende>2021-12-28</Zulassungsende>
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
@@ -451,6 +456,7 @@ Die Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird d
       </Plattform>
       <Pzn>17186635</Pzn>
       <Zulassungsbeginn>2020-12-29</Zulassungsbeginn>
+      <Zulassungsende>2021-12-28</Zulassungsende>
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
@@ -494,6 +500,7 @@ Vorläufige Ergebnisse von 401 Teilnehmer*innen einer Studie mit der Charité Be
       </Plattform>
       <Pzn>16954730</Pzn>
       <Zulassungsbeginn>2020-12-16</Zulassungsbeginn>
+      <Zulassungsende>2021-12-10</Zulassungsende>
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
@@ -932,6 +939,7 @@ Die Wirksamkeit von Vivira wurde bereits in einer retrospektiven kontrollierten 
       </Plattform>
       <Pzn>17454202</Pzn>
       <Zulassungsbeginn>2021-04-29</Zulassungsbeginn>
+      <Zulassungsende>2022-04-28</Zulassungsende>
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
@@ -1009,5 +1017,6 @@ vorvida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die W
       </Plattform>
       <Pzn>17491545</Pzn>
       <Zulassungsbeginn>2021-05-03</Zulassungsbeginn>
+      <Zulassungsende>2022-05-02</Zulassungsende>
    </Diga>
 </DigaVerzeichnis>
