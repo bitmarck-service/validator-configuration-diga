@@ -72,12 +72,12 @@
       <Name>Invirto- Die Therapie gegen Angst</Name>
       <Packungspreis>428.40</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/invirto/id1482760714</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=com.sympatient.invirto</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>17148043</Pzn>
       <Zulassungsbeginn>2020-12-03</Zulassungsbeginn>
@@ -153,12 +153,12 @@
       <Name>Invirto- Die Therapie gegen Angst</Name>
       <Packungspreis>428.40</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/invirto/id1482760714</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=com.sympatient.invirto</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>17148066</Pzn>
       <Zulassungsbeginn>2020-12-03</Zulassungsbeginn>
@@ -234,12 +234,12 @@
       <Name>Invirto- Die Therapie gegen Angst</Name>
       <Packungspreis>428.40</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/invirto/id1482760714</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=com.sympatient.invirto</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>17148072</Pzn>
       <Zulassungsbeginn>2020-12-03</Zulassungsbeginn>
@@ -273,8 +273,8 @@
       <Name>elevida</Name>
       <Packungspreis>743.75</Packungspreis>
       <Plattform>
-         <Name>Webanwendung</Name>
          <Link>https://elevida.broca.io/</Link>
+         <Name>Webanwendung</Name>
       </Plattform>
       <Pzn>17161032</Pzn>
       <Zulassungsbeginn>2020-12-15</Zulassungsbeginn>
@@ -303,12 +303,12 @@
       <Name>Kalmeda</Name>
       <Packungspreis>203.97</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/kalmeda-mynoise/id1437379931</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=de.mynoise.kalmeda&amp;hl=gsw</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>16876740</Pzn>
       <Zulassungsbeginn>2020-09-25</Zulassungsbeginn>
@@ -337,12 +337,12 @@
       <Name>M-sense Migräne</Name>
       <Packungspreis>219.98</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/id1511739470</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=com.newsenselab.android.m_sense_migraine&amp;hl=gsw</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>17169789</Pzn>
       <Zulassungsbeginn>2020-12-16</Zulassungsbeginn>
@@ -384,12 +384,12 @@
       <Name>Rehappy</Name>
       <Packungspreis>449.00</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/rehappy/id1357107437</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=de.rehappy.app.rehappy</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>17186606</Pzn>
       <Zulassungsbeginn>2020-12-29</Zulassungsbeginn>
@@ -431,12 +431,12 @@
       <Name>Rehappy</Name>
       <Packungspreis>299.00</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/rehappy/id1357107437</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=de.rehappy.app.rehappy</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>17186635</Pzn>
       <Zulassungsbeginn>2020-12-29</Zulassungsbeginn>
@@ -477,8 +477,8 @@
       <Name>Selfapys Online-Kurs bei Depression</Name>
       <Packungspreis>540.00</Packungspreis>
       <Plattform>
-         <Name>Webanwendung</Name>
          <Link>https://www.selfapy.de/depression</Link>
+         <Name>Webanwendung</Name>
       </Plattform>
       <Pzn>16954730</Pzn>
       <Zulassungsbeginn>2020-12-16</Zulassungsbeginn>
@@ -506,16 +506,16 @@
       <Name>somnio</Name>
       <Packungspreis>464.00</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/somnio/id1523016446</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=de.mementor.somnio</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Webanwendung</Name>
          <Link>https://app.mementor.de</Link>
+         <Name>Webanwendung</Name>
       </Plattform>
       <Pzn>16898724</Pzn>
       <Zulassungsbeginn>2020-10-22</Zulassungsbeginn>
@@ -549,8 +549,8 @@
       <Name>velibra</Name>
       <Packungspreis>476.00</Packungspreis>
       <Plattform>
-         <Name>Webanwendung</Name>
          <Link>https://de.velibra.com/</Link>
+         <Name>Webanwendung</Name>
       </Plattform>
       <Pzn>16879359</Pzn>
       <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
@@ -650,12 +650,12 @@
       <Name>Vivira</Name>
       <Packungspreis>239.96</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/vivira-r%C3%BCcken-knie-und-h%C3%BCfte/id1093858117</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=com.vivira.android</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>16898718</Pzn>
       <Zulassungsbeginn>2020-10-22</Zulassungsbeginn>
@@ -688,12 +688,12 @@
       <Name>zanadio</Name>
       <Packungspreis>499.80</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/app/id1499824614</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=de.aidhere.zanadio</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>16898701</Pzn>
       <Zulassungsbeginn>2020-10-22</Zulassungsbeginn>
@@ -732,8 +732,8 @@
       <Name>deprexis</Name>
       <Packungspreis>297.50</Packungspreis>
       <Plattform>
-         <Name>Webanwendung</Name>
          <Link>https://deprexis.broca.io/</Link>
+         <Name>Webanwendung</Name>
       </Plattform>
       <Pzn>17265872</Pzn>
       <Zulassungsbeginn>2021-02-20</Zulassungsbeginn>
@@ -770,12 +770,12 @@
       <Name>Mika</Name>
       <Packungspreis>419.00</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/mika-krebs-therapie-assistent/id1446551093</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=com.fosanis.android.cancer_companion</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>17391424</Pzn>
       <Zulassungsbeginn>2021-03-25</Zulassungsbeginn>
@@ -823,12 +823,12 @@
       <Name>Mindable: Panikstörung und Agoraphobie</Name>
       <Packungspreis>576.00</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/id1465386878</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=health.mindable.anxiety</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Pzn>17454202</Pzn>
       <Zulassungsbeginn>2021-04-29</Zulassungsbeginn>
@@ -863,8 +863,8 @@
       <Name>vorvida</Name>
       <Packungspreis>476.00</Packungspreis>
       <Plattform>
-         <Name>Webanwendung</Name>
          <Link>https://vorvida.broca.io/</Link>
+         <Name>Webanwendung</Name>
       </Plattform>
       <Pzn>17506382</Pzn>
       <Zulassungsbeginn>2021-05-06</Zulassungsbeginn>
@@ -893,16 +893,16 @@
       <Name>CANKADO PRO-React Onco</Name>
       <Packungspreis>499.80</Packungspreis>
       <Plattform>
-         <Name>Apple App Store</Name>
          <Link>https://apps.apple.com/de/app/cankado/id1343701240</Link>
+         <Name>Apple App Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Google Play Store</Name>
          <Link>https://play.google.com/store/apps/details?id=com.cankado&amp;hl=de</Link>
+         <Name>Google Play Store</Name>
       </Plattform>
       <Plattform>
-         <Name>Webanwendung</Name>
          <Link>https://cankado.com/</Link>
+         <Name>Webanwendung</Name>
       </Plattform>
       <Pzn>17491545</Pzn>
       <Zulassungsbeginn>2021-05-03</Zulassungsbeginn>
