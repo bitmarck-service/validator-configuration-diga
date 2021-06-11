@@ -2,16 +2,16 @@
 <DigaVerzeichnis xmlns="https://xml.diga-ready.de/xsd/dvz0/v2" version="2.0.0">
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Invirto ermöglicht Menschen mit einer Agoraphobie, Panikstörung oder sozialen Phobie eine Behandlung ihrer Angststörung von zu Hause aus. Patientinnen und Patienten lernen von Therapeutinnen oder Ärzten begleitet mit einer App und einer Virtual-Reality-Brille unter anderem: Ihre Angst besser zu verstehen, mit hoher Anspannung umzugehen, Angstgedanken zu bewältigen und angstbesetzte Situationen wieder aufzusuchen. Die Begleitung durch Psychotherapeutinnen oder Ärzte sichert eine hochqualitative Versorgung und unterstützt die Nutzerinnen und Nutzer. Invirto ermöglicht es, die Symptome der Angststörung zu reduzieren, Vermeidungsverhalten zu verringern und wieder mehr Bewegungsfreiheit im Alltag zurückzugewinnen. Invirto basiert auf einer kognitiven Verhaltenstherapie mit Expositionstraining, die von Fachgesellschaften für die Behandlung von Angststörungen empfohlen wird.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/300</Details>
       <DigaId>00300</DigaId>
       <DigaVeId>00300001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-05-06</GültigAb>
       <Hersteller>
@@ -19,56 +19,56 @@
          <Name>Sympatient GmbH</Name>
       </Hersteller>
       <Homepage>https://www.invirto.de</Homepage>
-      <Indikation>F40.00: ???</Indikation>
-      <Indikation>F40.01: ???</Indikation>
+      <Indikation>F40.00: Agoraphobie: Ohne Angabe einer Panikstörung</Indikation>
+      <Indikation>F40.01: Agoraphobie: Mit Panikstörung</Indikation>
       <Kategorie>77: Psyche</Kategorie>
-      <Kontraindikation>F00: ???</Kontraindikation>
-      <Kontraindikation>F01: ???</Kontraindikation>
-      <Kontraindikation>F02: ???</Kontraindikation>
-      <Kontraindikation>F03: ???</Kontraindikation>
-      <Kontraindikation>F04: ???</Kontraindikation>
-      <Kontraindikation>F05: ???</Kontraindikation>
-      <Kontraindikation>F06: ???</Kontraindikation>
-      <Kontraindikation>F09: ???</Kontraindikation>
-      <Kontraindikation>F10: ???</Kontraindikation>
-      <Kontraindikation>F11: ???</Kontraindikation>
-      <Kontraindikation>F12: ???</Kontraindikation>
-      <Kontraindikation>F13: ???</Kontraindikation>
-      <Kontraindikation>F14: ???</Kontraindikation>
-      <Kontraindikation>F15: ???</Kontraindikation>
-      <Kontraindikation>F16: ???</Kontraindikation>
-      <Kontraindikation>F17: ???</Kontraindikation>
-      <Kontraindikation>F18: ???</Kontraindikation>
-      <Kontraindikation>F19: ???</Kontraindikation>
-      <Kontraindikation>F20: ???</Kontraindikation>
-      <Kontraindikation>F21: ???</Kontraindikation>
-      <Kontraindikation>F22: ???</Kontraindikation>
-      <Kontraindikation>F23: ???</Kontraindikation>
-      <Kontraindikation>F24: ???</Kontraindikation>
-      <Kontraindikation>F25: ???</Kontraindikation>
-      <Kontraindikation>F28: ???</Kontraindikation>
-      <Kontraindikation>F29: ???</Kontraindikation>
-      <Kontraindikation>F30: ???</Kontraindikation>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>F32.2: ???</Kontraindikation>
-      <Kontraindikation>F32.3: ???</Kontraindikation>
-      <Kontraindikation>H54.0: ???</Kontraindikation>
-      <Kontraindikation>H54.1: ???</Kontraindikation>
-      <Kontraindikation>H54.4: ???</Kontraindikation>
-      <Kontraindikation>H54.5: ???</Kontraindikation>
-      <Kontraindikation>H81: ???</Kontraindikation>
-      <Kontraindikation>H82: ???</Kontraindikation>
-      <Kontraindikation>H91.3: ???</Kontraindikation>
-      <Kontraindikation>I08: ???</Kontraindikation>
-      <Kontraindikation>I09: ???</Kontraindikation>
-      <Kontraindikation>I20: ???</Kontraindikation>
-      <Kontraindikation>I22: ???</Kontraindikation>
-      <Kontraindikation>I25: ???</Kontraindikation>
-      <Kontraindikation>I45: ???</Kontraindikation>
-      <Kontraindikation>I49: ???</Kontraindikation>
-      <Kontraindikation>I50: ???</Kontraindikation>
-      <Kontraindikation>I69: ???</Kontraindikation>
-      <Kontraindikation>R42: ???</Kontraindikation>
+      <Kontraindikation>F00: Demenz bei Alzheimer-Krankheit</Kontraindikation>
+      <Kontraindikation>F01: Vaskuläre Demenz</Kontraindikation>
+      <Kontraindikation>F02: Demenz bei anderenorts klassifizierten Krankheiten</Kontraindikation>
+      <Kontraindikation>F03: Nicht näher bezeichnete Demenz</Kontraindikation>
+      <Kontraindikation>F04: Organisches amnestisches Syndrom, nicht durch Alkohol oder andere psychotrope Substanzen bedingt</Kontraindikation>
+      <Kontraindikation>F05: Delir, nicht durch Alkohol oder andere psychotrope Substanzen bedingt</Kontraindikation>
+      <Kontraindikation>F06: Andere psychische Störungen aufgrund einer Schädigung oder Funktionsstörung des Gehirns oder einer körperlichen Krankheit</Kontraindikation>
+      <Kontraindikation>F09: Nicht näher bezeichnete organische oder symptomatische psychische Störung</Kontraindikation>
+      <Kontraindikation>F10: Psychische und Verhaltensstörungen durch Alkohol</Kontraindikation>
+      <Kontraindikation>F11: Psychische und Verhaltensstörungen durch Opioide</Kontraindikation>
+      <Kontraindikation>F12: Psychische und Verhaltensstörungen durch Cannabinoide</Kontraindikation>
+      <Kontraindikation>F13: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika</Kontraindikation>
+      <Kontraindikation>F14: Psychische und Verhaltensstörungen durch Kokain</Kontraindikation>
+      <Kontraindikation>F15: Psychische und Verhaltensstörungen durch andere Stimulanzien, einschließlich Koffein</Kontraindikation>
+      <Kontraindikation>F16: Psychische und Verhaltensstörungen durch Halluzinogene</Kontraindikation>
+      <Kontraindikation>F17: Psychische und Verhaltensstörungen durch Tabak</Kontraindikation>
+      <Kontraindikation>F18: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel</Kontraindikation>
+      <Kontraindikation>F19: Psychische und Verhaltensstörungen durch multiplen Substanzgebrauch und Konsum anderer psychotroper Substanzen</Kontraindikation>
+      <Kontraindikation>F20: Schizophrenie</Kontraindikation>
+      <Kontraindikation>F21: Schizotype Störung</Kontraindikation>
+      <Kontraindikation>F22: Anhaltende wahnhafte Störungen</Kontraindikation>
+      <Kontraindikation>F23: Akute vorübergehende psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F24: Induzierte wahnhafte Störung</Kontraindikation>
+      <Kontraindikation>F25: Schizoaffektive Störungen</Kontraindikation>
+      <Kontraindikation>F28: Sonstige nichtorganische psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F29: Nicht näher bezeichnete nichtorganische Psychose</Kontraindikation>
+      <Kontraindikation>F30: Manische Episode</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>F32.2: Schwere depressive Episode ohne psychotische Symptome</Kontraindikation>
+      <Kontraindikation>F32.3: Schwere depressive Episode mit psychotischen Symptomen</Kontraindikation>
+      <Kontraindikation>H54.0: Blindheit und hochgradige Sehbehinderung, binokular</Kontraindikation>
+      <Kontraindikation>H54.1: Schwere Sehbeeinträchtigung, binokular</Kontraindikation>
+      <Kontraindikation>H54.4: Blindheit und hochgradige Sehbehinderung, monokular</Kontraindikation>
+      <Kontraindikation>H54.5: Schwere Sehbeeinträchtigung, monokular</Kontraindikation>
+      <Kontraindikation>H81: Störungen der Vestibularfunktion</Kontraindikation>
+      <Kontraindikation>H82: Schwindelsyndrome bei anderenorts klassifizierten Krankheiten</Kontraindikation>
+      <Kontraindikation>H91.3: Taubstummheit, anderenorts nicht klassifiziert</Kontraindikation>
+      <Kontraindikation>I08: Krankheiten mehrerer Herzklappen</Kontraindikation>
+      <Kontraindikation>I09: Sonstige rheumatische Herzkrankheiten</Kontraindikation>
+      <Kontraindikation>I20: Angina pectoris</Kontraindikation>
+      <Kontraindikation>I22: Rezidivierender Myokardinfarkt</Kontraindikation>
+      <Kontraindikation>I25: Chronische ischämische Herzkrankheit</Kontraindikation>
+      <Kontraindikation>I45: Sonstige kardiale Erregungsleitungsstörungen</Kontraindikation>
+      <Kontraindikation>I49: Sonstige kardiale Arrhythmien</Kontraindikation>
+      <Kontraindikation>I50: Herzinsuffizienz</Kontraindikation>
+      <Kontraindikation>I69: Folgen einer zerebrovaskulären Krankheit</Kontraindikation>
+      <Kontraindikation>R42: Schwindel und Taumel</Kontraindikation>
       <Name>Invirto- Die Therapie gegen Angst</Name>
       <Packungspreis>428.40</Packungspreis>
       <Plattform>
@@ -84,16 +84,16 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Invirto ermöglicht Menschen mit einer Agoraphobie, Panikstörung oder sozialen Phobie eine Behandlung ihrer Angststörung von zu Hause aus. Patientinnen und Patienten lernen von Therapeutinnen oder Ärzten begleitet mit einer App und einer Virtual-Reality-Brille unter anderem: Ihre Angst besser zu verstehen, mit hoher Anspannung umzugehen, Angstgedanken zu bewältigen und angstbesetzte Situationen wieder aufzusuchen. Die Begleitung durch Psychotherapeutinnen oder Ärzte sichert eine hochqualitative Versorgung und unterstützt die Nutzerinnen und Nutzer. Invirto ermöglicht es, die Symptome der Angststörung zu reduzieren, Vermeidungsverhalten zu verringern und wieder mehr Bewegungsfreiheit im Alltag zurückzugewinnen. Invirto basiert auf einer kognitiven Verhaltenstherapie mit Expositionstraining, die von Fachgesellschaften für die Behandlung von Angststörungen empfohlen wird.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/300</Details>
       <DigaId>00300</DigaId>
       <DigaVeId>00300002</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-05-06</GültigAb>
       <Hersteller>
@@ -101,55 +101,55 @@
          <Name>Sympatient GmbH</Name>
       </Hersteller>
       <Homepage>https://www.invirto.de</Homepage>
-      <Indikation>F40.1: ???</Indikation>
+      <Indikation>F40.1: Soziale Phobien</Indikation>
       <Kategorie>77: Psyche</Kategorie>
-      <Kontraindikation>F00: ???</Kontraindikation>
-      <Kontraindikation>F01: ???</Kontraindikation>
-      <Kontraindikation>F02: ???</Kontraindikation>
-      <Kontraindikation>F03: ???</Kontraindikation>
-      <Kontraindikation>F04: ???</Kontraindikation>
-      <Kontraindikation>F05: ???</Kontraindikation>
-      <Kontraindikation>F06: ???</Kontraindikation>
-      <Kontraindikation>F09: ???</Kontraindikation>
-      <Kontraindikation>F10: ???</Kontraindikation>
-      <Kontraindikation>F11: ???</Kontraindikation>
-      <Kontraindikation>F12: ???</Kontraindikation>
-      <Kontraindikation>F13: ???</Kontraindikation>
-      <Kontraindikation>F14: ???</Kontraindikation>
-      <Kontraindikation>F15: ???</Kontraindikation>
-      <Kontraindikation>F16: ???</Kontraindikation>
-      <Kontraindikation>F17: ???</Kontraindikation>
-      <Kontraindikation>F18: ???</Kontraindikation>
-      <Kontraindikation>F19: ???</Kontraindikation>
-      <Kontraindikation>F20: ???</Kontraindikation>
-      <Kontraindikation>F21: ???</Kontraindikation>
-      <Kontraindikation>F22: ???</Kontraindikation>
-      <Kontraindikation>F23: ???</Kontraindikation>
-      <Kontraindikation>F24: ???</Kontraindikation>
-      <Kontraindikation>F25: ???</Kontraindikation>
-      <Kontraindikation>F28: ???</Kontraindikation>
-      <Kontraindikation>F29: ???</Kontraindikation>
-      <Kontraindikation>F30: ???</Kontraindikation>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>F32.2: ???</Kontraindikation>
-      <Kontraindikation>F32.3: ???</Kontraindikation>
-      <Kontraindikation>H54.0: ???</Kontraindikation>
-      <Kontraindikation>H54.1: ???</Kontraindikation>
-      <Kontraindikation>H54.4: ???</Kontraindikation>
-      <Kontraindikation>H54.5: ???</Kontraindikation>
-      <Kontraindikation>H81: ???</Kontraindikation>
-      <Kontraindikation>H82: ???</Kontraindikation>
-      <Kontraindikation>H91.3: ???</Kontraindikation>
-      <Kontraindikation>I08: ???</Kontraindikation>
-      <Kontraindikation>I09: ???</Kontraindikation>
-      <Kontraindikation>I20: ???</Kontraindikation>
-      <Kontraindikation>I22: ???</Kontraindikation>
-      <Kontraindikation>I25: ???</Kontraindikation>
-      <Kontraindikation>I45: ???</Kontraindikation>
-      <Kontraindikation>I49: ???</Kontraindikation>
-      <Kontraindikation>I50: ???</Kontraindikation>
-      <Kontraindikation>I69: ???</Kontraindikation>
-      <Kontraindikation>R42: ???</Kontraindikation>
+      <Kontraindikation>F00: Demenz bei Alzheimer-Krankheit</Kontraindikation>
+      <Kontraindikation>F01: Vaskuläre Demenz</Kontraindikation>
+      <Kontraindikation>F02: Demenz bei anderenorts klassifizierten Krankheiten</Kontraindikation>
+      <Kontraindikation>F03: Nicht näher bezeichnete Demenz</Kontraindikation>
+      <Kontraindikation>F04: Organisches amnestisches Syndrom, nicht durch Alkohol oder andere psychotrope Substanzen bedingt</Kontraindikation>
+      <Kontraindikation>F05: Delir, nicht durch Alkohol oder andere psychotrope Substanzen bedingt</Kontraindikation>
+      <Kontraindikation>F06: Andere psychische Störungen aufgrund einer Schädigung oder Funktionsstörung des Gehirns oder einer körperlichen Krankheit</Kontraindikation>
+      <Kontraindikation>F09: Nicht näher bezeichnete organische oder symptomatische psychische Störung</Kontraindikation>
+      <Kontraindikation>F10: Psychische und Verhaltensstörungen durch Alkohol</Kontraindikation>
+      <Kontraindikation>F11: Psychische und Verhaltensstörungen durch Opioide</Kontraindikation>
+      <Kontraindikation>F12: Psychische und Verhaltensstörungen durch Cannabinoide</Kontraindikation>
+      <Kontraindikation>F13: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika</Kontraindikation>
+      <Kontraindikation>F14: Psychische und Verhaltensstörungen durch Kokain</Kontraindikation>
+      <Kontraindikation>F15: Psychische und Verhaltensstörungen durch andere Stimulanzien, einschließlich Koffein</Kontraindikation>
+      <Kontraindikation>F16: Psychische und Verhaltensstörungen durch Halluzinogene</Kontraindikation>
+      <Kontraindikation>F17: Psychische und Verhaltensstörungen durch Tabak</Kontraindikation>
+      <Kontraindikation>F18: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel</Kontraindikation>
+      <Kontraindikation>F19: Psychische und Verhaltensstörungen durch multiplen Substanzgebrauch und Konsum anderer psychotroper Substanzen</Kontraindikation>
+      <Kontraindikation>F20: Schizophrenie</Kontraindikation>
+      <Kontraindikation>F21: Schizotype Störung</Kontraindikation>
+      <Kontraindikation>F22: Anhaltende wahnhafte Störungen</Kontraindikation>
+      <Kontraindikation>F23: Akute vorübergehende psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F24: Induzierte wahnhafte Störung</Kontraindikation>
+      <Kontraindikation>F25: Schizoaffektive Störungen</Kontraindikation>
+      <Kontraindikation>F28: Sonstige nichtorganische psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F29: Nicht näher bezeichnete nichtorganische Psychose</Kontraindikation>
+      <Kontraindikation>F30: Manische Episode</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>F32.2: Schwere depressive Episode ohne psychotische Symptome</Kontraindikation>
+      <Kontraindikation>F32.3: Schwere depressive Episode mit psychotischen Symptomen</Kontraindikation>
+      <Kontraindikation>H54.0: Blindheit und hochgradige Sehbehinderung, binokular</Kontraindikation>
+      <Kontraindikation>H54.1: Schwere Sehbeeinträchtigung, binokular</Kontraindikation>
+      <Kontraindikation>H54.4: Blindheit und hochgradige Sehbehinderung, monokular</Kontraindikation>
+      <Kontraindikation>H54.5: Schwere Sehbeeinträchtigung, monokular</Kontraindikation>
+      <Kontraindikation>H81: Störungen der Vestibularfunktion</Kontraindikation>
+      <Kontraindikation>H82: Schwindelsyndrome bei anderenorts klassifizierten Krankheiten</Kontraindikation>
+      <Kontraindikation>H91.3: Taubstummheit, anderenorts nicht klassifiziert</Kontraindikation>
+      <Kontraindikation>I08: Krankheiten mehrerer Herzklappen</Kontraindikation>
+      <Kontraindikation>I09: Sonstige rheumatische Herzkrankheiten</Kontraindikation>
+      <Kontraindikation>I20: Angina pectoris</Kontraindikation>
+      <Kontraindikation>I22: Rezidivierender Myokardinfarkt</Kontraindikation>
+      <Kontraindikation>I25: Chronische ischämische Herzkrankheit</Kontraindikation>
+      <Kontraindikation>I45: Sonstige kardiale Erregungsleitungsstörungen</Kontraindikation>
+      <Kontraindikation>I49: Sonstige kardiale Arrhythmien</Kontraindikation>
+      <Kontraindikation>I50: Herzinsuffizienz</Kontraindikation>
+      <Kontraindikation>I69: Folgen einer zerebrovaskulären Krankheit</Kontraindikation>
+      <Kontraindikation>R42: Schwindel und Taumel</Kontraindikation>
       <Name>Invirto- Die Therapie gegen Angst</Name>
       <Packungspreis>428.40</Packungspreis>
       <Plattform>
@@ -165,16 +165,16 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Invirto ermöglicht Menschen mit einer Agoraphobie, Panikstörung oder sozialen Phobie eine Behandlung ihrer Angststörung von zu Hause aus. Patientinnen und Patienten lernen von Therapeutinnen oder Ärzten begleitet mit einer App und einer Virtual-Reality-Brille unter anderem: Ihre Angst besser zu verstehen, mit hoher Anspannung umzugehen, Angstgedanken zu bewältigen und angstbesetzte Situationen wieder aufzusuchen. Die Begleitung durch Psychotherapeutinnen oder Ärzte sichert eine hochqualitative Versorgung und unterstützt die Nutzerinnen und Nutzer. Invirto ermöglicht es, die Symptome der Angststörung zu reduzieren, Vermeidungsverhalten zu verringern und wieder mehr Bewegungsfreiheit im Alltag zurückzugewinnen. Invirto basiert auf einer kognitiven Verhaltenstherapie mit Expositionstraining, die von Fachgesellschaften für die Behandlung von Angststörungen empfohlen wird.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/300</Details>
       <DigaId>00300</DigaId>
       <DigaVeId>00300003</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-05-06</GültigAb>
       <Hersteller>
@@ -182,55 +182,55 @@
          <Name>Sympatient GmbH</Name>
       </Hersteller>
       <Homepage>https://www.invirto.de</Homepage>
-      <Indikation>F41.0: ???</Indikation>
+      <Indikation>F41.0: Panikstörung [episodisch paroxysmale Angst]</Indikation>
       <Kategorie>77: Psyche</Kategorie>
-      <Kontraindikation>F00: ???</Kontraindikation>
-      <Kontraindikation>F01: ???</Kontraindikation>
-      <Kontraindikation>F02: ???</Kontraindikation>
-      <Kontraindikation>F03: ???</Kontraindikation>
-      <Kontraindikation>F04: ???</Kontraindikation>
-      <Kontraindikation>F05: ???</Kontraindikation>
-      <Kontraindikation>F06: ???</Kontraindikation>
-      <Kontraindikation>F09: ???</Kontraindikation>
-      <Kontraindikation>F10: ???</Kontraindikation>
-      <Kontraindikation>F11: ???</Kontraindikation>
-      <Kontraindikation>F12: ???</Kontraindikation>
-      <Kontraindikation>F13: ???</Kontraindikation>
-      <Kontraindikation>F14: ???</Kontraindikation>
-      <Kontraindikation>F15: ???</Kontraindikation>
-      <Kontraindikation>F16: ???</Kontraindikation>
-      <Kontraindikation>F17: ???</Kontraindikation>
-      <Kontraindikation>F18: ???</Kontraindikation>
-      <Kontraindikation>F19: ???</Kontraindikation>
-      <Kontraindikation>F20: ???</Kontraindikation>
-      <Kontraindikation>F21: ???</Kontraindikation>
-      <Kontraindikation>F22: ???</Kontraindikation>
-      <Kontraindikation>F23: ???</Kontraindikation>
-      <Kontraindikation>F24: ???</Kontraindikation>
-      <Kontraindikation>F25: ???</Kontraindikation>
-      <Kontraindikation>F28: ???</Kontraindikation>
-      <Kontraindikation>F29: ???</Kontraindikation>
-      <Kontraindikation>F30: ???</Kontraindikation>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>F32.2: ???</Kontraindikation>
-      <Kontraindikation>F32.3: ???</Kontraindikation>
-      <Kontraindikation>H54.0: ???</Kontraindikation>
-      <Kontraindikation>H54.1: ???</Kontraindikation>
-      <Kontraindikation>H54.4: ???</Kontraindikation>
-      <Kontraindikation>H54.5: ???</Kontraindikation>
-      <Kontraindikation>H81: ???</Kontraindikation>
-      <Kontraindikation>H82: ???</Kontraindikation>
-      <Kontraindikation>H91.3: ???</Kontraindikation>
-      <Kontraindikation>I08: ???</Kontraindikation>
-      <Kontraindikation>I09: ???</Kontraindikation>
-      <Kontraindikation>I20: ???</Kontraindikation>
-      <Kontraindikation>I22: ???</Kontraindikation>
-      <Kontraindikation>I25: ???</Kontraindikation>
-      <Kontraindikation>I45: ???</Kontraindikation>
-      <Kontraindikation>I49: ???</Kontraindikation>
-      <Kontraindikation>I50: ???</Kontraindikation>
-      <Kontraindikation>I69: ???</Kontraindikation>
-      <Kontraindikation>R42: ???</Kontraindikation>
+      <Kontraindikation>F00: Demenz bei Alzheimer-Krankheit</Kontraindikation>
+      <Kontraindikation>F01: Vaskuläre Demenz</Kontraindikation>
+      <Kontraindikation>F02: Demenz bei anderenorts klassifizierten Krankheiten</Kontraindikation>
+      <Kontraindikation>F03: Nicht näher bezeichnete Demenz</Kontraindikation>
+      <Kontraindikation>F04: Organisches amnestisches Syndrom, nicht durch Alkohol oder andere psychotrope Substanzen bedingt</Kontraindikation>
+      <Kontraindikation>F05: Delir, nicht durch Alkohol oder andere psychotrope Substanzen bedingt</Kontraindikation>
+      <Kontraindikation>F06: Andere psychische Störungen aufgrund einer Schädigung oder Funktionsstörung des Gehirns oder einer körperlichen Krankheit</Kontraindikation>
+      <Kontraindikation>F09: Nicht näher bezeichnete organische oder symptomatische psychische Störung</Kontraindikation>
+      <Kontraindikation>F10: Psychische und Verhaltensstörungen durch Alkohol</Kontraindikation>
+      <Kontraindikation>F11: Psychische und Verhaltensstörungen durch Opioide</Kontraindikation>
+      <Kontraindikation>F12: Psychische und Verhaltensstörungen durch Cannabinoide</Kontraindikation>
+      <Kontraindikation>F13: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika</Kontraindikation>
+      <Kontraindikation>F14: Psychische und Verhaltensstörungen durch Kokain</Kontraindikation>
+      <Kontraindikation>F15: Psychische und Verhaltensstörungen durch andere Stimulanzien, einschließlich Koffein</Kontraindikation>
+      <Kontraindikation>F16: Psychische und Verhaltensstörungen durch Halluzinogene</Kontraindikation>
+      <Kontraindikation>F17: Psychische und Verhaltensstörungen durch Tabak</Kontraindikation>
+      <Kontraindikation>F18: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel</Kontraindikation>
+      <Kontraindikation>F19: Psychische und Verhaltensstörungen durch multiplen Substanzgebrauch und Konsum anderer psychotroper Substanzen</Kontraindikation>
+      <Kontraindikation>F20: Schizophrenie</Kontraindikation>
+      <Kontraindikation>F21: Schizotype Störung</Kontraindikation>
+      <Kontraindikation>F22: Anhaltende wahnhafte Störungen</Kontraindikation>
+      <Kontraindikation>F23: Akute vorübergehende psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F24: Induzierte wahnhafte Störung</Kontraindikation>
+      <Kontraindikation>F25: Schizoaffektive Störungen</Kontraindikation>
+      <Kontraindikation>F28: Sonstige nichtorganische psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F29: Nicht näher bezeichnete nichtorganische Psychose</Kontraindikation>
+      <Kontraindikation>F30: Manische Episode</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>F32.2: Schwere depressive Episode ohne psychotische Symptome</Kontraindikation>
+      <Kontraindikation>F32.3: Schwere depressive Episode mit psychotischen Symptomen</Kontraindikation>
+      <Kontraindikation>H54.0: Blindheit und hochgradige Sehbehinderung, binokular</Kontraindikation>
+      <Kontraindikation>H54.1: Schwere Sehbeeinträchtigung, binokular</Kontraindikation>
+      <Kontraindikation>H54.4: Blindheit und hochgradige Sehbehinderung, monokular</Kontraindikation>
+      <Kontraindikation>H54.5: Schwere Sehbeeinträchtigung, monokular</Kontraindikation>
+      <Kontraindikation>H81: Störungen der Vestibularfunktion</Kontraindikation>
+      <Kontraindikation>H82: Schwindelsyndrome bei anderenorts klassifizierten Krankheiten</Kontraindikation>
+      <Kontraindikation>H91.3: Taubstummheit, anderenorts nicht klassifiziert</Kontraindikation>
+      <Kontraindikation>I08: Krankheiten mehrerer Herzklappen</Kontraindikation>
+      <Kontraindikation>I09: Sonstige rheumatische Herzkrankheiten</Kontraindikation>
+      <Kontraindikation>I20: Angina pectoris</Kontraindikation>
+      <Kontraindikation>I22: Rezidivierender Myokardinfarkt</Kontraindikation>
+      <Kontraindikation>I25: Chronische ischämische Herzkrankheit</Kontraindikation>
+      <Kontraindikation>I45: Sonstige kardiale Erregungsleitungsstörungen</Kontraindikation>
+      <Kontraindikation>I49: Sonstige kardiale Arrhythmien</Kontraindikation>
+      <Kontraindikation>I50: Herzinsuffizienz</Kontraindikation>
+      <Kontraindikation>I69: Folgen einer zerebrovaskulären Krankheit</Kontraindikation>
+      <Kontraindikation>R42: Schwindel und Taumel</Kontraindikation>
       <Name>Invirto- Die Therapie gegen Angst</Name>
       <Packungspreis>428.40</Packungspreis>
       <Plattform>
@@ -246,16 +246,19 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>elevida ist eine digitale Gesundheitsanwendung für Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt und die mindestens 18 Jahre alt sind. Von einer Fatigue spricht man dann, wenn eine anhaltende Müdigkeit oder Erschöpfung besteht.
+elevida verfolgt das Ziel, die Fatigue zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden.
+elevida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT).
+elevida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von elevida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 275 Patienten teil, die an einer Multiplen Sklerose und zusätzlich auch an einer Fatigue litten. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung elevida nutzten, die Fatigue deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von elevida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/419</Details>
       <DigaId>00419</DigaId>
       <DigaVeId>00419001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-06-01</GültigAb>
       <Hersteller>
@@ -263,13 +266,13 @@
          <Name>GAIA AG</Name>
       </Hersteller>
       <Homepage>https://elevida.de/</Homepage>
-      <Indikation>G35: ???</Indikation>
+      <Indikation>G35: Multiple Sklerose [Encephalomyelitis disseminata]</Indikation>
       <Kategorie>78: Nervensystem</Kategorie>
-      <Kontraindikation>F20: ???</Kontraindikation>
-      <Kontraindikation>F23: ???</Kontraindikation>
-      <Kontraindikation>F25: ???</Kontraindikation>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>R45.8: ???</Kontraindikation>
+      <Kontraindikation>F20: Schizophrenie</Kontraindikation>
+      <Kontraindikation>F23: Akute vorübergehende psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F25: Schizoaffektive Störungen</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>R45.8: Sonstige Symptome, die die Stimmung betreffen</Kontraindikation>
       <Name>elevida</Name>
       <Packungspreis>743.75</Packungspreis>
       <Plattform>
@@ -281,16 +284,16 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Diese DiGA bietet Patientinnen und Patienten (die das 18. Lebensjahr vollendet haben) mit chronischer Tinnitusbelastung eine leitlinienbasierte, verhaltenstherapeutische Therapie. Ergänzt wird das strukturierte Programm durch Entspannungsanleitungen, beruhigende Natur- und Hintergrundgeräusche sowie einen Wissensteil.  Das mehrmonatige verhaltenstherapeutische Programm besteht aus 5 Leveln mit jeweils 9 Etappen und zeigt Patienten schrittweise den Weg zu einem selbstbestimmten Umgang mit dem Tinnitus und zu einer Reduzierung der Tinnitusbelastung.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/350</Details>
       <DigaId>00350</DigaId>
       <DigaVeId>00350001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-05-25</GültigAb>
       <Hersteller>
@@ -298,7 +301,7 @@
          <Name>mynoise GmbH</Name>
       </Hersteller>
       <Homepage>https://www.kalmeda.de</Homepage>
-      <Indikation>H93.1: ???</Indikation>
+      <Indikation>H93.1: Tinnitus aurium</Indikation>
       <Kategorie>80: Ohren</Kategorie>
       <Name>Kalmeda</Name>
       <Packungspreis>203.97</Packungspreis>
@@ -315,16 +318,16 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>M -sense Migräne bietet ein umfangreiches digitales Behandlungsprogramm für Migränepatientinnen und -patienten. Die Anwendung beinhaltet ein digitales Kopfschmerztagebuch sowie leitlinienkonforme Verfahren zur Migräneprophylaxe und Akutbehandlung von Attacken. Migränepatientinnen und -patienten können dabei auf maßgeschneiderte Wissensvermittlung, animierte physiotherapeutische Übungen, Anleitungen zum Ausdauersport sowie Audiodateien für Entspannungs- und Imaginationsübungen zugreifen. Die Dokumentation von Lebensstilfaktoren im Tagebuch ermöglicht ein individuelles Triggermanagement.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/315</Details>
       <DigaId>00315</DigaId>
       <DigaVeId>00315001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-05-28</GültigAb>
       <Hersteller>
@@ -332,7 +335,7 @@
          <Name>Newsenselab GmbH</Name>
       </Hersteller>
       <Homepage>https://www.m-sense.de/diga-migraene</Homepage>
-      <Indikation>G43: ???</Indikation>
+      <Indikation>G43: Migräne</Indikation>
       <Kategorie>78: Nervensystem</Kategorie>
       <Name>M-sense Migräne</Name>
       <Packungspreis>219.98</Packungspreis>
@@ -349,7 +352,11 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Die digitale Gesundheitsanwendung Rehappy unterstützt die Nachsorge von Schlaganfallpatientinnen und -patienten. Die Unterstützung erfolgt in Form von einer individuell zusammengestellten Motivations- und Wissensversorgung mit einer mobilen App, einem Aktivitätstracker und einem Web-Portal. 
+
+Die Patientinnen und Patienten werden aktiviert, informiert und begleitet, um ihren Weg der Genesung anhaltend, selbstbestimmt, kompetent und souverän angehen zu können. Die Begleitung basiert auf edukativer Informationsvermittlung und positiver Verstärkung zur Wahrnehmung der Eigenverantwortung und Steigerung der Therapieadhärenz sowie intrinsischen Motivation.
+
+Die Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird der zur digitalen Gesundheitsanwendung zugehörige Aktivitätstracker an die Patientinnen und Patienten versendet. Es ist keine Zuzahlung erforderlich. Zur nachhaltigen Verstetigung der Effekte wird eine über die Mindestverordnungsdauer hinaus gehende Nutzung empfohlen.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/691</Details>
       <DigaId>00691</DigaId>
       <DigaVeId>00691001</DigaVeId>
@@ -359,10 +366,10 @@
       </Freigabe>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-02-24</GültigAb>
       <Hersteller>
@@ -370,17 +377,17 @@
          <Name>Rehappy GmbH</Name>
       </Hersteller>
       <Homepage>https://www.rehappy.de/</Homepage>
-      <Indikation>G45: ???</Indikation>
-      <Indikation>I60: ???</Indikation>
-      <Indikation>I61: ???</Indikation>
-      <Indikation>I62: ???</Indikation>
-      <Indikation>I63: ???</Indikation>
-      <Indikation>I64: ???</Indikation>
-      <Indikation>I67: ???</Indikation>
-      <Indikation>I69: ???</Indikation>
+      <Indikation>G45: Zerebrale transitorische Ischämie und verwandte Syndrome</Indikation>
+      <Indikation>I60: Subarachnoidalblutung</Indikation>
+      <Indikation>I61: Intrazerebrale Blutung</Indikation>
+      <Indikation>I62: Sonstige nichttraumatische intrakranielle Blutung</Indikation>
+      <Indikation>I63: Hirninfarkt</Indikation>
+      <Indikation>I64: Schlaganfall, nicht als Blutung oder Infarkt bezeichnet</Indikation>
+      <Indikation>I67: Sonstige zerebrovaskuläre Krankheiten</Indikation>
+      <Indikation>I69: Folgen einer zerebrovaskulären Krankheit</Indikation>
       <Kategorie>81: Herz und Kreislauf</Kategorie>
       <Kategorie>78: Nervensystem</Kategorie>
-      <Kontraindikation>S06: ???</Kontraindikation>
+      <Kontraindikation>S06: Intrakranielle Verletzung</Kontraindikation>
       <Name>Rehappy</Name>
       <Packungspreis>449.00</Packungspreis>
       <Plattform>
@@ -396,7 +403,11 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Die digitale Gesundheitsanwendung Rehappy unterstützt die Nachsorge von Schlaganfallpatientinnen und -patienten. Die Unterstützung erfolgt in Form von einer individuell zusammengestellten Motivations- und Wissensversorgung mit einer mobilen App, einem Aktivitätstracker und einem Web-Portal. 
+
+Die Patientinnen und Patienten werden aktiviert, informiert und begleitet, um ihren Weg der Genesung anhaltend, selbstbestimmt, kompetent und souverän angehen zu können. Die Begleitung basiert auf edukativer Informationsvermittlung und positiver Verstärkung zur Wahrnehmung der Eigenverantwortung und Steigerung der Therapieadhärenz sowie intrinsischen Motivation.
+
+Die Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird der zur digitalen Gesundheitsanwendung zugehörige Aktivitätstracker an die Patientinnen und Patienten versendet. Es ist keine Zuzahlung erforderlich. Zur nachhaltigen Verstetigung der Effekte wird eine über die Mindestverordnungsdauer hinaus gehende Nutzung empfohlen.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/691</Details>
       <DigaId>00691</DigaId>
       <DigaVeId>00691002</DigaVeId>
@@ -406,10 +417,10 @@
       </Freigabe>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-02-24</GültigAb>
       <Hersteller>
@@ -417,17 +428,17 @@
          <Name>Rehappy GmbH</Name>
       </Hersteller>
       <Homepage>https://www.rehappy.de/</Homepage>
-      <Indikation>G45: ???</Indikation>
-      <Indikation>I60: ???</Indikation>
-      <Indikation>I61: ???</Indikation>
-      <Indikation>I62: ???</Indikation>
-      <Indikation>I63: ???</Indikation>
-      <Indikation>I64: ???</Indikation>
-      <Indikation>I67: ???</Indikation>
-      <Indikation>I69: ???</Indikation>
+      <Indikation>G45: Zerebrale transitorische Ischämie und verwandte Syndrome</Indikation>
+      <Indikation>I60: Subarachnoidalblutung</Indikation>
+      <Indikation>I61: Intrazerebrale Blutung</Indikation>
+      <Indikation>I62: Sonstige nichttraumatische intrakranielle Blutung</Indikation>
+      <Indikation>I63: Hirninfarkt</Indikation>
+      <Indikation>I64: Schlaganfall, nicht als Blutung oder Infarkt bezeichnet</Indikation>
+      <Indikation>I67: Sonstige zerebrovaskuläre Krankheiten</Indikation>
+      <Indikation>I69: Folgen einer zerebrovaskulären Krankheit</Indikation>
       <Kategorie>81: Herz und Kreislauf</Kategorie>
       <Kategorie>78: Nervensystem</Kategorie>
-      <Kontraindikation>S06: ???</Kontraindikation>
+      <Kontraindikation>S06: Intrakranielle Verletzung</Kontraindikation>
       <Name>Rehappy</Name>
       <Packungspreis>299.00</Packungspreis>
       <Plattform>
@@ -443,13 +454,14 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Selfapy bietet Betroffenen mit einer Depression einen individuellen Online-Kurs, der auf evidenzbasierten Theorien und Techniken der Kognitiven Verhaltenstherapie basiert. Die therapeutischen Inhalte können über den internetbasierten Kurs vom Betroffenen selbstständig bearbeitet werden. Dieser ist in einzelne Lektionen aufgeteilt, welche sich jeweils mit einem Thema beschäftigen wie beispielsweise dem Umgang mit negativen Gedanken, der Erstellung einer positiven Tagesstruktur, Entspannungstechniken, Schlafproblemen, sowie Strategien zur Rückfallprävention. Die Inhalte werden mit Hilfe von Audio- und Videoclips, Texten und Übungen vermittelt. Die Inhalte passen sich dabei individuell an die persönliche Situation des Betroffenen an. Zur Wahrung der Patientensicherheit wird der Betroffene während des Kurses durchgehend von einem persönlichen Psychologen überwacht. Bei akutem Bedarf steht der Psychologe über eine Nachrichtenfunktion bei Fragen zur Anwendung zur Verfügung.
+Vorläufige Ergebnisse von 401 Teilnehmer*innen einer Studie mit der Charité Berlin zeigen eine signifikante Abnahme der depressiven Symptomatik nach Abschluss des 12-wöchigen Kurses.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/876</Details>
       <DigaId>00876</DigaId>
       <DigaVeId>00876001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <GültigAb>2021-02-24</GültigAb>
       <Hersteller>
@@ -457,23 +469,23 @@
          <Name>Selfapy GmbH</Name>
       </Hersteller>
       <Homepage>https://www.selfapy.de/depression</Homepage>
-      <Indikation>F32.0: ???</Indikation>
-      <Indikation>F32.1: ???</Indikation>
-      <Indikation>F32.8: ???</Indikation>
-      <Indikation>F32.9: ???</Indikation>
-      <Indikation>F33.0: ???</Indikation>
-      <Indikation>F33.1: ???</Indikation>
-      <Indikation>F33.4: ???</Indikation>
-      <Indikation>F33.8: ???</Indikation>
-      <Indikation>F33.9: ???</Indikation>
+      <Indikation>F32.0: Leichte depressive Episode</Indikation>
+      <Indikation>F32.1: Mittelgradige depressive Episode</Indikation>
+      <Indikation>F32.8: Sonstige depressive Episoden</Indikation>
+      <Indikation>F32.9: Depressive Episode, nicht näher bezeichnet</Indikation>
+      <Indikation>F33.0: Rezidivierende depressive Störung, gegenwärtig leichte Episode</Indikation>
+      <Indikation>F33.1: Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode</Indikation>
+      <Indikation>F33.4: Rezidivierende depressive Störung, gegenwärtig remittiert</Indikation>
+      <Indikation>F33.8: Sonstige rezidivierende depressive Störungen</Indikation>
+      <Indikation>F33.9: Rezidivierende depressive Störung, nicht näher bezeichnet</Indikation>
       <Kategorie>77: Psyche</Kategorie>
-      <Kontraindikation>F00: ???</Kontraindikation>
-      <Kontraindikation>F10.2: ???</Kontraindikation>
-      <Kontraindikation>F10.3: ???</Kontraindikation>
-      <Kontraindikation>F20: ???</Kontraindikation>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>F32.3: ???</Kontraindikation>
-      <Kontraindikation>F33.3: ???</Kontraindikation>
+      <Kontraindikation>F00: Demenz bei Alzheimer-Krankheit</Kontraindikation>
+      <Kontraindikation>F10.2: Psychische und Verhaltensstörungen durch Alkohol: Abhängigkeitssyndrom</Kontraindikation>
+      <Kontraindikation>F10.3: Psychische und Verhaltensstörungen durch Alkohol: Entzugssyndrom</Kontraindikation>
+      <Kontraindikation>F20: Schizophrenie</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>F32.3: Schwere depressive Episode mit psychotischen Symptomen</Kontraindikation>
+      <Kontraindikation>F33.3: Rezidivierende depressive Störung, gegenwärtig schwere Episode mit psychotischen Symptomen</Kontraindikation>
       <Name>Selfapys Online-Kurs bei Depression</Name>
       <Packungspreis>540.00</Packungspreis>
       <Plattform>
@@ -485,13 +497,13 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>somnio ist eine digitale Anwendung zur Behandlung von Ein- und Durchschlafstörungen (Insomnie). In der Anwendung werden evidenzbasierte und leitlinienkonforme Inhalte aus dem Bereich der kognitiven Verhaltenstherapie für Insomnie (KVT-I) vermittelt. Nutzer*innen lernen beispielsweise, ihre Schlafzeiten zu optimieren, einem individuell abgestimmten Schlaf-Wach-Rhythmus zu folgen, mit schlafhindernden Gedanken umzugehen oder sich mittels Entspannungstechniken in einen schlafförderlichen Zustand zu bringen. Die Wirksamkeit von somnio wurde in einer randomisierten kontrollierten Studie untersucht. Patient*innen, die somnio nutzten, zeigten im Vergleich zu einer Kontrollgruppe eine deutliche Reduktion der Insomnie-Symptome. somnio ist als Web-Anwendung direkt aus dem Browser aufrufbar sowie als App für Smartphones und Tablets mit den Betriebssystemen iOS und Android verfügbar.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/508</Details>
       <DigaId>00508</DigaId>
       <DigaVeId>00508001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <GültigAb>2021-05-05</GültigAb>
       <Hersteller>
@@ -499,10 +511,10 @@
          <Name>mementor DE GmbH</Name>
       </Hersteller>
       <Homepage>https://www.somn.io</Homepage>
-      <Indikation>F51.0: ???</Indikation>
+      <Indikation>F51.0: Nichtorganische Insomnie</Indikation>
       <Kategorie>77: Psyche</Kategorie>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>G40: ???</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>G40: Epilepsie</Kontraindikation>
       <Name>somnio</Name>
       <Packungspreis>464.00</Packungspreis>
       <Plattform>
@@ -522,13 +534,13 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>velibra ist ein webbasiertes Programm für Patienten mit einer generalisierten Angststörung, einer Panikstörung mit oder ohne Agoraphobie oder einer sozialen Angststörung. velibra vermittelt etablierte Methoden und Übungen der Kognitiven Verhaltenstherapie - einer sehr gut wissenschaftlich untersuchten Form der Psychotherapie. Das Programm ist als Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel durch den Hausarzt) für Patienten vorgesehen, die mindestens 18 Jahre alt sind. velibra ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von velibra wurde in einer klinischen Studie untersucht und in einer sehr angesehenen wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 139 Patienten teil, die an einer generalisierten Angststörung, einer Panikstörung mit oder ohne Agoraphobie oder einer sozialen Angststörung litten. In dieser Studie zeigte sich, dass Patienten, die zusätzlich zu einer hausärztlichen Behandlung velibra nutzten, deutlich geringere Angst- und depressive Beschwerden hatten als Patienten, die nur eine hausärztliche Behandlung erhielten. Die Verordnungsdauer von velibra beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/316</Details>
       <DigaId>00316</DigaId>
       <DigaVeId>00316001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <GültigAb>2021-06-04</GültigAb>
       <Hersteller>
@@ -536,16 +548,16 @@
          <Name>GAIA AG</Name>
       </Hersteller>
       <Homepage>https://de.velibra.com/</Homepage>
-      <Indikation>F40.01: ???</Indikation>
-      <Indikation>F40.1: ???</Indikation>
-      <Indikation>F41.0: ???</Indikation>
-      <Indikation>F41.1: ???</Indikation>
+      <Indikation>F40.01: Agoraphobie: Mit Panikstörung</Indikation>
+      <Indikation>F40.1: Soziale Phobien</Indikation>
+      <Indikation>F41.0: Panikstörung [episodisch paroxysmale Angst]</Indikation>
+      <Indikation>F41.1: Generalisierte Angststörung</Indikation>
       <Kategorie>77: Psyche</Kategorie>
-      <Kontraindikation>F20: ???</Kontraindikation>
-      <Kontraindikation>F23: ???</Kontraindikation>
-      <Kontraindikation>F25: ???</Kontraindikation>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>R45.8: ???</Kontraindikation>
+      <Kontraindikation>F20: Schizophrenie</Kontraindikation>
+      <Kontraindikation>F23: Akute vorübergehende psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F25: Schizoaffektive Störungen</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>R45.8: Sonstige Symptome, die die Stimmung betreffen</Kontraindikation>
       <Name>velibra</Name>
       <Packungspreis>476.00</Packungspreis>
       <Plattform>
@@ -557,16 +569,18 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Vivira ist eine digitale Gesundheitsanwendung zur Behandlung von Rücken-, Knie- und Hüftschmerzen bei nicht-spezifischen Kreuzschmerzen, Arthrose der Wirbelsäule (Osteochondrose), Arthrose der Knie (Gonarthrose), unspezifischen Knieschmerzen, Arthrose der Hüfte (Koxarthrose) und unspezifischen Hüftschmerzen.
+Die bewegungstherapeutische Vivira App bietet täglich 4 Übungen, die auf Basis der Rückmeldungen vom Patienten fortlaufend ihre Intensität und Komplexität anpassen. Die täglichen Übungen werden durch wöchentliche Abfragen zur Gesundheit, die Visualisierung des Fortschritts, monatliche Bewegungstests und durch edukative Inhalte ergänzt. Vivira unterstützt die Umsetzung der in Leitlinien für nicht-spezifischen Kreuzschmerz, Kniearthrose und Hüftarthrose vorgesehenen Trainings-Elemente sowie die Umsetzung der Heilmittelrichtlinie.
+Die Wirksamkeit von Vivira wurde bereits in einer retrospektiven kontrollierten Studie untersucht. Patienten die Vivira nutzten zeigten intraindividuell eine deutliche Reduktion der Schmerzen. Die Studie wird 2021 durch eine prospektive randomisiert kontrollierte Studie sowie eine weitere retrospektive Studie ergänzt. Die Veröffentlichung der bereits vorliegenden retrospektiven kontrollierten Studie ist 2021 geplant.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/387</Details>
       <DigaId>00387</DigaId>
       <DigaVeId>00387001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-06-01</GültigAb>
       <Hersteller>
@@ -574,79 +588,79 @@
          <Name>Vivira Health Lab GmbH</Name>
       </Hersteller>
       <Homepage>https://www.vivira.com</Homepage>
-      <Indikation>M16.0: ???</Indikation>
-      <Indikation>M16.1: ???</Indikation>
-      <Indikation>M16.2: ???</Indikation>
-      <Indikation>M16.3: ???</Indikation>
-      <Indikation>M16.4: ???</Indikation>
-      <Indikation>M16.5: ???</Indikation>
-      <Indikation>M16.6: ???</Indikation>
-      <Indikation>M16.7: ???</Indikation>
-      <Indikation>M16.9: ???</Indikation>
-      <Indikation>M17.0: ???</Indikation>
-      <Indikation>M17.1: ???</Indikation>
-      <Indikation>M17.2: ???</Indikation>
-      <Indikation>M17.3: ???</Indikation>
-      <Indikation>M17.4: ???</Indikation>
-      <Indikation>M17.5: ???</Indikation>
-      <Indikation>M17.9: ???</Indikation>
-      <Indikation>M25.55: ???</Indikation>
-      <Indikation>M25.56: ???</Indikation>
-      <Indikation>M25.85: ???</Indikation>
-      <Indikation>M25.86: ???</Indikation>
-      <Indikation>M25.95: ???</Indikation>
-      <Indikation>M25.96: ???</Indikation>
-      <Indikation>M42.0: ???</Indikation>
-      <Indikation>M42.1: ???</Indikation>
-      <Indikation>M42.9: ???</Indikation>
-      <Indikation>M53.2: ???</Indikation>
-      <Indikation>M53.8: ???</Indikation>
-      <Indikation>M53.9: ???</Indikation>
-      <Indikation>M54.5: ???</Indikation>
-      <Indikation>M54.6: ???</Indikation>
-      <Indikation>M54.8: ???</Indikation>
-      <Indikation>M54.9: ???</Indikation>
-      <Indikation>M99.02: ???</Indikation>
-      <Indikation>M99.03: ???</Indikation>
-      <Indikation>M99.04: ???</Indikation>
-      <Indikation>M99.82: ???</Indikation>
-      <Indikation>M99.83: ???</Indikation>
-      <Indikation>M99.84: ???</Indikation>
-      <Indikation>M99.85: ???</Indikation>
-      <Indikation>M99.86: ???</Indikation>
-      <Indikation>M99.92: ???</Indikation>
-      <Indikation>M99.93: ???</Indikation>
-      <Indikation>M99.94: ???</Indikation>
-      <Indikation>M99.95: ???</Indikation>
-      <Indikation>M99.96: ???</Indikation>
+      <Indikation>M16.0: Primäre Koxarthrose, beidseitig</Indikation>
+      <Indikation>M16.1: Sonstige primäre Koxarthrose</Indikation>
+      <Indikation>M16.2: Koxarthrose als Folge einer Dysplasie, beidseitig</Indikation>
+      <Indikation>M16.3: Sonstige dysplastische Koxarthrose</Indikation>
+      <Indikation>M16.4: Posttraumatische Koxarthrose, beidseitig</Indikation>
+      <Indikation>M16.5: Sonstige posttraumatische Koxarthrose</Indikation>
+      <Indikation>M16.6: Sonstige sekundäre Koxarthrose, beidseitig</Indikation>
+      <Indikation>M16.7: Sonstige sekundäre Koxarthrose</Indikation>
+      <Indikation>M16.9: Koxarthrose, nicht näher bezeichnet</Indikation>
+      <Indikation>M17.0: Primäre Gonarthrose, beidseitig</Indikation>
+      <Indikation>M17.1: Sonstige primäre Gonarthrose</Indikation>
+      <Indikation>M17.2: Posttraumatische Gonarthrose, beidseitig</Indikation>
+      <Indikation>M17.3: Sonstige posttraumatische Gonarthrose</Indikation>
+      <Indikation>M17.4: Sonstige sekundäre Gonarthrose, beidseitig</Indikation>
+      <Indikation>M17.5: Sonstige sekundäre Gonarthrose</Indikation>
+      <Indikation>M17.9: Gonarthrose, nicht näher bezeichnet</Indikation>
+      <Indikation>M25.55: Gelenkschmerz: Beckenregion und Oberschenkel [Becken, Femur, Gesäß, Hüfte, Hüftgelenk, Iliosakralgelenk]</Indikation>
+      <Indikation>M25.56: Gelenkschmerz: Unterschenkel [Fibula, Tibia, Kniegelenk]</Indikation>
+      <Indikation>M25.85: Sonstige näher bezeichnete Gelenkkrankheiten: Beckenregion und Oberschenkel [Becken, Femur, Gesäß, Hüfte, Hüftgelenk, Iliosakralgelenk]</Indikation>
+      <Indikation>M25.86: Sonstige näher bezeichnete Gelenkkrankheiten: Unterschenkel [Fibula, Tibia, Kniegelenk]</Indikation>
+      <Indikation>M25.95: Gelenkkrankheit, nicht näher bezeichnet: Beckenregion und Oberschenkel [Becken, Femur, Gesäß, Hüfte, Hüftgelenk, Iliosakralgelenk]</Indikation>
+      <Indikation>M25.96: Gelenkkrankheit, nicht näher bezeichnet: Unterschenkel [Fibula, Tibia, Kniegelenk]</Indikation>
+      <Indikation>M42.0: Juvenile Osteochondrose der Wirbelsäule</Indikation>
+      <Indikation>M42.1: Osteochondrose der Wirbelsäule beim Erwachsenen</Indikation>
+      <Indikation>M42.9: Osteochondrose der Wirbelsäule, nicht näher bezeichnet</Indikation>
+      <Indikation>M53.2: Instabilität der Wirbelsäule</Indikation>
+      <Indikation>M53.8: Sonstige näher bezeichnete Krankheiten der Wirbelsäule und des Rückens</Indikation>
+      <Indikation>M53.9: Krankheit der Wirbelsäule und des Rückens, nicht näher bezeichnet</Indikation>
+      <Indikation>M54.5: Kreuzschmerz</Indikation>
+      <Indikation>M54.6: Schmerzen im Bereich der Brustwirbelsäule</Indikation>
+      <Indikation>M54.8: Sonstige Rückenschmerzen</Indikation>
+      <Indikation>M54.9: Rückenschmerzen, nicht näher bezeichnet</Indikation>
+      <Indikation>M99.02: Segmentale und somatische Funktionsstörungen: Thorakalbereich [thorakolumbal]</Indikation>
+      <Indikation>M99.03: Segmentale und somatische Funktionsstörungen: Lumbalbereich [lumbosakral]</Indikation>
+      <Indikation>M99.04: Segmentale und somatische Funktionsstörungen: Sakralbereich [sakrokokzygeal, sakroiliakal]</Indikation>
+      <Indikation>M99.82: Sonstige biomechanische Funktionsstörungen: Thorakalbereich [thorakolumbal]</Indikation>
+      <Indikation>M99.83: Sonstige biomechanische Funktionsstörungen: Lumbalbereich [lumbosakral]</Indikation>
+      <Indikation>M99.84: Sonstige biomechanische Funktionsstörungen: Sakralbereich [sakrokokzygeal, sakroiliakal]</Indikation>
+      <Indikation>M99.85: Sonstige biomechanische Funktionsstörungen: Beckenbereich [Hüft- oder Schambeinregion]</Indikation>
+      <Indikation>M99.86: Sonstige biomechanische Funktionsstörungen: Untere Extremität</Indikation>
+      <Indikation>M99.92: Biomechanische Funktionsstörung, nicht näher bezeichnet: Thorakalbereich [thorakolumbal]</Indikation>
+      <Indikation>M99.93: Biomechanische Funktionsstörung, nicht näher bezeichnet: Lumbalbereich [lumbosakral]</Indikation>
+      <Indikation>M99.94: Biomechanische Funktionsstörung, nicht näher bezeichnet: Sakralbereich [sakrokokzygeal, sakroiliakal]</Indikation>
+      <Indikation>M99.95: Biomechanische Funktionsstörung, nicht näher bezeichnet: Beckenbereich [Hüft- oder Schambeinregion]</Indikation>
+      <Indikation>M99.96: Biomechanische Funktionsstörung, nicht näher bezeichnet: Untere Extremität</Indikation>
       <Kategorie>85: Muskeln, Knochen und Gelenke</Kategorie>
-      <Kontraindikation>C41.2: ???</Kontraindikation>
-      <Kontraindikation>C70.1: ???</Kontraindikation>
-      <Kontraindikation>C79.4: ???</Kontraindikation>
-      <Kontraindikation>C79.5: ???</Kontraindikation>
-      <Kontraindikation>C79.88: ???</Kontraindikation>
-      <Kontraindikation>G55.1: ???</Kontraindikation>
-      <Kontraindikation>G99.2: ???</Kontraindikation>
-      <Kontraindikation>I80: ???</Kontraindikation>
-      <Kontraindikation>M00: ???</Kontraindikation>
-      <Kontraindikation>M01: ???</Kontraindikation>
-      <Kontraindikation>M02: ???</Kontraindikation>
-      <Kontraindikation>M03: ???</Kontraindikation>
-      <Kontraindikation>M23.4: ???</Kontraindikation>
-      <Kontraindikation>M24.05: ???</Kontraindikation>
-      <Kontraindikation>M46: ???</Kontraindikation>
-      <Kontraindikation>M50: ???</Kontraindikation>
-      <Kontraindikation>M50.1: ???</Kontraindikation>
-      <Kontraindikation>M51.0: ???</Kontraindikation>
-      <Kontraindikation>M51.1: ???</Kontraindikation>
-      <Kontraindikation>M87: ???</Kontraindikation>
-      <Kontraindikation>M93.0: ???</Kontraindikation>
-      <Kontraindikation>M93.2: ???</Kontraindikation>
-      <Kontraindikation>T84: ???</Kontraindikation>
-      <Kontraindikation>Z96.6: ???</Kontraindikation>
-      <Kontraindikation>Z96.64: ???</Kontraindikation>
-      <Kontraindikation>Z96.65: ???</Kontraindikation>
-      <Kontraindikation>Z96.68: ???</Kontraindikation>
+      <Kontraindikation>C41.2: Bösartige Neubildung des Knochens und des Gelenkknorpels: Wirbelsäule</Kontraindikation>
+      <Kontraindikation>C70.1: Bösartige Neubildung: Rückenmarkhäute</Kontraindikation>
+      <Kontraindikation>C79.4: Sekundäre bösartige Neubildung sonstiger und nicht näher bezeichneter Teile des Nervensystems</Kontraindikation>
+      <Kontraindikation>C79.5: Sekundäre bösartige Neubildung des Knochens und des Knochenmarkes</Kontraindikation>
+      <Kontraindikation>C79.88: Sekundäre bösartige Neubildung sonstiger näher bezeichneter Lokalisationen</Kontraindikation>
+      <Kontraindikation>G55.1: Kompression von Nervenwurzeln und Nervenplexus bei Bandscheibenschäden</Kontraindikation>
+      <Kontraindikation>G99.2: Myelopathie bei anderenorts klassifizierten Krankheiten</Kontraindikation>
+      <Kontraindikation>I80: Thrombose, Phlebitis und Thrombophlebitis</Kontraindikation>
+      <Kontraindikation>M00: Eitrige Arthritis</Kontraindikation>
+      <Kontraindikation>M01: Direkte Gelenkinfektionen bei anderenorts klassifizierten infektiösen und parasitären Krankheiten</Kontraindikation>
+      <Kontraindikation>M02: Reaktive Arthritiden</Kontraindikation>
+      <Kontraindikation>M03: Postinfektiöse und reaktive Arthritiden bei anderenorts klassifizierten Krankheiten</Kontraindikation>
+      <Kontraindikation>M23.4: Freier Gelenkkörper im Kniegelenk</Kontraindikation>
+      <Kontraindikation>M24.05: Freier Gelenkkörper: Beckenregion und Oberschenkel [Becken, Femur, Gesäß, Hüfte, Hüftgelenk, Iliosakralgelenk]</Kontraindikation>
+      <Kontraindikation>M46: Sonstige entzündliche Spondylopathien</Kontraindikation>
+      <Kontraindikation>M50: Zervikale Bandscheibenschäden</Kontraindikation>
+      <Kontraindikation>M50.1: Zervikaler Bandscheibenschaden mit Radikulopathie</Kontraindikation>
+      <Kontraindikation>M51.0: Lumbale und sonstige Bandscheibenschäden mit Myelopathie</Kontraindikation>
+      <Kontraindikation>M51.1: Lumbale und sonstige Bandscheibenschäden mit Radikulopathie</Kontraindikation>
+      <Kontraindikation>M87: Knochennekrose</Kontraindikation>
+      <Kontraindikation>M93.0: Epiphyseolysis capitis femoris (nichttraumatisch)</Kontraindikation>
+      <Kontraindikation>M93.2: Osteochondrosis dissecans</Kontraindikation>
+      <Kontraindikation>T84: Komplikationen durch orthopädische Endoprothesen, Implantate oder Transplantate</Kontraindikation>
+      <Kontraindikation>Z96.6: Vorhandensein von orthopädischen Gelenkimplantaten</Kontraindikation>
+      <Kontraindikation>Z96.64: Vorhandensein einer Hüftgelenkprothese</Kontraindikation>
+      <Kontraindikation>Z96.65: Vorhandensein einer Kniegelenkprothese</Kontraindikation>
+      <Kontraindikation>Z96.68: Vorhandensein von sonstigen näher bezeichneten orthopädischen Gelenkimplantaten</Kontraindikation>
       <Name>Vivira</Name>
       <Packungspreis>239.96</Packungspreis>
       <Plattform>
@@ -662,16 +676,16 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>zanadio ist eine Anwendung, die den Nutzern durch eine Veränderung Ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung sowie weitere Verhaltensweisen hilft, langfristig Ihr Gewicht zu reduzieren. Die DiGA basiert dabei auf dem wissenschaftlichen Konzept der multimodalen, konservativen Adipositastherapie, welche die verschiedenen relevanten Bereiche adressiert und hierdurch eine langfristige, dauerhafte Gewichtsreduktion herbeiführt. Das Programm setzt diesen etablierten Behandlungsansatz digital um.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/294</Details>
       <DigaId>00294</DigaId>
       <DigaVeId>00294001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-05-28</GültigAb>
       <Hersteller>
@@ -679,12 +693,12 @@
          <Name>aidhere GmbH</Name>
       </Hersteller>
       <Homepage>https://zanadio.de/</Homepage>
-      <Indikation>E66: ???</Indikation>
+      <Indikation>E66: Adipositas</Indikation>
       <Kategorie>76: Hormone und Stoffwechsel</Kategorie>
-      <Kontraindikation>E03: ???</Kontraindikation>
-      <Kontraindikation>E23: ???</Kontraindikation>
-      <Kontraindikation>E24: ???</Kontraindikation>
-      <Kontraindikation>E66.02: ???</Kontraindikation>
+      <Kontraindikation>E03: Sonstige Hypothyreose</Kontraindikation>
+      <Kontraindikation>E23: Unterfunktion und andere Störungen der Hypophyse</Kontraindikation>
+      <Kontraindikation>E24: Cushing-Syndrom</Kontraindikation>
+      <Kontraindikation>E66.02: Adipositas durch übermäßige Kalorienzufuhr: Adipositas Grad III (WHO) bei Patienten von 18 Jahren und älter</Kontraindikation>
       <Name>zanadio</Name>
       <Packungspreis>499.80</Packungspreis>
       <Plattform>
@@ -700,16 +714,16 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>deprexis ist ein interaktives onlinebasiertes Selbsthilfeprogramm zur Therapieunterstützung von Patienten mit Depressionen und depressiven Verstimmungen, die mindestens 18 Jahre alt sind. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus-, Facharzt oder Psychotherapeuten) eingesetzt werden. deprexis basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT). Die Wirksamkeit von deprexis wurde in mehreren klinischen Studien untersucht. In diesen Studien zeigte sich, dass Patienten, die zusätzlich zu einer üblichen medizinischen Versorgung deprexis nutzten, deutlich weniger depressive Beschwerden hatten als Patienten, die nur eine übliche medizinische Versorgung erhielten. Die Verordnungsdauer von deprexis beträgt 90 Tage.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/450</Details>
       <DigaId>00450</DigaId>
       <DigaVeId>00450001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-06-01</GültigAb>
       <Hersteller>
@@ -717,18 +731,18 @@
          <Name>GAIA AG</Name>
       </Hersteller>
       <Homepage>https://de.deprexis.com/</Homepage>
-      <Indikation>F32.0: ???</Indikation>
-      <Indikation>F32.1: ???</Indikation>
-      <Indikation>F32.2: ???</Indikation>
-      <Indikation>F33.0: ???</Indikation>
-      <Indikation>F33.1: ???</Indikation>
-      <Indikation>F33.2: ???</Indikation>
+      <Indikation>F32.0: Leichte depressive Episode</Indikation>
+      <Indikation>F32.1: Mittelgradige depressive Episode</Indikation>
+      <Indikation>F32.2: Schwere depressive Episode ohne psychotische Symptome</Indikation>
+      <Indikation>F33.0: Rezidivierende depressive Störung, gegenwärtig leichte Episode</Indikation>
+      <Indikation>F33.1: Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode</Indikation>
+      <Indikation>F33.2: Rezidivierende depressive Störung, gegenwärtig schwere Episode ohne psychotische Symptome</Indikation>
       <Kategorie>77: Psyche</Kategorie>
-      <Kontraindikation>F20: ???</Kontraindikation>
-      <Kontraindikation>F23: ???</Kontraindikation>
-      <Kontraindikation>F25: ???</Kontraindikation>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>R45.8: ???</Kontraindikation>
+      <Kontraindikation>F20: Schizophrenie</Kontraindikation>
+      <Kontraindikation>F23: Akute vorübergehende psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F25: Schizoaffektive Störungen</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>R45.8: Sonstige Symptome, die die Stimmung betreffen</Kontraindikation>
       <Name>deprexis</Name>
       <Packungspreis>297.50</Packungspreis>
       <Plattform>
@@ -740,16 +754,16 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Die Mika App ist eine digitale Gesundheitsanwendung zur Unterstützung der Linderung psychischer und psychosomatischer Folgen von Diagnosen und Therapien von Malignomen. Die Anwendung erreicht eine Linderung durch Dokumentation von Belastung, Symptomen und Nebenwirkungen im Verlauf sowie ressourcenaktivierender Patientenedukation in den Bereichen Gesundheitskompetenz, Stressmanagement, Bewegung und Ernährung.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/875</Details>
       <DigaId>00875</DigaId>
       <DigaVeId>00875001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <Freigabe>
          <Geschlecht>W</Geschlecht>
@@ -763,95 +777,95 @@
          <Name>Fosanis GmbH</Name>
       </Hersteller>
       <Homepage>https://www.mitmika.de/</Homepage>
-      <Indikation>C00: ???</Indikation>
-      <Indikation>C01: ???</Indikation>
-      <Indikation>C02: ???</Indikation>
-      <Indikation>C03: ???</Indikation>
-      <Indikation>C04: ???</Indikation>
-      <Indikation>C05: ???</Indikation>
-      <Indikation>C06: ???</Indikation>
-      <Indikation>C07: ???</Indikation>
-      <Indikation>C08: ???</Indikation>
-      <Indikation>C09: ???</Indikation>
-      <Indikation>C10: ???</Indikation>
-      <Indikation>C11: ???</Indikation>
-      <Indikation>C12: ???</Indikation>
-      <Indikation>C13: ???</Indikation>
-      <Indikation>C14: ???</Indikation>
-      <Indikation>C15: ???</Indikation>
-      <Indikation>C16: ???</Indikation>
-      <Indikation>C17: ???</Indikation>
-      <Indikation>C18: ???</Indikation>
-      <Indikation>C19: ???</Indikation>
-      <Indikation>C20: ???</Indikation>
-      <Indikation>C21: ???</Indikation>
-      <Indikation>C22: ???</Indikation>
-      <Indikation>C23: ???</Indikation>
-      <Indikation>C24: ???</Indikation>
-      <Indikation>C25: ???</Indikation>
-      <Indikation>C26: ???</Indikation>
-      <Indikation>C30: ???</Indikation>
-      <Indikation>C31: ???</Indikation>
-      <Indikation>C32: ???</Indikation>
-      <Indikation>C33: ???</Indikation>
-      <Indikation>C34: ???</Indikation>
-      <Indikation>C37: ???</Indikation>
-      <Indikation>C38: ???</Indikation>
-      <Indikation>C39: ???</Indikation>
-      <Indikation>C40: ???</Indikation>
-      <Indikation>C41: ???</Indikation>
-      <Indikation>C43: ???</Indikation>
-      <Indikation>C44: ???</Indikation>
-      <Indikation>C45: ???</Indikation>
-      <Indikation>C46: ???</Indikation>
-      <Indikation>C47: ???</Indikation>
-      <Indikation>C48: ???</Indikation>
-      <Indikation>C49: ???</Indikation>
-      <Indikation>C50: ???</Indikation>
-      <Indikation>C51: ???</Indikation>
-      <Indikation>C52: ???</Indikation>
-      <Indikation>C53: ???</Indikation>
-      <Indikation>C54: ???</Indikation>
-      <Indikation>C55: ???</Indikation>
-      <Indikation>C56: ???</Indikation>
-      <Indikation>C57: ???</Indikation>
-      <Indikation>C58: ???</Indikation>
-      <Indikation>C60: ???</Indikation>
-      <Indikation>C61: ???</Indikation>
-      <Indikation>C62: ???</Indikation>
-      <Indikation>C63: ???</Indikation>
-      <Indikation>C64: ???</Indikation>
-      <Indikation>C65: ???</Indikation>
-      <Indikation>C66: ???</Indikation>
-      <Indikation>C67: ???</Indikation>
-      <Indikation>C68: ???</Indikation>
-      <Indikation>C69: ???</Indikation>
-      <Indikation>C70: ???</Indikation>
-      <Indikation>C71: ???</Indikation>
-      <Indikation>C72: ???</Indikation>
-      <Indikation>C73: ???</Indikation>
-      <Indikation>C74: ???</Indikation>
-      <Indikation>C75: ???</Indikation>
-      <Indikation>C76: ???</Indikation>
-      <Indikation>C77: ???</Indikation>
-      <Indikation>C78: ???</Indikation>
-      <Indikation>C79: ???</Indikation>
-      <Indikation>C80: ???</Indikation>
-      <Indikation>C81: ???</Indikation>
-      <Indikation>C82: ???</Indikation>
-      <Indikation>C83: ???</Indikation>
-      <Indikation>C84: ???</Indikation>
-      <Indikation>C85: ???</Indikation>
-      <Indikation>C86: ???</Indikation>
-      <Indikation>C88: ???</Indikation>
-      <Indikation>C90: ???</Indikation>
-      <Indikation>C91: ???</Indikation>
-      <Indikation>C92: ???</Indikation>
-      <Indikation>C93: ???</Indikation>
-      <Indikation>C94: ???</Indikation>
-      <Indikation>C95: ???</Indikation>
-      <Indikation>C96: ???</Indikation>
-      <Indikation>C97: ???</Indikation>
+      <Indikation>C00: Bösartige Neubildung der Lippe</Indikation>
+      <Indikation>C01: Bösartige Neubildung des Zungengrundes</Indikation>
+      <Indikation>C02: Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile der Zunge</Indikation>
+      <Indikation>C03: Bösartige Neubildung des Zahnfleisches</Indikation>
+      <Indikation>C04: Bösartige Neubildung des Mundbodens</Indikation>
+      <Indikation>C05: Bösartige Neubildung des Gaumens</Indikation>
+      <Indikation>C06: Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile des Mundes</Indikation>
+      <Indikation>C07: Bösartige Neubildung der Parotis</Indikation>
+      <Indikation>C08: Bösartige Neubildung sonstiger und nicht näher bezeichneter großer Speicheldrüsen</Indikation>
+      <Indikation>C09: Bösartige Neubildung der Tonsille</Indikation>
+      <Indikation>C10: Bösartige Neubildung des Oropharynx</Indikation>
+      <Indikation>C11: Bösartige Neubildung des Nasopharynx</Indikation>
+      <Indikation>C12: Bösartige Neubildung des Recessus piriformis</Indikation>
+      <Indikation>C13: Bösartige Neubildung des Hypopharynx</Indikation>
+      <Indikation>C14: Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen der Lippe, der Mundhöhle und des Pharynx</Indikation>
+      <Indikation>C15: Bösartige Neubildung des Ösophagus</Indikation>
+      <Indikation>C16: Bösartige Neubildung des Magens</Indikation>
+      <Indikation>C17: Bösartige Neubildung des Dünndarmes</Indikation>
+      <Indikation>C18: Bösartige Neubildung des Kolons</Indikation>
+      <Indikation>C19: Bösartige Neubildung am Rektosigmoid, Übergang</Indikation>
+      <Indikation>C20: Bösartige Neubildung des Rektums</Indikation>
+      <Indikation>C21: Bösartige Neubildung des Anus und des Analkanals</Indikation>
+      <Indikation>C22: Bösartige Neubildung der Leber und der intrahepatischen Gallengänge</Indikation>
+      <Indikation>C23: Bösartige Neubildung der Gallenblase</Indikation>
+      <Indikation>C24: Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile der Gallenwege</Indikation>
+      <Indikation>C25: Bösartige Neubildung des Pankreas</Indikation>
+      <Indikation>C26: Bösartige Neubildung sonstiger und ungenau bezeichneter Verdauungsorgane</Indikation>
+      <Indikation>C30: Bösartige Neubildung der Nasenhöhle und des Mittelohres</Indikation>
+      <Indikation>C31: Bösartige Neubildung der Nasennebenhöhlen</Indikation>
+      <Indikation>C32: Bösartige Neubildung des Larynx</Indikation>
+      <Indikation>C33: Bösartige Neubildung der Trachea</Indikation>
+      <Indikation>C34: Bösartige Neubildung der Bronchien und der Lunge</Indikation>
+      <Indikation>C37: Bösartige Neubildung des Thymus</Indikation>
+      <Indikation>C38: Bösartige Neubildung des Herzens, des Mediastinums und der Pleura</Indikation>
+      <Indikation>C39: Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen des Atmungssystems und sonstiger intrathorakaler Organe</Indikation>
+      <Indikation>C40: Bösartige Neubildung des Knochens und des Gelenkknorpels der Extremitäten</Indikation>
+      <Indikation>C41: Bösartige Neubildung des Knochens und des Gelenkknorpels sonstiger und nicht näher bezeichneter Lokalisationen</Indikation>
+      <Indikation>C43: Bösartiges Melanom der Haut</Indikation>
+      <Indikation>C44: Sonstige bösartige Neubildungen der Haut</Indikation>
+      <Indikation>C45: Mesotheliom</Indikation>
+      <Indikation>C46: Kaposi-Sarkom [Sarcoma idiopathicum multiplex haemorrhagicum]</Indikation>
+      <Indikation>C47: Bösartige Neubildung der peripheren Nerven und des autonomen Nervensystems</Indikation>
+      <Indikation>C48: Bösartige Neubildung des Retroperitoneums und des Peritoneums</Indikation>
+      <Indikation>C49: Bösartige Neubildung sonstigen Bindegewebes und anderer Weichteilgewebe</Indikation>
+      <Indikation>C50: Bösartige Neubildung der Brustdrüse [Mamma]</Indikation>
+      <Indikation>C51: Bösartige Neubildung der Vulva</Indikation>
+      <Indikation>C52: Bösartige Neubildung der Vagina</Indikation>
+      <Indikation>C53: Bösartige Neubildung der Cervix uteri</Indikation>
+      <Indikation>C54: Bösartige Neubildung des Corpus uteri</Indikation>
+      <Indikation>C55: Bösartige Neubildung des Uterus, Teil nicht näher bezeichnet</Indikation>
+      <Indikation>C56: Bösartige Neubildung des Ovars</Indikation>
+      <Indikation>C57: Bösartige Neubildung sonstiger und nicht näher bezeichneter weiblicher Genitalorgane</Indikation>
+      <Indikation>C58: Bösartige Neubildung der Plazenta</Indikation>
+      <Indikation>C60: Bösartige Neubildung des Penis</Indikation>
+      <Indikation>C61: Bösartige Neubildung der Prostata</Indikation>
+      <Indikation>C62: Bösartige Neubildung des Hodens</Indikation>
+      <Indikation>C63: Bösartige Neubildung sonstiger und nicht näher bezeichneter männlicher Genitalorgane</Indikation>
+      <Indikation>C64: Bösartige Neubildung der Niere, ausgenommen Nierenbecken</Indikation>
+      <Indikation>C65: Bösartige Neubildung des Nierenbeckens</Indikation>
+      <Indikation>C66: Bösartige Neubildung des Ureters</Indikation>
+      <Indikation>C67: Bösartige Neubildung der Harnblase</Indikation>
+      <Indikation>C68: Bösartige Neubildung sonstiger und nicht näher bezeichneter Harnorgane</Indikation>
+      <Indikation>C69: Bösartige Neubildung des Auges und der Augenanhangsgebilde</Indikation>
+      <Indikation>C70: Bösartige Neubildung der Meningen</Indikation>
+      <Indikation>C71: Bösartige Neubildung des Gehirns</Indikation>
+      <Indikation>C72: Bösartige Neubildung des Rückenmarkes, der Hirnnerven und anderer Teile des Zentralnervensystems</Indikation>
+      <Indikation>C73: Bösartige Neubildung der Schilddrüse</Indikation>
+      <Indikation>C74: Bösartige Neubildung der Nebenniere</Indikation>
+      <Indikation>C75: Bösartige Neubildung sonstiger endokriner Drüsen und verwandter Strukturen</Indikation>
+      <Indikation>C76: Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen</Indikation>
+      <Indikation>C77: Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten</Indikation>
+      <Indikation>C78: Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane</Indikation>
+      <Indikation>C79: Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen</Indikation>
+      <Indikation>C80: Bösartige Neubildung ohne Angabe der Lokalisation</Indikation>
+      <Indikation>C81: Hodgkin-Lymphom [Lymphogranulomatose]</Indikation>
+      <Indikation>C82: Follikuläres Lymphom</Indikation>
+      <Indikation>C83: Nicht follikuläres Lymphom</Indikation>
+      <Indikation>C84: Reifzellige T/NK-Zell-Lymphome</Indikation>
+      <Indikation>C85: Sonstige und nicht näher bezeichnete Typen des Non-Hodgkin-Lymphoms</Indikation>
+      <Indikation>C86: Weitere spezifizierte T/NK-Zell-Lymphome</Indikation>
+      <Indikation>C88: Bösartige immunproliferative Krankheiten</Indikation>
+      <Indikation>C90: Plasmozytom und bösartige Plasmazellen-Neubildungen</Indikation>
+      <Indikation>C91: Lymphatische Leukämie</Indikation>
+      <Indikation>C92: Myeloische Leukämie</Indikation>
+      <Indikation>C93: Monozytenleukämie</Indikation>
+      <Indikation>C94: Sonstige Leukämien näher bezeichneten Zelltyps</Indikation>
+      <Indikation>C95: Leukämie nicht näher bezeichneten Zelltyps</Indikation>
+      <Indikation>C96: Sonstige und nicht näher bezeichnete bösartige Neubildungen des lymphatischen, blutbildenden und verwandten Gewebes</Indikation>
+      <Indikation>C97: Bösartige Neubildungen als Primärtumoren an mehreren Lokalisationen</Indikation>
       <Kategorie>74: Krebs</Kategorie>
       <Name>Mika</Name>
       <Packungspreis>419.00</Packungspreis>
@@ -868,16 +882,16 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>Die App "Mindable: Panikstörung und Agoraphobie" richtet sich an Menschen ab 18 Jahren, die an den Symptomen einer Agoraphobie und/oder Panikstörung leiden. Das Behandlungsprogramm basiert auf S3-leitlinienkonformen Methoden der Kognitiven Verhaltenstherapie. Mindable unterstützt Nutzerinnen und Nutzer dabei ihre Ängste proaktiv anzugehen und zu reduzieren. Neben Psychoedukation liegt der Schwerpunkt des Behandlungsprogramms auf der Gewöhnung an Körpersymptome (Habituation durch gezielte Symptomprovokation), sowie in-vivo Konfrontation. Während der Konfrontationsübungen werden Angstverläufe live aufgezeichnet. Darüber hinaus können Nutzerinnen und Nutzer angstbezogene Symptome, Ereignisse und Verhalten regelmäßig erfassen und bei Bedarf mit ihren behandelnden Ärzten oder Therapeuten teilen. Mindable ist als iOS und Android App, sowie in deutscher, englischer und französischer Sprache verfügbar.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/329</Details>
       <DigaId>00329</DigaId>
       <DigaVeId>00329001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-04-29</GültigAb>
       <Hersteller>
@@ -885,27 +899,27 @@
          <Name>Mindable Health GmbH</Name>
       </Hersteller>
       <Homepage>https://www.mindable.health</Homepage>
-      <Indikation>F40.0: ???</Indikation>
-      <Indikation>F41.0: ???</Indikation>
+      <Indikation>F40.0: Agoraphobie</Indikation>
+      <Indikation>F41.0: Panikstörung [episodisch paroxysmale Angst]</Indikation>
       <Kategorie>77: Psyche</Kategorie>
-      <Kontraindikation>F10.0: ???</Kontraindikation>
-      <Kontraindikation>F11.0: ???</Kontraindikation>
-      <Kontraindikation>F12.0: ???</Kontraindikation>
-      <Kontraindikation>F13.0: ???</Kontraindikation>
-      <Kontraindikation>F14.0: ???</Kontraindikation>
-      <Kontraindikation>F16.0: ???</Kontraindikation>
-      <Kontraindikation>F17.0: ???</Kontraindikation>
-      <Kontraindikation>F18.0: ???</Kontraindikation>
-      <Kontraindikation>F20: ???</Kontraindikation>
-      <Kontraindikation>F21: ???</Kontraindikation>
-      <Kontraindikation>F22: ???</Kontraindikation>
-      <Kontraindikation>F23: ???</Kontraindikation>
-      <Kontraindikation>F24: ???</Kontraindikation>
-      <Kontraindikation>F28: ???</Kontraindikation>
-      <Kontraindikation>F29: ???</Kontraindikation>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>F32.3: ???</Kontraindikation>
-      <Kontraindikation>F33.3: ???</Kontraindikation>
+      <Kontraindikation>F10.0: Psychische und Verhaltensstörungen durch Alkohol: Akute Intoxikation [akuter Rausch]</Kontraindikation>
+      <Kontraindikation>F11.0: Psychische und Verhaltensstörungen durch Opioide: Akute Intoxikation [akuter Rausch]</Kontraindikation>
+      <Kontraindikation>F12.0: Psychische und Verhaltensstörungen durch Cannabinoide: Akute Intoxikation [akuter Rausch]</Kontraindikation>
+      <Kontraindikation>F13.0: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika: Akute Intoxikation [akuter Rausch]</Kontraindikation>
+      <Kontraindikation>F14.0: Psychische und Verhaltensstörungen durch Kokain: Akute Intoxikation [akuter Rausch]</Kontraindikation>
+      <Kontraindikation>F16.0: Psychische und Verhaltensstörungen durch Halluzinogene: Akute Intoxikation [akuter Rausch]</Kontraindikation>
+      <Kontraindikation>F17.0: Psychische und Verhaltensstörungen durch Tabak: Akute Intoxikation [akuter Rausch]</Kontraindikation>
+      <Kontraindikation>F18.0: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel: Akute Intoxikation [akuter Rausch]</Kontraindikation>
+      <Kontraindikation>F20: Schizophrenie</Kontraindikation>
+      <Kontraindikation>F21: Schizotype Störung</Kontraindikation>
+      <Kontraindikation>F22: Anhaltende wahnhafte Störungen</Kontraindikation>
+      <Kontraindikation>F23: Akute vorübergehende psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F24: Induzierte wahnhafte Störung</Kontraindikation>
+      <Kontraindikation>F28: Sonstige nichtorganische psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F29: Nicht näher bezeichnete nichtorganische Psychose</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>F32.3: Schwere depressive Episode mit psychotischen Symptomen</Kontraindikation>
+      <Kontraindikation>F33.3: Rezidivierende depressive Störung, gegenwärtig schwere Episode mit psychotischen Symptomen</Kontraindikation>
       <Name>Mindable: Panikstörung und Agoraphobie</Name>
       <Packungspreis>576.00</Packungspreis>
       <Plattform>
@@ -921,16 +935,19 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>vorvida ist eine digitale Gesundheitsanwendung für Patienten mit schädlichem Alkoholkonsum oder Alkoholabhängigkeit, die mindestens 18 Jahre alt sind.
+vorvida verfolgt das Ziel, diese Patienten beim Management ihres gesundheitsschädlichen Trinkverhaltens zu unterstützen und die Trinkmenge zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden.
+vorvida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT).
+vorvida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von vorvida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 608 Patienten mit schädlichem oder gefährlichem Alkoholgebrauch (Abhängigkeitssyndrom) teil. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung vorvida nutzten, der Alkoholkonsum deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von vorvida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen. </Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/868</Details>
       <DigaId>00868</DigaId>
       <DigaVeId>00868001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-05-06</GültigAb>
       <Hersteller>
@@ -938,14 +955,14 @@
          <Name>GAIA AG</Name>
       </Hersteller>
       <Homepage>https://vorvida.de/</Homepage>
-      <Indikation>F10.1: ???</Indikation>
-      <Indikation>F10.2: ???</Indikation>
+      <Indikation>F10.1: Psychische und Verhaltensstörungen durch Alkohol: Schädlicher Gebrauch</Indikation>
+      <Indikation>F10.2: Psychische und Verhaltensstörungen durch Alkohol: Abhängigkeitssyndrom</Indikation>
       <Kategorie>77: Psyche</Kategorie>
-      <Kontraindikation>F20: ???</Kontraindikation>
-      <Kontraindikation>F23: ???</Kontraindikation>
-      <Kontraindikation>F25: ???</Kontraindikation>
-      <Kontraindikation>F31: ???</Kontraindikation>
-      <Kontraindikation>R45.8: ???</Kontraindikation>
+      <Kontraindikation>F20: Schizophrenie</Kontraindikation>
+      <Kontraindikation>F23: Akute vorübergehende psychotische Störungen</Kontraindikation>
+      <Kontraindikation>F25: Schizoaffektive Störungen</Kontraindikation>
+      <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
+      <Kontraindikation>R45.8: Sonstige Symptome, die die Stimmung betreffen</Kontraindikation>
       <Name>vorvida</Name>
       <Packungspreis>476.00</Packungspreis>
       <Plattform>
@@ -957,16 +974,16 @@
    </Diga>
    <Diga>
       <Anwendungstage>90</Anwendungstage>
-      <Beschreibung>???</Beschreibung>
+      <Beschreibung>PRO-React Onco ist eine Web- und App-basierte digitale Gesundheitsanwendung zur Unterstützung von Brustkrebspatientinnen und -patienten. Mit PRO-React Onco können Patientinnen und Patienten Ihre Beschwerden eigenständig erfassen. In Abhängigkeit zur Erkrankung und der laufenden Therapie werden automatisiert Verhaltenshinweise gegeben, wie dringend die jeweilige Beschwerde mit dem behandelnden Arzt oder der behandelnden Ärztin besprochen werden muss.</Beschreibung>
       <Details>https://diga.bfarm.de/de/verzeichnis/961</Details>
       <DigaId>00961</DigaId>
       <DigaVeId>00961001</DigaVeId>
       <Freigabe>
          <AlterAb>18</AlterAb>
-         <AlterBis>64</AlterBis>
+         <AlterBis>65</AlterBis>
       </Freigabe>
       <Freigabe>
-         <AlterAb>65</AlterAb>
+         <AlterAb>66</AlterAb>
       </Freigabe>
       <GültigAb>2021-05-07</GültigAb>
       <Hersteller>
@@ -974,7 +991,7 @@
          <Name>CANKADO Service GmbH</Name>
       </Hersteller>
       <Homepage>https://diga.cankado.com</Homepage>
-      <Indikation>C50: ???</Indikation>
+      <Indikation>C50: Bösartige Neubildung der Brustdrüse [Mamma]</Indikation>
       <Kategorie>74: Krebs</Kategorie>
       <Name>CANKADO PRO-React Onco</Name>
       <Packungspreis>499.80</Packungspreis>
