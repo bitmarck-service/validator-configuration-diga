@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigaVerzeichnis xmlns="https://xml.diga-ready.de/xsd/dvz0/v2" version="2.0.0">
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/300</Details>
+      <DigaId>00300</DigaId>
+      <DigaVeId>00300001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-05-06</GültigAb>
+      <Hersteller>
+         <Ik>580200057</Ik>
+         <Name>Sympatient GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.invirto.de</Homepage>
+      <Indikation>F40.00: ???</Indikation>
+      <Indikation>F40.01: ???</Indikation>
+      <Kategorie>77: Psyche</Kategorie>
+      <Kontraindikation>F00: ???</Kontraindikation>
+      <Kontraindikation>F01: ???</Kontraindikation>
+      <Kontraindikation>F02: ???</Kontraindikation>
+      <Kontraindikation>F03: ???</Kontraindikation>
+      <Kontraindikation>F04: ???</Kontraindikation>
+      <Kontraindikation>F05: ???</Kontraindikation>
+      <Kontraindikation>F06: ???</Kontraindikation>
+      <Kontraindikation>F09: ???</Kontraindikation>
+      <Kontraindikation>F10: ???</Kontraindikation>
+      <Kontraindikation>F11: ???</Kontraindikation>
+      <Kontraindikation>F12: ???</Kontraindikation>
+      <Kontraindikation>F13: ???</Kontraindikation>
+      <Kontraindikation>F14: ???</Kontraindikation>
+      <Kontraindikation>F15: ???</Kontraindikation>
+      <Kontraindikation>F16: ???</Kontraindikation>
+      <Kontraindikation>F17: ???</Kontraindikation>
+      <Kontraindikation>F18: ???</Kontraindikation>
+      <Kontraindikation>F19: ???</Kontraindikation>
+      <Kontraindikation>F20: ???</Kontraindikation>
+      <Kontraindikation>F21: ???</Kontraindikation>
+      <Kontraindikation>F22: ???</Kontraindikation>
+      <Kontraindikation>F23: ???</Kontraindikation>
+      <Kontraindikation>F24: ???</Kontraindikation>
+      <Kontraindikation>F25: ???</Kontraindikation>
+      <Kontraindikation>F28: ???</Kontraindikation>
+      <Kontraindikation>F29: ???</Kontraindikation>
+      <Kontraindikation>F30: ???</Kontraindikation>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>F32.2: ???</Kontraindikation>
+      <Kontraindikation>F32.3: ???</Kontraindikation>
+      <Kontraindikation>H54.0: ???</Kontraindikation>
+      <Kontraindikation>H54.1: ???</Kontraindikation>
+      <Kontraindikation>H54.4: ???</Kontraindikation>
+      <Kontraindikation>H54.5: ???</Kontraindikation>
+      <Kontraindikation>H81: ???</Kontraindikation>
+      <Kontraindikation>H82: ???</Kontraindikation>
+      <Kontraindikation>H91.3: ???</Kontraindikation>
+      <Kontraindikation>I08: ???</Kontraindikation>
+      <Kontraindikation>I09: ???</Kontraindikation>
+      <Kontraindikation>I20: ???</Kontraindikation>
+      <Kontraindikation>I22: ???</Kontraindikation>
+      <Kontraindikation>I25: ???</Kontraindikation>
+      <Kontraindikation>I45: ???</Kontraindikation>
+      <Kontraindikation>I49: ???</Kontraindikation>
+      <Kontraindikation>I50: ???</Kontraindikation>
+      <Kontraindikation>I69: ???</Kontraindikation>
+      <Kontraindikation>R42: ???</Kontraindikation>
+      <Name>Invirto- Die Therapie gegen Angst</Name>
+      <Packungspreis>428.40</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/invirto/id1482760714</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=com.sympatient.invirto</Link>
+      </Plattform>
+      <Pzn>17148043</Pzn>
+      <Zulassungsbeginn>2020-12-03</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/300</Details>
+      <DigaId>00300</DigaId>
+      <DigaVeId>00300002</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-05-06</GültigAb>
+      <Hersteller>
+         <Ik>580200057</Ik>
+         <Name>Sympatient GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.invirto.de</Homepage>
+      <Indikation>F40.1: ???</Indikation>
+      <Kategorie>77: Psyche</Kategorie>
+      <Kontraindikation>F00: ???</Kontraindikation>
+      <Kontraindikation>F01: ???</Kontraindikation>
+      <Kontraindikation>F02: ???</Kontraindikation>
+      <Kontraindikation>F03: ???</Kontraindikation>
+      <Kontraindikation>F04: ???</Kontraindikation>
+      <Kontraindikation>F05: ???</Kontraindikation>
+      <Kontraindikation>F06: ???</Kontraindikation>
+      <Kontraindikation>F09: ???</Kontraindikation>
+      <Kontraindikation>F10: ???</Kontraindikation>
+      <Kontraindikation>F11: ???</Kontraindikation>
+      <Kontraindikation>F12: ???</Kontraindikation>
+      <Kontraindikation>F13: ???</Kontraindikation>
+      <Kontraindikation>F14: ???</Kontraindikation>
+      <Kontraindikation>F15: ???</Kontraindikation>
+      <Kontraindikation>F16: ???</Kontraindikation>
+      <Kontraindikation>F17: ???</Kontraindikation>
+      <Kontraindikation>F18: ???</Kontraindikation>
+      <Kontraindikation>F19: ???</Kontraindikation>
+      <Kontraindikation>F20: ???</Kontraindikation>
+      <Kontraindikation>F21: ???</Kontraindikation>
+      <Kontraindikation>F22: ???</Kontraindikation>
+      <Kontraindikation>F23: ???</Kontraindikation>
+      <Kontraindikation>F24: ???</Kontraindikation>
+      <Kontraindikation>F25: ???</Kontraindikation>
+      <Kontraindikation>F28: ???</Kontraindikation>
+      <Kontraindikation>F29: ???</Kontraindikation>
+      <Kontraindikation>F30: ???</Kontraindikation>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>F32.2: ???</Kontraindikation>
+      <Kontraindikation>F32.3: ???</Kontraindikation>
+      <Kontraindikation>H54.0: ???</Kontraindikation>
+      <Kontraindikation>H54.1: ???</Kontraindikation>
+      <Kontraindikation>H54.4: ???</Kontraindikation>
+      <Kontraindikation>H54.5: ???</Kontraindikation>
+      <Kontraindikation>H81: ???</Kontraindikation>
+      <Kontraindikation>H82: ???</Kontraindikation>
+      <Kontraindikation>H91.3: ???</Kontraindikation>
+      <Kontraindikation>I08: ???</Kontraindikation>
+      <Kontraindikation>I09: ???</Kontraindikation>
+      <Kontraindikation>I20: ???</Kontraindikation>
+      <Kontraindikation>I22: ???</Kontraindikation>
+      <Kontraindikation>I25: ???</Kontraindikation>
+      <Kontraindikation>I45: ???</Kontraindikation>
+      <Kontraindikation>I49: ???</Kontraindikation>
+      <Kontraindikation>I50: ???</Kontraindikation>
+      <Kontraindikation>I69: ???</Kontraindikation>
+      <Kontraindikation>R42: ???</Kontraindikation>
+      <Name>Invirto- Die Therapie gegen Angst</Name>
+      <Packungspreis>428.40</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/invirto/id1482760714</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=com.sympatient.invirto</Link>
+      </Plattform>
+      <Pzn>17148066</Pzn>
+      <Zulassungsbeginn>2020-12-03</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/300</Details>
+      <DigaId>00300</DigaId>
+      <DigaVeId>00300003</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-05-06</GültigAb>
+      <Hersteller>
+         <Ik>580200057</Ik>
+         <Name>Sympatient GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.invirto.de</Homepage>
+      <Indikation>F41.0: ???</Indikation>
+      <Kategorie>77: Psyche</Kategorie>
+      <Kontraindikation>F00: ???</Kontraindikation>
+      <Kontraindikation>F01: ???</Kontraindikation>
+      <Kontraindikation>F02: ???</Kontraindikation>
+      <Kontraindikation>F03: ???</Kontraindikation>
+      <Kontraindikation>F04: ???</Kontraindikation>
+      <Kontraindikation>F05: ???</Kontraindikation>
+      <Kontraindikation>F06: ???</Kontraindikation>
+      <Kontraindikation>F09: ???</Kontraindikation>
+      <Kontraindikation>F10: ???</Kontraindikation>
+      <Kontraindikation>F11: ???</Kontraindikation>
+      <Kontraindikation>F12: ???</Kontraindikation>
+      <Kontraindikation>F13: ???</Kontraindikation>
+      <Kontraindikation>F14: ???</Kontraindikation>
+      <Kontraindikation>F15: ???</Kontraindikation>
+      <Kontraindikation>F16: ???</Kontraindikation>
+      <Kontraindikation>F17: ???</Kontraindikation>
+      <Kontraindikation>F18: ???</Kontraindikation>
+      <Kontraindikation>F19: ???</Kontraindikation>
+      <Kontraindikation>F20: ???</Kontraindikation>
+      <Kontraindikation>F21: ???</Kontraindikation>
+      <Kontraindikation>F22: ???</Kontraindikation>
+      <Kontraindikation>F23: ???</Kontraindikation>
+      <Kontraindikation>F24: ???</Kontraindikation>
+      <Kontraindikation>F25: ???</Kontraindikation>
+      <Kontraindikation>F28: ???</Kontraindikation>
+      <Kontraindikation>F29: ???</Kontraindikation>
+      <Kontraindikation>F30: ???</Kontraindikation>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>F32.2: ???</Kontraindikation>
+      <Kontraindikation>F32.3: ???</Kontraindikation>
+      <Kontraindikation>H54.0: ???</Kontraindikation>
+      <Kontraindikation>H54.1: ???</Kontraindikation>
+      <Kontraindikation>H54.4: ???</Kontraindikation>
+      <Kontraindikation>H54.5: ???</Kontraindikation>
+      <Kontraindikation>H81: ???</Kontraindikation>
+      <Kontraindikation>H82: ???</Kontraindikation>
+      <Kontraindikation>H91.3: ???</Kontraindikation>
+      <Kontraindikation>I08: ???</Kontraindikation>
+      <Kontraindikation>I09: ???</Kontraindikation>
+      <Kontraindikation>I20: ???</Kontraindikation>
+      <Kontraindikation>I22: ???</Kontraindikation>
+      <Kontraindikation>I25: ???</Kontraindikation>
+      <Kontraindikation>I45: ???</Kontraindikation>
+      <Kontraindikation>I49: ???</Kontraindikation>
+      <Kontraindikation>I50: ???</Kontraindikation>
+      <Kontraindikation>I69: ???</Kontraindikation>
+      <Kontraindikation>R42: ???</Kontraindikation>
+      <Name>Invirto- Die Therapie gegen Angst</Name>
+      <Packungspreis>428.40</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/invirto/id1482760714</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=com.sympatient.invirto</Link>
+      </Plattform>
+      <Pzn>17148072</Pzn>
+      <Zulassungsbeginn>2020-12-03</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/419</Details>
+      <DigaId>00419</DigaId>
+      <DigaVeId>00419001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-06-01</GültigAb>
+      <Hersteller>
+         <Ik>580200024</Ik>
+         <Name>GAIA AG</Name>
+      </Hersteller>
+      <Homepage>https://elevida.de/</Homepage>
+      <Indikation>G35: ???</Indikation>
+      <Kategorie>78: Nervensystem</Kategorie>
+      <Kontraindikation>F20: ???</Kontraindikation>
+      <Kontraindikation>F23: ???</Kontraindikation>
+      <Kontraindikation>F25: ???</Kontraindikation>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>R45.8: ???</Kontraindikation>
+      <Name>elevida</Name>
+      <Packungspreis>743.75</Packungspreis>
+      <Plattform>
+         <Name>Webanwendung</Name>
+         <Link>https://elevida.broca.io/</Link>
+      </Plattform>
+      <Pzn>17161032</Pzn>
+      <Zulassungsbeginn>2020-12-15</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/350</Details>
+      <DigaId>00350</DigaId>
+      <DigaVeId>00350001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-05-25</GültigAb>
+      <Hersteller>
+         <Ik>580500038</Ik>
+         <Name>mynoise GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.kalmeda.de</Homepage>
+      <Indikation>H93.1: ???</Indikation>
+      <Kategorie>80: Ohren</Kategorie>
+      <Name>Kalmeda</Name>
+      <Packungspreis>203.97</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/kalmeda-mynoise/id1437379931</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=de.mynoise.kalmeda&amp;hl=gsw</Link>
+      </Plattform>
+      <Pzn>16876740</Pzn>
+      <Zulassungsbeginn>2020-09-25</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/315</Details>
+      <DigaId>00315</DigaId>
+      <DigaVeId>00315001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-05-28</GültigAb>
+      <Hersteller>
+         <Ik>581100047</Ik>
+         <Name>Newsenselab GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.m-sense.de/diga-migraene</Homepage>
+      <Indikation>G43: ???</Indikation>
+      <Kategorie>78: Nervensystem</Kategorie>
+      <Name>M-sense Migräne</Name>
+      <Packungspreis>219.98</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/id1511739470</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=com.newsenselab.android.m_sense_migraine&amp;hl=gsw</Link>
+      </Plattform>
+      <Pzn>17169789</Pzn>
+      <Zulassungsbeginn>2020-12-16</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/691</Details>
+      <DigaId>00691</DigaId>
+      <DigaVeId>00691001</DigaVeId>
+      <Freigabe>
+         <AlterAb>12</AlterAb>
+         <AlterBis>17</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-02-24</GültigAb>
+      <Hersteller>
+         <Ik>580500061</Ik>
+         <Name>Rehappy GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.rehappy.de/</Homepage>
+      <Indikation>G45: ???</Indikation>
+      <Indikation>I60: ???</Indikation>
+      <Indikation>I61: ???</Indikation>
+      <Indikation>I62: ???</Indikation>
+      <Indikation>I63: ???</Indikation>
+      <Indikation>I64: ???</Indikation>
+      <Indikation>I67: ???</Indikation>
+      <Indikation>I69: ???</Indikation>
+      <Kategorie>81: Herz und Kreislauf</Kategorie>
+      <Kategorie>78: Nervensystem</Kategorie>
+      <Kontraindikation>S06: ???</Kontraindikation>
+      <Name>Rehappy</Name>
+      <Packungspreis>449.00</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/rehappy/id1357107437</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=de.rehappy.app.rehappy</Link>
+      </Plattform>
+      <Pzn>17186606</Pzn>
+      <Zulassungsbeginn>2020-12-29</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/691</Details>
+      <DigaId>00691</DigaId>
+      <DigaVeId>00691002</DigaVeId>
+      <Freigabe>
+         <AlterAb>12</AlterAb>
+         <AlterBis>17</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-02-24</GültigAb>
+      <Hersteller>
+         <Ik>580500061</Ik>
+         <Name>Rehappy GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.rehappy.de/</Homepage>
+      <Indikation>G45: ???</Indikation>
+      <Indikation>I60: ???</Indikation>
+      <Indikation>I61: ???</Indikation>
+      <Indikation>I62: ???</Indikation>
+      <Indikation>I63: ???</Indikation>
+      <Indikation>I64: ???</Indikation>
+      <Indikation>I67: ???</Indikation>
+      <Indikation>I69: ???</Indikation>
+      <Kategorie>81: Herz und Kreislauf</Kategorie>
+      <Kategorie>78: Nervensystem</Kategorie>
+      <Kontraindikation>S06: ???</Kontraindikation>
+      <Name>Rehappy</Name>
+      <Packungspreis>299.00</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/rehappy/id1357107437</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=de.rehappy.app.rehappy</Link>
+      </Plattform>
+      <Pzn>17186635</Pzn>
+      <Zulassungsbeginn>2020-12-29</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/876</Details>
+      <DigaId>00876</DigaId>
+      <DigaVeId>00876001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <GültigAb>2021-02-24</GültigAb>
+      <Hersteller>
+         <Ik>581100036</Ik>
+         <Name>Selfapy GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.selfapy.de/depression</Homepage>
+      <Indikation>F32.0: ???</Indikation>
+      <Indikation>F32.1: ???</Indikation>
+      <Indikation>F32.8: ???</Indikation>
+      <Indikation>F32.9: ???</Indikation>
+      <Indikation>F33.0: ???</Indikation>
+      <Indikation>F33.1: ???</Indikation>
+      <Indikation>F33.4: ???</Indikation>
+      <Indikation>F33.8: ???</Indikation>
+      <Indikation>F33.9: ???</Indikation>
+      <Kategorie>77: Psyche</Kategorie>
+      <Kontraindikation>F00: ???</Kontraindikation>
+      <Kontraindikation>F10.2: ???</Kontraindikation>
+      <Kontraindikation>F10.3: ???</Kontraindikation>
+      <Kontraindikation>F20: ???</Kontraindikation>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>F32.3: ???</Kontraindikation>
+      <Kontraindikation>F33.3: ???</Kontraindikation>
+      <Name>Selfapys Online-Kurs bei Depression</Name>
+      <Packungspreis>540.00</Packungspreis>
+      <Plattform>
+         <Name>Webanwendung</Name>
+         <Link>https://www.selfapy.de/depression</Link>
+      </Plattform>
+      <Pzn>16954730</Pzn>
+      <Zulassungsbeginn>2020-12-16</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/508</Details>
+      <DigaId>00508</DigaId>
+      <DigaVeId>00508001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <GültigAb>2021-05-05</GültigAb>
+      <Hersteller>
+         <Ik>581400028</Ik>
+         <Name>mementor DE GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.somn.io</Homepage>
+      <Indikation>F51.0: ???</Indikation>
+      <Kategorie>77: Psyche</Kategorie>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>G40: ???</Kontraindikation>
+      <Name>somnio</Name>
+      <Packungspreis>464.00</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/somnio/id1523016446</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=de.mementor.somnio</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Webanwendung</Name>
+         <Link>https://app.mementor.de</Link>
+      </Plattform>
+      <Pzn>16898724</Pzn>
+      <Zulassungsbeginn>2020-10-22</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/316</Details>
+      <DigaId>00316</DigaId>
+      <DigaVeId>00316001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <GültigAb>2021-06-04</GültigAb>
+      <Hersteller>
+         <Ik>580200024</Ik>
+         <Name>GAIA AG</Name>
+      </Hersteller>
+      <Homepage>https://de.velibra.com/</Homepage>
+      <Indikation>F40.01: ???</Indikation>
+      <Indikation>F40.1: ???</Indikation>
+      <Indikation>F41.0: ???</Indikation>
+      <Indikation>F41.1: ???</Indikation>
+      <Kategorie>77: Psyche</Kategorie>
+      <Kontraindikation>F20: ???</Kontraindikation>
+      <Kontraindikation>F23: ???</Kontraindikation>
+      <Kontraindikation>F25: ???</Kontraindikation>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>R45.8: ???</Kontraindikation>
+      <Name>velibra</Name>
+      <Packungspreis>476.00</Packungspreis>
+      <Plattform>
+         <Name>Webanwendung</Name>
+         <Link>https://de.velibra.com/</Link>
+      </Plattform>
+      <Pzn>16879359</Pzn>
+      <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/387</Details>
+      <DigaId>00387</DigaId>
+      <DigaVeId>00387001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-06-01</GültigAb>
+      <Hersteller>
+         <Ik>581100014</Ik>
+         <Name>Vivira Health Lab GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.vivira.com</Homepage>
+      <Indikation>M16.0: ???</Indikation>
+      <Indikation>M16.1: ???</Indikation>
+      <Indikation>M16.2: ???</Indikation>
+      <Indikation>M16.3: ???</Indikation>
+      <Indikation>M16.4: ???</Indikation>
+      <Indikation>M16.5: ???</Indikation>
+      <Indikation>M16.6: ???</Indikation>
+      <Indikation>M16.7: ???</Indikation>
+      <Indikation>M16.9: ???</Indikation>
+      <Indikation>M17.0: ???</Indikation>
+      <Indikation>M17.1: ???</Indikation>
+      <Indikation>M17.2: ???</Indikation>
+      <Indikation>M17.3: ???</Indikation>
+      <Indikation>M17.4: ???</Indikation>
+      <Indikation>M17.5: ???</Indikation>
+      <Indikation>M17.9: ???</Indikation>
+      <Indikation>M25.55: ???</Indikation>
+      <Indikation>M25.56: ???</Indikation>
+      <Indikation>M25.85: ???</Indikation>
+      <Indikation>M25.86: ???</Indikation>
+      <Indikation>M25.95: ???</Indikation>
+      <Indikation>M25.96: ???</Indikation>
+      <Indikation>M42.0: ???</Indikation>
+      <Indikation>M42.1: ???</Indikation>
+      <Indikation>M42.9: ???</Indikation>
+      <Indikation>M53.2: ???</Indikation>
+      <Indikation>M53.8: ???</Indikation>
+      <Indikation>M53.9: ???</Indikation>
+      <Indikation>M54.5: ???</Indikation>
+      <Indikation>M54.6: ???</Indikation>
+      <Indikation>M54.8: ???</Indikation>
+      <Indikation>M54.9: ???</Indikation>
+      <Indikation>M99.02: ???</Indikation>
+      <Indikation>M99.03: ???</Indikation>
+      <Indikation>M99.04: ???</Indikation>
+      <Indikation>M99.82: ???</Indikation>
+      <Indikation>M99.83: ???</Indikation>
+      <Indikation>M99.84: ???</Indikation>
+      <Indikation>M99.85: ???</Indikation>
+      <Indikation>M99.86: ???</Indikation>
+      <Indikation>M99.92: ???</Indikation>
+      <Indikation>M99.93: ???</Indikation>
+      <Indikation>M99.94: ???</Indikation>
+      <Indikation>M99.95: ???</Indikation>
+      <Indikation>M99.96: ???</Indikation>
+      <Kategorie>85: Muskeln, Knochen und Gelenke</Kategorie>
+      <Kontraindikation>C41.2: ???</Kontraindikation>
+      <Kontraindikation>C70.1: ???</Kontraindikation>
+      <Kontraindikation>C79.4: ???</Kontraindikation>
+      <Kontraindikation>C79.5: ???</Kontraindikation>
+      <Kontraindikation>C79.88: ???</Kontraindikation>
+      <Kontraindikation>G55.1: ???</Kontraindikation>
+      <Kontraindikation>G99.2: ???</Kontraindikation>
+      <Kontraindikation>I80: ???</Kontraindikation>
+      <Kontraindikation>M00: ???</Kontraindikation>
+      <Kontraindikation>M01: ???</Kontraindikation>
+      <Kontraindikation>M02: ???</Kontraindikation>
+      <Kontraindikation>M03: ???</Kontraindikation>
+      <Kontraindikation>M23.4: ???</Kontraindikation>
+      <Kontraindikation>M24.05: ???</Kontraindikation>
+      <Kontraindikation>M46: ???</Kontraindikation>
+      <Kontraindikation>M50: ???</Kontraindikation>
+      <Kontraindikation>M50.1: ???</Kontraindikation>
+      <Kontraindikation>M51.0: ???</Kontraindikation>
+      <Kontraindikation>M51.1: ???</Kontraindikation>
+      <Kontraindikation>M87: ???</Kontraindikation>
+      <Kontraindikation>M93.0: ???</Kontraindikation>
+      <Kontraindikation>M93.2: ???</Kontraindikation>
+      <Kontraindikation>T84: ???</Kontraindikation>
+      <Kontraindikation>Z96.6: ???</Kontraindikation>
+      <Kontraindikation>Z96.64: ???</Kontraindikation>
+      <Kontraindikation>Z96.65: ???</Kontraindikation>
+      <Kontraindikation>Z96.68: ???</Kontraindikation>
+      <Name>Vivira</Name>
+      <Packungspreis>239.96</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/vivira-r%C3%BCcken-knie-und-h%C3%BCfte/id1093858117</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=com.vivira.android</Link>
+      </Plattform>
+      <Pzn>16898718</Pzn>
+      <Zulassungsbeginn>2020-10-22</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/294</Details>
+      <DigaId>00294</DigaId>
+      <DigaVeId>00294001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-05-28</GültigAb>
+      <Hersteller>
+         <Ik>580200013</Ik>
+         <Name>aidhere GmbH</Name>
+      </Hersteller>
+      <Homepage>https://zanadio.de/</Homepage>
+      <Indikation>E66: ???</Indikation>
+      <Kategorie>76: Hormone und Stoffwechsel</Kategorie>
+      <Kontraindikation>E03: ???</Kontraindikation>
+      <Kontraindikation>E23: ???</Kontraindikation>
+      <Kontraindikation>E24: ???</Kontraindikation>
+      <Kontraindikation>E66.02: ???</Kontraindikation>
+      <Name>zanadio</Name>
+      <Packungspreis>499.80</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/app/id1499824614</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=de.aidhere.zanadio</Link>
+      </Plattform>
+      <Pzn>16898701</Pzn>
+      <Zulassungsbeginn>2020-10-22</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/450</Details>
+      <DigaId>00450</DigaId>
+      <DigaVeId>00450001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-06-01</GültigAb>
+      <Hersteller>
+         <Ik>580200024</Ik>
+         <Name>GAIA AG</Name>
+      </Hersteller>
+      <Homepage>https://de.deprexis.com/</Homepage>
+      <Indikation>F32.0: ???</Indikation>
+      <Indikation>F32.1: ???</Indikation>
+      <Indikation>F32.2: ???</Indikation>
+      <Indikation>F33.0: ???</Indikation>
+      <Indikation>F33.1: ???</Indikation>
+      <Indikation>F33.2: ???</Indikation>
+      <Kategorie>77: Psyche</Kategorie>
+      <Kontraindikation>F20: ???</Kontraindikation>
+      <Kontraindikation>F23: ???</Kontraindikation>
+      <Kontraindikation>F25: ???</Kontraindikation>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>R45.8: ???</Kontraindikation>
+      <Name>deprexis</Name>
+      <Packungspreis>297.50</Packungspreis>
+      <Plattform>
+         <Name>Webanwendung</Name>
+         <Link>https://deprexis.broca.io/</Link>
+      </Plattform>
+      <Pzn>17265872</Pzn>
+      <Zulassungsbeginn>2021-02-20</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/875</Details>
+      <DigaId>00875</DigaId>
+      <DigaVeId>00875001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <Freigabe>
+         <Geschlecht>W</Geschlecht>
+      </Freigabe>
+      <Freigabe>
+         <Geschlecht>D</Geschlecht>
+      </Freigabe>
+      <GültigAb>2021-05-06</GültigAb>
+      <Hersteller>
+         <Ik>581100081</Ik>
+         <Name>Fosanis GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.mitmika.de/</Homepage>
+      <Indikation>C53: ???</Indikation>
+      <Indikation>C55: ???</Indikation>
+      <Indikation>C56: ???</Indikation>
+      <Kategorie>74: Krebs</Kategorie>
+      <Name>Mika</Name>
+      <Packungspreis>419.00</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/mika-krebs-therapie-assistent/id1446551093</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=com.fosanis.android.cancer_companion</Link>
+      </Plattform>
+      <Pzn>17391424</Pzn>
+      <Zulassungsbeginn>2021-03-25</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/329</Details>
+      <DigaId>00329</DigaId>
+      <DigaVeId>00329001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-04-29</GültigAb>
+      <Hersteller>
+         <Ik>581100025</Ik>
+         <Name>Mindable Health GmbH</Name>
+      </Hersteller>
+      <Homepage>https://www.mindable.health</Homepage>
+      <Indikation>F40.0: ???</Indikation>
+      <Indikation>F41.0: ???</Indikation>
+      <Kategorie>77: Psyche</Kategorie>
+      <Kontraindikation>F10.0: ???</Kontraindikation>
+      <Kontraindikation>F11.0: ???</Kontraindikation>
+      <Kontraindikation>F12.0: ???</Kontraindikation>
+      <Kontraindikation>F13.0: ???</Kontraindikation>
+      <Kontraindikation>F14.0: ???</Kontraindikation>
+      <Kontraindikation>F16.0: ???</Kontraindikation>
+      <Kontraindikation>F17.0: ???</Kontraindikation>
+      <Kontraindikation>F18.0: ???</Kontraindikation>
+      <Kontraindikation>F20: ???</Kontraindikation>
+      <Kontraindikation>F21: ???</Kontraindikation>
+      <Kontraindikation>F22: ???</Kontraindikation>
+      <Kontraindikation>F23: ???</Kontraindikation>
+      <Kontraindikation>F24: ???</Kontraindikation>
+      <Kontraindikation>F28: ???</Kontraindikation>
+      <Kontraindikation>F29: ???</Kontraindikation>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>F32.3: ???</Kontraindikation>
+      <Kontraindikation>F33.3: ???</Kontraindikation>
+      <Name>Mindable: Panikstörung und Agoraphobie</Name>
+      <Packungspreis>576.00</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/id1465386878</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=health.mindable.anxiety</Link>
+      </Plattform>
+      <Pzn>17454202</Pzn>
+      <Zulassungsbeginn>2021-04-29</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/868</Details>
+      <DigaId>00868</DigaId>
+      <DigaVeId>00868001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-05-06</GültigAb>
+      <Hersteller>
+         <Ik>580200024</Ik>
+         <Name>GAIA AG</Name>
+      </Hersteller>
+      <Homepage>https://vorvida.de/</Homepage>
+      <Indikation>F10.1: ???</Indikation>
+      <Indikation>F10.2: ???</Indikation>
+      <Kategorie>77: Psyche</Kategorie>
+      <Kontraindikation>F20: ???</Kontraindikation>
+      <Kontraindikation>F23: ???</Kontraindikation>
+      <Kontraindikation>F25: ???</Kontraindikation>
+      <Kontraindikation>F31: ???</Kontraindikation>
+      <Kontraindikation>R45.8: ???</Kontraindikation>
+      <Name>vorvida</Name>
+      <Packungspreis>476.00</Packungspreis>
+      <Plattform>
+         <Name>Webanwendung</Name>
+         <Link>https://vorvida.broca.io/</Link>
+      </Plattform>
+      <Pzn>17506382</Pzn>
+      <Zulassungsbeginn>2021-05-06</Zulassungsbeginn>
+   </Diga>
+   <Diga>
+      <Anwendungstage>90</Anwendungstage>
+      <Beschreibung>???</Beschreibung>
+      <Details>https://diga.bfarm.de/de/verzeichnis/961</Details>
+      <DigaId>00961</DigaId>
+      <DigaVeId>00961001</DigaVeId>
+      <Freigabe>
+         <AlterAb>18</AlterAb>
+         <AlterBis>64</AlterBis>
+      </Freigabe>
+      <Freigabe>
+         <AlterAb>65</AlterAb>
+      </Freigabe>
+      <GültigAb>2021-05-07</GültigAb>
+      <Hersteller>
+         <Ik>580500027</Ik>
+         <Name>CANKADO Service GmbH</Name>
+      </Hersteller>
+      <Homepage>https://diga.cankado.com</Homepage>
+      <Indikation>C50: ???</Indikation>
+      <Kategorie>74: Krebs</Kategorie>
+      <Name>CANKADO PRO-React Onco</Name>
+      <Packungspreis>499.80</Packungspreis>
+      <Plattform>
+         <Name>Apple App Store</Name>
+         <Link>https://apps.apple.com/de/app/cankado/id1343701240</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Google Play Store</Name>
+         <Link>https://play.google.com/store/apps/details?id=com.cankado&amp;hl=de</Link>
+      </Plattform>
+      <Plattform>
+         <Name>Webanwendung</Name>
+         <Link>https://cankado.com/</Link>
+      </Plattform>
+      <Pzn>17491545</Pzn>
+      <Zulassungsbeginn>2021-05-03</Zulassungsbeginn>
+   </Diga>
+</DigaVerzeichnis>
