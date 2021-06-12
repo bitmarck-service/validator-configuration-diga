@@ -1,0 +1,992 @@
+
+  { "DigaVerzeichnis" : 
+    [ 
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Invirto ermöglicht Menschen mit einer Agoraphobie, Panikstörung oder sozialen Phobie eine Behandlung ihrer Angststörung von zu Hause aus. Patientinnen und Patienten lernen von Therapeutinnen oder Ärzten begleitet mit einer App und einer Virtual-Reality-Brille unter anderem: Ihre Angst besser zu verstehen, mit hoher Anspannung umzugehen, Angstgedanken zu bewältigen und angstbesetzte Situationen wieder aufzusuchen. Die Begleitung durch Psychotherapeutinnen oder Ärzte sichert eine hochqualitative Versorgung und unterstützt die Nutzerinnen und Nutzer. Invirto ermöglicht es, die Symptome der Angststörung zu reduzieren, Vermeidungsverhalten zu verringern und wieder mehr Bewegungsfreiheit im Alltag zurückzugewinnen. Invirto basiert auf einer kognitiven Verhaltenstherapie mit Expositionstraining, die von Fachgesellschaften für die Behandlung von Angststörungen empfohlen wird.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/300",
+        "DigaId" : "00300",
+        "DigaVeId" : "00300001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-06",
+        "Hersteller" : 
+        { "Ik" : "580200057",
+          "Name" : "Sympatient GmbH" },
+        "Homepage" : "https:\/\/www.invirto.de",
+        "Indikationen" : 
+        [ "F40.00: Agoraphobie: Ohne Angabe einer Panikstörung",
+          "F40.01: Agoraphobie: Mit Panikstörung" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F00: Demenz bei Alzheimer-Krankheit",
+          "F01: Vaskuläre Demenz",
+          "F02: Demenz bei anderenorts klassifizierten Krankheiten",
+          "F03: Nicht näher bezeichnete Demenz",
+          "F04: Organisches amnestisches Syndrom, nicht durch Alkohol oder andere psychotrope Substanzen bedingt",
+          "F05: Delir, nicht durch Alkohol oder andere psychotrope Substanzen bedingt",
+          "F06: Andere psychische Störungen aufgrund einer Schädigung oder Funktionsstörung des Gehirns oder einer körperlichen Krankheit",
+          "F09: Nicht näher bezeichnete organische oder symptomatische psychische Störung",
+          "F10: Psychische und Verhaltensstörungen durch Alkohol",
+          "F11: Psychische und Verhaltensstörungen durch Opioide",
+          "F12: Psychische und Verhaltensstörungen durch Cannabinoide",
+          "F13: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika",
+          "F14: Psychische und Verhaltensstörungen durch Kokain",
+          "F15: Psychische und Verhaltensstörungen durch andere Stimulanzien, einschließlich Koffein",
+          "F16: Psychische und Verhaltensstörungen durch Halluzinogene",
+          "F17: Psychische und Verhaltensstörungen durch Tabak",
+          "F18: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel",
+          "F19: Psychische und Verhaltensstörungen durch multiplen Substanzgebrauch und Konsum anderer psychotroper Substanzen",
+          "F20: Schizophrenie",
+          "F21: Schizotype Störung",
+          "F22: Anhaltende wahnhafte Störungen",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F24: Induzierte wahnhafte Störung",
+          "F25: Schizoaffektive Störungen",
+          "F28: Sonstige nichtorganische psychotische Störungen",
+          "F29: Nicht näher bezeichnete nichtorganische Psychose",
+          "F30: Manische Episode",
+          "F31: Bipolare affektive Störung",
+          "F32.2: Schwere depressive Episode ohne psychotische Symptome",
+          "F32.3: Schwere depressive Episode mit psychotischen Symptomen",
+          "H54.0: Blindheit und hochgradige Sehbehinderung, binokular",
+          "H54.1: Schwere Sehbeeinträchtigung, binokular",
+          "H54.4: Blindheit und hochgradige Sehbehinderung, monokular",
+          "H54.5: Schwere Sehbeeinträchtigung, monokular",
+          "H81: Störungen der Vestibularfunktion",
+          "H82: Schwindelsyndrome bei anderenorts klassifizierten Krankheiten",
+          "H91.3: Taubstummheit, anderenorts nicht klassifiziert",
+          "I08: Krankheiten mehrerer Herzklappen",
+          "I09: Sonstige rheumatische Herzkrankheiten",
+          "I20: Angina pectoris",
+          "I22: Rezidivierender Myokardinfarkt",
+          "I25: Chronische ischämische Herzkrankheit",
+          "I45: Sonstige kardiale Erregungsleitungsstörungen",
+          "I49: Sonstige kardiale Arrhythmien",
+          "I50: Herzinsuffizienz",
+          "I69: Folgen einer zerebrovaskulären Krankheit",
+          "R42: Schwindel und Taumel" ],
+        "Name" : "Invirto- Die Therapie gegen Angst",
+        "Packungspreis" : "428.40",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/invirto\/id1482760714",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=com.sympatient.invirto",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17148043",
+        "Zulassungsbeginn" : "2020-12-03",
+        "Zulassungsende" : "2021-12-02" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Invirto ermöglicht Menschen mit einer Agoraphobie, Panikstörung oder sozialen Phobie eine Behandlung ihrer Angststörung von zu Hause aus. Patientinnen und Patienten lernen von Therapeutinnen oder Ärzten begleitet mit einer App und einer Virtual-Reality-Brille unter anderem: Ihre Angst besser zu verstehen, mit hoher Anspannung umzugehen, Angstgedanken zu bewältigen und angstbesetzte Situationen wieder aufzusuchen. Die Begleitung durch Psychotherapeutinnen oder Ärzte sichert eine hochqualitative Versorgung und unterstützt die Nutzerinnen und Nutzer. Invirto ermöglicht es, die Symptome der Angststörung zu reduzieren, Vermeidungsverhalten zu verringern und wieder mehr Bewegungsfreiheit im Alltag zurückzugewinnen. Invirto basiert auf einer kognitiven Verhaltenstherapie mit Expositionstraining, die von Fachgesellschaften für die Behandlung von Angststörungen empfohlen wird.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/300",
+        "DigaId" : "00300",
+        "DigaVeId" : "00300002",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-06",
+        "Hersteller" : 
+        { "Ik" : "580200057",
+          "Name" : "Sympatient GmbH" },
+        "Homepage" : "https:\/\/www.invirto.de",
+        "Indikationen" : 
+        [ "F40.1: Soziale Phobien" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F00: Demenz bei Alzheimer-Krankheit",
+          "F01: Vaskuläre Demenz",
+          "F02: Demenz bei anderenorts klassifizierten Krankheiten",
+          "F03: Nicht näher bezeichnete Demenz",
+          "F04: Organisches amnestisches Syndrom, nicht durch Alkohol oder andere psychotrope Substanzen bedingt",
+          "F05: Delir, nicht durch Alkohol oder andere psychotrope Substanzen bedingt",
+          "F06: Andere psychische Störungen aufgrund einer Schädigung oder Funktionsstörung des Gehirns oder einer körperlichen Krankheit",
+          "F09: Nicht näher bezeichnete organische oder symptomatische psychische Störung",
+          "F10: Psychische und Verhaltensstörungen durch Alkohol",
+          "F11: Psychische und Verhaltensstörungen durch Opioide",
+          "F12: Psychische und Verhaltensstörungen durch Cannabinoide",
+          "F13: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika",
+          "F14: Psychische und Verhaltensstörungen durch Kokain",
+          "F15: Psychische und Verhaltensstörungen durch andere Stimulanzien, einschließlich Koffein",
+          "F16: Psychische und Verhaltensstörungen durch Halluzinogene",
+          "F17: Psychische und Verhaltensstörungen durch Tabak",
+          "F18: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel",
+          "F19: Psychische und Verhaltensstörungen durch multiplen Substanzgebrauch und Konsum anderer psychotroper Substanzen",
+          "F20: Schizophrenie",
+          "F21: Schizotype Störung",
+          "F22: Anhaltende wahnhafte Störungen",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F24: Induzierte wahnhafte Störung",
+          "F25: Schizoaffektive Störungen",
+          "F28: Sonstige nichtorganische psychotische Störungen",
+          "F29: Nicht näher bezeichnete nichtorganische Psychose",
+          "F30: Manische Episode",
+          "F31: Bipolare affektive Störung",
+          "F32.2: Schwere depressive Episode ohne psychotische Symptome",
+          "F32.3: Schwere depressive Episode mit psychotischen Symptomen",
+          "H54.0: Blindheit und hochgradige Sehbehinderung, binokular",
+          "H54.1: Schwere Sehbeeinträchtigung, binokular",
+          "H54.4: Blindheit und hochgradige Sehbehinderung, monokular",
+          "H54.5: Schwere Sehbeeinträchtigung, monokular",
+          "H81: Störungen der Vestibularfunktion",
+          "H82: Schwindelsyndrome bei anderenorts klassifizierten Krankheiten",
+          "H91.3: Taubstummheit, anderenorts nicht klassifiziert",
+          "I08: Krankheiten mehrerer Herzklappen",
+          "I09: Sonstige rheumatische Herzkrankheiten",
+          "I20: Angina pectoris",
+          "I22: Rezidivierender Myokardinfarkt",
+          "I25: Chronische ischämische Herzkrankheit",
+          "I45: Sonstige kardiale Erregungsleitungsstörungen",
+          "I49: Sonstige kardiale Arrhythmien",
+          "I50: Herzinsuffizienz",
+          "I69: Folgen einer zerebrovaskulären Krankheit",
+          "R42: Schwindel und Taumel" ],
+        "Name" : "Invirto- Die Therapie gegen Angst",
+        "Packungspreis" : "428.40",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/invirto\/id1482760714",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=com.sympatient.invirto",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17148066",
+        "Zulassungsbeginn" : "2020-12-03",
+        "Zulassungsende" : "2021-12-02" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Invirto ermöglicht Menschen mit einer Agoraphobie, Panikstörung oder sozialen Phobie eine Behandlung ihrer Angststörung von zu Hause aus. Patientinnen und Patienten lernen von Therapeutinnen oder Ärzten begleitet mit einer App und einer Virtual-Reality-Brille unter anderem: Ihre Angst besser zu verstehen, mit hoher Anspannung umzugehen, Angstgedanken zu bewältigen und angstbesetzte Situationen wieder aufzusuchen. Die Begleitung durch Psychotherapeutinnen oder Ärzte sichert eine hochqualitative Versorgung und unterstützt die Nutzerinnen und Nutzer. Invirto ermöglicht es, die Symptome der Angststörung zu reduzieren, Vermeidungsverhalten zu verringern und wieder mehr Bewegungsfreiheit im Alltag zurückzugewinnen. Invirto basiert auf einer kognitiven Verhaltenstherapie mit Expositionstraining, die von Fachgesellschaften für die Behandlung von Angststörungen empfohlen wird.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/300",
+        "DigaId" : "00300",
+        "DigaVeId" : "00300003",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-06",
+        "Hersteller" : 
+        { "Ik" : "580200057",
+          "Name" : "Sympatient GmbH" },
+        "Homepage" : "https:\/\/www.invirto.de",
+        "Indikationen" : 
+        [ "F41.0: Panikstörung [episodisch paroxysmale Angst]" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F00: Demenz bei Alzheimer-Krankheit",
+          "F01: Vaskuläre Demenz",
+          "F02: Demenz bei anderenorts klassifizierten Krankheiten",
+          "F03: Nicht näher bezeichnete Demenz",
+          "F04: Organisches amnestisches Syndrom, nicht durch Alkohol oder andere psychotrope Substanzen bedingt",
+          "F05: Delir, nicht durch Alkohol oder andere psychotrope Substanzen bedingt",
+          "F06: Andere psychische Störungen aufgrund einer Schädigung oder Funktionsstörung des Gehirns oder einer körperlichen Krankheit",
+          "F09: Nicht näher bezeichnete organische oder symptomatische psychische Störung",
+          "F10: Psychische und Verhaltensstörungen durch Alkohol",
+          "F11: Psychische und Verhaltensstörungen durch Opioide",
+          "F12: Psychische und Verhaltensstörungen durch Cannabinoide",
+          "F13: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika",
+          "F14: Psychische und Verhaltensstörungen durch Kokain",
+          "F15: Psychische und Verhaltensstörungen durch andere Stimulanzien, einschließlich Koffein",
+          "F16: Psychische und Verhaltensstörungen durch Halluzinogene",
+          "F17: Psychische und Verhaltensstörungen durch Tabak",
+          "F18: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel",
+          "F19: Psychische und Verhaltensstörungen durch multiplen Substanzgebrauch und Konsum anderer psychotroper Substanzen",
+          "F20: Schizophrenie",
+          "F21: Schizotype Störung",
+          "F22: Anhaltende wahnhafte Störungen",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F24: Induzierte wahnhafte Störung",
+          "F25: Schizoaffektive Störungen",
+          "F28: Sonstige nichtorganische psychotische Störungen",
+          "F29: Nicht näher bezeichnete nichtorganische Psychose",
+          "F30: Manische Episode",
+          "F31: Bipolare affektive Störung",
+          "F32.2: Schwere depressive Episode ohne psychotische Symptome",
+          "F32.3: Schwere depressive Episode mit psychotischen Symptomen",
+          "H54.0: Blindheit und hochgradige Sehbehinderung, binokular",
+          "H54.1: Schwere Sehbeeinträchtigung, binokular",
+          "H54.4: Blindheit und hochgradige Sehbehinderung, monokular",
+          "H54.5: Schwere Sehbeeinträchtigung, monokular",
+          "H81: Störungen der Vestibularfunktion",
+          "H82: Schwindelsyndrome bei anderenorts klassifizierten Krankheiten",
+          "H91.3: Taubstummheit, anderenorts nicht klassifiziert",
+          "I08: Krankheiten mehrerer Herzklappen",
+          "I09: Sonstige rheumatische Herzkrankheiten",
+          "I20: Angina pectoris",
+          "I22: Rezidivierender Myokardinfarkt",
+          "I25: Chronische ischämische Herzkrankheit",
+          "I45: Sonstige kardiale Erregungsleitungsstörungen",
+          "I49: Sonstige kardiale Arrhythmien",
+          "I50: Herzinsuffizienz",
+          "I69: Folgen einer zerebrovaskulären Krankheit",
+          "R42: Schwindel und Taumel" ],
+        "Name" : "Invirto- Die Therapie gegen Angst",
+        "Packungspreis" : "428.40",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/invirto\/id1482760714",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=com.sympatient.invirto",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17148072",
+        "Zulassungsbeginn" : "2020-12-03",
+        "Zulassungsende" : "2021-12-02" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "elevida ist eine digitale Gesundheitsanwendung für Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt und die mindestens 18 Jahre alt sind. Von einer Fatigue spricht man dann, wenn eine anhaltende Müdigkeit oder Erschöpfung besteht.\nelevida verfolgt das Ziel, die Fatigue zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden.\nelevida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT).\nelevida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von elevida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 275 Patienten teil, die an einer Multiplen Sklerose und zusätzlich auch an einer Fatigue litten. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung elevida nutzten, die Fatigue deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von elevida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/419",
+        "DigaId" : "00419",
+        "DigaVeId" : "00419001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-06-01",
+        "Hersteller" : 
+        { "Ik" : "580200024",
+          "Name" : "GAIA AG" },
+        "Homepage" : "https:\/\/elevida.de\/",
+        "Indikationen" : 
+        [ "G35: Multiple Sklerose [Encephalomyelitis disseminata]" ],
+        "Kategorien" : 
+        [ "78: Nervensystem" ],
+        "Kontraindikationen" : 
+        [ "F20: Schizophrenie",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F25: Schizoaffektive Störungen",
+          "F31: Bipolare affektive Störung",
+          "R45.8: Sonstige Symptome, die die Stimmung betreffen" ],
+        "Name" : "elevida",
+        "Packungspreis" : "743.75",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/elevida.broca.io\/",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "17161032",
+        "Zulassungsbeginn" : "2020-12-15" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Diese DiGA bietet Patientinnen und Patienten (die das 18. Lebensjahr vollendet haben) mit chronischer Tinnitusbelastung eine leitlinienbasierte, verhaltenstherapeutische Therapie. Ergänzt wird das strukturierte Programm durch Entspannungsanleitungen, beruhigende Natur- und Hintergrundgeräusche sowie einen Wissensteil.  Das mehrmonatige verhaltenstherapeutische Programm besteht aus 5 Leveln mit jeweils 9 Etappen und zeigt Patienten schrittweise den Weg zu einem selbstbestimmten Umgang mit dem Tinnitus und zu einer Reduzierung der Tinnitusbelastung.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/350",
+        "DigaId" : "00350",
+        "DigaVeId" : "00350001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-25",
+        "Hersteller" : 
+        { "Ik" : "580500038",
+          "Name" : "mynoise GmbH" },
+        "Homepage" : "https:\/\/www.kalmeda.de",
+        "Indikationen" : 
+        [ "H93.1: Tinnitus aurium" ],
+        "Kategorien" : 
+        [ "80: Ohren" ],
+        "Kontraindikationen" : 
+        [  ],
+        "Name" : "Kalmeda",
+        "Packungspreis" : "203.97",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/kalmeda-mynoise\/id1437379931",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.mynoise.kalmeda&hl=gsw",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "16876740",
+        "Zulassungsbeginn" : "2020-09-25" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "M -sense Migräne bietet ein umfangreiches digitales Behandlungsprogramm für Migränepatientinnen und -patienten. Die Anwendung beinhaltet ein digitales Kopfschmerztagebuch sowie leitlinienkonforme Verfahren zur Migräneprophylaxe und Akutbehandlung von Attacken. Migränepatientinnen und -patienten können dabei auf maßgeschneiderte Wissensvermittlung, animierte physiotherapeutische Übungen, Anleitungen zum Ausdauersport sowie Audiodateien für Entspannungs- und Imaginationsübungen zugreifen. Die Dokumentation von Lebensstilfaktoren im Tagebuch ermöglicht ein individuelles Triggermanagement.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/315",
+        "DigaId" : "00315",
+        "DigaVeId" : "00315001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-28",
+        "Hersteller" : 
+        { "Ik" : "581100047",
+          "Name" : "Newsenselab GmbH" },
+        "Homepage" : "https:\/\/www.m-sense.de\/diga-migraene",
+        "Indikationen" : 
+        [ "G43: Migräne" ],
+        "Kategorien" : 
+        [ "78: Nervensystem" ],
+        "Kontraindikationen" : 
+        [  ],
+        "Name" : "M-sense Migräne",
+        "Packungspreis" : "219.98",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/id1511739470",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=com.newsenselab.android.m_sense_migraine&hl=gsw",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17169789",
+        "Zulassungsbeginn" : "2020-12-16",
+        "Zulassungsende" : "2021-12-15" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Die digitale Gesundheitsanwendung Rehappy unterstützt die Nachsorge von Schlaganfallpatientinnen und -patienten. Die Unterstützung erfolgt in Form von einer individuell zusammengestellten Motivations- und Wissensversorgung mit einer mobilen App, einem Aktivitätstracker und einem Web-Portal. \n\nDie Patientinnen und Patienten werden aktiviert, informiert und begleitet, um ihren Weg der Genesung anhaltend, selbstbestimmt, kompetent und souverän angehen zu können. Die Begleitung basiert auf edukativer Informationsvermittlung und positiver Verstärkung zur Wahrnehmung der Eigenverantwortung und Steigerung der Therapieadhärenz sowie intrinsischen Motivation.\n\nDie Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird der zur digitalen Gesundheitsanwendung zugehörige Aktivitätstracker an die Patientinnen und Patienten versendet. Es ist keine Zuzahlung erforderlich. Zur nachhaltigen Verstetigung der Effekte wird eine über die Mindestverordnungsdauer hinaus gehende Nutzung empfohlen.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/691",
+        "DigaId" : "00691",
+        "DigaVeId" : "00691001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 12,
+            "AlterBis" : 17 },
+          
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-02-24",
+        "Hersteller" : 
+        { "Ik" : "580500061",
+          "Name" : "Rehappy GmbH" },
+        "Homepage" : "https:\/\/www.rehappy.de\/",
+        "Indikationen" : 
+        [ "G45: Zerebrale transitorische Ischämie und verwandte Syndrome",
+          "I60: Subarachnoidalblutung",
+          "I61: Intrazerebrale Blutung",
+          "I62: Sonstige nichttraumatische intrakranielle Blutung",
+          "I63: Hirninfarkt",
+          "I64: Schlaganfall, nicht als Blutung oder Infarkt bezeichnet",
+          "I67: Sonstige zerebrovaskuläre Krankheiten",
+          "I69: Folgen einer zerebrovaskulären Krankheit" ],
+        "Kategorien" : 
+        [ "81: Herz und Kreislauf",
+          "78: Nervensystem" ],
+        "Kontraindikationen" : 
+        [ "S06: Intrakranielle Verletzung" ],
+        "Name" : "Rehappy",
+        "Packungspreis" : "449.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/rehappy\/id1357107437",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.rehappy.app.rehappy",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17186606",
+        "Zulassungsbeginn" : "2020-12-29",
+        "Zulassungsende" : "2021-12-28" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Die digitale Gesundheitsanwendung Rehappy unterstützt die Nachsorge von Schlaganfallpatientinnen und -patienten. Die Unterstützung erfolgt in Form von einer individuell zusammengestellten Motivations- und Wissensversorgung mit einer mobilen App, einem Aktivitätstracker und einem Web-Portal. \n\nDie Patientinnen und Patienten werden aktiviert, informiert und begleitet, um ihren Weg der Genesung anhaltend, selbstbestimmt, kompetent und souverän angehen zu können. Die Begleitung basiert auf edukativer Informationsvermittlung und positiver Verstärkung zur Wahrnehmung der Eigenverantwortung und Steigerung der Therapieadhärenz sowie intrinsischen Motivation.\n\nDie Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird der zur digitalen Gesundheitsanwendung zugehörige Aktivitätstracker an die Patientinnen und Patienten versendet. Es ist keine Zuzahlung erforderlich. Zur nachhaltigen Verstetigung der Effekte wird eine über die Mindestverordnungsdauer hinaus gehende Nutzung empfohlen.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/691",
+        "DigaId" : "00691",
+        "DigaVeId" : "00691002",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 12,
+            "AlterBis" : 17 },
+          
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-02-24",
+        "Hersteller" : 
+        { "Ik" : "580500061",
+          "Name" : "Rehappy GmbH" },
+        "Homepage" : "https:\/\/www.rehappy.de\/",
+        "Indikationen" : 
+        [ "G45: Zerebrale transitorische Ischämie und verwandte Syndrome",
+          "I60: Subarachnoidalblutung",
+          "I61: Intrazerebrale Blutung",
+          "I62: Sonstige nichttraumatische intrakranielle Blutung",
+          "I63: Hirninfarkt",
+          "I64: Schlaganfall, nicht als Blutung oder Infarkt bezeichnet",
+          "I67: Sonstige zerebrovaskuläre Krankheiten",
+          "I69: Folgen einer zerebrovaskulären Krankheit" ],
+        "Kategorien" : 
+        [ "81: Herz und Kreislauf",
+          "78: Nervensystem" ],
+        "Kontraindikationen" : 
+        [ "S06: Intrakranielle Verletzung" ],
+        "Name" : "Rehappy",
+        "Packungspreis" : "299.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/rehappy\/id1357107437",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.rehappy.app.rehappy",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17186635",
+        "Zulassungsbeginn" : "2020-12-29",
+        "Zulassungsende" : "2021-12-28" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Selfapy bietet Betroffenen mit einer Depression einen individuellen Online-Kurs, der auf evidenzbasierten Theorien und Techniken der Kognitiven Verhaltenstherapie basiert. Die therapeutischen Inhalte können über den internetbasierten Kurs vom Betroffenen selbstständig bearbeitet werden. Dieser ist in einzelne Lektionen aufgeteilt, welche sich jeweils mit einem Thema beschäftigen wie beispielsweise dem Umgang mit negativen Gedanken, der Erstellung einer positiven Tagesstruktur, Entspannungstechniken, Schlafproblemen, sowie Strategien zur Rückfallprävention. Die Inhalte werden mit Hilfe von Audio- und Videoclips, Texten und Übungen vermittelt. Die Inhalte passen sich dabei individuell an die persönliche Situation des Betroffenen an. Zur Wahrung der Patientensicherheit wird der Betroffene während des Kurses durchgehend von einem persönlichen Psychologen überwacht. Bei akutem Bedarf steht der Psychologe über eine Nachrichtenfunktion bei Fragen zur Anwendung zur Verfügung.\nVorläufige Ergebnisse von 401 Teilnehmer*innen einer Studie mit der Charité Berlin zeigen eine signifikante Abnahme der depressiven Symptomatik nach Abschluss des 12-wöchigen Kurses.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/876",
+        "DigaId" : "00876",
+        "DigaVeId" : "00876001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 } ],
+        "GültigAb" : "2021-02-24",
+        "Hersteller" : 
+        { "Ik" : "581100036",
+          "Name" : "Selfapy GmbH" },
+        "Homepage" : "https:\/\/www.selfapy.de\/depression",
+        "Indikationen" : 
+        [ "F32.0: Leichte depressive Episode",
+          "F32.1: Mittelgradige depressive Episode",
+          "F32.8: Sonstige depressive Episoden",
+          "F32.9: Depressive Episode, nicht näher bezeichnet",
+          "F33.0: Rezidivierende depressive Störung, gegenwärtig leichte Episode",
+          "F33.1: Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode",
+          "F33.4: Rezidivierende depressive Störung, gegenwärtig remittiert",
+          "F33.8: Sonstige rezidivierende depressive Störungen",
+          "F33.9: Rezidivierende depressive Störung, nicht näher bezeichnet" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F00: Demenz bei Alzheimer-Krankheit",
+          "F10.2: Psychische und Verhaltensstörungen durch Alkohol: Abhängigkeitssyndrom",
+          "F10.3: Psychische und Verhaltensstörungen durch Alkohol: Entzugssyndrom",
+          "F20: Schizophrenie",
+          "F31: Bipolare affektive Störung",
+          "F32.3: Schwere depressive Episode mit psychotischen Symptomen",
+          "F33.3: Rezidivierende depressive Störung, gegenwärtig schwere Episode mit psychotischen Symptomen" ],
+        "Name" : "Selfapys Online-Kurs bei Depression",
+        "Packungspreis" : "540.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/www.selfapy.de\/depression",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "16954730",
+        "Zulassungsbeginn" : "2020-12-16",
+        "Zulassungsende" : "2021-12-10" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "somnio ist eine digitale Anwendung zur Behandlung von Ein- und Durchschlafstörungen (Insomnie). In der Anwendung werden evidenzbasierte und leitlinienkonforme Inhalte aus dem Bereich der kognitiven Verhaltenstherapie für Insomnie (KVT-I) vermittelt. Nutzer*innen lernen beispielsweise, ihre Schlafzeiten zu optimieren, einem individuell abgestimmten Schlaf-Wach-Rhythmus zu folgen, mit schlafhindernden Gedanken umzugehen oder sich mittels Entspannungstechniken in einen schlafförderlichen Zustand zu bringen. Die Wirksamkeit von somnio wurde in einer randomisierten kontrollierten Studie untersucht. Patient*innen, die somnio nutzten, zeigten im Vergleich zu einer Kontrollgruppe eine deutliche Reduktion der Insomnie-Symptome. somnio ist als Web-Anwendung direkt aus dem Browser aufrufbar sowie als App für Smartphones und Tablets mit den Betriebssystemen iOS und Android verfügbar.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/508",
+        "DigaId" : "00508",
+        "DigaVeId" : "00508001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 } ],
+        "GültigAb" : "2021-05-05",
+        "Hersteller" : 
+        { "Ik" : "581400028",
+          "Name" : "mementor DE GmbH" },
+        "Homepage" : "https:\/\/www.somn.io",
+        "Indikationen" : 
+        [ "F51.0: Nichtorganische Insomnie" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F31: Bipolare affektive Störung",
+          "G40: Epilepsie" ],
+        "Name" : "somnio",
+        "Packungspreis" : "464.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/somnio\/id1523016446",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.mementor.somnio",
+            "Name" : "Google Play Store" },
+          
+          { "Link" : "https:\/\/app.mementor.de",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "16898724",
+        "Zulassungsbeginn" : "2020-10-22" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "velibra ist ein webbasiertes Programm für Patienten mit einer generalisierten Angststörung, einer Panikstörung mit oder ohne Agoraphobie oder einer sozialen Angststörung. velibra vermittelt etablierte Methoden und Übungen der Kognitiven Verhaltenstherapie - einer sehr gut wissenschaftlich untersuchten Form der Psychotherapie. Das Programm ist als Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel durch den Hausarzt) für Patienten vorgesehen, die mindestens 18 Jahre alt sind. velibra ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von velibra wurde in einer klinischen Studie untersucht und in einer sehr angesehenen wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 139 Patienten teil, die an einer generalisierten Angststörung, einer Panikstörung mit oder ohne Agoraphobie oder einer sozialen Angststörung litten. In dieser Studie zeigte sich, dass Patienten, die zusätzlich zu einer hausärztlichen Behandlung velibra nutzten, deutlich geringere Angst- und depressive Beschwerden hatten als Patienten, die nur eine hausärztliche Behandlung erhielten. Die Verordnungsdauer von velibra beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/316",
+        "DigaId" : "00316",
+        "DigaVeId" : "00316001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 } ],
+        "GültigAb" : "2021-06-04",
+        "Hersteller" : 
+        { "Ik" : "580200024",
+          "Name" : "GAIA AG" },
+        "Homepage" : "https:\/\/de.velibra.com\/",
+        "Indikationen" : 
+        [ "F40.01: Agoraphobie: Mit Panikstörung",
+          "F40.1: Soziale Phobien",
+          "F41.0: Panikstörung [episodisch paroxysmale Angst]",
+          "F41.1: Generalisierte Angststörung" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F20: Schizophrenie",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F25: Schizoaffektive Störungen",
+          "F31: Bipolare affektive Störung",
+          "R45.8: Sonstige Symptome, die die Stimmung betreffen" ],
+        "Name" : "velibra",
+        "Packungspreis" : "476.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/de.velibra.com\/",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "16879359",
+        "Zulassungsbeginn" : "2020-10-01" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Vivira ist eine digitale Gesundheitsanwendung zur Behandlung von Rücken-, Knie- und Hüftschmerzen bei nicht-spezifischen Kreuzschmerzen, Arthrose der Wirbelsäule (Osteochondrose), Arthrose der Knie (Gonarthrose), unspezifischen Knieschmerzen, Arthrose der Hüfte (Koxarthrose) und unspezifischen Hüftschmerzen.\nDie bewegungstherapeutische Vivira App bietet täglich 4 Übungen, die auf Basis der Rückmeldungen vom Patienten fortlaufend ihre Intensität und Komplexität anpassen. Die täglichen Übungen werden durch wöchentliche Abfragen zur Gesundheit, die Visualisierung des Fortschritts, monatliche Bewegungstests und durch edukative Inhalte ergänzt. Vivira unterstützt die Umsetzung der in Leitlinien für nicht-spezifischen Kreuzschmerz, Kniearthrose und Hüftarthrose vorgesehenen Trainings-Elemente sowie die Umsetzung der Heilmittelrichtlinie.\nDie Wirksamkeit von Vivira wurde bereits in einer retrospektiven kontrollierten Studie untersucht. Patienten die Vivira nutzten zeigten intraindividuell eine deutliche Reduktion der Schmerzen. Die Studie wird 2021 durch eine prospektive randomisiert kontrollierte Studie sowie eine weitere retrospektive Studie ergänzt. Die Veröffentlichung der bereits vorliegenden retrospektiven kontrollierten Studie ist 2021 geplant.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/387",
+        "DigaId" : "00387",
+        "DigaVeId" : "00387001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-06-01",
+        "Hersteller" : 
+        { "Ik" : "581100014",
+          "Name" : "Vivira Health Lab GmbH" },
+        "Homepage" : "https:\/\/www.vivira.com",
+        "Indikationen" : 
+        [ "M16.0: Primäre Koxarthrose, beidseitig",
+          "M16.1: Sonstige primäre Koxarthrose",
+          "M16.2: Koxarthrose als Folge einer Dysplasie, beidseitig",
+          "M16.3: Sonstige dysplastische Koxarthrose",
+          "M16.4: Posttraumatische Koxarthrose, beidseitig",
+          "M16.5: Sonstige posttraumatische Koxarthrose",
+          "M16.6: Sonstige sekundäre Koxarthrose, beidseitig",
+          "M16.7: Sonstige sekundäre Koxarthrose",
+          "M16.9: Koxarthrose, nicht näher bezeichnet",
+          "M17.0: Primäre Gonarthrose, beidseitig",
+          "M17.1: Sonstige primäre Gonarthrose",
+          "M17.2: Posttraumatische Gonarthrose, beidseitig",
+          "M17.3: Sonstige posttraumatische Gonarthrose",
+          "M17.4: Sonstige sekundäre Gonarthrose, beidseitig",
+          "M17.5: Sonstige sekundäre Gonarthrose",
+          "M17.9: Gonarthrose, nicht näher bezeichnet",
+          "M25.55: Gelenkschmerz: Beckenregion und Oberschenkel [Becken, Femur, Gesäß, Hüfte, Hüftgelenk, Iliosakralgelenk]",
+          "M25.56: Gelenkschmerz: Unterschenkel [Fibula, Tibia, Kniegelenk]",
+          "M25.85: Sonstige näher bezeichnete Gelenkkrankheiten: Beckenregion und Oberschenkel [Becken, Femur, Gesäß, Hüfte, Hüftgelenk, Iliosakralgelenk]",
+          "M25.86: Sonstige näher bezeichnete Gelenkkrankheiten: Unterschenkel [Fibula, Tibia, Kniegelenk]",
+          "M25.95: Gelenkkrankheit, nicht näher bezeichnet: Beckenregion und Oberschenkel [Becken, Femur, Gesäß, Hüfte, Hüftgelenk, Iliosakralgelenk]",
+          "M25.96: Gelenkkrankheit, nicht näher bezeichnet: Unterschenkel [Fibula, Tibia, Kniegelenk]",
+          "M42.0: Juvenile Osteochondrose der Wirbelsäule",
+          "M42.1: Osteochondrose der Wirbelsäule beim Erwachsenen",
+          "M42.9: Osteochondrose der Wirbelsäule, nicht näher bezeichnet",
+          "M53.2: Instabilität der Wirbelsäule",
+          "M53.8: Sonstige näher bezeichnete Krankheiten der Wirbelsäule und des Rückens",
+          "M53.9: Krankheit der Wirbelsäule und des Rückens, nicht näher bezeichnet",
+          "M54.5: Kreuzschmerz",
+          "M54.6: Schmerzen im Bereich der Brustwirbelsäule",
+          "M54.8: Sonstige Rückenschmerzen",
+          "M54.9: Rückenschmerzen, nicht näher bezeichnet",
+          "M99.02: Segmentale und somatische Funktionsstörungen: Thorakalbereich [thorakolumbal]",
+          "M99.03: Segmentale und somatische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+          "M99.04: Segmentale und somatische Funktionsstörungen: Sakralbereich [sakrokokzygeal, sakroiliakal]",
+          "M99.82: Sonstige biomechanische Funktionsstörungen: Thorakalbereich [thorakolumbal]",
+          "M99.83: Sonstige biomechanische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+          "M99.84: Sonstige biomechanische Funktionsstörungen: Sakralbereich [sakrokokzygeal, sakroiliakal]",
+          "M99.85: Sonstige biomechanische Funktionsstörungen: Beckenbereich [Hüft- oder Schambeinregion]",
+          "M99.86: Sonstige biomechanische Funktionsstörungen: Untere Extremität",
+          "M99.92: Biomechanische Funktionsstörung, nicht näher bezeichnet: Thorakalbereich [thorakolumbal]",
+          "M99.93: Biomechanische Funktionsstörung, nicht näher bezeichnet: Lumbalbereich [lumbosakral]",
+          "M99.94: Biomechanische Funktionsstörung, nicht näher bezeichnet: Sakralbereich [sakrokokzygeal, sakroiliakal]",
+          "M99.95: Biomechanische Funktionsstörung, nicht näher bezeichnet: Beckenbereich [Hüft- oder Schambeinregion]",
+          "M99.96: Biomechanische Funktionsstörung, nicht näher bezeichnet: Untere Extremität" ],
+        "Kategorien" : 
+        [ "85: Muskeln, Knochen und Gelenke" ],
+        "Kontraindikationen" : 
+        [ "C41.2: Bösartige Neubildung des Knochens und des Gelenkknorpels: Wirbelsäule",
+          "C70.1: Bösartige Neubildung: Rückenmarkhäute",
+          "C79.4: Sekundäre bösartige Neubildung sonstiger und nicht näher bezeichneter Teile des Nervensystems",
+          "C79.5: Sekundäre bösartige Neubildung des Knochens und des Knochenmarkes",
+          "C79.88: Sekundäre bösartige Neubildung sonstiger näher bezeichneter Lokalisationen",
+          "G55.1: Kompression von Nervenwurzeln und Nervenplexus bei Bandscheibenschäden",
+          "G99.2: Myelopathie bei anderenorts klassifizierten Krankheiten",
+          "I80: Thrombose, Phlebitis und Thrombophlebitis",
+          "M00: Eitrige Arthritis",
+          "M01: Direkte Gelenkinfektionen bei anderenorts klassifizierten infektiösen und parasitären Krankheiten",
+          "M02: Reaktive Arthritiden",
+          "M03: Postinfektiöse und reaktive Arthritiden bei anderenorts klassifizierten Krankheiten",
+          "M23.4: Freier Gelenkkörper im Kniegelenk",
+          "M24.05: Freier Gelenkkörper: Beckenregion und Oberschenkel [Becken, Femur, Gesäß, Hüfte, Hüftgelenk, Iliosakralgelenk]",
+          "M46: Sonstige entzündliche Spondylopathien",
+          "M50: Zervikale Bandscheibenschäden",
+          "M50.1: Zervikaler Bandscheibenschaden mit Radikulopathie",
+          "M51.0: Lumbale und sonstige Bandscheibenschäden mit Myelopathie",
+          "M51.1: Lumbale und sonstige Bandscheibenschäden mit Radikulopathie",
+          "M87: Knochennekrose",
+          "M93.0: Epiphyseolysis capitis femoris (nichttraumatisch)",
+          "M93.2: Osteochondrosis dissecans",
+          "T84: Komplikationen durch orthopädische Endoprothesen, Implantate oder Transplantate",
+          "Z96.6: Vorhandensein von orthopädischen Gelenkimplantaten",
+          "Z96.64: Vorhandensein einer Hüftgelenkprothese",
+          "Z96.65: Vorhandensein einer Kniegelenkprothese",
+          "Z96.68: Vorhandensein von sonstigen näher bezeichneten orthopädischen Gelenkimplantaten" ],
+        "Name" : "Vivira",
+        "Packungspreis" : "239.96",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/vivira-r%C3%BCcken-knie-und-h%C3%BCfte\/id1093858117",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=com.vivira.android",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "16898718",
+        "Zulassungsbeginn" : "2020-10-22" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "zanadio ist eine Anwendung, die den Nutzern durch eine Veränderung Ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung sowie weitere Verhaltensweisen hilft, langfristig Ihr Gewicht zu reduzieren. Die DiGA basiert dabei auf dem wissenschaftlichen Konzept der multimodalen, konservativen Adipositastherapie, welche die verschiedenen relevanten Bereiche adressiert und hierdurch eine langfristige, dauerhafte Gewichtsreduktion herbeiführt. Das Programm setzt diesen etablierten Behandlungsansatz digital um.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/294",
+        "DigaId" : "00294",
+        "DigaVeId" : "00294001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-28",
+        "Hersteller" : 
+        { "Ik" : "580200013",
+          "Name" : "aidhere GmbH" },
+        "Homepage" : "https:\/\/zanadio.de\/",
+        "Indikationen" : 
+        [ "E66: Adipositas" ],
+        "Kategorien" : 
+        [ "76: Hormone und Stoffwechsel" ],
+        "Kontraindikationen" : 
+        [ "E03: Sonstige Hypothyreose",
+          "E23: Unterfunktion und andere Störungen der Hypophyse",
+          "E24: Cushing-Syndrom",
+          "E66.02: Adipositas durch übermäßige Kalorienzufuhr: Adipositas Grad III (WHO) bei Patienten von 18 Jahren und älter" ],
+        "Name" : "zanadio",
+        "Packungspreis" : "499.80",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/app\/id1499824614",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.aidhere.zanadio",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "16898701",
+        "Zulassungsbeginn" : "2020-10-22" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "deprexis ist ein interaktives onlinebasiertes Selbsthilfeprogramm zur Therapieunterstützung von Patienten mit Depressionen und depressiven Verstimmungen, die mindestens 18 Jahre alt sind. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus-, Facharzt oder Psychotherapeuten) eingesetzt werden. deprexis basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT). Die Wirksamkeit von deprexis wurde in mehreren klinischen Studien untersucht. In diesen Studien zeigte sich, dass Patienten, die zusätzlich zu einer üblichen medizinischen Versorgung deprexis nutzten, deutlich weniger depressive Beschwerden hatten als Patienten, die nur eine übliche medizinische Versorgung erhielten. Die Verordnungsdauer von deprexis beträgt 90 Tage.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/450",
+        "DigaId" : "00450",
+        "DigaVeId" : "00450001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-06-01",
+        "Hersteller" : 
+        { "Ik" : "580200024",
+          "Name" : "GAIA AG" },
+        "Homepage" : "https:\/\/de.deprexis.com\/",
+        "Indikationen" : 
+        [ "F32.0: Leichte depressive Episode",
+          "F32.1: Mittelgradige depressive Episode",
+          "F32.2: Schwere depressive Episode ohne psychotische Symptome",
+          "F33.0: Rezidivierende depressive Störung, gegenwärtig leichte Episode",
+          "F33.1: Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode",
+          "F33.2: Rezidivierende depressive Störung, gegenwärtig schwere Episode ohne psychotische Symptome" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F20: Schizophrenie",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F25: Schizoaffektive Störungen",
+          "F31: Bipolare affektive Störung",
+          "R45.8: Sonstige Symptome, die die Stimmung betreffen" ],
+        "Name" : "deprexis",
+        "Packungspreis" : "297.50",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/deprexis.broca.io\/",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "17265872",
+        "Zulassungsbeginn" : "2021-02-20" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Die Mika App ist eine digitale Gesundheitsanwendung zur Unterstützung der Linderung psychischer und psychosomatischer Folgen von Diagnosen und Therapien von Malignomen. Die Anwendung erreicht eine Linderung durch Dokumentation von Belastung, Symptomen und Nebenwirkungen im Verlauf sowie ressourcenaktivierender Patientenedukation in den Bereichen Gesundheitskompetenz, Stressmanagement, Bewegung und Ernährung.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/875",
+        "DigaId" : "00875",
+        "DigaVeId" : "00875001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 },
+          
+          { "Geschlecht" : "W" },
+          
+          { "Geschlecht" : "D" } ],
+        "GültigAb" : "2021-06-11",
+        "Hersteller" : 
+        { "Ik" : "581100081",
+          "Name" : "Fosanis GmbH" },
+        "Homepage" : "https:\/\/www.mitmika.de\/",
+        "Indikationen" : 
+        [ "C00: Bösartige Neubildung der Lippe",
+          "C01: Bösartige Neubildung des Zungengrundes",
+          "C02: Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile der Zunge",
+          "C03: Bösartige Neubildung des Zahnfleisches",
+          "C04: Bösartige Neubildung des Mundbodens",
+          "C05: Bösartige Neubildung des Gaumens",
+          "C06: Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile des Mundes",
+          "C07: Bösartige Neubildung der Parotis",
+          "C08: Bösartige Neubildung sonstiger und nicht näher bezeichneter großer Speicheldrüsen",
+          "C09: Bösartige Neubildung der Tonsille",
+          "C10: Bösartige Neubildung des Oropharynx",
+          "C11: Bösartige Neubildung des Nasopharynx",
+          "C12: Bösartige Neubildung des Recessus piriformis",
+          "C13: Bösartige Neubildung des Hypopharynx",
+          "C14: Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen der Lippe, der Mundhöhle und des Pharynx",
+          "C15: Bösartige Neubildung des Ösophagus",
+          "C16: Bösartige Neubildung des Magens",
+          "C17: Bösartige Neubildung des Dünndarmes",
+          "C18: Bösartige Neubildung des Kolons",
+          "C19: Bösartige Neubildung am Rektosigmoid, Übergang",
+          "C20: Bösartige Neubildung des Rektums",
+          "C21: Bösartige Neubildung des Anus und des Analkanals",
+          "C22: Bösartige Neubildung der Leber und der intrahepatischen Gallengänge",
+          "C23: Bösartige Neubildung der Gallenblase",
+          "C24: Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile der Gallenwege",
+          "C25: Bösartige Neubildung des Pankreas",
+          "C26: Bösartige Neubildung sonstiger und ungenau bezeichneter Verdauungsorgane",
+          "C30: Bösartige Neubildung der Nasenhöhle und des Mittelohres",
+          "C31: Bösartige Neubildung der Nasennebenhöhlen",
+          "C32: Bösartige Neubildung des Larynx",
+          "C33: Bösartige Neubildung der Trachea",
+          "C34: Bösartige Neubildung der Bronchien und der Lunge",
+          "C37: Bösartige Neubildung des Thymus",
+          "C38: Bösartige Neubildung des Herzens, des Mediastinums und der Pleura",
+          "C39: Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen des Atmungssystems und sonstiger intrathorakaler Organe",
+          "C40: Bösartige Neubildung des Knochens und des Gelenkknorpels der Extremitäten",
+          "C41: Bösartige Neubildung des Knochens und des Gelenkknorpels sonstiger und nicht näher bezeichneter Lokalisationen",
+          "C43: Bösartiges Melanom der Haut",
+          "C44: Sonstige bösartige Neubildungen der Haut",
+          "C45: Mesotheliom",
+          "C46: Kaposi-Sarkom [Sarcoma idiopathicum multiplex haemorrhagicum]",
+          "C47: Bösartige Neubildung der peripheren Nerven und des autonomen Nervensystems",
+          "C48: Bösartige Neubildung des Retroperitoneums und des Peritoneums",
+          "C49: Bösartige Neubildung sonstigen Bindegewebes und anderer Weichteilgewebe",
+          "C50: Bösartige Neubildung der Brustdrüse [Mamma]",
+          "C51: Bösartige Neubildung der Vulva",
+          "C52: Bösartige Neubildung der Vagina",
+          "C53: Bösartige Neubildung der Cervix uteri",
+          "C54: Bösartige Neubildung des Corpus uteri",
+          "C55: Bösartige Neubildung des Uterus, Teil nicht näher bezeichnet",
+          "C56: Bösartige Neubildung des Ovars",
+          "C57: Bösartige Neubildung sonstiger und nicht näher bezeichneter weiblicher Genitalorgane",
+          "C58: Bösartige Neubildung der Plazenta",
+          "C60: Bösartige Neubildung des Penis",
+          "C61: Bösartige Neubildung der Prostata",
+          "C62: Bösartige Neubildung des Hodens",
+          "C63: Bösartige Neubildung sonstiger und nicht näher bezeichneter männlicher Genitalorgane",
+          "C64: Bösartige Neubildung der Niere, ausgenommen Nierenbecken",
+          "C65: Bösartige Neubildung des Nierenbeckens",
+          "C66: Bösartige Neubildung des Ureters",
+          "C67: Bösartige Neubildung der Harnblase",
+          "C68: Bösartige Neubildung sonstiger und nicht näher bezeichneter Harnorgane",
+          "C69: Bösartige Neubildung des Auges und der Augenanhangsgebilde",
+          "C70: Bösartige Neubildung der Meningen",
+          "C71: Bösartige Neubildung des Gehirns",
+          "C72: Bösartige Neubildung des Rückenmarkes, der Hirnnerven und anderer Teile des Zentralnervensystems",
+          "C73: Bösartige Neubildung der Schilddrüse",
+          "C74: Bösartige Neubildung der Nebenniere",
+          "C75: Bösartige Neubildung sonstiger endokriner Drüsen und verwandter Strukturen",
+          "C76: Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen",
+          "C77: Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten",
+          "C78: Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane",
+          "C79: Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen",
+          "C80: Bösartige Neubildung ohne Angabe der Lokalisation",
+          "C81: Hodgkin-Lymphom [Lymphogranulomatose]",
+          "C82: Follikuläres Lymphom",
+          "C83: Nicht follikuläres Lymphom",
+          "C84: Reifzellige T\/NK-Zell-Lymphome",
+          "C85: Sonstige und nicht näher bezeichnete Typen des Non-Hodgkin-Lymphoms",
+          "C86: Weitere spezifizierte T\/NK-Zell-Lymphome",
+          "C88: Bösartige immunproliferative Krankheiten",
+          "C90: Plasmozytom und bösartige Plasmazellen-Neubildungen",
+          "C91: Lymphatische Leukämie",
+          "C92: Myeloische Leukämie",
+          "C93: Monozytenleukämie",
+          "C94: Sonstige Leukämien näher bezeichneten Zelltyps",
+          "C95: Leukämie nicht näher bezeichneten Zelltyps",
+          "C96: Sonstige und nicht näher bezeichnete bösartige Neubildungen des lymphatischen, blutbildenden und verwandten Gewebes",
+          "C97: Bösartige Neubildungen als Primärtumoren an mehreren Lokalisationen" ],
+        "Kategorien" : 
+        [ "74: Krebs" ],
+        "Kontraindikationen" : 
+        [  ],
+        "Name" : "Mika",
+        "Packungspreis" : "419.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/mika-krebs-therapie-assistent\/id1446551093",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=com.fosanis.android.cancer_companion",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17391424",
+        "Zulassungsbeginn" : "2021-03-25" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Die App \"Mindable: Panikstörung und Agoraphobie\" richtet sich an Menschen ab 18 Jahren, die an den Symptomen einer Agoraphobie und\/oder Panikstörung leiden. Das Behandlungsprogramm basiert auf S3-leitlinienkonformen Methoden der Kognitiven Verhaltenstherapie. Mindable unterstützt Nutzerinnen und Nutzer dabei ihre Ängste proaktiv anzugehen und zu reduzieren. Neben Psychoedukation liegt der Schwerpunkt des Behandlungsprogramms auf der Gewöhnung an Körpersymptome (Habituation durch gezielte Symptomprovokation), sowie in-vivo Konfrontation. Während der Konfrontationsübungen werden Angstverläufe live aufgezeichnet. Darüber hinaus können Nutzerinnen und Nutzer angstbezogene Symptome, Ereignisse und Verhalten regelmäßig erfassen und bei Bedarf mit ihren behandelnden Ärzten oder Therapeuten teilen. Mindable ist als iOS und Android App, sowie in deutscher, englischer und französischer Sprache verfügbar.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/329",
+        "DigaId" : "00329",
+        "DigaVeId" : "00329001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-04-29",
+        "Hersteller" : 
+        { "Ik" : "581100025",
+          "Name" : "Mindable Health GmbH" },
+        "Homepage" : "https:\/\/www.mindable.health",
+        "Indikationen" : 
+        [ "F40.0: Agoraphobie",
+          "F41.0: Panikstörung [episodisch paroxysmale Angst]" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F10.0: Psychische und Verhaltensstörungen durch Alkohol: Akute Intoxikation [akuter Rausch]",
+          "F11.0: Psychische und Verhaltensstörungen durch Opioide: Akute Intoxikation [akuter Rausch]",
+          "F12.0: Psychische und Verhaltensstörungen durch Cannabinoide: Akute Intoxikation [akuter Rausch]",
+          "F13.0: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika: Akute Intoxikation [akuter Rausch]",
+          "F14.0: Psychische und Verhaltensstörungen durch Kokain: Akute Intoxikation [akuter Rausch]",
+          "F16.0: Psychische und Verhaltensstörungen durch Halluzinogene: Akute Intoxikation [akuter Rausch]",
+          "F17.0: Psychische und Verhaltensstörungen durch Tabak: Akute Intoxikation [akuter Rausch]",
+          "F18.0: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel: Akute Intoxikation [akuter Rausch]",
+          "F20: Schizophrenie",
+          "F21: Schizotype Störung",
+          "F22: Anhaltende wahnhafte Störungen",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F24: Induzierte wahnhafte Störung",
+          "F28: Sonstige nichtorganische psychotische Störungen",
+          "F29: Nicht näher bezeichnete nichtorganische Psychose",
+          "F31: Bipolare affektive Störung",
+          "F32.3: Schwere depressive Episode mit psychotischen Symptomen",
+          "F33.3: Rezidivierende depressive Störung, gegenwärtig schwere Episode mit psychotischen Symptomen" ],
+        "Name" : "Mindable: Panikstörung und Agoraphobie",
+        "Packungspreis" : "576.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/id1465386878",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=health.mindable.anxiety",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17454202",
+        "Zulassungsbeginn" : "2021-04-29",
+        "Zulassungsende" : "2022-04-28" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "vorvida ist eine digitale Gesundheitsanwendung für Patienten mit schädlichem Alkoholkonsum oder Alkoholabhängigkeit, die mindestens 18 Jahre alt sind.\nvorvida verfolgt das Ziel, diese Patienten beim Management ihres gesundheitsschädlichen Trinkverhaltens zu unterstützen und die Trinkmenge zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden.\nvorvida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT).\nvorvida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von vorvida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 608 Patienten mit schädlichem oder gefährlichem Alkoholgebrauch (Abhängigkeitssyndrom) teil. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung vorvida nutzten, der Alkoholkonsum deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von vorvida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen. ",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/868",
+        "DigaId" : "00868",
+        "DigaVeId" : "00868001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-06",
+        "Hersteller" : 
+        { "Ik" : "580200024",
+          "Name" : "GAIA AG" },
+        "Homepage" : "https:\/\/vorvida.de\/",
+        "Indikationen" : 
+        [ "F10.1: Psychische und Verhaltensstörungen durch Alkohol: Schädlicher Gebrauch",
+          "F10.2: Psychische und Verhaltensstörungen durch Alkohol: Abhängigkeitssyndrom" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F20: Schizophrenie",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F25: Schizoaffektive Störungen",
+          "F31: Bipolare affektive Störung",
+          "R45.8: Sonstige Symptome, die die Stimmung betreffen" ],
+        "Name" : "vorvida",
+        "Packungspreis" : "476.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/vorvida.broca.io\/",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "17506382",
+        "Zulassungsbeginn" : "2021-05-06" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "PRO-React Onco ist eine Web- und App-basierte digitale Gesundheitsanwendung zur Unterstützung von Brustkrebspatientinnen und -patienten. Mit PRO-React Onco können Patientinnen und Patienten Ihre Beschwerden eigenständig erfassen. In Abhängigkeit zur Erkrankung und der laufenden Therapie werden automatisiert Verhaltenshinweise gegeben, wie dringend die jeweilige Beschwerde mit dem behandelnden Arzt oder der behandelnden Ärztin besprochen werden muss.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/961",
+        "DigaId" : "00961",
+        "DigaVeId" : "00961001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-07",
+        "Hersteller" : 
+        { "Ik" : "580500027",
+          "Name" : "CANKADO Service GmbH" },
+        "Homepage" : "https:\/\/diga.cankado.com",
+        "Indikationen" : 
+        [ "C50: Bösartige Neubildung der Brustdrüse [Mamma]" ],
+        "Kategorien" : 
+        [ "74: Krebs" ],
+        "Kontraindikationen" : 
+        [  ],
+        "Name" : "CANKADO PRO-React Onco",
+        "Packungspreis" : "499.80",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/cankado\/id1343701240",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=com.cankado&hl=de",
+            "Name" : "Google Play Store" },
+          
+          { "Link" : "https:\/\/cankado.com\/",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "17491545",
+        "Zulassungsbeginn" : "2021-05-03",
+        "Zulassungsende" : "2022-05-02" } ] }
