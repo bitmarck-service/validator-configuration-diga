@@ -2,6 +2,43 @@
   { "DigaVerzeichnis" : 
     [ 
       { "Anwendungstage" : 90,
+        "Beschreibung" : "zanadio ist eine Anwendung, die den Nutzern durch eine Veränderung Ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung sowie weitere Verhaltensweisen hilft, langfristig Ihr Gewicht zu reduzieren. Die DiGA basiert dabei auf dem wissenschaftlichen Konzept der multimodalen, konservativen Adipositastherapie, welche die verschiedenen relevanten Bereiche adressiert und hierdurch eine langfristige, dauerhafte Gewichtsreduktion herbeiführt. Das Programm setzt diesen etablierten Behandlungsansatz digital um.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/294",
+        "DigaId" : "00294",
+        "DigaVeId" : "00294001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-28",
+        "Hersteller" : 
+        { "Ik" : "580200013",
+          "Name" : "aidhere GmbH" },
+        "Homepage" : "https:\/\/zanadio.de\/",
+        "Indikationen" : 
+        [ "E66: Adipositas" ],
+        "Kategorien" : 
+        [ "76: Hormone und Stoffwechsel" ],
+        "Kontraindikationen" : 
+        [ "E03: Sonstige Hypothyreose",
+          "E23: Unterfunktion und andere Störungen der Hypophyse",
+          "E24: Cushing-Syndrom",
+          "E66.02: Adipositas durch übermäßige Kalorienzufuhr: Adipositas Grad III (WHO) bei Patienten von 18 Jahren und älter" ],
+        "Name" : "zanadio",
+        "Packungspreis" : "499.80",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/app\/id1499824614",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.aidhere.zanadio",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "16898701",
+        "Zulassungsbeginn" : "2020-10-22" },
+      
+      { "Anwendungstage" : 90,
         "Beschreibung" : "Invirto ermöglicht Menschen mit einer Agoraphobie, Panikstörung oder sozialen Phobie eine Behandlung ihrer Angststörung von zu Hause aus. Patientinnen und Patienten lernen von Therapeutinnen oder Ärzten begleitet mit einer App und einer Virtual-Reality-Brille unter anderem: Ihre Angst besser zu verstehen, mit hoher Anspannung umzugehen, Angstgedanken zu bewältigen und angstbesetzte Situationen wieder aufzusuchen. Die Begleitung durch Psychotherapeutinnen oder Ärzte sichert eine hochqualitative Versorgung und unterstützt die Nutzerinnen und Nutzer. Invirto ermöglicht es, die Symptome der Angststörung zu reduzieren, Vermeidungsverhalten zu verringern und wieder mehr Bewegungsfreiheit im Alltag zurückzugewinnen. Invirto basiert auf einer kognitiven Verhaltenstherapie mit Expositionstraining, die von Fachgesellschaften für die Behandlung von Angststörungen empfohlen wird.",
         "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/300",
         "DigaId" : "00300",
@@ -246,75 +283,6 @@
         "Zulassungsende" : "2021-12-02" },
       
       { "Anwendungstage" : 90,
-        "Beschreibung" : "elevida ist eine digitale Gesundheitsanwendung für Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt und die mindestens 18 Jahre alt sind. Von einer Fatigue spricht man dann, wenn eine anhaltende Müdigkeit oder Erschöpfung besteht.\nelevida verfolgt das Ziel, die Fatigue zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden.\nelevida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT).\nelevida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von elevida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 275 Patienten teil, die an einer Multiplen Sklerose und zusätzlich auch an einer Fatigue litten. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung elevida nutzten, die Fatigue deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von elevida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen.",
-        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/419",
-        "DigaId" : "00419",
-        "DigaVeId" : "00419001",
-        "Freigaben" : 
-        [ 
-          { "AlterAb" : 18,
-            "AlterBis" : 65 },
-          
-          { "AlterAb" : 66 } ],
-        "GültigAb" : "2021-06-01",
-        "Hersteller" : 
-        { "Ik" : "580200024",
-          "Name" : "GAIA AG" },
-        "Homepage" : "https:\/\/elevida.de\/",
-        "Indikationen" : 
-        [ "G35: Multiple Sklerose [Encephalomyelitis disseminata]" ],
-        "Kategorien" : 
-        [ "78: Nervensystem" ],
-        "Kontraindikationen" : 
-        [ "F20: Schizophrenie",
-          "F23: Akute vorübergehende psychotische Störungen",
-          "F25: Schizoaffektive Störungen",
-          "F31: Bipolare affektive Störung",
-          "R45.8: Sonstige Symptome, die die Stimmung betreffen" ],
-        "Name" : "elevida",
-        "Packungspreis" : "743.75",
-        "Plattformen" : 
-        [ 
-          { "Link" : "https:\/\/elevida.broca.io\/",
-            "Name" : "Webanwendung" } ],
-        "Pzn" : "17161032",
-        "Zulassungsbeginn" : "2020-12-15" },
-      
-      { "Anwendungstage" : 90,
-        "Beschreibung" : "Diese DiGA bietet Patientinnen und Patienten (die das 18. Lebensjahr vollendet haben) mit chronischer Tinnitusbelastung eine leitlinienbasierte, verhaltenstherapeutische Therapie. Ergänzt wird das strukturierte Programm durch Entspannungsanleitungen, beruhigende Natur- und Hintergrundgeräusche sowie einen Wissensteil.  Das mehrmonatige verhaltenstherapeutische Programm besteht aus 5 Leveln mit jeweils 9 Etappen und zeigt Patienten schrittweise den Weg zu einem selbstbestimmten Umgang mit dem Tinnitus und zu einer Reduzierung der Tinnitusbelastung.",
-        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/350",
-        "DigaId" : "00350",
-        "DigaVeId" : "00350001",
-        "Freigaben" : 
-        [ 
-          { "AlterAb" : 18,
-            "AlterBis" : 65 },
-          
-          { "AlterAb" : 66 } ],
-        "GültigAb" : "2021-05-25",
-        "Hersteller" : 
-        { "Ik" : "580500038",
-          "Name" : "mynoise GmbH" },
-        "Homepage" : "https:\/\/www.kalmeda.de",
-        "Indikationen" : 
-        [ "H93.1: Tinnitus aurium" ],
-        "Kategorien" : 
-        [ "80: Ohren" ],
-        "Kontraindikationen" : 
-        [  ],
-        "Name" : "Kalmeda",
-        "Packungspreis" : "203.97",
-        "Plattformen" : 
-        [ 
-          { "Link" : "https:\/\/apps.apple.com\/de\/app\/kalmeda-mynoise\/id1437379931",
-            "Name" : "Apple App Store" },
-          
-          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.mynoise.kalmeda&hl=gsw",
-            "Name" : "Google Play Store" } ],
-        "Pzn" : "16876740",
-        "Zulassungsbeginn" : "2020-09-25" },
-      
-      { "Anwendungstage" : 90,
         "Beschreibung" : "M -sense Migräne bietet ein umfangreiches digitales Behandlungsprogramm für Migränepatientinnen und -patienten. Die Anwendung beinhaltet ein digitales Kopfschmerztagebuch sowie leitlinienkonforme Verfahren zur Migräneprophylaxe und Akutbehandlung von Attacken. Migränepatientinnen und -patienten können dabei auf maßgeschneiderte Wissensvermittlung, animierte physiotherapeutische Übungen, Anleitungen zum Ausdauersport sowie Audiodateien für Entspannungs- und Imaginationsübungen zugreifen. Die Dokumentation von Lebensstilfaktoren im Tagebuch ermöglicht ein individuelles Triggermanagement.",
         "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/315",
         "DigaId" : "00315",
@@ -348,178 +316,6 @@
         "Pzn" : "17169789",
         "Zulassungsbeginn" : "2020-12-16",
         "Zulassungsende" : "2021-12-15" },
-      
-      { "Anwendungstage" : 90,
-        "Beschreibung" : "Die digitale Gesundheitsanwendung Rehappy unterstützt die Nachsorge von Schlaganfallpatientinnen und -patienten. Die Unterstützung erfolgt in Form von einer individuell zusammengestellten Motivations- und Wissensversorgung mit einer mobilen App, einem Aktivitätstracker und einem Web-Portal. \n\nDie Patientinnen und Patienten werden aktiviert, informiert und begleitet, um ihren Weg der Genesung anhaltend, selbstbestimmt, kompetent und souverän angehen zu können. Die Begleitung basiert auf edukativer Informationsvermittlung und positiver Verstärkung zur Wahrnehmung der Eigenverantwortung und Steigerung der Therapieadhärenz sowie intrinsischen Motivation.\n\nDie Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird der zur digitalen Gesundheitsanwendung zugehörige Aktivitätstracker an die Patientinnen und Patienten versendet. Es ist keine Zuzahlung erforderlich. Zur nachhaltigen Verstetigung der Effekte wird eine über die Mindestverordnungsdauer hinaus gehende Nutzung empfohlen.",
-        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/691",
-        "DigaId" : "00691",
-        "DigaVeId" : "00691001",
-        "Freigaben" : 
-        [ 
-          { "AlterAb" : 12,
-            "AlterBis" : 17 },
-          
-          { "AlterAb" : 18,
-            "AlterBis" : 65 },
-          
-          { "AlterAb" : 66 } ],
-        "GültigAb" : "2021-02-24",
-        "Hersteller" : 
-        { "Ik" : "580500061",
-          "Name" : "Rehappy GmbH" },
-        "Homepage" : "https:\/\/www.rehappy.de\/",
-        "Indikationen" : 
-        [ "G45: Zerebrale transitorische Ischämie und verwandte Syndrome",
-          "I60: Subarachnoidalblutung",
-          "I61: Intrazerebrale Blutung",
-          "I62: Sonstige nichttraumatische intrakranielle Blutung",
-          "I63: Hirninfarkt",
-          "I64: Schlaganfall, nicht als Blutung oder Infarkt bezeichnet",
-          "I67: Sonstige zerebrovaskuläre Krankheiten",
-          "I69: Folgen einer zerebrovaskulären Krankheit" ],
-        "Kategorien" : 
-        [ "81: Herz und Kreislauf",
-          "78: Nervensystem" ],
-        "Kontraindikationen" : 
-        [ "S06: Intrakranielle Verletzung" ],
-        "Name" : "Rehappy",
-        "Packungspreis" : "449.00",
-        "Plattformen" : 
-        [ 
-          { "Link" : "https:\/\/apps.apple.com\/de\/app\/rehappy\/id1357107437",
-            "Name" : "Apple App Store" },
-          
-          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.rehappy.app.rehappy",
-            "Name" : "Google Play Store" } ],
-        "Pzn" : "17186606",
-        "Zulassungsbeginn" : "2020-12-29",
-        "Zulassungsende" : "2021-12-28" },
-      
-      { "Anwendungstage" : 90,
-        "Beschreibung" : "Die digitale Gesundheitsanwendung Rehappy unterstützt die Nachsorge von Schlaganfallpatientinnen und -patienten. Die Unterstützung erfolgt in Form von einer individuell zusammengestellten Motivations- und Wissensversorgung mit einer mobilen App, einem Aktivitätstracker und einem Web-Portal. \n\nDie Patientinnen und Patienten werden aktiviert, informiert und begleitet, um ihren Weg der Genesung anhaltend, selbstbestimmt, kompetent und souverän angehen zu können. Die Begleitung basiert auf edukativer Informationsvermittlung und positiver Verstärkung zur Wahrnehmung der Eigenverantwortung und Steigerung der Therapieadhärenz sowie intrinsischen Motivation.\n\nDie Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird der zur digitalen Gesundheitsanwendung zugehörige Aktivitätstracker an die Patientinnen und Patienten versendet. Es ist keine Zuzahlung erforderlich. Zur nachhaltigen Verstetigung der Effekte wird eine über die Mindestverordnungsdauer hinaus gehende Nutzung empfohlen.",
-        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/691",
-        "DigaId" : "00691",
-        "DigaVeId" : "00691002",
-        "Freigaben" : 
-        [ 
-          { "AlterAb" : 12,
-            "AlterBis" : 17 },
-          
-          { "AlterAb" : 18,
-            "AlterBis" : 65 },
-          
-          { "AlterAb" : 66 } ],
-        "GültigAb" : "2021-02-24",
-        "Hersteller" : 
-        { "Ik" : "580500061",
-          "Name" : "Rehappy GmbH" },
-        "Homepage" : "https:\/\/www.rehappy.de\/",
-        "Indikationen" : 
-        [ "G45: Zerebrale transitorische Ischämie und verwandte Syndrome",
-          "I60: Subarachnoidalblutung",
-          "I61: Intrazerebrale Blutung",
-          "I62: Sonstige nichttraumatische intrakranielle Blutung",
-          "I63: Hirninfarkt",
-          "I64: Schlaganfall, nicht als Blutung oder Infarkt bezeichnet",
-          "I67: Sonstige zerebrovaskuläre Krankheiten",
-          "I69: Folgen einer zerebrovaskulären Krankheit" ],
-        "Kategorien" : 
-        [ "81: Herz und Kreislauf",
-          "78: Nervensystem" ],
-        "Kontraindikationen" : 
-        [ "S06: Intrakranielle Verletzung" ],
-        "Name" : "Rehappy",
-        "Packungspreis" : "299.00",
-        "Plattformen" : 
-        [ 
-          { "Link" : "https:\/\/apps.apple.com\/de\/app\/rehappy\/id1357107437",
-            "Name" : "Apple App Store" },
-          
-          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.rehappy.app.rehappy",
-            "Name" : "Google Play Store" } ],
-        "Pzn" : "17186635",
-        "Zulassungsbeginn" : "2020-12-29",
-        "Zulassungsende" : "2021-12-28" },
-      
-      { "Anwendungstage" : 90,
-        "Beschreibung" : "Selfapy bietet Betroffenen mit einer Depression einen individuellen Online-Kurs, der auf evidenzbasierten Theorien und Techniken der Kognitiven Verhaltenstherapie basiert. Die therapeutischen Inhalte können über den internetbasierten Kurs vom Betroffenen selbstständig bearbeitet werden. Dieser ist in einzelne Lektionen aufgeteilt, welche sich jeweils mit einem Thema beschäftigen wie beispielsweise dem Umgang mit negativen Gedanken, der Erstellung einer positiven Tagesstruktur, Entspannungstechniken, Schlafproblemen, sowie Strategien zur Rückfallprävention. Die Inhalte werden mit Hilfe von Audio- und Videoclips, Texten und Übungen vermittelt. Die Inhalte passen sich dabei individuell an die persönliche Situation des Betroffenen an. Zur Wahrung der Patientensicherheit wird der Betroffene während des Kurses durchgehend von einem persönlichen Psychologen überwacht. Bei akutem Bedarf steht der Psychologe über eine Nachrichtenfunktion bei Fragen zur Anwendung zur Verfügung.\nVorläufige Ergebnisse von 401 Teilnehmer*innen einer Studie mit der Charité Berlin zeigen eine signifikante Abnahme der depressiven Symptomatik nach Abschluss des 12-wöchigen Kurses.",
-        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/876",
-        "DigaId" : "00876",
-        "DigaVeId" : "00876001",
-        "Freigaben" : 
-        [ 
-          { "AlterAb" : 18,
-            "AlterBis" : 65 } ],
-        "GültigAb" : "2021-02-24",
-        "Hersteller" : 
-        { "Ik" : "581100036",
-          "Name" : "Selfapy GmbH" },
-        "Homepage" : "https:\/\/www.selfapy.de\/depression",
-        "Indikationen" : 
-        [ "F32.0: Leichte depressive Episode",
-          "F32.1: Mittelgradige depressive Episode",
-          "F32.8: Sonstige depressive Episoden",
-          "F32.9: Depressive Episode, nicht näher bezeichnet",
-          "F33.0: Rezidivierende depressive Störung, gegenwärtig leichte Episode",
-          "F33.1: Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode",
-          "F33.4: Rezidivierende depressive Störung, gegenwärtig remittiert",
-          "F33.8: Sonstige rezidivierende depressive Störungen",
-          "F33.9: Rezidivierende depressive Störung, nicht näher bezeichnet" ],
-        "Kategorien" : 
-        [ "77: Psyche" ],
-        "Kontraindikationen" : 
-        [ "F00: Demenz bei Alzheimer-Krankheit",
-          "F10.2: Psychische und Verhaltensstörungen durch Alkohol: Abhängigkeitssyndrom",
-          "F10.3: Psychische und Verhaltensstörungen durch Alkohol: Entzugssyndrom",
-          "F20: Schizophrenie",
-          "F31: Bipolare affektive Störung",
-          "F32.3: Schwere depressive Episode mit psychotischen Symptomen",
-          "F33.3: Rezidivierende depressive Störung, gegenwärtig schwere Episode mit psychotischen Symptomen" ],
-        "Name" : "Selfapys Online-Kurs bei Depression",
-        "Packungspreis" : "540.00",
-        "Plattformen" : 
-        [ 
-          { "Link" : "https:\/\/www.selfapy.de\/depression",
-            "Name" : "Webanwendung" } ],
-        "Pzn" : "16954730",
-        "Zulassungsbeginn" : "2020-12-16",
-        "Zulassungsende" : "2021-12-10" },
-      
-      { "Anwendungstage" : 90,
-        "Beschreibung" : "somnio ist eine digitale Anwendung zur Behandlung von Ein- und Durchschlafstörungen (Insomnie). In der Anwendung werden evidenzbasierte und leitlinienkonforme Inhalte aus dem Bereich der kognitiven Verhaltenstherapie für Insomnie (KVT-I) vermittelt. Nutzer*innen lernen beispielsweise, ihre Schlafzeiten zu optimieren, einem individuell abgestimmten Schlaf-Wach-Rhythmus zu folgen, mit schlafhindernden Gedanken umzugehen oder sich mittels Entspannungstechniken in einen schlafförderlichen Zustand zu bringen. Die Wirksamkeit von somnio wurde in einer randomisierten kontrollierten Studie untersucht. Patient*innen, die somnio nutzten, zeigten im Vergleich zu einer Kontrollgruppe eine deutliche Reduktion der Insomnie-Symptome. somnio ist als Web-Anwendung direkt aus dem Browser aufrufbar sowie als App für Smartphones und Tablets mit den Betriebssystemen iOS und Android verfügbar.",
-        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/508",
-        "DigaId" : "00508",
-        "DigaVeId" : "00508001",
-        "Freigaben" : 
-        [ 
-          { "AlterAb" : 18,
-            "AlterBis" : 65 } ],
-        "GültigAb" : "2021-05-05",
-        "Hersteller" : 
-        { "Ik" : "581400028",
-          "Name" : "mementor DE GmbH" },
-        "Homepage" : "https:\/\/www.somn.io",
-        "Indikationen" : 
-        [ "F51.0: Nichtorganische Insomnie" ],
-        "Kategorien" : 
-        [ "77: Psyche" ],
-        "Kontraindikationen" : 
-        [ "F31: Bipolare affektive Störung",
-          "G40: Epilepsie" ],
-        "Name" : "somnio",
-        "Packungspreis" : "464.00",
-        "Plattformen" : 
-        [ 
-          { "Link" : "https:\/\/apps.apple.com\/de\/app\/somnio\/id1523016446",
-            "Name" : "Apple App Store" },
-          
-          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.mementor.somnio",
-            "Name" : "Google Play Store" },
-          
-          { "Link" : "https:\/\/app.mementor.de",
-            "Name" : "Webanwendung" } ],
-        "Pzn" : "16898724",
-        "Zulassungsbeginn" : "2020-10-22" },
       
       { "Anwendungstage" : 90,
         "Beschreibung" : "velibra ist ein webbasiertes Programm für Patienten mit einer generalisierten Angststörung, einer Panikstörung mit oder ohne Agoraphobie oder einer sozialen Angststörung. velibra vermittelt etablierte Methoden und Übungen der Kognitiven Verhaltenstherapie - einer sehr gut wissenschaftlich untersuchten Form der Psychotherapie. Das Programm ist als Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel durch den Hausarzt) für Patienten vorgesehen, die mindestens 18 Jahre alt sind. velibra ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von velibra wurde in einer klinischen Studie untersucht und in einer sehr angesehenen wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 139 Patienten teil, die an einer generalisierten Angststörung, einer Panikstörung mit oder ohne Agoraphobie oder einer sozialen Angststörung litten. In dieser Studie zeigte sich, dass Patienten, die zusätzlich zu einer hausärztlichen Behandlung velibra nutzten, deutlich geringere Angst- und depressive Beschwerden hatten als Patienten, die nur eine hausärztliche Behandlung erhielten. Die Verordnungsdauer von velibra beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen.",
@@ -556,6 +352,93 @@
             "Name" : "Webanwendung" } ],
         "Pzn" : "16879359",
         "Zulassungsbeginn" : "2020-10-01" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Die App \"Mindable: Panikstörung und Agoraphobie\" richtet sich an Menschen ab 18 Jahren, die an den Symptomen einer Agoraphobie und\/oder Panikstörung leiden. Das Behandlungsprogramm basiert auf S3-leitlinienkonformen Methoden der Kognitiven Verhaltenstherapie. Mindable unterstützt Nutzerinnen und Nutzer dabei ihre Ängste proaktiv anzugehen und zu reduzieren. Neben Psychoedukation liegt der Schwerpunkt des Behandlungsprogramms auf der Gewöhnung an Körpersymptome (Habituation durch gezielte Symptomprovokation), sowie in-vivo Konfrontation. Während der Konfrontationsübungen werden Angstverläufe live aufgezeichnet. Darüber hinaus können Nutzerinnen und Nutzer angstbezogene Symptome, Ereignisse und Verhalten regelmäßig erfassen und bei Bedarf mit ihren behandelnden Ärzten oder Therapeuten teilen. Mindable ist als iOS und Android App, sowie in deutscher, englischer und französischer Sprache verfügbar.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/329",
+        "DigaId" : "00329",
+        "DigaVeId" : "00329001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-04-29",
+        "Hersteller" : 
+        { "Ik" : "581100025",
+          "Name" : "Mindable Health GmbH" },
+        "Homepage" : "https:\/\/www.mindable.health",
+        "Indikationen" : 
+        [ "F40.0: Agoraphobie",
+          "F41.0: Panikstörung [episodisch paroxysmale Angst]" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F10.0: Psychische und Verhaltensstörungen durch Alkohol: Akute Intoxikation [akuter Rausch]",
+          "F11.0: Psychische und Verhaltensstörungen durch Opioide: Akute Intoxikation [akuter Rausch]",
+          "F12.0: Psychische und Verhaltensstörungen durch Cannabinoide: Akute Intoxikation [akuter Rausch]",
+          "F13.0: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika: Akute Intoxikation [akuter Rausch]",
+          "F14.0: Psychische und Verhaltensstörungen durch Kokain: Akute Intoxikation [akuter Rausch]",
+          "F16.0: Psychische und Verhaltensstörungen durch Halluzinogene: Akute Intoxikation [akuter Rausch]",
+          "F17.0: Psychische und Verhaltensstörungen durch Tabak: Akute Intoxikation [akuter Rausch]",
+          "F18.0: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel: Akute Intoxikation [akuter Rausch]",
+          "F20: Schizophrenie",
+          "F21: Schizotype Störung",
+          "F22: Anhaltende wahnhafte Störungen",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F24: Induzierte wahnhafte Störung",
+          "F28: Sonstige nichtorganische psychotische Störungen",
+          "F29: Nicht näher bezeichnete nichtorganische Psychose",
+          "F31: Bipolare affektive Störung",
+          "F32.3: Schwere depressive Episode mit psychotischen Symptomen",
+          "F33.3: Rezidivierende depressive Störung, gegenwärtig schwere Episode mit psychotischen Symptomen" ],
+        "Name" : "Mindable: Panikstörung und Agoraphobie",
+        "Packungspreis" : "576.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/id1465386878",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=health.mindable.anxiety",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17454202",
+        "Zulassungsbeginn" : "2021-04-29",
+        "Zulassungsende" : "2022-04-28" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Diese DiGA bietet Patientinnen und Patienten (die das 18. Lebensjahr vollendet haben) mit chronischer Tinnitusbelastung eine leitlinienbasierte, verhaltenstherapeutische Therapie. Ergänzt wird das strukturierte Programm durch Entspannungsanleitungen, beruhigende Natur- und Hintergrundgeräusche sowie einen Wissensteil.  Das mehrmonatige verhaltenstherapeutische Programm besteht aus 5 Leveln mit jeweils 9 Etappen und zeigt Patienten schrittweise den Weg zu einem selbstbestimmten Umgang mit dem Tinnitus und zu einer Reduzierung der Tinnitusbelastung.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/350",
+        "DigaId" : "00350",
+        "DigaVeId" : "00350001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-25",
+        "Hersteller" : 
+        { "Ik" : "580500038",
+          "Name" : "mynoise GmbH" },
+        "Homepage" : "https:\/\/www.kalmeda.de",
+        "Indikationen" : 
+        [ "H93.1: Tinnitus aurium" ],
+        "Kategorien" : 
+        [ "80: Ohren" ],
+        "Kontraindikationen" : 
+        [  ],
+        "Name" : "Kalmeda",
+        "Packungspreis" : "203.97",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/kalmeda-mynoise\/id1437379931",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.mynoise.kalmeda&hl=gsw",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "16876740",
+        "Zulassungsbeginn" : "2020-09-25" },
       
       { "Anwendungstage" : 90,
         "Beschreibung" : "Vivira ist eine digitale Gesundheitsanwendung zur Behandlung von Rücken-, Knie- und Hüftschmerzen bei nicht-spezifischen Kreuzschmerzen, Arthrose der Wirbelsäule (Osteochondrose), Arthrose der Knie (Gonarthrose), unspezifischen Knieschmerzen, Arthrose der Hüfte (Koxarthrose) und unspezifischen Hüftschmerzen.\nDie bewegungstherapeutische Vivira App bietet täglich 4 Übungen, die auf Basis der Rückmeldungen vom Patienten fortlaufend ihre Intensität und Komplexität anpassen. Die täglichen Übungen werden durch wöchentliche Abfragen zur Gesundheit, die Visualisierung des Fortschritts, monatliche Bewegungstests und durch edukative Inhalte ergänzt. Vivira unterstützt die Umsetzung der in Leitlinien für nicht-spezifischen Kreuzschmerz, Kniearthrose und Hüftarthrose vorgesehenen Trainings-Elemente sowie die Umsetzung der Heilmittelrichtlinie.\nDie Wirksamkeit von Vivira wurde bereits in einer retrospektiven kontrollierten Studie untersucht. Patienten die Vivira nutzten zeigten intraindividuell eine deutliche Reduktion der Schmerzen. Die Studie wird 2021 durch eine prospektive randomisiert kontrollierte Studie sowie eine weitere retrospektive Studie ergänzt. Die Veröffentlichung der bereits vorliegenden retrospektiven kontrollierten Studie ist 2021 geplant.",
@@ -662,41 +545,39 @@
         "Zulassungsbeginn" : "2020-10-22" },
       
       { "Anwendungstage" : 90,
-        "Beschreibung" : "zanadio ist eine Anwendung, die den Nutzern durch eine Veränderung Ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung sowie weitere Verhaltensweisen hilft, langfristig Ihr Gewicht zu reduzieren. Die DiGA basiert dabei auf dem wissenschaftlichen Konzept der multimodalen, konservativen Adipositastherapie, welche die verschiedenen relevanten Bereiche adressiert und hierdurch eine langfristige, dauerhafte Gewichtsreduktion herbeiführt. Das Programm setzt diesen etablierten Behandlungsansatz digital um.",
-        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/294",
-        "DigaId" : "00294",
-        "DigaVeId" : "00294001",
+        "Beschreibung" : "elevida ist eine digitale Gesundheitsanwendung für Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt und die mindestens 18 Jahre alt sind. Von einer Fatigue spricht man dann, wenn eine anhaltende Müdigkeit oder Erschöpfung besteht.\nelevida verfolgt das Ziel, die Fatigue zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden.\nelevida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT).\nelevida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von elevida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 275 Patienten teil, die an einer Multiplen Sklerose und zusätzlich auch an einer Fatigue litten. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung elevida nutzten, die Fatigue deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von elevida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/419",
+        "DigaId" : "00419",
+        "DigaVeId" : "00419001",
         "Freigaben" : 
         [ 
           { "AlterAb" : 18,
             "AlterBis" : 65 },
           
           { "AlterAb" : 66 } ],
-        "GültigAb" : "2021-05-28",
+        "GültigAb" : "2021-06-01",
         "Hersteller" : 
-        { "Ik" : "580200013",
-          "Name" : "aidhere GmbH" },
-        "Homepage" : "https:\/\/zanadio.de\/",
+        { "Ik" : "580200024",
+          "Name" : "GAIA AG" },
+        "Homepage" : "https:\/\/elevida.de\/",
         "Indikationen" : 
-        [ "E66: Adipositas" ],
+        [ "G35: Multiple Sklerose [Encephalomyelitis disseminata]" ],
         "Kategorien" : 
-        [ "76: Hormone und Stoffwechsel" ],
+        [ "78: Nervensystem" ],
         "Kontraindikationen" : 
-        [ "E03: Sonstige Hypothyreose",
-          "E23: Unterfunktion und andere Störungen der Hypophyse",
-          "E24: Cushing-Syndrom",
-          "E66.02: Adipositas durch übermäßige Kalorienzufuhr: Adipositas Grad III (WHO) bei Patienten von 18 Jahren und älter" ],
-        "Name" : "zanadio",
-        "Packungspreis" : "499.80",
+        [ "F20: Schizophrenie",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F25: Schizoaffektive Störungen",
+          "F31: Bipolare affektive Störung",
+          "R45.8: Sonstige Symptome, die die Stimmung betreffen" ],
+        "Name" : "elevida",
+        "Packungspreis" : "743.75",
         "Plattformen" : 
         [ 
-          { "Link" : "https:\/\/apps.apple.com\/app\/id1499824614",
-            "Name" : "Apple App Store" },
-          
-          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.aidhere.zanadio",
-            "Name" : "Google Play Store" } ],
-        "Pzn" : "16898701",
-        "Zulassungsbeginn" : "2020-10-22" },
+          { "Link" : "https:\/\/elevida.broca.io\/",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "17161032",
+        "Zulassungsbeginn" : "2020-12-15" },
       
       { "Anwendungstage" : 90,
         "Beschreibung" : "deprexis ist ein interaktives onlinebasiertes Selbsthilfeprogramm zur Therapieunterstützung von Patienten mit Depressionen und depressiven Verstimmungen, die mindestens 18 Jahre alt sind. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus-, Facharzt oder Psychotherapeuten) eingesetzt werden. deprexis basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT). Die Wirksamkeit von deprexis wurde in mehreren klinischen Studien untersucht. In diesen Studien zeigte sich, dass Patienten, die zusätzlich zu einer üblichen medizinischen Versorgung deprexis nutzten, deutlich weniger depressive Beschwerden hatten als Patienten, die nur eine übliche medizinische Versorgung erhielten. Die Verordnungsdauer von deprexis beträgt 90 Tage.",
@@ -739,20 +620,184 @@
         "Zulassungsbeginn" : "2021-02-20" },
       
       { "Anwendungstage" : 90,
+        "Beschreibung" : "somnio ist eine digitale Anwendung zur Behandlung von Ein- und Durchschlafstörungen (Insomnie). In der Anwendung werden evidenzbasierte und leitlinienkonforme Inhalte aus dem Bereich der kognitiven Verhaltenstherapie für Insomnie (KVT-I) vermittelt. Nutzer*innen lernen beispielsweise, ihre Schlafzeiten zu optimieren, einem individuell abgestimmten Schlaf-Wach-Rhythmus zu folgen, mit schlafhindernden Gedanken umzugehen oder sich mittels Entspannungstechniken in einen schlafförderlichen Zustand zu bringen. Die Wirksamkeit von somnio wurde in einer randomisierten kontrollierten Studie untersucht. Patient*innen, die somnio nutzten, zeigten im Vergleich zu einer Kontrollgruppe eine deutliche Reduktion der Insomnie-Symptome. somnio ist als Web-Anwendung direkt aus dem Browser aufrufbar sowie als App für Smartphones und Tablets mit den Betriebssystemen iOS und Android verfügbar.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/508",
+        "DigaId" : "00508",
+        "DigaVeId" : "00508001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 } ],
+        "GültigAb" : "2021-05-05",
+        "Hersteller" : 
+        { "Ik" : "581400028",
+          "Name" : "mementor DE GmbH" },
+        "Homepage" : "https:\/\/www.somn.io",
+        "Indikationen" : 
+        [ "F51.0: Nichtorganische Insomnie" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F31: Bipolare affektive Störung",
+          "G40: Epilepsie" ],
+        "Name" : "somnio",
+        "Packungspreis" : "464.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/somnio\/id1523016446",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.mementor.somnio",
+            "Name" : "Google Play Store" },
+          
+          { "Link" : "https:\/\/app.mementor.de",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "16898724",
+        "Zulassungsbeginn" : "2020-10-22" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Die digitale Gesundheitsanwendung Rehappy unterstützt die Nachsorge von Schlaganfallpatientinnen und -patienten. Die Unterstützung erfolgt in Form von einer individuell zusammengestellten Motivations- und Wissensversorgung mit einer mobilen App, einem Aktivitätstracker und einem Web-Portal. \n\nDie Patientinnen und Patienten werden aktiviert, informiert und begleitet, um ihren Weg der Genesung anhaltend, selbstbestimmt, kompetent und souverän angehen zu können. Die Begleitung basiert auf edukativer Informationsvermittlung und positiver Verstärkung zur Wahrnehmung der Eigenverantwortung und Steigerung der Therapieadhärenz sowie intrinsischen Motivation.\n\nDie Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird der zur digitalen Gesundheitsanwendung zugehörige Aktivitätstracker an die Patientinnen und Patienten versendet. Es ist keine Zuzahlung erforderlich. Zur nachhaltigen Verstetigung der Effekte wird eine über die Mindestverordnungsdauer hinaus gehende Nutzung empfohlen.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/691",
+        "DigaId" : "00691",
+        "DigaVeId" : "00691001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 12,
+            "AlterBis" : 17 },
+          
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-02-24",
+        "Hersteller" : 
+        { "Ik" : "580500061",
+          "Name" : "Rehappy GmbH" },
+        "Homepage" : "https:\/\/www.rehappy.de\/",
+        "Indikationen" : 
+        [ "G45: Zerebrale transitorische Ischämie und verwandte Syndrome",
+          "I60: Subarachnoidalblutung",
+          "I61: Intrazerebrale Blutung",
+          "I62: Sonstige nichttraumatische intrakranielle Blutung",
+          "I63: Hirninfarkt",
+          "I64: Schlaganfall, nicht als Blutung oder Infarkt bezeichnet",
+          "I67: Sonstige zerebrovaskuläre Krankheiten",
+          "I69: Folgen einer zerebrovaskulären Krankheit" ],
+        "Kategorien" : 
+        [ "78: Nervensystem",
+          "81: Herz und Kreislauf" ],
+        "Kontraindikationen" : 
+        [ "S06: Intrakranielle Verletzung" ],
+        "Name" : "Rehappy",
+        "Packungspreis" : "449.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/rehappy\/id1357107437",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.rehappy.app.rehappy",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17186606",
+        "Zulassungsbeginn" : "2020-12-29",
+        "Zulassungsende" : "2021-12-28" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "Die digitale Gesundheitsanwendung Rehappy unterstützt die Nachsorge von Schlaganfallpatientinnen und -patienten. Die Unterstützung erfolgt in Form von einer individuell zusammengestellten Motivations- und Wissensversorgung mit einer mobilen App, einem Aktivitätstracker und einem Web-Portal. \n\nDie Patientinnen und Patienten werden aktiviert, informiert und begleitet, um ihren Weg der Genesung anhaltend, selbstbestimmt, kompetent und souverän angehen zu können. Die Begleitung basiert auf edukativer Informationsvermittlung und positiver Verstärkung zur Wahrnehmung der Eigenverantwortung und Steigerung der Therapieadhärenz sowie intrinsischen Motivation.\n\nDie Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird der zur digitalen Gesundheitsanwendung zugehörige Aktivitätstracker an die Patientinnen und Patienten versendet. Es ist keine Zuzahlung erforderlich. Zur nachhaltigen Verstetigung der Effekte wird eine über die Mindestverordnungsdauer hinaus gehende Nutzung empfohlen.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/691",
+        "DigaId" : "00691",
+        "DigaVeId" : "00691002",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 12,
+            "AlterBis" : 17 },
+          
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-02-24",
+        "Hersteller" : 
+        { "Ik" : "580500061",
+          "Name" : "Rehappy GmbH" },
+        "Homepage" : "https:\/\/www.rehappy.de\/",
+        "Indikationen" : 
+        [ "G45: Zerebrale transitorische Ischämie und verwandte Syndrome",
+          "I60: Subarachnoidalblutung",
+          "I61: Intrazerebrale Blutung",
+          "I62: Sonstige nichttraumatische intrakranielle Blutung",
+          "I63: Hirninfarkt",
+          "I64: Schlaganfall, nicht als Blutung oder Infarkt bezeichnet",
+          "I67: Sonstige zerebrovaskuläre Krankheiten",
+          "I69: Folgen einer zerebrovaskulären Krankheit" ],
+        "Kategorien" : 
+        [ "78: Nervensystem",
+          "81: Herz und Kreislauf" ],
+        "Kontraindikationen" : 
+        [ "S06: Intrakranielle Verletzung" ],
+        "Name" : "Rehappy",
+        "Packungspreis" : "299.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/apps.apple.com\/de\/app\/rehappy\/id1357107437",
+            "Name" : "Apple App Store" },
+          
+          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=de.rehappy.app.rehappy",
+            "Name" : "Google Play Store" } ],
+        "Pzn" : "17186635",
+        "Zulassungsbeginn" : "2020-12-29",
+        "Zulassungsende" : "2021-12-28" },
+      
+      { "Anwendungstage" : 90,
+        "Beschreibung" : "vorvida ist eine digitale Gesundheitsanwendung für Patienten mit schädlichem Alkoholkonsum oder Alkoholabhängigkeit, die mindestens 18 Jahre alt sind.\nvorvida verfolgt das Ziel, diese Patienten beim Management ihres gesundheitsschädlichen Trinkverhaltens zu unterstützen und die Trinkmenge zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden.\nvorvida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT).\nvorvida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von vorvida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 608 Patienten mit schädlichem oder gefährlichem Alkoholgebrauch (Abhängigkeitssyndrom) teil. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung vorvida nutzten, der Alkoholkonsum deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von vorvida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen. ",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/868",
+        "DigaId" : "00868",
+        "DigaVeId" : "00868001",
+        "Freigaben" : 
+        [ 
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
+        "GültigAb" : "2021-05-06",
+        "Hersteller" : 
+        { "Ik" : "580200024",
+          "Name" : "GAIA AG" },
+        "Homepage" : "https:\/\/vorvida.de\/",
+        "Indikationen" : 
+        [ "F10.1: Psychische und Verhaltensstörungen durch Alkohol: Schädlicher Gebrauch",
+          "F10.2: Psychische und Verhaltensstörungen durch Alkohol: Abhängigkeitssyndrom" ],
+        "Kategorien" : 
+        [ "77: Psyche" ],
+        "Kontraindikationen" : 
+        [ "F20: Schizophrenie",
+          "F23: Akute vorübergehende psychotische Störungen",
+          "F25: Schizoaffektive Störungen",
+          "F31: Bipolare affektive Störung",
+          "R45.8: Sonstige Symptome, die die Stimmung betreffen" ],
+        "Name" : "vorvida",
+        "Packungspreis" : "476.00",
+        "Plattformen" : 
+        [ 
+          { "Link" : "https:\/\/vorvida.broca.io\/",
+            "Name" : "Webanwendung" } ],
+        "Pzn" : "17506382",
+        "Zulassungsbeginn" : "2021-05-06" },
+      
+      { "Anwendungstage" : 90,
         "Beschreibung" : "Die Mika App ist eine digitale Gesundheitsanwendung zur Unterstützung der Linderung psychischer und psychosomatischer Folgen von Diagnosen und Therapien von Malignomen. Die Anwendung erreicht eine Linderung durch Dokumentation von Belastung, Symptomen und Nebenwirkungen im Verlauf sowie ressourcenaktivierender Patientenedukation in den Bereichen Gesundheitskompetenz, Stressmanagement, Bewegung und Ernährung.",
         "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/875",
         "DigaId" : "00875",
         "DigaVeId" : "00875001",
         "Freigaben" : 
         [ 
-          { "AlterAb" : 18,
-            "AlterBis" : 65 },
-          
-          { "AlterAb" : 66 },
+          { "Geschlecht" : "D" },
           
           { "Geschlecht" : "W" },
           
-          { "Geschlecht" : "D" } ],
+          { "AlterAb" : 18,
+            "AlterBis" : 65 },
+          
+          { "AlterAb" : 66 } ],
         "GültigAb" : "2021-06-11",
         "Hersteller" : 
         { "Ik" : "581100081",
@@ -865,93 +910,48 @@
         "Zulassungsbeginn" : "2021-03-25" },
       
       { "Anwendungstage" : 90,
-        "Beschreibung" : "Die App \"Mindable: Panikstörung und Agoraphobie\" richtet sich an Menschen ab 18 Jahren, die an den Symptomen einer Agoraphobie und\/oder Panikstörung leiden. Das Behandlungsprogramm basiert auf S3-leitlinienkonformen Methoden der Kognitiven Verhaltenstherapie. Mindable unterstützt Nutzerinnen und Nutzer dabei ihre Ängste proaktiv anzugehen und zu reduzieren. Neben Psychoedukation liegt der Schwerpunkt des Behandlungsprogramms auf der Gewöhnung an Körpersymptome (Habituation durch gezielte Symptomprovokation), sowie in-vivo Konfrontation. Während der Konfrontationsübungen werden Angstverläufe live aufgezeichnet. Darüber hinaus können Nutzerinnen und Nutzer angstbezogene Symptome, Ereignisse und Verhalten regelmäßig erfassen und bei Bedarf mit ihren behandelnden Ärzten oder Therapeuten teilen. Mindable ist als iOS und Android App, sowie in deutscher, englischer und französischer Sprache verfügbar.",
-        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/329",
-        "DigaId" : "00329",
-        "DigaVeId" : "00329001",
+        "Beschreibung" : "Selfapy bietet Betroffenen mit einer Depression einen individuellen Online-Kurs, der auf evidenzbasierten Theorien und Techniken der Kognitiven Verhaltenstherapie basiert. Die therapeutischen Inhalte können über den internetbasierten Kurs vom Betroffenen selbstständig bearbeitet werden. Dieser ist in einzelne Lektionen aufgeteilt, welche sich jeweils mit einem Thema beschäftigen wie beispielsweise dem Umgang mit negativen Gedanken, der Erstellung einer positiven Tagesstruktur, Entspannungstechniken, Schlafproblemen, sowie Strategien zur Rückfallprävention. Die Inhalte werden mit Hilfe von Audio- und Videoclips, Texten und Übungen vermittelt. Die Inhalte passen sich dabei individuell an die persönliche Situation des Betroffenen an. Zur Wahrung der Patientensicherheit wird der Betroffene während des Kurses durchgehend von einem persönlichen Psychologen überwacht. Bei akutem Bedarf steht der Psychologe über eine Nachrichtenfunktion bei Fragen zur Anwendung zur Verfügung.\nVorläufige Ergebnisse von 401 Teilnehmer*innen einer Studie mit der Charité Berlin zeigen eine signifikante Abnahme der depressiven Symptomatik nach Abschluss des 12-wöchigen Kurses.",
+        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/876",
+        "DigaId" : "00876",
+        "DigaVeId" : "00876001",
         "Freigaben" : 
         [ 
           { "AlterAb" : 18,
-            "AlterBis" : 65 },
-          
-          { "AlterAb" : 66 } ],
-        "GültigAb" : "2021-04-29",
+            "AlterBis" : 65 } ],
+        "GültigAb" : "2021-02-24",
         "Hersteller" : 
-        { "Ik" : "581100025",
-          "Name" : "Mindable Health GmbH" },
-        "Homepage" : "https:\/\/www.mindable.health",
+        { "Ik" : "581100036",
+          "Name" : "Selfapy GmbH" },
+        "Homepage" : "https:\/\/www.selfapy.de\/depression",
         "Indikationen" : 
-        [ "F40.0: Agoraphobie",
-          "F41.0: Panikstörung [episodisch paroxysmale Angst]" ],
+        [ "F32.0: Leichte depressive Episode",
+          "F32.1: Mittelgradige depressive Episode",
+          "F32.8: Sonstige depressive Episoden",
+          "F32.9: Depressive Episode, nicht näher bezeichnet",
+          "F33.0: Rezidivierende depressive Störung, gegenwärtig leichte Episode",
+          "F33.1: Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode",
+          "F33.4: Rezidivierende depressive Störung, gegenwärtig remittiert",
+          "F33.8: Sonstige rezidivierende depressive Störungen",
+          "F33.9: Rezidivierende depressive Störung, nicht näher bezeichnet" ],
         "Kategorien" : 
         [ "77: Psyche" ],
         "Kontraindikationen" : 
-        [ "F10.0: Psychische und Verhaltensstörungen durch Alkohol: Akute Intoxikation [akuter Rausch]",
-          "F11.0: Psychische und Verhaltensstörungen durch Opioide: Akute Intoxikation [akuter Rausch]",
-          "F12.0: Psychische und Verhaltensstörungen durch Cannabinoide: Akute Intoxikation [akuter Rausch]",
-          "F13.0: Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika: Akute Intoxikation [akuter Rausch]",
-          "F14.0: Psychische und Verhaltensstörungen durch Kokain: Akute Intoxikation [akuter Rausch]",
-          "F16.0: Psychische und Verhaltensstörungen durch Halluzinogene: Akute Intoxikation [akuter Rausch]",
-          "F17.0: Psychische und Verhaltensstörungen durch Tabak: Akute Intoxikation [akuter Rausch]",
-          "F18.0: Psychische und Verhaltensstörungen durch flüchtige Lösungsmittel: Akute Intoxikation [akuter Rausch]",
+        [ "F00: Demenz bei Alzheimer-Krankheit",
+          "F10.2: Psychische und Verhaltensstörungen durch Alkohol: Abhängigkeitssyndrom",
+          "F10.3: Psychische und Verhaltensstörungen durch Alkohol: Entzugssyndrom",
           "F20: Schizophrenie",
-          "F21: Schizotype Störung",
-          "F22: Anhaltende wahnhafte Störungen",
-          "F23: Akute vorübergehende psychotische Störungen",
-          "F24: Induzierte wahnhafte Störung",
-          "F28: Sonstige nichtorganische psychotische Störungen",
-          "F29: Nicht näher bezeichnete nichtorganische Psychose",
           "F31: Bipolare affektive Störung",
           "F32.3: Schwere depressive Episode mit psychotischen Symptomen",
           "F33.3: Rezidivierende depressive Störung, gegenwärtig schwere Episode mit psychotischen Symptomen" ],
-        "Name" : "Mindable: Panikstörung und Agoraphobie",
-        "Packungspreis" : "576.00",
+        "Name" : "Selfapys Online-Kurs bei Depression",
+        "Packungspreis" : "540.00",
         "Plattformen" : 
         [ 
-          { "Link" : "https:\/\/apps.apple.com\/de\/app\/id1465386878",
-            "Name" : "Apple App Store" },
-          
-          { "Link" : "https:\/\/play.google.com\/store\/apps\/details?id=health.mindable.anxiety",
-            "Name" : "Google Play Store" } ],
-        "Pzn" : "17454202",
-        "Zulassungsbeginn" : "2021-04-29",
-        "Zulassungsende" : "2022-04-28" },
-      
-      { "Anwendungstage" : 90,
-        "Beschreibung" : "vorvida ist eine digitale Gesundheitsanwendung für Patienten mit schädlichem Alkoholkonsum oder Alkoholabhängigkeit, die mindestens 18 Jahre alt sind.\nvorvida verfolgt das Ziel, diese Patienten beim Management ihres gesundheitsschädlichen Trinkverhaltens zu unterstützen und die Trinkmenge zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden.\nvorvida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT).\nvorvida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von vorvida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 608 Patienten mit schädlichem oder gefährlichem Alkoholgebrauch (Abhängigkeitssyndrom) teil. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung vorvida nutzten, der Alkoholkonsum deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von vorvida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen. ",
-        "Details" : "https:\/\/diga.bfarm.de\/de\/verzeichnis\/868",
-        "DigaId" : "00868",
-        "DigaVeId" : "00868001",
-        "Freigaben" : 
-        [ 
-          { "AlterAb" : 18,
-            "AlterBis" : 65 },
-          
-          { "AlterAb" : 66 } ],
-        "GültigAb" : "2021-05-06",
-        "Hersteller" : 
-        { "Ik" : "580200024",
-          "Name" : "GAIA AG" },
-        "Homepage" : "https:\/\/vorvida.de\/",
-        "Indikationen" : 
-        [ "F10.1: Psychische und Verhaltensstörungen durch Alkohol: Schädlicher Gebrauch",
-          "F10.2: Psychische und Verhaltensstörungen durch Alkohol: Abhängigkeitssyndrom" ],
-        "Kategorien" : 
-        [ "77: Psyche" ],
-        "Kontraindikationen" : 
-        [ "F20: Schizophrenie",
-          "F23: Akute vorübergehende psychotische Störungen",
-          "F25: Schizoaffektive Störungen",
-          "F31: Bipolare affektive Störung",
-          "R45.8: Sonstige Symptome, die die Stimmung betreffen" ],
-        "Name" : "vorvida",
-        "Packungspreis" : "476.00",
-        "Plattformen" : 
-        [ 
-          { "Link" : "https:\/\/vorvida.broca.io\/",
+          { "Link" : "https:\/\/www.selfapy.de\/depression",
             "Name" : "Webanwendung" } ],
-        "Pzn" : "17506382",
-        "Zulassungsbeginn" : "2021-05-06" },
+        "Pzn" : "16954730",
+        "Zulassungsbeginn" : "2020-12-16",
+        "Zulassungsende" : "2021-12-10" },
       
       { "Anwendungstage" : 90,
         "Beschreibung" : "PRO-React Onco ist eine Web- und App-basierte digitale Gesundheitsanwendung zur Unterstützung von Brustkrebspatientinnen und -patienten. Mit PRO-React Onco können Patientinnen und Patienten Ihre Beschwerden eigenständig erfassen. In Abhängigkeit zur Erkrankung und der laufenden Therapie werden automatisiert Verhaltenshinweise gegeben, wie dringend die jeweilige Beschwerde mit dem behandelnden Arzt oder der behandelnden Ärztin besprochen werden muss.",
