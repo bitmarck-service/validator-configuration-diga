@@ -533,7 +533,7 @@
           "Z96.65: Vorhandensein einer Kniegelenkprothese",
           "Z96.68: Vorhandensein von sonstigen näher bezeichneten orthopädischen Gelenkimplantaten" ],
         "Name" : "Vivira",
-        "Packungspreis" : "239.96€",
+        "Packungspreis" : "239.96",
         "Plattformen" : 
         [ 
           { "Link" : "https:\/\/apps.apple.com\/de\/app\/vivira-r%C3%BCcken-knie-und-h%C3%BCfte\/id1093858117",
@@ -641,7 +641,7 @@
         [ "F31: Bipolare affektive Störung",
           "G40: Epilepsie" ],
         "Name" : "somnio",
-        "Packungspreis" : "464.00€",
+        "Packungspreis" : "464.00",
         "Plattformen" : 
         [ 
           { "Link" : "https:\/\/apps.apple.com\/de\/app\/somnio\/id1523016446",
@@ -775,7 +775,7 @@
           "F31: Bipolare affektive Störung",
           "R45.8: Sonstige Symptome, die die Stimmung betreffen" ],
         "Name" : "vorvida",
-        "Packungspreis" : "476",
+        "Packungspreis" : "476.00",
         "Plattformen" : 
         [ 
           { "Link" : "https:\/\/vorvida.broca.io\/",
@@ -947,7 +947,7 @@
         "Packungspreis" : "540.00",
         "Plattformen" : 
         [ 
-          { "Link" : "www.selfapy.de\/depression",
+          { "Link" : "https:\/\/www.selfapy.de\/depression",
             "Name" : "Webanwendung" } ],
         "Pzn" : "16954730",
         "Zulassungsbeginn" : "2020-12-16",

@@ -538,7 +538,7 @@ Die Wirksamkeit von Vivira wurde bereits in einer retrospektiven kontrollierten 
       <Kontraindikation>Z96.65: Vorhandensein einer Kniegelenkprothese</Kontraindikation>
       <Kontraindikation>Z96.68: Vorhandensein von sonstigen näher bezeichneten orthopädischen Gelenkimplantaten</Kontraindikation>
       <Name>Vivira</Name>
-      <Packungspreis>239.96€</Packungspreis>
+      <Packungspreis>239.96</Packungspreis>
       <Plattform>
          <Link>https://apps.apple.com/de/app/vivira-r%C3%BCcken-knie-und-h%C3%BCfte/id1093858117</Link>
          <Name>Apple App Store</Name>
@@ -649,7 +649,7 @@ elevida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die W
       <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
       <Kontraindikation>G40: Epilepsie</Kontraindikation>
       <Name>somnio</Name>
-      <Packungspreis>464.00€</Packungspreis>
+      <Packungspreis>464.00</Packungspreis>
       <Plattform>
          <Link>https://apps.apple.com/de/app/somnio/id1523016446</Link>
          <Name>Apple App Store</Name>
@@ -800,7 +800,7 @@ vorvida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die W
       <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
       <Kontraindikation>R45.8: Sonstige Symptome, die die Stimmung betreffen</Kontraindikation>
       <Name>vorvida</Name>
-      <Packungspreis>476</Packungspreis>
+      <Packungspreis>476.00</Packungspreis>
       <Plattform>
          <Link>https://vorvida.broca.io/</Link>
          <Name>Webanwendung</Name>
@@ -973,7 +973,7 @@ Vorläufige Ergebnisse von 401 Teilnehmer*innen einer Studie mit der Charité Be
       <Name>Selfapys Online-Kurs bei Depression</Name>
       <Packungspreis>540.00</Packungspreis>
       <Plattform>
-         <Link>www.selfapy.de/depression</Link>
+         <Link>https://www.selfapy.de/depression</Link>
          <Name>Webanwendung</Name>
       </Plattform>
       <Pzn>16954730</Pzn>
