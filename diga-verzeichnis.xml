@@ -51,7 +51,7 @@
       <Freigabe>
          <AlterAb>66</AlterAb>
       </Freigabe>
-      <GültigAb>2021-05-06</GültigAb>
+      <GültigAb>2021-06-01</GültigAb>
       <Hersteller>
          <Ik>580200057</Ik>
          <Name>Sympatient GmbH</Name>
@@ -134,7 +134,7 @@
       <Freigabe>
          <AlterAb>66</AlterAb>
       </Freigabe>
-      <GültigAb>2021-05-06</GültigAb>
+      <GültigAb>2021-06-01</GültigAb>
       <Hersteller>
          <Ik>580200057</Ik>
          <Name>Sympatient GmbH</Name>
@@ -216,7 +216,7 @@
       <Freigabe>
          <AlterAb>66</AlterAb>
       </Freigabe>
-      <GültigAb>2021-05-06</GültigAb>
+      <GültigAb>2021-06-01</GültigAb>
       <Hersteller>
          <Ik>580200057</Ik>
          <Name>Sympatient GmbH</Name>
@@ -368,7 +368,7 @@
       <Freigabe>
          <AlterAb>66</AlterAb>
       </Freigabe>
-      <GültigAb>2021-04-29</GültigAb>
+      <GültigAb>2021-05-06</GültigAb>
       <Hersteller>
          <Ik>581100025</Ik>
          <Name>Mindable Health GmbH</Name>
@@ -458,7 +458,7 @@ Die Wirksamkeit von Vivira wurde bereits in einer retrospektiven kontrollierten 
       <Freigabe>
          <AlterAb>66</AlterAb>
       </Freigabe>
-      <GültigAb>2021-06-01</GültigAb>
+      <GültigAb>2021-06-11</GültigAb>
       <Hersteller>
          <Ik>581100014</Ik>
          <Name>Vivira Health Lab GmbH</Name>
@@ -538,7 +538,7 @@ Die Wirksamkeit von Vivira wurde bereits in einer retrospektiven kontrollierten 
       <Kontraindikation>Z96.65: Vorhandensein einer Kniegelenkprothese</Kontraindikation>
       <Kontraindikation>Z96.68: Vorhandensein von sonstigen näher bezeichneten orthopädischen Gelenkimplantaten</Kontraindikation>
       <Name>Vivira</Name>
-      <Packungspreis>239.96</Packungspreis>
+      <Packungspreis>239.96€</Packungspreis>
       <Plattform>
          <Link>https://apps.apple.com/de/app/vivira-r%C3%BCcken-knie-und-h%C3%BCfte/id1093858117</Link>
          <Name>Apple App Store</Name>
@@ -649,7 +649,7 @@ elevida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die W
       <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
       <Kontraindikation>G40: Epilepsie</Kontraindikation>
       <Name>somnio</Name>
-      <Packungspreis>464.00</Packungspreis>
+      <Packungspreis>464.00€</Packungspreis>
       <Plattform>
          <Link>https://apps.apple.com/de/app/somnio/id1523016446</Link>
          <Name>Apple App Store</Name>
@@ -686,7 +686,7 @@ Die Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird d
       <Freigabe>
          <AlterAb>66</AlterAb>
       </Freigabe>
-      <GültigAb>2021-02-24</GültigAb>
+      <GültigAb>2021-03-26</GültigAb>
       <Hersteller>
          <Ik>580500061</Ik>
          <Name>Rehappy GmbH</Name>
@@ -738,7 +738,7 @@ Die Verordnungsdauer von Rehappy beträgt 90 Tage. Bei der Erstverordnung wird d
       <Freigabe>
          <AlterAb>66</AlterAb>
       </Freigabe>
-      <GültigAb>2021-02-24</GültigAb>
+      <GültigAb>2021-03-26</GültigAb>
       <Hersteller>
          <Ik>580500061</Ik>
          <Name>Rehappy GmbH</Name>
@@ -800,7 +800,7 @@ vorvida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die W
       <Kontraindikation>F31: Bipolare affektive Störung</Kontraindikation>
       <Kontraindikation>R45.8: Sonstige Symptome, die die Stimmung betreffen</Kontraindikation>
       <Name>vorvida</Name>
-      <Packungspreis>476.00</Packungspreis>
+      <Packungspreis>476</Packungspreis>
       <Plattform>
          <Link>https://vorvida.broca.io/</Link>
          <Name>Webanwendung</Name>
@@ -947,7 +947,7 @@ Vorläufige Ergebnisse von 401 Teilnehmer*innen einer Studie mit der Charité Be
          <AlterAb>18</AlterAb>
          <AlterBis>65</AlterBis>
       </Freigabe>
-      <GültigAb>2021-02-24</GültigAb>
+      <GültigAb>2021-03-26</GültigAb>
       <Hersteller>
          <Ik>581100036</Ik>
          <Name>Selfapy GmbH</Name>
@@ -973,7 +973,7 @@ Vorläufige Ergebnisse von 401 Teilnehmer*innen einer Studie mit der Charité Be
       <Name>Selfapys Online-Kurs bei Depression</Name>
       <Packungspreis>540.00</Packungspreis>
       <Plattform>
-         <Link>https://www.selfapy.de/depression</Link>
+         <Link>www.selfapy.de/depression</Link>
          <Name>Webanwendung</Name>
       </Plattform>
       <Pzn>16954730</Pzn>
@@ -993,7 +993,7 @@ Vorläufige Ergebnisse von 401 Teilnehmer*innen einer Studie mit der Charité Be
       <Freigabe>
          <AlterAb>66</AlterAb>
       </Freigabe>
-      <GültigAb>2021-05-07</GültigAb>
+      <GültigAb>2021-05-20</GültigAb>
       <Hersteller>
          <Ik>580500027</Ik>
          <Name>CANKADO Service GmbH</Name>
