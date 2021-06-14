@@ -1,4 +1,4 @@
-[![XSLT CI](https://github.com/bitmarck-service/validator-configuration-diga/workflows/XSLT%20CI/badge.svg)](https://github.com/bitmarck-service/validator-configuration-diga/actions?query=workflow%3A%22XSLT+CI%22)
+[![XSLT CI](https://github.com/bitmarck-service/validator-configuration-diga/actions/workflows/xslt-ci.yml/badge.svg)](https://github.com/bitmarck-service/validator-configuration-diga/actions/workflows/xslt-ci.yml)
 
 # DiGA-Konfiguration für den KoSIT Validator
 
