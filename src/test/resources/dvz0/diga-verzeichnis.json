@@ -1,0 +1,166 @@
+{
+  "DigaVerzeichnis": [
+    {
+      "Anwendungstage": 7,
+      "Beschreibung": "Hilft gegen Tinnitus",
+      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12345",
+      "DigaId": "12345",
+      "DigaVeId": "12345001",
+      "Freigaben": [
+        {
+          "AlterAb": 18,
+          "AlterBis": 65
+        }
+      ],
+      "GültigAb": "2021-01-01",
+      "Hersteller": {
+        "Ik": "987654324",
+        "Name": "Beispiel AG"
+      },
+      "Homepage": "https:\/\/tinnitus-rex.de",
+      "Indikationen": [
+        "X01: Tinnitus",
+        "X02: Gehör"
+      ],
+      "Kategorien": [
+        "01: Beschreibung für Kategorie 01",
+        "AB: Beschreibung für Kategorie AB"
+      ],
+      "Kontraindikationen": [
+        "E66: Adipositas"
+      ],
+      "Name": "Tinnitus-Rex",
+      "Packungspreis": "1.19",
+      "Plattformen": [
+        {
+          "Link": "https:\/\/apps.apple.com\/de\/app\/tinnitus-rex-beispiel-ag\/id123456789",
+          "Name": "Apple App Store"
+        },
+        {
+          "Link": "https:\/\/play.google.com\/store\/apps\/details?id=de.beispiel-ag.tinnitus-rex",
+          "Name": "Google Play Store"
+        }
+      ],
+      "Pzn": "12345678",
+      "Zulassungsbeginn": "2020-10-01",
+      "Zulassungsende": "2021-09-30"
+    },
+    {
+      "Anwendungstage": 7,
+      "Beschreibung": "Hilft gegen Tinnitus",
+      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12345",
+      "DigaId": "12345",
+      "DigaVeId": "12345001",
+      "Freigaben": [
+        {
+          "AlterAb": 18,
+          "AlterBis": 65
+        }
+      ],
+      "GültigAb": "2021-01-01",
+      "Hersteller": {
+        "Ik": "987654324",
+        "Name": "Beispiel AG"
+      },
+      "Homepage": "https:\/\/tinnitus-rex.de",
+      "Indikationen": [
+        "X01: Tinnitus",
+        "X02: Gehör"
+      ],
+      "Kategorien": [
+        "01: Beschreibung für Kategorie 01",
+        "AB: Beschreibung für Kategorie AB"
+      ],
+      "Kontraindikationen": [
+        "E66: Adipositas"
+      ],
+      "Name": "Tinnitus-Rex",
+      "Packungspreis": "1.19",
+      "Plattformen": [
+        {
+          "Link": "https:\/\/play.google.com\/store\/apps\/details?id=de.beispiel-ag.tinnitus-rex",
+          "Name": "Google Play Store"
+        },
+        {
+          "Link": "https:\/\/apps.apple.com\/de\/app\/tinnitus-rex-beispiel-ag\/id123456789",
+          "Name": "Apple App Store"
+        }
+      ],
+      "Pzn": "12345678",
+      "Zulassungsbeginn": "2020-10-01",
+      "Zulassungsende": "2021-09-30"
+    },
+    {
+      "Anwendungstage": 14,
+      "Beschreibung": "Beugt gegen Herzinfarkte vor",
+      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12346",
+      "DigaId": "12346",
+      "DigaVeId": "12346001",
+      "Freigaben": [
+        {
+          "AlterAb": 18,
+          "Geschlecht": "M"
+        },
+        {
+          "AlterAb": 18,
+          "Geschlecht": "D"
+        }
+      ],
+      "GültigAb": "2020-10-01",
+      "Hersteller": {
+        "Ik": "987654335",
+        "Name": "Dummy GmbH"
+      },
+      "Indikationen": [
+        "X03: Coronare Herzerkrankungen",
+        "X04: Herz"
+      ],
+      "Kategorien": [
+        "01: Beschreibung"
+      ],
+      "Kontraindikationen": [],
+      "Name": "Hans Hinterwand",
+      "Packungspreis": "12.34",
+      "Plattformen": [
+        {
+          "Link": "https:\/\/apps.apple.com\/de\/app\/hans-hinterwand-dummy-gmbh\/id123456790",
+          "Name": "Apple App Store"
+        }
+      ],
+      "Pzn": "12345684",
+      "Zulassungsbeginn": "2020-10-01"
+    },
+    {
+      "Anwendungstage": 21,
+      "Beschreibung": "Vermeiden Sie eine Coronainfektion!",
+      "Details": "https:\/\/diga.bfarm.de\/de\/verzeichnis\/12346",
+      "DigaId": "12347",
+      "DigaVeId": "12347001",
+      "Freigaben": [],
+      "GültigAb": "2020-10-01",
+      "Hersteller": {
+        "Ik": "987654346",
+        "Name": "Muster und Co."
+      },
+      "Indikationen": [
+        "X05: SARS-CoV-2",
+        "X06: COVID-19",
+        "X07: Corona"
+      ],
+      "Kategorien": [
+        "01: Beschreibung"
+      ],
+      "Kontraindikationen": [],
+      "Name": "SARS-CoV-2 Prophylaxe",
+      "Packungspreis": "123.45",
+      "Plattformen": [
+        {
+          "Link": "https:\/\/no-covid-thanks.com",
+          "Name": "Web App"
+        }
+      ],
+      "Pzn": "12345690",
+      "Zulassungsbeginn": "2020-10-01"
+    }
+  ]
+}

@@ -17,17 +17,9 @@
 <schema queryBinding="xslt2" xmlns="http://purl.oclc.org/dsdl/schematron">
     <ns prefix="dvz0" uri="https://xml.diga-ready.de/xsd/dvz0/v1"/>
     <pattern>
-        <rule context="/dvz0:DigaVerzeichnis">
-            <assert id="DVZ0-DV-1-1" test="count(dvz0:Diga) > 0"
-            >Ein DiGA-Verzeichnis muss mindestens einen Datensatz enthalten (redundant).</assert>
-        </rule>
         <rule context="/dvz0:DigaVerzeichnis/dvz0:Diga">
-            <assert id="DVZ0-DV-2-1" test="substring(normalize-space(dvz0:DigaVeId), 1, 5) = normalize-space(dvz0:DigaId)"
+            <assert id="DVZ0-DV-1-1" test="substring(normalize-space(dvz0:DigaVeId), 1, 5) = normalize-space(dvz0:DigaId)"
             >Die ersten fünf Zeichen einer DiGA-VE-ID und die DiGA-ID müssen gleich sein.</assert>
-        </rule>
-        <rule context="/dvz0:DigaVerzeichnis/dvz0:Diga/dvz0:Geschlechter">
-            <assert id="DVZ0-DV-3-1" test="normalize-space(.) != ''"
-            >Eine Liste von Geschlechtern darf nicht leer sein.</assert>
         </rule>
     </pattern>
 </schema>
