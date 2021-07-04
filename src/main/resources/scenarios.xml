@@ -146,6 +146,35 @@
         <acceptMatch>/rep:report/rep:assessment[1]/rep:accept[1]</acceptMatch>
     </scenario>
 
+    <scenario>
+        <name>Krankenkasssenverzeichnis, Version 1.0.0 (KVZ0)</name>
+        <description>
+            <p>TODO</p>
+        </description>
+        <namespace prefix="kvz0">https://xml.diga-ready.de/xsd/kvz0/v1</namespace>
+        <namespace prefix="rep">http://www.xoev.de/de/validator/varl/1</namespace>
+        <match>/kvz0:Krankenkasseninformationen</match>
+        <validateWithXmlSchema>
+            <resource>
+                <name>XML-Schema für das Krankenkassenverzeichnis.</name>
+                <location>xml-schema/kvz0/kvz0.xsd</location>
+            </resource>
+        </validateWithXmlSchema>
+        <validateWithSchematron>
+            <resource>
+                <name>Schematron-Regeln für das Krankenkassenverzeichnis.</name>
+                <location>schematron/kvz0.xsl</location>
+            </resource>
+        </validateWithSchematron>
+        <createReport>
+            <resource>
+                <name>Standard-Report</name>
+                <location>report/default.xsl</location>
+            </resource>
+        </createReport>
+        <acceptMatch>/rep:report/rep:assessment[1]/rep:accept[1]</acceptMatch>
+    </scenario>
+
     <noScenarioReport>
         <resource>
             <name>Standard-Report</name>
