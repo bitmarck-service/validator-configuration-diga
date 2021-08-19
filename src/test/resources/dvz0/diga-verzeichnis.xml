@@ -118,7 +118,7 @@
         <Zulassungsbeginn>2020-10-01</Zulassungsbeginn>
     </Diga>
     <Diga>
-        <Anwendungstage>21</Anwendungstage>
+<!--        <Anwendungstage>21</Anwendungstage>-->
         <Beschreibung>Vermeiden Sie eine Coronainfektion!</Beschreibung>
         <Details>https://diga.bfarm.de/de/verzeichnis/12346</Details>
         <DigaId>12347</DigaId>

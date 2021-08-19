@@ -37,7 +37,7 @@
                     </xs:annotation>
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="Anwendungstage" type="xs:positiveInteger">
+                            <xs:element name="Anwendungstage" type="xs:positiveInteger" minOccurs="0">
                                 <xs:annotation>
                                     <xs:documentation>
                                         Die Anwendungsdauer in Form einer positiven Anzahl von Tagen.
