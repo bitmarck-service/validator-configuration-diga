@@ -15,11 +15,11 @@
    - limitations under the License.
    -->
 <schema queryBinding="xslt2" xmlns="http://purl.oclc.org/dsdl/schematron">
-    <ns prefix="dvz0" uri="https://xml.diga-ready.de/xsd/dvz0/v1"/>
+    <ns prefix="dvz0" uri="https://xml.diga-ready.de/xsd/dvz0/v2"/>
     <pattern>
         <rule context="/dvz0:DigaVerzeichnis/dvz0:Diga">
             <assert id="DVZ0-DV-1-1" test="substring(normalize-space(dvz0:DigaVeId), 1, 5) = normalize-space(dvz0:DigaId)"
-            >Die ersten fünf Zeichen einer DiGA-VE-ID und die DiGA-ID müssen gleich sein.</assert>
+            >Die ersten fünf Zeichen einer DiGA-VE-ID und die DiGA-ID müssen identisch sein.</assert>
         </rule>
     </pattern>
 </schema>
