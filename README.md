@@ -357,6 +357,122 @@ $ open build/test/xrechnung-2.0-falsch-report-report.html
 Wiederum dient der `open`-Befehl zur Anzeige des detaillierten HTML-Prüfberichts für den im vorigen Schritt erzeugten
 XML-Prüfbericht. 
 
+### Einreichen von DiGA-Rechnungen auf Basis von XRechnung 2.2
+
+#### Schritt 1 - Validierung gegen XRechnung 2.2
+
+```bash
+$ java -jar lib/validationtool-*-standalone.jar -h -s lib/xrechnung_2.2.0/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-2.2-*.xml
+KoSIT Validator version 1.4.2
+Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/lib/xrechnung_2.0.0/scenarios.xml
+Using repository  null
+Loaded "Validator Configuration XRechnung 2.2.0" by Coordination Office for IT Standards (KoSIT) from 2022-01-??
+
+The following scenarios are available:
+  * EN16931 XRechnung (UBL Invoice)
+  * EN16931 XRechnung (UBL CreditNote)
+  * EN16931 XRechnung (CII)
+  * EN16931 (UBL Invoice)
+  * EN16931 (UBL CreditNote)
+  * EN16931 (CII)
+
+Processing of 1 objects started
+Processing of 1 objects completed in 231ms
+Results:
+----------------------------------------------------------------------------------------------------------------
+|filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
+|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
+|ration-diga/src/test/resources/dre0/xrechnung-2.2-richtig.xm|       |          |          |                    |
+|l                                                           |       |          |          |                    |
+----------------------------------------------------------------------------------------------------------------
+Acceptable:  1  Rejected:  0
+
+
+##############################
+#   Validation successful!   #
+##############################
+$ open build/test/xrechnung-2.2-richtig-report.html 
+```
+
+Der `open`-Befehl dient wieder zur Anzeige des detaillierten HTML-Prüfberichts.
+Auch in diesem Beispiel werden beide Dokumente akzeptiert - es handelt sich zunächst um gültige XRechnungen gemäß
+Version 2.2.
+
+#### Schritt 2 - Validierung gegen DiGA-Rechnung
+
+```bash
+$ java -jar lib/validationtool-*-standalone.jar -h -s build/config/scenarios.xml -o build/test src/test/resources/dre0/xrechnung-2.2-*.xml
+KoSIT Validator version 1.4.2
+Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
+Using repository  null
+Loaded "DiGA-Konfiguration für den KoSIT Validator" by ITSG from 2021-12-06 
+
+The following scenarios are available:
+  * DiGA Freischaltcode (DFC0), Version 2.0.0
+  * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung 1.2 oder 2.0 (UN/CEFACT CII 100.D16B)
+  * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung 2.2 (UN/CEFACT CII 100.D16B)
+  * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
+
+Processing of 1 objects started
+Processing of 1 objects completed in 119ms
+Results:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+|filename                                                    |Schema |Schematron|Acceptance|Error/Description                                           |
+|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                                                            |
+|ration-diga/src/test/resources/dre0/xrechnung-2.2-richtig.xm|       |          |          |                                                            |
+|l                                                           |       |          |          |                                                            |
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptable:  1  Rejected:  0
+
+
+##############################
+#   Validation successful!   #
+##############################
+$ open build/test/xrechnung-2.2-richtig-report.html 
+```
+
+Wiederum wird eine der beiden Rechnungen abgelehnt, da sie nicht die Anforderungen an eine DiGA-Rechnung erfüllt.
+Der `open`-Befehl dient zur Anzeige des detaillierten HTML-Prüfberichts für das fehlerhafte Dokument.
+
+### Prüfberichte zur DiGA-Rechnung auf Basis von XRechnung 2.2
+
+Auch der im vorigen Schritt erzeugte Prüfbericht lässt sich wiederum validieren:
+
+```bash
+$ java -jar lib/validationtool-*-standalone.jar -h -s build/config/scenarios.xml -o build/test build/test/xrechnung-2.2-richtig-report.xml
+KoSIT Validator version 1.4.2
+Loading scenarios from  file:///Users/christian/projects/bitmarck-service/validator-configuration-diga/build/config/scenarios.xml
+Using repository  null
+Loaded "DiGA-Konfiguration für den KoSIT Validator" by ITSG from 2021-12-06 
+
+The following scenarios are available:
+  * DiGA Freischaltcode (DFC0), Version 2.0.0
+  * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung 1.2 oder 2.0 (UN/CEFACT CII 100.D16B)
+  * DiGA-Rechnung (DRE0-Anfrage) basierend auf EN16931 CIUS XRechnung 2.2 (UN/CEFACT CII 100.D16B)
+  * Prüfbericht für DiGA-Rechnung (DRE0-Antwort)
+  * DiGA-Verzeichnis, Version 1.0.0 (DVZ0)
+
+Processing of 1 objects started
+Processing of 1 objects completed in 148ms
+Results:
+----------------------------------------------------------------------------------------------------------------
+|filename                                                    |Schema |Schematron|Acceptance|Error/Description   |
+|/Users/christian/projects/bitmarck-service/validator-conf...|   Y   |    Y     |ACCEPTABLE|                    |
+|ration-diga/build/test/xrechnung-2.2-richtig-report.xml     |       |          |          |                    |
+----------------------------------------------------------------------------------------------------------------
+Acceptable:  1  Rejected:  0
+
+
+##############################
+#   Validation successful!   #
+##############################
+$ open build/test/xrechnung-2.2-richtig-report-report.html 
+```
+
+Wiederum dient der `open`-Befehl zur Anzeige des detaillierten HTML-Prüfberichts für den im vorigen Schritt erzeugten
+XML-Prüfbericht.
+
 ### Stammdaten aus dem DiGA-Verzeichnis
 
 ```bash
