@@ -123,6 +123,10 @@
         <Details>https://diga.bfarm.de/de/verzeichnis/12346</Details>
         <DigaId>12347</DigaId>
         <DigaVeId>12347001</DigaVeId>
+        <Erstverordnung>
+            <DigaVeId>12346001</DigaVeId>
+            <Pzn>12345684</Pzn>
+        </Erstverordnung>
         <GültigAb>2020-10-01</GültigAb>
         <Hersteller>
             <Ik>987654346</Ik>
