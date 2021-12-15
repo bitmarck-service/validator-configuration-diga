@@ -14,7 +14,7 @@
    - See the License for the specific language governing permissions and
    - limitations under the License.
    -->
-<project default="build">
+<project default="test">
 
     <description>Builds the KOSIT Validator configuration for DiGA invoices.</description>
 
@@ -26,6 +26,19 @@
     <property name="validator.version" value="1.4.2"/>
     <property name="xrechnung.download.url"
               value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
+
+    <target name="test" depends="build">
+        <apply executable="java" failonerror="true">
+            <arg value="-jar"/>
+            <arg value="lib/validationtool-1.4.2-standalone.jar"/>
+            <arg value="-h"/>
+            <arg value="-s"/>
+            <arg file="build/config/scenarios.xml"/>
+            <arg value="-o"/>
+            <arg value="build/test"/>
+            <fileset dir="src/test/resources" includes="**/*.xml" excludes="dre0/*-falsch.xml"/>
+        </apply>
+    </target>
 
     <target name="build">
         <parallel>
