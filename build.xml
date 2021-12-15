@@ -21,8 +21,8 @@
     <property name="build.dir" value="build"/>
     <property name="config.dir" value="${build.dir}/config"/>
     <property name="lib.dir" value="lib"/>
-    <property name="saxon.version" value="10.5"/>
-    <property name="schxslt.version" value="1.7.2"/>
+    <property name="saxon.version" value="10.6"/>
+    <property name="schxslt.version" value="1.8.5"/>
     <property name="validator.version" value="1.4.2"/>
     <property name="xrechnung.download.url"
               value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
