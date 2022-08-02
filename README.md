@@ -5,6 +5,8 @@
 Dieses Repository beinhaltet eine Konfiguration für den [KoSIT Validator](https://github.com/itplr-kosit/validator), die
 für die Validierung aller Nachrichten geeignet ist die im Rahmen des DiGA-Fachverfahren ausgetauscht werden.
 
+### Dieses Repository wurde an die ITSG übergeben: [ITSGGMBH/validator-configuration-diga](https://github.com/ITSGGMBH/validator-configuration-diga)
+
 ## Leistungsmerkmale
 
 + Validierung von Anfragen und Antworten für das Einlösen von Freischaltcodes gemäß Verfahrenskennzeichen EDFC0 und
