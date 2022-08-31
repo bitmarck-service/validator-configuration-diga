@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-   - Copyright © 2020 BITMARCK Service GmbH
+   - Copyright © 2020 - 2021 BITMARCK Service GmbH
    -
    - Licensed under the Apache License, Version 2.0 (the "License");
    - you may not use this file except in compliance with the License.
@@ -14,18 +14,31 @@
    - See the License for the specific language governing permissions and
    - limitations under the License.
    -->
-<project default="build">
+<project default="test">
 
     <description>Builds the KOSIT Validator configuration for DiGA invoices.</description>
 
     <property name="build.dir" value="build"/>
     <property name="config.dir" value="${build.dir}/config"/>
     <property name="lib.dir" value="lib"/>
-    <property name="saxon.version" value="10.5"/>
-    <property name="schxslt.version" value="1.7.2"/>
+    <property name="saxon.version" value="10.6"/>
+    <property name="schxslt.version" value="1.8.5"/>
     <property name="validator.version" value="1.4.2"/>
     <property name="xrechnung.download.url"
               value="https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/download"/>
+
+    <target name="test" depends="build">
+        <apply executable="java" failonerror="true">
+            <arg value="-jar"/>
+            <arg value="lib/validationtool-1.4.2-standalone.jar"/>
+            <arg value="-h"/>
+            <arg value="-s"/>
+            <arg file="build/config/scenarios.xml"/>
+            <arg value="-o"/>
+            <arg value="build/test"/>
+            <fileset dir="src/test/resources" includes="**/*.xml" excludes="dre0/*-falsch.xml"/>
+        </apply>
+    </target>
 
     <target name="build">
         <parallel>
