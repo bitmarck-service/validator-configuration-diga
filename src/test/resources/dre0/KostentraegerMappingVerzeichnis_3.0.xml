@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kostentraeger_Mappingverzeichnis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gkv-datenaustausch.de/XML-Schema/EDRE0_MVZ/3.0" xmlns:bas="http://www.gkv-datenaustausch.de/XMLSchema/EDFC0-basis/3.0" version="003.000.000" gueltigab="2022-08-25">
+	<Krankenkasseninformation Nummer="ID1">
+		<bas:Kostentraegerkuerzel>ZZ</bas:Kostentraegerkuerzel>
+		<bas:Kostentraegerkennung>222342301</bas:Kostentraegerkennung>
+		<bas:Name_des_Kostentraegers>Testkasse Eins</bas:Name_des_Kostentraegers>
+		<bas:IK_des_Rechnungsempfaengers>152034270</bas:IK_des_Rechnungsempfaengers>
+		<bas:IK_Abrechnungsstelle>142500345</bas:IK_Abrechnungsstelle>
+		<bas:Name_Kommunikationsstelle>DIGA-TESTKOMM</bas:Name_Kommunikationsstelle>
+		<bas:Endpunkt_Kommunikationsstelle>diga.testkom.m.de</bas:Endpunkt_Kommunikationsstelle>
+		<bas:Versandart>1</bas:Versandart>
+		<bas:Postalische_Zusaetze>Vorort</bas:Postalische_Zusaetze>
+		<bas:Strasse_Postfach>Teststr.</bas:Strasse_Postfach>
+		<bas:Hausnummer_Postfachnummer>2</bas:Hausnummer_Postfachnummer>
+		<bas:PLZ>54321</bas:PLZ>
+		<bas:Ort>Testort</bas:Ort>
+		<bas:Kontaktdaten_Technisch_Telefon>1383437362</bas:Kontaktdaten_Technisch_Telefon>
+		<bas:Kontaktdaten_Technisch_EMail>servicedesk@testkass.e.de</bas:Kontaktdaten_Technisch_EMail>
+	</Krankenkasseninformation>
+	<Krankenkasseninformation Nummer="ID2" insolvenz="N" gueltig_ab="2020-08-19" gueltig_bis="2022-06-19" nachfolge_kostentraegerkuerzel="ZX">
+		<bas:Kostentraegerkuerzel>ZY</bas:Kostentraegerkuerzel>
+		<bas:Kostentraegerkennung>124432481</bas:Kostentraegerkennung>
+		<bas:Name_des_Kostentraegers>Testkrankenkasse zwei</bas:Name_des_Kostentraegers>
+		<bas:IK_des_Rechnungsempfaengers>103847548</bas:IK_des_Rechnungsempfaengers>
+		<bas:IK_Abrechnungsstelle>662938445</bas:IK_Abrechnungsstelle>
+		<bas:Name_Kommunikationsstelle>DIGA-TESTKOMM</bas:Name_Kommunikationsstelle>
+		<bas:Endpunkt_Kommunikationsstelle>diga.testkom.m.de</bas:Endpunkt_Kommunikationsstelle>
+		<bas:Versandart>1</bas:Versandart>
+		<bas:Postalische_Zusaetze>z. Hd. Frau Pü</bas:Postalische_Zusaetze>
+		<bas:Strasse_Postfach>Heimweg</bas:Strasse_Postfach>
+		<bas:Hausnummer_Postfachnummer>5</bas:Hausnummer_Postfachnummer>
+		<bas:PLZ>18263</bas:PLZ>
+		<bas:Ort>Orttest</bas:Ort>
+		<bas:Kontaktdaten_Technisch_Telefon>1383433362</bas:Kontaktdaten_Technisch_Telefon>
+		<bas:Kontaktdaten_Technisch_EMail>servicedesk@testkass.e.de</bas:Kontaktdaten_Technisch_EMail>
+	</Krankenkasseninformation>
+	<Krankenkasseninformation Nummer="ID3" insolvenz="J" gueltig_ab="2020-06-19" gueltig_bis="2022-08-19">
+		<bas:Kostentraegerkuerzel>ZX</bas:Kostentraegerkuerzel>
+		<bas:Kostentraegerkennung>124435481</bas:Kostentraegerkennung>
+		<bas:Name_des_Kostentraegers>Testkrankenkasse drei</bas:Name_des_Kostentraegers>
+		<bas:IK_des_Rechnungsempfaengers>103547548</bas:IK_des_Rechnungsempfaengers>
+		<bas:IK_Abrechnungsstelle>662935445</bas:IK_Abrechnungsstelle>
+		<bas:Name_Kommunikationsstelle>DIGA-TESTKOMM</bas:Name_Kommunikationsstelle>
+		<bas:Endpunkt_Kommunikationsstelle>diga.testkom.m.de</bas:Endpunkt_Kommunikationsstelle>
+		<bas:Versandart>1</bas:Versandart>
+		<bas:Postalische_Zusaetze>z. Hd. Frau Fä</bas:Postalische_Zusaetze>
+		<bas:Strasse_Postfach>Schmalweg</bas:Strasse_Postfach>
+		<bas:Hausnummer_Postfachnummer>33</bas:Hausnummer_Postfachnummer>
+		<bas:PLZ>15263</bas:PLZ>
+		<bas:Ort>Ralorttal</bas:Ort>
+		<bas:Kontaktdaten_Technisch_Telefon>1583433362</bas:Kontaktdaten_Technisch_Telefon>
+		<bas:Kontaktdaten_Technisch_EMail>servicedesk@testkass.e.de</bas:Kontaktdaten_Technisch_EMail>
+	</Krankenkasseninformation>
+</Kostentraeger_Mappingverzeichnis>
