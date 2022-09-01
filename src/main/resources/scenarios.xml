@@ -72,7 +72,7 @@
         <validateWithSchematron>
             <resource>
                 <name>Schematron-Regeln für das Einlösen von Freischaltcodes</name>
-                <location>schematron/dfc0_3.0.0.xsl</location>
+                <location>schematron/dfc0.xsl</location>
             </resource>
         </validateWithSchematron>
         <createReport>

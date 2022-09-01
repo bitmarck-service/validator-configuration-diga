@@ -29,6 +29,9 @@
 
     <target name="test" depends="build">
         <apply executable="java" failonerror="true">
+            <!-- Aktuelle Validator Version nutzt eine JAXB Version, die Probleme mit Java 11 hat.
+              Optimierung wird für Tests vorerst abgeschaltet. Siehe: https://github.com/javaee/jaxb-v2/issues/1197-->
+            <arg value="-Dcom.sun.xml.bind.v2.bytecode.ClassTailor.noOptimize"/>
             <arg value="-jar"/>
             <arg value="lib/validationtool-1.4.2-standalone.jar"/>
             <arg value="-h"/>
