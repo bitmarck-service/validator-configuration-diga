@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-   - Copyright © 2020 - 2021 BITMARCK Service GmbH
-   - Copyright © 2021 ITSG GmbH
+   - Copyright © 2022 ITSG GmbH
    -
    - Licensed under the Apache License, Version 2.0 (the "License");
    - you may not use this file except in compliance with the License.
@@ -16,11 +15,12 @@
    - limitations under the License.
    -->
 <schema queryBinding="xslt2" xmlns="http://purl.oclc.org/dsdl/schematron">
-    <ns prefix="dvz0" uri="https://xml.diga-ready.de/xsd/dvz0/v2"/>
+    <ns prefix="dre0" uri="http://www.gkv-datenaustausch.de/XML-Schema/EDRE0_MVZ/3.0"/>
+    <ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
     <pattern>
-        <rule context="/dvz0:DigaVerzeichnis/dvz0:Diga">
-            <assert id="DVZ0-DV-1-1" test="substring(normalize-space(dvz0:DigaVeId), 1, 5) = normalize-space(dvz0:DigaId)"
-            >Die ersten fünf Zeichen einer DiGA-VE-ID und die DiGA-ID müssen identisch sein.</assert>
+        <rule context="dre0:Krankenkasseninformation">
+            <assert id="DRE0-MVZ-1-1" test="not(@gueltig_bis) or @insolvenz = 'J' or @gueltig_bis and @nachfolge_kostentraegerkuerzel"
+            >Wenn "gueltig_bis" gefüllt ist, muss "nachfolge_kostentraegerkuerzel" gefüllt sein. Ausnahme: "insolvenz=J"</assert>
         </rule>
     </pattern>
 </schema>

@@ -13,10 +13,6 @@ für die Validierung aller Nachrichten geeignet ist die im Rahmen des DiGA-Fachv
   oder XRechnung 2.0, jeweils in Ausprägung UN/CEFACT CII 100.D16B gemäß Verfahrenskennzeichen EDRE0 und TDRE0.
 + Validierung von Stammdaten zu DiGAs und DiGA-Herstellern gemäß Verfahrenskennzeichen EDVZ0. 
 
-### TODO:
-
-+ Automatische Tests
-
 ## Anforderungen
 
 + Java Runtime Environment, Version 1.8 oder später. 

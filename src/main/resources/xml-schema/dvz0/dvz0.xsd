@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright © 2020 BITMARCK Service GmbH
+  ~ Copyright © 2020 - 2021 BITMARCK Service GmbH
+  ~ Copyright © 2021 ITSG GmbH
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -16,7 +17,7 @@
   -->
 <xs:schema elementFormDefault="qualified"
            targetNamespace="https://xml.diga-ready.de/xsd/dvz0/v2"
-           version="2.0.0"
+           version="2.1.0"
            xml:lang="de"
            xmlns="https://xml.diga-ready.de/xsd/dvz0/v2"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -79,23 +80,19 @@
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
-                            <xs:element name="DigaVeId">
+                            <xs:element name="DigaVeId" type="DigaVeId"/>
+                            <xs:element name="Erstverordnung" minOccurs="0">
                                 <xs:annotation>
-                                    <xs:documentation>Die eindeutige, achtstellige DiGA-VE-ID.</xs:documentation>
+                                    <xs:documentation>
+                                        Referenzen zur Erstverordnung in Form einer DiGA-VE-ID und der dazugehörgen PZN.
+                                    </xs:documentation>
                                 </xs:annotation>
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:positiveInteger">
-                                        <xs:annotation>
-                                            <xs:appinfo>
-                                                Zur Syntax regulärer Ausdrücke siehe
-                                                https://www.w3.org/TR/xmlschema11-2/#regexs .
-                                                Zu den Multi-character escapes siehe
-                                                https://www.w3.org/TR/xmlschema11-2/#cces-mce .
-                                            </xs:appinfo>
-                                        </xs:annotation>
-                                        <xs:pattern value="\d{8}"/>
-                                    </xs:restriction>
-                                </xs:simpleType>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="DigaVeId" type="DigaVeId"/>
+                                        <xs:element name="Pzn" type="Pzn"/>
+                                    </xs:sequence>
+                                </xs:complexType>
                             </xs:element>
                             <xs:element name="Freigabe" type="Freigabe" minOccurs="0" maxOccurs="unbounded">
                                 <xs:annotation>
@@ -246,26 +243,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="Pzn">
-                                <xs:annotation>
-                                    <xs:documentation>
-                                        Die eindeutige, achtstellige Pharmazentralnummer inklusive Prüfziffer.
-                                    </xs:documentation>
-                                </xs:annotation>
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:positiveInteger">
-                                        <xs:annotation>
-                                            <xs:appinfo>
-                                                Zur Syntax regulärer Ausdrücke siehe
-                                                https://www.w3.org/TR/xmlschema11-2/#regexs .
-                                                Zu den Multi-character escapes siehe
-                                                https://www.w3.org/TR/xmlschema11-2/#cces-mce .
-                                            </xs:appinfo>
-                                        </xs:annotation>
-                                        <xs:pattern value="\d{8}"/>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
+                            <xs:element name="Pzn" type="Pzn"/>
                             <xs:element name="Zulassungsbeginn" type="xs:date">
                                 <xs:annotation>
                                     <xs:documentation>
@@ -287,6 +265,22 @@
             <xs:attribute name="version" fixed="2.0.0" use="required"/>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="DigaVeId">
+        <xs:annotation>
+            <xs:documentation>Die eindeutige, achtstellige DiGA-VE-ID.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:positiveInteger">
+            <xs:annotation>
+                <xs:appinfo>
+                    Zur Syntax regulärer Ausdrücke siehe
+                    https://www.w3.org/TR/xmlschema11-2/#regexs .
+                    Zu den Multi-character escapes siehe
+                    https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                </xs:appinfo>
+            </xs:annotation>
+            <xs:pattern value="\d{8}"/>
+        </xs:restriction>
+    </xs:simpleType>
     <xs:complexType name="Freigabe">
         <xs:annotation>
             <xs:documentation>
@@ -336,6 +330,24 @@
                 </xs:appinfo>
             </xs:annotation>
             <xs:pattern value="[^:]{1,7}:.*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Pzn">
+        <xs:annotation>
+            <xs:documentation>
+                Die eindeutige, achtstellige Pharmazentralnummer inklusive Prüfziffer.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:positiveInteger">
+            <xs:annotation>
+                <xs:appinfo>
+                    Zur Syntax regulärer Ausdrücke siehe
+                    https://www.w3.org/TR/xmlschema11-2/#regexs .
+                    Zu den Multi-character escapes siehe
+                    https://www.w3.org/TR/xmlschema11-2/#cces-mce .
+                </xs:appinfo>
+            </xs:annotation>
+            <xs:pattern value="\d{8}"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="URL">

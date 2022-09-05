@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
   ~ Copyright © 2020 - 2021 BITMARCK Service GmbH
+  ~ Copyright © 2021 ITSG GmbH
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -123,6 +124,10 @@
         <Details>https://diga.bfarm.de/de/verzeichnis/12346</Details>
         <DigaId>12347</DigaId>
         <DigaVeId>12347001</DigaVeId>
+        <Erstverordnung>
+            <DigaVeId>12346001</DigaVeId>
+            <Pzn>12345684</Pzn>
+        </Erstverordnung>
         <GültigAb>2020-10-01</GültigAb>
         <Hersteller>
             <Ik>987654346</Ik>
