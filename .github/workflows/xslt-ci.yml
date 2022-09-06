@@ -28,3 +28,5 @@ on:
     branches: [ '**' ]
   pull_request:
     branches: [ '**' ]
+  release:
+    types: [ published ]
