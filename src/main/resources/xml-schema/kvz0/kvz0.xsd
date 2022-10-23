@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright © 2020 BITMARCK Service GmbH
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<xs:schema elementFormDefault="qualified"
+           targetNamespace="https://xml.diga-ready.de/xsd/kvz0/v1"
+           version="1.0.0"
+           xml:lang="de"
+           xmlns="https://xml.diga-ready.de/xsd/kvz0/v1"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Krankenkasseninformationen">
+        <xs:annotation>
+            <xs:documentation>
+                Kostenträger Mappingverzeichnis gemaess DiGA RiLi nach §302 SGB V, TA Anlage 1.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element name="Krankenkasseninformation">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Mapping des zweistelligen Codes im Freischaltcode zu den Informationen der Krankenkasse zum
+                            Endpunkt, Abrechnungsart und Kontaktdaten etc.
+                        </xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Krankenkassenkuerzel" type="Base32_2">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Zweistelliges Kürzel der Krankenkasse gemäß DiGA RiLi, TA Anlage 1 - "Schlüssel
+                                        Kostentraegerkuerzel".
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="IK_Krankenkasse" type="IK">
+                                <xs:annotation>
+                                    <xs:documentation>Rechnungsempfaenger gemäß UStG.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Name_Krankenkasse" type="Name">
+                                <xs:annotation>
+                                    <xs:documentation>Name der Krankenkasse.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="IK_Kommunikationsstelle" type="IK">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        (Technische) Kommunikationsstelle die im Auftrag für den Rechnungsempfänger
+                                        tätig ist.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Name_Kommunikationsstelle" type="Name" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Name der Kommunikationsstelle.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Endpunkt_Kommunikationsstelle" type="Endpunkt_FQDN">
+                                <xs:annotation>
+                                    <xs:documentation>FQDN des Endpunkts der Kommunikationsstelle.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Versandart" type="Numerische_Werteliste_1">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Für eine Übergangszeit soll es auch ermöglicht werden, dass Abrechnungen
+                                        alternativ postalisch oder E-Mail basiert zu versenden sind.
+                                        Für die Abrechnung gilt die in der Versandart hinterlegte Option.
+                                        Für den Freischaltcode ist immer die elektronische Schnittstelle zu verwenden.
+                                        Mittelfristig wird die Abrechnung vollständig auf die elektronische
+                                        Schnittstelle umgestellt.
+                                        1 = elektronisch via Schnittstelle (siehe Zeile 10-12)
+                                        2 = elektronisch via eMail
+                                        3 = postalisch
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="EMail_Krankenkasse" type="Email_Adresse" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        EMail Adresse des Kostenträgers zum Versand der Rechnung.
+                                        Dieses Feld MUSS belegt werden, wenn Versandart=2 (bedingtes Mussfeld).
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Postalische_Zusaetze" type="Postalische_Zusaetze" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Postalische Zusätze bzw. nähere Empfängerbezeichnungen (Abteilung, etc.) des
+                                        Kostenträgers bei postalischem Versand.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Strasse_Postfach" type="Strasse" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Strasse resp. Postfach des Kostenträgers bei postalischem Versand.
+                                        Dieses Feld MUSS belegt werden, wenn Versandart=3 (bedingtes Mussfeld).
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Hausnummer_Postfachnummer" type="Hausnummer" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Haus- resp. Postfachnummer des Kostenträgers bei postalischem Versand.
+                                        Dieses Feld MUSS belegt werden, wenn Versandart=3 (bedingtes Mussfeld).
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="PLZ" type="Postleitzahl_DE" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        PLZ des Kostenträgers bei postalischem Versand.
+                                        Dieses Feld MUSS belegt werden, wenn Versandart=3 (bedingtes Mussfeld).
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Ort" type="Ort" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Ort des Kostenträgers bei postalischem Versand.
+                                        Dieses Feld MUSS belegt werden, wenn Versandart=3 (bedingtes Mussfeld).
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Kontaktdaten_Technisch_Telefon" type="Rufnummer">
+                                <xs:annotation>
+                                    <xs:documentation>Telefon des technischen/betrieblichen Kontakts.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Kontaktdaten_Technisch_EMail" type="Email_Adresse">
+                                <xs:annotation>
+                                    <xs:documentation>Email des technischen/betrieblichen Kontakts.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="GueltigAb" minOccurs="0" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Schränkt die Gültigkeit des gesamten Datensatzes auf den Zeitraum ein, der an
+                                        diesem Datum beginnt.
+
+                                        ACHTUNG: Es darf keine zwei Datensätze mit demselben IK und überlappenden
+                                        Zeitintervallen geben!
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="GueltigBis" minOccurs="0" type="xs:date">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Schränkt die Gültigkeit des gesamten Datensatzes auf den Zeitraum ein, der an
+                                        diesem Datum endet.
+
+                                        ACHTUNG: Es darf keine zwei Datensätze mit demselben IK und überlappenden
+                                        Zeitintervallen geben!
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Nummer" type="xs:ID" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="version" fixed="1.0.0" use="required">
+                <xs:annotation>
+                    <xs:documentation>Gibt die Version an.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="gueltigab" fixed="2020-11-11" use="required">
+                <xs:annotation>
+                    <xs:documentation>Gibt das Datum an, ab wann die Version gültig ist.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="Base32_2">
+        <xs:annotation>
+            <xs:documentation>Zwei Zeichen aus dem Base32-Alphabet.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[A-Z2-7]{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Endpunkt_FQDN">
+        <xs:annotation>
+            <xs:documentation>
+                Fully Qualified Domain Name (FQDN) der Kommunikationsstelle des Kostentraegers gemäß DiGA RiLi, TA
+                Anlage 1.
+                Auf die Angabe eines Patterns wird hier aus Komplexitätsgründen verzichtet.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="200"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Email_Adresse">
+        <xs:annotation>
+            <xs:documentation>
+                Email-Adresse.
+                Auf die Angabe eines Patterns wird hier aus Komplexitätsgründen verzichtet.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="45"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Hausnummer">
+        <xs:annotation>
+            <xs:documentation>
+                Eine Hausnummer dient der genauen Lokalisierung eines Grundstuecks, Gebaeudes oder Gebaeudeteils
+                (Eingang) in einer Strasse.
+                Hausnummern koennen entsprechend der ueblichen Praxis in vielen Gemeinden mit ergaenzenden Angaben zur
+                weiteren Unterteilung versehen werden, etwa "12a" oder "17 1/3".
+                Da manche Gebaeude oder Organisationen sich als Einheit ueber mehrere Hausnummern erstrecken, koennen
+                auch Hausnummernbereiche angegeben werden, etwa "12a - 12e" oder "1 - 3".
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="15"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="IK">
+        <xs:annotation>
+            <xs:documentation>
+                Das Institutionskennzeichen (IK) ist ein eindeutiges Merkmal zur Abrechnung mit den Trägern der
+                Sozialversicherung.
+                Alle Vertragspartner, die für die Sozialversicherungsträger Leistungen erbringen, erhalten ein
+                Institutionskennzeichen für die maschinelle Erledigung des Abrechnungsverfahrens und den
+                Zahlungsverkehr.
+                Das IK besteht aus 9 Ziffern.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[0-9]{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Name">
+        <xs:annotation>
+            <xs:documentation>
+                Name des Kostentraegers gemäß DiGA RiLi, TA Anlage 1 - "Schlüssel Kostentraegerkuerzel".
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Numerische_Werteliste_1">
+        <xs:annotation>
+            <xs:documentation>Einstellige numerische Werteliste.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:positiveInteger">
+            <xs:totalDigits value="1"/>
+            <xs:enumeration value="1"/>
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="3"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Ort">
+        <xs:annotation>
+            <xs:documentation>Name eines Ortes (Gemeinde, Ortschaft oder Stadt).</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Postalische_Zusaetze">
+        <xs:annotation>
+            <xs:documentation>
+                Postalische Zusätze bzw. nähere Empfängerbezeichnungen des Kostenträgers.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="200"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Postleitzahl_DE" final="#all">
+        <xs:annotation>
+            <xs:documentation>Eine fünfstellige deutsche Postleitzahl.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[0-9]{5}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Rufnummer">
+        <xs:annotation>
+            <xs:documentation>
+                Datentyp zur Repräsentation numerischer Rufnummern, z.B. als Telefonnummer oder Faxnummer.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="30"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Strasse">
+        <xs:annotation>
+            <xs:documentation>Strasse bzw. Zusatz zur Straße oder Postfach.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:token">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="200"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
